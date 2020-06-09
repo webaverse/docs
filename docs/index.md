@@ -26,6 +26,7 @@ You can find the Webaverse community on Discord and Twitter. [Join our Discord s
 
 ## XRPackage
 * [XRPackage Overview](xrpackage-overview.md)
+* [Create Your First Aug](#creating-an-aug)
 
 ## Metachromium
 * [Metachromium Overview](metachromium-overview.md)
