@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Webaverse Documentation', // Title for your website.
   tagline: 'Webaverse Documentation',
   url: 'https://docs.webaverse.com', // Your website URL
-  baseUrl: '/docs', // Base URL for your project */
+  baseUrl: '/docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
