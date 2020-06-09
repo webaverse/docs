@@ -23,7 +23,7 @@ In this guide we're going to be creating using the XRPackage standard to bundle 
 
 ## Project Files
 
-[`Click here to download the project files`]()
+[`Click here to download the project files`](/my-first-aug.zip)
 
 This guide is going to start with a prebuilt ThreeJS WebXR scene. The instructions are generally the same for any other existing WebXR content. Most content can be packaged with minimal changes, often only needing the skybox to be removed or made transparent so it doesn't block out your view of the base reality or other augs you may be running.
 
