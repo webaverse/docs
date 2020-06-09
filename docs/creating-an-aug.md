@@ -1,5 +1,5 @@
 ---
-id: getting-started
+id: creating-an-aug
 title: Create Your First Aug
 ---
 
