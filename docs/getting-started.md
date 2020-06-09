@@ -3,12 +3,12 @@ id: getting-started
 title: Getting started with Webaverse
 ---
 
-Desktop
- - XRPackage website
+Start using the Webaverse ecosystem today with these helpful articles for users and developers of the platform
 
-PCVR
- - Metachromium
+# For Developers
 
-Quest
- - Built in browser or Firefox reality
+* [XRPackage Overview](#xrpackage-overview)
 
+# For Users
+
+* [Metachromium Overview](#metachromium-overview)

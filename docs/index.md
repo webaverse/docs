@@ -3,5 +3,16 @@ id: index
 title: Welcome to Webaverse
 ---
 
-Welcome to the official Webaverse documentation. Please use the sidebar or quick links below to get started. If you'd like to participate in the discussion around the development and future of the Webaverse ecosystem, come join us on Discord:
+# Table Of Contents
+
+## General
+* [What is Webaverse?](about.md)
+* [Getting started with Webaverse](getting-started.md)
+* [Webaverse Architecture](xrpackage-overview.md)
+
+## XRPackage
+* [XRPackage Overview](xrpackage-overview.md)
+
+## Metachromium
+* [Metachromium Overview](metachromium-overview.md)
 

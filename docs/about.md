@@ -9,9 +9,4 @@ The future of human-computer interaction and application design is spatial. The 
 
 Webaverse solves this problem with existing standards and open technologies. Users of the Webaverse platform are in full control and maintain real ownership of their applications and experiences. Webaverse applications are available in every web browser, and on every headset.
 
-For more information about building for and using Webaverse, see the following articles:
-
-* [Getting started with Webaverse](getting-started.md)
-* [Webaverse Architecture](#xrpackage-overview)
-* [XRPackage Overview](#xrpackage-overview)
-* [Metachromium](#xrpackage-overview)
+For more information about using and building for the Webaverse, see the [getting started page](getting-started.md).
