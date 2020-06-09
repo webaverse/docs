@@ -13,6 +13,7 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 # For Developers
 
 * [XRPackage Overview](#xrpackage-overview)
+* [Create Your First Aug](#creating-an-aug)
 
 # For Users
 
