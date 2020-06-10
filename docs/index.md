@@ -7,7 +7,7 @@ Welcome to the official documentation for the Webaverse ecosystem.
 
 ### New here?
 
-Start with the [`What Is Webaverse?`](about.md) explainer or jump straight into the [`Getting Started`](getting-started.md) guide.
+Start with the [`What Is Webaverse?`](about.md) explainer or jump straight into the [`Create Your First Aug`](creating-an-aug.md) guide.
 
 ### Contributing
 
@@ -26,7 +26,7 @@ You can find the Webaverse community on Discord and Twitter. [Join our Discord s
 
 ## XRPackage
 * [XRPackage Overview](xrpackage-overview.md)
-* [Create Your First Aug](creating-an-aug)
+* [Create Your First Aug](creating-an-aug.md)
 
 ## Metachromium
 * [TODO: Metachromium Overview](metachromium-overview.md)
