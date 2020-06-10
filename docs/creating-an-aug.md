@@ -5,7 +5,7 @@ title: Create Your First Aug
 
 This guide will walk you through the basic steps for creating an aug for use in the Webaverse ecosystem. The term "aug" is an abbreviation for "augmentation" in the same way that "app" is the abbreviation of "application". Augs in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, augs are applications that exist in three dimensional space.
 
-In this guide we're going to be using the XRPackage standard to create our bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on how XRPackage works and the types it supports.
+XRPackage will be used to package the assets into a bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on XRPackage and other supported asset types.
 
 # Table Of Contents
 [Table Of Contents](#table-of-contents)
@@ -33,18 +33,15 @@ $ npm install -g xrpk
 
 XRPackages can be built from multiple asset types, including WebXR sites written with BabylonJS or vanilla Javascript.
 
-For the purposes of this demonstration a barebones WebXR scene built with ThreeJS is available from the link below. This scene contains tracked controllers and a sphere with a Perlin noise algorithm animating it's vertices.
+For the purposes of this demonstration a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
 
 [`Click here to download the project files`](/my-first-aug.zip)
 
-You can also follow this guide to package your existing WebXR scene. Two things to consider when packaging existing sites is file sizes and transparent skyboxes. Keeping file sizes low makes packages faster to download and run. Making the scenes skybox transparent allows your package to be composited into a base reality layer, and run alongside other packages.
-
+You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scenes skybox transparent so that it can be composited along other augs and the base reality layer. Additionally, be mindful of bundle sizes. Excessively large bundles will result in a delayed loading experience for users.
 
 ## Create The Package Manifest
 
-When we build our package with the CLI tool, it will look for a file called `manifest.json` which contains the configuration of your package. This file is what defines the type of package you're building and its properties.
-
-Copy the below contents into a file in the directory root named `manifest.json`
+When building an XRPackage with the CLI, a `manifest.json` file in the root directory will be read to define the packages configuration. The sample below is the simplest possible manifest file. Copy the contents below into a file named `manifest.json` in the root directory of the package.
 
 ```json
 {
@@ -55,11 +52,11 @@ Copy the below contents into a file in the directory root named `manifest.json`
 }
 ```
 
-This is the simplest possible manifest for a package. A list of all possible parameters is available on the [XRPackage overview page](xrpackage-overview.md).
+See the [XRPackage overview page](xrpackage-overview.md#package-configuration) for the full list of available configuration options.
 
 The first two fields are self evident, they define the name and description that will be exposed to users who want to consume our package.
 
-The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found in the [XRPackage overview page](xrpackage-overview.md).
+The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found in the [XRPackage overview page](xrpackage-overview.md#whats-in-a-package).
 
 The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our index.html as the entry point. This HTML file will load ThreeJS which then creates our scene graph and attaches to the WebXR Device API. This WebXR site could be built with BabylonJS, vanilla javascript, or any other WebXR compatible platforms.
 
