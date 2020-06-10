@@ -9,37 +9,3 @@
 .logo-banner {
   max-width: 600px;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 925px;
-}
-
-.column {
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  max-width: 300px;
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}

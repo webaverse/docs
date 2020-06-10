@@ -13,6 +13,9 @@ All change should be made on the `wip` branch with pull requests against `master
 2. Verify that any updated or removed links have their references in other documents updated or removed.
 3. If a new page is being added, verify that it matches the format and styling of existing pages.
 4. Update the table of contents in the README.md to reflect any new or removed pages, or changes to an existing pages title.
+5. Once you have confirmed the above items, create a new pull request that merges your changes in the `wip` branch into the `master` branch.
+
+Once the pull request is submitted it will automatically be flagged for review by a project maintainer. If any additional changes are required to pass review, the maintainer will note the change requests using Githubs review workflows.
 
 ## Code of Conduct
 
