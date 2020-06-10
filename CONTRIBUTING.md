@@ -7,7 +7,9 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Pull Request Checklist
 
-1. Ensure the changes do not contain spelling or grammatical errors.
+All change should be made on the `wip` branch with pull requests against `master`.
+
+1. Ensure that any changes to copy do not contain grammar or spelling mistakes.
 2. Verify that any updated or removed links have their references in other documents updated or removed.
 3. If a new page is being added, verify that it matches the format and styling of existing pages.
 4. Update the table of contents in the README.md to reflect any new or removed pages, or changes to an existing pages title.
