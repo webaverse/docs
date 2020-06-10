@@ -17,27 +17,7 @@ hide_title: true
   <a href="https://twitter.com/webmixedreality" target="_blank">Twitter</a>
 </div>
 
-<h3 align="center" style="margin-top: 25px;"><b>👁️ Examples 👁️</b></h3>
-
-<div class="container">
-  <div class="row">
-    <div class="column">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-    </div>
-    <div class="column">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-    </div>
-    <div class="column">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-      <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
-    </div>
-  </div>
-</div>
-
-<!-- *Find more examples [here](#).* -->
-
+<h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
 <h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
