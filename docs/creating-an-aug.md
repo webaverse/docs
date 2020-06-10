@@ -5,43 +5,44 @@ title: Create Your First Aug
 
 This guide will walk you through the basic steps for creating an aug for use in the Webaverse ecosystem. The term "aug" is an abbreviation for "augmentation" in the same way that "app" is the abbreviation of "application". Augs in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, augs are applications that exist in three dimensional space.
 
-In this guide we're going to be creating using the XRPackage standard to bundle our augmentation and then we'll be running it as an augmented reality layer on top of a VR experience using Metachromium and SteamVR.
-
+In this guide we're going to be using the XRPackage standard to create our bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on how XRPackage works and the types it supports.
 
 # Table Of Contents
 [Table Of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
-  - [Project Files](#project-files)
   - [Install XRPackage](#install-xrpackage)
+  - [Create The Package Manifest](#create-the-package-manifest)
+  - [Project Files](#project-files)
   - [Build The Package](#build-the-package)
   - [Test The Package](#test-the-package)
 
 ## Prerequisites
 
 * Familiarity with the command line
-* NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions.
-
-## Project Files
-
-[`Click here to download the project files`](/my-first-aug.zip)
-
-This guide is going to start with a prebuilt ThreeJS WebXR scene. The instructions are generally the same for any other existing WebXR content. Most content can be packaged with minimal changes, often only needing the skybox to be removed or made transparent so it doesn't block out your view of the base reality or other augs you may be running.
-
-The example project we're going to start from is a simple perlin noise geometry demo that was added to a barebones WebXR scene.
-
-
+* NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
 
 ## Install XRPackage
 
-We're going to be using the XRPackage standard to bundle our assets into a single bundle that can be loaded in an application like Metachromium.
-
-The first step is to install the [XRPackage CLI](https://www.npmjs.com/package/xrpk). This tool allows us to create and test XRPackages
+The first step is to install the [XRPackage CLI](https://www.npmjs.com/package/xrpk). This tool is used to create, test, and publish XRPackages.
 
 ```bash
 $ npm install -g xrpk
 ```
 
-When we build our package with the CLI, it will look for a file called `manifest.json` for the package configuration. This file is what defines the type of package you're building and its properties.
+## Project Files
+
+XRPackages can be built from multiple asset types, including WebXR sites written with BabylonJS or vanilla Javascript.
+
+For the purposes of this demonstration a barebones WebXR scene built with ThreeJS is available from the link below. This scene contains tracked controllers and a sphere with a Perlin noise algorithm animating it's vertices.
+
+[`Click here to download the project files`](/my-first-aug.zip)
+
+You can also follow this guide to package your existing WebXR scene. Two things to consider when packaging existing sites is file sizes and transparent skyboxes. Keeping file sizes low makes packages faster to download and run. Making the scenes skybox transparent allows your package to be composited into a base reality layer, and run alongside other packages.
+
+
+## Create The Package Manifest
+
+When we build our package with the CLI tool, it will look for a file called `manifest.json` which contains the configuration of your package. This file is what defines the type of package you're building and its properties.
 
 Copy the below contents into a file in the directory root named `manifest.json`
 
@@ -60,7 +61,7 @@ The first two fields are self evident, they define the name and description that
 
 The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found [in the XRPackage repository](https://github.com/webaverse/xrpackage#package-configuration).
 
-The last field defines the entry point for our package. Since this is package is a `webxr-site` we're going to define our index.html as the entry point. This HTML file will load ThreeJS which then creates our scene graph and attaches to the WebXR Device API. This WebXR site could be built with BabylonJS, vanilla javascript, or any other WebXR compatible platforms.
+The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our index.html as the entry point. This HTML file will load ThreeJS which then creates our scene graph and attaches to the WebXR Device API. This WebXR site could be built with BabylonJS, vanilla javascript, or any other WebXR compatible platforms.
 
 ## Build The Package
 
