@@ -50,6 +50,9 @@ const siteConfig = {
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Webaverse`,
 
+  // Defaults to separate but needs to be present in order for nav to appear
+  onPageNav: 'separate',
+
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
