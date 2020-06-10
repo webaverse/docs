@@ -40,6 +40,8 @@ hide_title: true
 
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
+<h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
+
 ## ❓ Overview
 
 The future of human-computer interaction and application design is spatial. The market for Virtual Reality and Augmented Reality devices continues to progress at a steady rate. As the hardware improves the software ecosystem will need new creators and content to take advantage of the new medium. Currently the market is comprised of a handful of large companies who hold the final decision on what types of content and technology is allowed on their platform. This entirely new medium of applications and experiences risks being owned and controlled by these monopolies.
@@ -70,7 +72,7 @@ Currently the following file formats are supported:
 
 ### Import Existing Creations
 
-Any content creation platform that can export to one of these formats can be easily packaged and brought into the Webaverse. To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms:
+Any content creation platform that can export to one of these formats can be easily packaged and brought into the Webaverse. To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms
 
 #### I want to package my creations from...
 #### _Coming soon!_
@@ -87,16 +89,7 @@ In addition to support traditional 3D models, Webaverse can also package and use
 
 ## 🦸 Developers
 
-The Webaverse ecosystem is built on existing web standards like WebXR, IPFS, and Ethereum. Getting started building
-
-
-There are two on-ramps to the Webaverse ecosystem. For users there is an easy to use browser-based interface that works on 2D desktop or with any SteamVR compatible headset.
-
-For developers there is a suite of technologies to get started
-
-Get started
-
-Start with the [What Is Webaverse?](about.md) explainer or jump straight into the [Create Your First Aug](creating-an-aug.md) guide.
+The Webaverse ecosystem is built on existing web standards like WebXR, IPFS, and Ethereum.
 
 ## ❤️ Contributing
 
