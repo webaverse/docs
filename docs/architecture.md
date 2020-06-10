@@ -3,4 +3,4 @@ id: about
 title: Webaverse Architecture?
 ---
 
-![Webaverse architecture diagram](assets/architecture.png)
+![Webaverse architecture diagram](/img/architecture.png)
