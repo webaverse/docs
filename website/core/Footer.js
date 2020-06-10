@@ -72,6 +72,7 @@ class Footer extends React.Component {
             <a href="https://webaverse.com">Website</a>
             <a href="https://github.com/webaverse/">GitHub</a>
             <a href="https://twitter.com/webmixedreality/">Twitter</a>
+            <a href="https://discord.gg/MQNUGgB">Discord</a>
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>

@@ -7,11 +7,11 @@ Welcome to the official documentation for the Webaverse ecosystem.
 
 ### New here?
 
-Start with the [`What Is Webaverse?`](about.md) explainer or jump straight into the [`Create Your First Aug`](creating-an-aug.md) guide.
+Start with the [What Is Webaverse?](about.md) explainer or jump straight into the [Create Your First Aug](creating-an-aug.md) guide.
 
 ### Contributing
 
-Contributions are welcome in the form of pull requests or issues. Please see CONTRIBUTING.md for additional information.
+Contributions are welcome in the form of pull requests or issues. Please see [CONTRIBUTING.md](https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md) for additional information.
 
 ### Community
 
