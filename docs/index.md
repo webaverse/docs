@@ -22,12 +22,12 @@ You can find the Webaverse community on Discord and Twitter. [Join our Discord s
 ## General
 * [What is Webaverse?](about.md)
 * [Getting started with Webaverse](getting-started.md)
-* [Webaverse Architecture](xrpackage-overview.md)
+* [TODO: Webaverse Architecture](architecture.md)
 
 ## XRPackage
-* [XRPackage Overview](xrpackage-overview.md)
+* [TODO: XRPackage Overview](xrpackage-overview.md)
 * [Create Your First Aug](creating-an-aug)
 
 ## Metachromium
-* [Metachromium Overview](metachromium-overview.md)
+* [TODO: Metachromium Overview](metachromium-overview.md)
 
