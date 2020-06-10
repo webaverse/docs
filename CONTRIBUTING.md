@@ -5,13 +5,12 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Pull Request Process
+## Pull Request Checklist
 
-1. Ensure any the changes do not contain spelling or grammatical errors.
+1. Ensure the changes do not contain spelling or grammatical errors.
 2. Verify that any updated or removed links have their references in other documents updated or removed.
 3. If a new page is being added, verify that it matches the format and styling of existing pages.
-2. Update the README.md with details of changes to the interface, this includes new environment
-   variables, exposed ports, useful file locations and container parameters.
+4. Update the table of contents in the README.md to reflect any new or removed pages, or changes to an existing pages title.
 
 ## Code of Conduct
 
