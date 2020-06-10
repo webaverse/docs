@@ -55,11 +55,11 @@ Copy the below contents into a file in the directory root named `manifest.json`
 }
 ```
 
-This is the simplest possible manifest for a package. A list of all possible parameters is available [in the XRPackage repository](https://github.com/webaverse/xrpackage#package-configuration).
+This is the simplest possible manifest for a package. A list of all possible parameters is available on the [XRPackage overview page](xrpackage-overview.md).
 
 The first two fields are self evident, they define the name and description that will be exposed to users who want to consume our package.
 
-The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found [in the XRPackage repository](https://github.com/webaverse/xrpackage#package-configuration).
+The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found in the [XRPackage overview page](xrpackage-overview.md).
 
 The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our index.html as the entry point. This HTML file will load ThreeJS which then creates our scene graph and attaches to the WebXR Device API. This WebXR site could be built with BabylonJS, vanilla javascript, or any other WebXR compatible platforms.
 
