@@ -14,6 +14,7 @@ const siteConfig = {
     { doc: 'about', label: 'What Is Webaverse?' },
     { doc: 'getting-started', label: 'Getting Started' },
     { doc: 'other-projects', label: 'Other Projects' },
+    { doc: 'glossary', label: 'Glossary' },
   ],
 
   headerIcon: 'img/favicon.ico',
