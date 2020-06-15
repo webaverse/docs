@@ -55,6 +55,12 @@ class Footer extends React.Component {
               Discord Server
             </a>
             <a
+              href="https://glitch.com/@webaverse"
+              target="_blank"
+              rel="noreferrer noopener">
+              Glitch Examples
+            </a>
+            <a
               href="https://github.com/topics/webaverse"
               target="_blank"
               rel="noreferrer noopener">
