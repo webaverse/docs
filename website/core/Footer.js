@@ -46,6 +46,11 @@ class Footer extends React.Component {
             <a href={this.docUrl('getting-started.html')}>
               Getting Started
             </a>
+            <a href="https://github.com/webaverse/docs"
+              target="_blank"
+              rel="noreferrer noopener">
+              Contribute
+            </a>
           </div>
           <div>
             <h5>Community</h5>

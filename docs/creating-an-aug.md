@@ -8,18 +8,18 @@ This guide will walk you through the basic steps for creating an aug for use in 
 XRPackage will be used to package the assets into a bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on XRPackage and other supported asset types.
 
 # Table Of Contents
-[Table Of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Install XRPackage](#install-xrpackage)
-  - [Create The Package Manifest](#create-the-package-manifest)
-  - [Project Files](#project-files)
-  - [Build The Package](#build-the-package)
-  - [Test The Package](#test-the-package)
+
+- [Prerequisites](#prerequisites)
+- [Install XRPackage](#install-xrpackage)
+- [Create The Package Manifest](#create-the-package-manifest)
+- [Project Files](#project-files)
+- [Build The Package](#build-the-package)
+- [Test The Package](#test-the-package)
 
 ## Prerequisites
 
-* Familiarity with the command line
-* NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
+- Familiarity with the command line
+- NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
 
 ## Install XRPackage
 
@@ -76,43 +76,10 @@ If everything went successfully you should see a line with `filename.wbn`, which
 
 ## Test The Package
 
-Now that we've created our bundle we should test it in a browser and make sure everything is still working as it should. Fortunately the XRPackage CLI makes testing a package really simple. Just use the run command to test in a browser:
+Now that we've created our bundle we should test it in a browser and make sure everything is still working as it should. Fortunately the XRPackage CLI makes testing a package really simple. Just use the `run` command to test in a browser:
 
 ```bash
 $ xrpk run ./a.wbn
 ```
 
-If everything looks good in the browser we can move onto the next step, publishing our package to the decentralized IPFS network!
-
-## Publish The Package
-
-#### **Note:** Publishing your package to the IPFS/Ethereum network is completely optional. You can use any hosting and distribution platform to share your XRPackages. IPFS is the preferred hosting solution for the Webaverse due to its decentralized trustless infrastructure.
-
-We've successfully bundled our demo application into a bundle that can now be easily shared and consumed by Webaverse users. One way of distributing XRPackages is by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting. [You can browse previously published packages here.](https://xrpackage.org/browse.html)
-
-#### **Note:** The publish functionality in the XRPackage CLI currently only publishes to the Rinkeby testnet. You will need to have a sufficient ETH balance in order to publish packages. You can get free Rinkeby testnet ETH [at the faucet](https://faucet.rinkeby.io/).
-
-Just like in the previous steps, we're going to be using the XRPackage CLI to login to our Ethereum wallet and publish our packages to the network. The following steps assume you have at least a basic familiarity with the Ethereum network.
-
-The first step is to use the login command to either login to an existing wallet, or create a new wallet. This is the wallet we will be using to pay the gas fees for publishing our package. If you create a new wallet using the CLI, make sure to visit the faucet and load it with ETH before attempting to publish a package.
-
-```bash
-$ xrkp login
-# Follow the on-screen prompts to create or import an existing wallet
-```
-
-Once we've associated our wallet, it's always a good idea to double check your information and make sure everything looks as it should:
-
-```bash
-$ xrkp whoami
-```
-
-Once we're happy with our wallet and we're ready to publish, simply issue the `publish` command with the path to your bundle from earlier:
-
-```bash
-$ xrpk publish
-```
-
-#### [Click here to view the smart contracts for XRPackage Publishing](https://github.com/webaverse/contracts)
-
-Congratulations! You've successfully created and published your first XRPackage!
+If everything looks good in the browser we can move onto the next step, [publishing our package](distributing-xrpackage.md) to the decentralized IPFS network!
