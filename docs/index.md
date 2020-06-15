@@ -64,7 +64,7 @@ In addition to support traditional 3D models, Webaverse can also package and use
 
 ## 🦸 Developers
 
-Are you a Javascript developer who wants to build spatialized applications for Webaverse? Check out our developer guides for more information on getting started with building functional augs that bring your visions into reality!
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](getting-started.md) for more information on getting started with building functional augs that bring your visions into reality!
 
 The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 
