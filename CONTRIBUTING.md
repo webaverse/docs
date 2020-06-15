@@ -10,10 +10,11 @@ Please note we have a code of conduct, please follow it in all your interactions
 All change should be made on the `wip` branch with pull requests against `master`.
 
 1. Ensure that any changes to copy do not contain grammar or spelling mistakes.
-2. Verify that any updated or removed links have their references in other documents updated or removed.
-3. If a new page is being added, verify that it matches the format and styling of existing pages.
-4. Update the table of contents in the README.md to reflect any new or removed pages, or changes to an existing pages title.
-5. Once you have confirmed the above items, create a new pull request that merges your changes in the `wip` branch into the `master` branch.
+2. Check that your writing is free of regional spellings, idioms, or slang. Documentation should follow the Oxford English standard as it is the  preferred standard for technical writing that targets an international audience.
+3. Verify that any updated or removed links have their references in other documents updated or removed.
+4. If a new page is being added, verify that it matches the format and styling of existing pages.
+5. Update the table of contents in the README.md to reflect any new or removed pages, or changes to an existing pages title.
+6. Once you have confirmed the above items, create a new pull request that merges your changes in the `wip` branch into the `master` branch.
 
 Once the pull request is submitted it will automatically be flagged for review by a project maintainer. If any additional changes are required to pass review, the maintainer will note the change requests using Githubs review workflows.
 
