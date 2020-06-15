@@ -8,18 +8,18 @@ This guide will walk you through the basic steps for creating an aug for use in 
 XRPackage will be used to package the assets into a bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on XRPackage and other supported asset types.
 
 # Table Of Contents
-[Table Of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Install XRPackage](#install-xrpackage)
-  - [Create The Package Manifest](#create-the-package-manifest)
-  - [Project Files](#project-files)
-  - [Build The Package](#build-the-package)
-  - [Test The Package](#test-the-package)
+
+- [Prerequisites](#prerequisites)
+- [Install XRPackage](#install-xrpackage)
+- [Create The Package Manifest](#create-the-package-manifest)
+- [Project Files](#project-files)
+- [Build The Package](#build-the-package)
+- [Test The Package](#test-the-package)
 
 ## Prerequisites
 
-* Familiarity with the command line
-* NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
+- Familiarity with the command line
+- NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
 
 ## Install XRPackage
 
