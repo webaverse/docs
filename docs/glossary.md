@@ -15,7 +15,15 @@ The Webaverse is a universe of spatial apps that can run everywhere. Apps can be
 
 ### XRPackage
 
-XRPackages are virtual things you can drop into a 3D world. These objects can interact with each other in the Webaverse.
+XRPackages are virtual things you can drop into a 3D world. These objects can interact with each other in the Webaverse. XRPackages have the file extension `.wbn`.
+
+### Collision Mesh
+
+Collision Meshes are invisible meshes containing an object, and are automatically generated during the [baking](#baking) process. An advantage of an XRPackage is it creates the collision mesh automatically for you, meaning your objects can interact with each other in VR without needing to know more about each other!
+
+### Baking
+
+Baking is the process where a `.wbn` package is taken as input and rewritten with an added collision mesh, screenshots, and icons.
 
 ### Skybox
 
