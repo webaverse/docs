@@ -20,11 +20,11 @@ We've successfully packaged our demo application into a bundle that can now be e
 
 IPFS is the [InterPlanetary File System](https://ipfs.io/). IPFS is a way to store and find files by storing them against a _cryptographic hash_. This just means some function goes through the contents of your file to automatically calculate a value that uniquely identifies your file (your XRPackage).
 
-IPFS is also an open source, _decentralised_ system - it uses a peer-to-peer protocol instead of storing your files on a single centralised server. This means you can publish your packages yourself, without needing to rely on your own (costly), or someone else's (unreliable or potentially insecure) server!
+IPFS is also an open source, _decentralized_ system - it uses a peer-to-peer protocol instead of storing your files on a single centralized server. This means you can publish your packages yourself, without needing to rely on your own (costly), or someone else's (unreliable or potentially insecure) server!
 
 ## What is Ethereum?
 
-[Ethereum](https://ethereum.org/) is another decentralised open source system with a programmable blockchain. A blockchain is a global shared, transactional database. Data is stored as _blocks_ which are cryptographically linked together - each block contains a cryptographic hash to the previous block and a timestamp. This means the data cannot be altered once it has been published.
+[Ethereum](https://ethereum.org/) is another decentralized open source system with a programmable blockchain. A blockchain is a global shared, transactional database. Data is stored as _blocks_ which are cryptographically linked together - each block contains a cryptographic hash to the previous block and a timestamp. This means the data cannot be altered once it has been published.
 
 Ethereum has a native cryptocurrency ('digital money') called [Ether (ETH)](https://ethereum.org/eth/).
 
