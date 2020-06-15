@@ -51,7 +51,7 @@ To learn more about Metachromium and how to develop your own content, follow our
 
 ## Useful Links
 
-[`Getting started with Webaverse`](getting-started.md)
+[`Getting Started With Webaverse`](getting-started.md)
 
 [`XRPackage Overview`](xrpackage-overview.md)
 
