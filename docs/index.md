@@ -21,6 +21,10 @@ hide_title: true
 <h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
+## ❓ What is the Webaverse?
+
+The Webaverse is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "augs". See [`What Is Webaverse`](about.md) for a more in-depth explanation, or read on to get started with using and developing them!
+
 ## ❓ What Are XR Packages (XRPKs)?
 
 XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike traditional 2D applications, XRPKs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. XRPKs are created and owned by users like you! Getting started with XRPKs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
