@@ -39,26 +39,28 @@ The Webaverse supports many different asset types to enable creators to easily b
 
 Currently the following file formats are supported:
 
-* GLTF Models (*.gltf, *.glb)
-* VRM 3D Avatars (.vrm)
-* MagicaVoxel Models (.vox)
-* WebXR sites and applications
-* Unity HTML5 Exports (Experimental)
+- GLTF Models (_.gltf, _.glb)
+- VRM 3D Avatars (.vrm)
+- MagicaVoxel Models (.vox)
+- WebXR sites and applications
+- Unity HTML5 Exports (Experimental)
 
 ### Import Existing Creations
 
 Any content creation platform that can export to one of these formats can be easily packaged and brought into the Webaverse. To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms
 
 #### I want to package my creations from...
+
 #### _Coming soon!_
-* [~~Tiltbrush~~](index.md)
-* [~~SculptVR~~](index.md)
-* [~~Oculus Medium~~](index.md)
-* [~~Google Blocks/Poly~~](index.md)
-* [~~Quill~~](index.md)
-* [~~SculptVR~~](index.md)
-* [~~Supercraft~~](index.md)
-* [~~Anyland~~](index.md)
+
+- [~~Tiltbrush~~](index.md)
+- [~~SculptVR~~](index.md)
+- [~~Oculus Medium~~](index.md)
+- [~~Google Blocks/Poly~~](index.md)
+- [~~Quill~~](index.md)
+- [~~SculptVR~~](index.md)
+- [~~Supercraft~~](index.md)
+- [~~Anyland~~](index.md)
 
 In addition to support traditional 3D models, Webaverse can also package and use WebXR sites written in Three, Babylon, or any other WebXR compatible javascript framework. For more information on creating an XRPK from an existing WebXR site, see the [`Create Your First XR Package`](creating-an-xrpk.md) guide to get started.
 
