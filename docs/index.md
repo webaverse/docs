@@ -4,7 +4,7 @@ title: Welcome to Webaverse
 hide_title: true
 ---
 
-<h1 align="center"><b>🌌 Welcome To A Universe Of Augmentations ⚙️</b></h1>
+<h1 align="center"><b>🌌 Welcome To A Universe Of Apps ⚙️</b></h1>
 
 <img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif">
 
@@ -21,17 +21,17 @@ hide_title: true
 <h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
-## ❓ What Are Augs?
+## ❓ What Are XR Packages (XRPKs)?
 
-Augs are creative spatial apps that run everywhere. Unlike traditional 2D applications, augs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. Augs are created and owned by users like you! Getting started with augs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
+XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike traditional 2D applications, XRPKs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. XRPKs are created and owned by users like you! Getting started with XRPKs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
 
-## ▶️ Start Using Augs
+## ▶️ Start Using XRPKs
 
 ### From The Directory
 
 ### From The Web
 
-## 🎨 Create Augs
+## 🎨 Create XRPKs
 
 ### Supported Asset Types
 
@@ -60,11 +60,11 @@ Any content creation platform that can export to one of these formats can be eas
 * [~~Supercraft~~](index.md)
 * [~~Anyland~~](index.md)
 
-In addition to support traditional 3D models, Webaverse can also package and use WebXR sites written in Three, Babylon, or any other WebXR compatible javascript framework. For more information on creating an aug from an existing WebXR site, see the [`Create Your First Aug`](creating-an-aug.md) guide to get started.
+In addition to support traditional 3D models, Webaverse can also package and use WebXR sites written in Three, Babylon, or any other WebXR compatible javascript framework. For more information on creating an XRPK from an existing WebXR site, see the [`Create Your First XR Package`](creating-an-xrpk.md) guide to get started.
 
 ## 🦸 Developers
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](getting-started.md) for more information on getting started with building functional augs that bring your visions into reality!
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](getting-started.md) for more information on getting started with building functional XRPKs that bring your visions into reality!
 
 The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 

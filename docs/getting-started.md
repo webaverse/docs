@@ -12,10 +12,10 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 
 # For Developers
 
-* [XRPackage Overview](xrpackage-overview.md)
-* [Create Your First Aug](creating-an-aug.md)
-* [Distributing your XRPackage](distributing-xrpackage.md)
+- [XRPackage Overview](xrpackage-overview.md)
+- [Create Your First XRPackage](creating-an-xrpk.md)
+- [Distributing your XRPackage](distributing-xrpackage.md)
 
 # For Users
 
-* [TODO: Metachromium Overview](metachromium-overview.md)
+- [TODO: Metachromium Overview](metachromium-overview.md)
