@@ -3,7 +3,7 @@ id: getting-started
 title: Getting started with Webaverse
 ---
 
-Start using the Webaverse ecosystem today with these helpful articles for users and developers of the platform
+Start using the Webaverse ecosystem today with these helpful articles for users and developers of the platform.
 
 # Requirements
 
@@ -18,4 +18,4 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 
 # For Users
 
-- [TODO: Metachromium Overview](metachromium-overview.md)
+- [Metachromium Overview](metachromium-overview.md)
