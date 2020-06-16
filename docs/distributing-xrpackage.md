@@ -7,14 +7,9 @@ Once you've [created your first XR Package](./creating-an-xrpk.md), you can opti
 
 **Note: Publishing your package to the IPFS/Ethereum network is completely optional. You can use any hosting and distribution platform to share your XRPackages. IPFS is the preferred hosting solution for the Webaverse due to its decentralized trustless infrastructure.**
 
-We've successfully packaged our demo application into a bundle that can now be easily shared and consumed by Webaverse users. One way of distributing XRPackages is by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting. [You can browse previously published packages here.](https://xrpackage.org/browse.html)
+We've now successfully packaged our demo application into a bundle that can easily be shared and consumed by Webaverse users. This guide explains how to distribute XRPackages by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting.
 
-# Table of Contents
-
-- [What is IPFS?](#what-is-ipfs)
-- [What is Ethereum?](#what-is-ethereum)
-- [What is the Registry?](#what-is-the-registry)
-- [Publishing to IPFS](#publishing-to-ipfs)
+[You can browse previously published packages here](https://xrpackage.org/browse.html).
 
 ## What is IPFS?
 
