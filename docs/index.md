@@ -40,46 +40,15 @@ You can browse through all the published packages at the [xrpackage.org](https:/
 
 ## 🎨 Create XRPKs
 
-You can find amazing community creations from the [awesome-xrpackage](https://github.com/webaverse/awesome-xrpackage) repository on GitHub.
-
-### Supported Asset Types
-
-The Webaverse supports many different asset types to enable creators to easily bring their original content directly into the Webaverse ecosystem.
-
-Currently the following file formats are supported:
-
-- GLTF Models (_.gltf, _.glb)
-- VRM 3D Avatars (.vrm)
-- MagicaVoxel Models (.vox)
-- WebXR sites and applications
-- Unity HTML5 Exports (Experimental)
-
-### Import Existing Creations
-
-Any content creation platform that can export to one of these formats can be easily packaged and brought into the Webaverse. To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms
-
-**I want to package my creations from...** (**_coming soon!_**)
-
-- [~~Tiltbrush~~](index.md)
-- [~~SculptVR~~](index.md)
-- [~~Oculus Medium~~](index.md)
-- [~~Google Blocks/Poly~~](index.md)
-- [~~Quill~~](index.md)
-- [~~SculptVR~~](index.md)
-- [~~Supercraft~~](index.md)
-- [~~Anyland~~](index.md)
-
-In addition to supporting traditional 3D models, Webaverse can also package WebXR sites written in Three, Babylon, or any other WebXR compatible JavaScript framework! For more information on packaging an aug from an existing WebXR site, see the [`Create Your First Aug`](./dev-guides/2-creating-an-aug.md) guide to get started.
-
-## 🦸 Developers
-
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional augs that bring your visions into reality!
-
-The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
-
 ## 🧑 Users
 
 Check out [our user guides](./user-guides/index.md) to learn more about the Webaverse ecosystem, Metachromium and how to get started using it!
+
+## 🦸 Developers
+
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional augs that bring your visions and creations into reality!
+
+The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 
 ## ❤️ Contributing
 

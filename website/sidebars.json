@@ -1,6 +1,7 @@
 {
   "dev": {
     "Developer Guides": [
+      "dev-guides/dev-overview",
       "dev-guides/xrpackage-overview",
       "dev-guides/creating-an-aug",
       "dev-guides/distributing-xrpackage"
