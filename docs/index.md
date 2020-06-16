@@ -24,7 +24,7 @@ hide_title: true
 
 ## ❓ What is the Webaverse?
 
-The Webaverse is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "augs". See [`What Is Webaverse`](about.md) for a more in-depth explanation, or read on to get started with using and developing them!
+<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "augs". See [`What Is Webaverse?`](about.md) for a more in-depth explanation, or read on to get started with using and developing them!
 
 ## ❓ What Are XR Packages (XRPKs)?
 
@@ -67,7 +67,7 @@ Any content creation platform that can export to one of these formats can be eas
 - [~~Supercraft~~](index.md)
 - [~~Anyland~~](index.md)
 
-In addition to support traditional 3D models, Webaverse can also package and use WebXR sites written in Three, Babylon, or any other WebXR compatible javascript framework. For more information on creating an XRPK from an existing WebXR site, see the [`Create Your First XR Package`](creating-an-xrpk.md) guide to get started.
+In addition to supporting traditional 3D models, Webaverse can also package WebXR sites written in Three, Babylon, or any other WebXR compatible JavaScript framework! For more information on packaging an aug from an existing WebXR site, see the [`Create Your First Aug`](creating-an-aug.md) guide to get started.
 
 ## 🦸 Developers
 
