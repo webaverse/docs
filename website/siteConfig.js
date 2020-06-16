@@ -36,6 +36,7 @@ const siteConfig = {
   },
 
   enableUpdateTime: true,
+  cleanUrl: true,
 };
 
 module.exports = siteConfig;

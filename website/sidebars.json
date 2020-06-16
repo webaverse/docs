@@ -1,9 +1,9 @@
 {
   "docs": {
     "Developer Guides": [
-      "xrpackage-overview",
-      "creating-an-aug",
-      "distributing-xrpackage"
+      "dev-guides/xrpackage-overview",
+      "dev-guides/creating-an-aug",
+      "dev-guides/distributing-xrpackage"
     ]
   }
 }

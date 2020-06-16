@@ -69,11 +69,11 @@ Any content creation platform that can export to one of these formats can be eas
 - [~~Supercraft~~](index.md)
 - [~~Anyland~~](index.md)
 
-In addition to supporting traditional 3D models, Webaverse can also package WebXR sites written in Three, Babylon, or any other WebXR compatible JavaScript framework! For more information on packaging an aug from an existing WebXR site, see the [`Create Your First Aug`](creating-an-aug.md) guide to get started.
+In addition to supporting traditional 3D models, Webaverse can also package WebXR sites written in Three, Babylon, or any other WebXR compatible JavaScript framework! For more information on packaging an aug from an existing WebXR site, see the [`Create Your First Aug`](./dev-guides/2-creating-an-aug.md) guide to get started.
 
 ## 🦸 Developers
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](getting-started.md) for more information on getting started with building functional XRPKs that bring your visions into reality!
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional augs that bring your visions into reality!
 
 The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 
