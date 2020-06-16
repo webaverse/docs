@@ -8,9 +8,7 @@ title: Metachromium Overview
 ## Features
 
 - Run WebXR context on top of an OpenVR application
-
 - Run multiple WebXR applications inside a single Metachromium context
-
 - Volumetric streaming capabilities
 
 ## Using Metachromium
@@ -18,17 +16,13 @@ title: Metachromium Overview
 ### Prerequisites
 
 - OpenVR compatible XR Device (for best experience)
-
 - At least 1GB of storage
 
 ### Running
 
 1. Install Metachromium through [Steam](https://store.steampowered.com/app/685110/Metachromium/). If you need an early-access key, get one [here](https://metachromium.com/).
-
 2. Run your SteamVR application.
-
 3. Run Metachromium and choose an app you would like to overlay.
-
 4. Enjoy!
 
 ## How it Works
@@ -47,12 +41,7 @@ One of the caveats with overlaying WebXR objects is that all WebXR content appea
 
 ### Further Reading
 
-To learn more about Metachromium and how to develop your own content, follow our [`Create Your First XR Package`](creating-an-xrpk.md) tutorial. Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below.
+To learn more about how to develop your own content for Metachromium, follow our simple [developer guides](xrpackage-overview.md)! Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below:
 
-## Useful Links
-
-[`Getting Started With Webaverse`](getting-started.md)
-
-[`XRPackage Overview`](xrpackage-overview.md)
-
-[`MetaRTC Overview`](metartc-overview.md)
+- [`Getting Started With Webaverse`](getting-started.md)
+- [`MetaRTC Overview`](metartc-overview.md)
