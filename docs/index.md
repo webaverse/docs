@@ -32,13 +32,9 @@ XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike tradit
 
 ## ▶️ Start Using XRPKs
 
-### From The Directory
+**From The Directory:** You can browse through all the published packages at the [xrpackage.org](https://xrpackage.org/browse.html).
 
-You can browse through all the published packages at the [xrpackage.org](https://xrpackage.org/browse.html).
-
-### From The Web
-
-## 🎨 Create XRPKs
+**From The Web:** You can find amazing community creations from the [awesome-xrpackage](https://github.com/webaverse/awesome-xrpackage) repository on GitHub.
 
 ## 🧑 Users
 
