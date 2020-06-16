@@ -34,9 +34,13 @@ XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike tradit
 
 ### From The Directory
 
+You can browse through all the published packages at the [xrpackage.org](https://xrpackage.org/browse.html).
+
 ### From The Web
 
 ## 🎨 Create XRPKs
+
+You can find amazing community creations from the [awesome-xrpackage](https://github.com/webaverse/awesome-xrpackage) repository on GitHub.
 
 ### Supported Asset Types
 
@@ -54,9 +58,7 @@ Currently the following file formats are supported:
 
 Any content creation platform that can export to one of these formats can be easily packaged and brought into the Webaverse. To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms
 
-#### I want to package my creations from...
-
-#### _Coming soon!_
+**I want to package my creations from...** (**_coming soon!_**)
 
 - [~~Tiltbrush~~](index.md)
 - [~~SculptVR~~](index.md)
