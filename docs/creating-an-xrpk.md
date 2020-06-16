@@ -5,16 +5,11 @@ title: Create Your First XR Package
 
 This guide will walk you through the basic steps for creating an XR Package for use in the Webaverse ecosystem. The term "XRPK" stands for "XR Package", which can be thought of as an "application" or "widget" in the Webaverse. XR Packages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
 
-XRPackage will be used to package the assets into a bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on XRPackage and other supported asset types.
+The term "aug" is an abbreviation for "augmentation" in the same way that "app" is the abbreviation of "application". Augs in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, augs are applications that exist in three dimensional space.
 
-# Table Of Contents
+XRPackage will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing WebXR scene.
 
-- [Prerequisites](#prerequisites)
-- [Install XRPackage](#install-xrpackage)
-- [Create The Package Manifest](#create-the-package-manifest)
-- [Project Files](#project-files)
-- [Build The Package](#build-the-package)
-- [Test The Package](#test-the-package)
+**Note**: This guide assumes you have read the [XRPackage Overview](xrpackage-overview.md) or are familiar with what an XRPackage is.
 
 ## Prerequisites
 
@@ -33,15 +28,15 @@ $ npm install -g xrpk
 
 XRPackages can be built from multiple asset types, including WebXR sites written with BabylonJS or vanilla Javascript.
 
-For the purposes of this demonstration a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
+For the purposes of this guide, a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
 
 [`Click here to download the project files`](/my-first-aug.zip)
 
-You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scenes skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes. Excessively large bundles will result in a delayed loading experience for users.
+You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
 
 ## Create The Package Manifest
 
-When building an XRPackage with the CLI, a `manifest.json` file in the root directory will be read to define the packages configuration. The sample below is the simplest possible manifest file. Copy the contents below into a file named `manifest.json` in the root directory of the package.
+When building an XRPackage with the CLI, a `manifest.json` file in the root directory will be read to define the package's configuration. The sample below is the simplest possible manifest file. Copy the contents below into a file named `manifest.json` in the root directory of the package, or use the CLI `xrpk init` command to generate it for you:
 
 ```json
 {
@@ -56,15 +51,15 @@ See the [XRPackage overview page](xrpackage-overview.md#package-configuration) f
 
 The first two fields are self evident, they define the name and description that will be exposed to users who want to consume our package.
 
-The third field, `xr_type` specifies what type of contents are contained in this package. In this example we're using a traditional WebXR site. Information on additional package types can be found in the [XRPackage overview page](xrpackage-overview.md#whats-in-a-package).
+The third field, `xr_type` specifies what type of contents are contained in this package (see the [XRPackage overview page](xrpackage-overview.md#whats-in-a-package)). In this guide, we'll use `webxr-site@0.0.1`.
 
-The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our index.html as the entry point. This HTML file will load ThreeJS which then creates our scene graph and attaches to the WebXR Device API. This WebXR site could be built with BabylonJS, vanilla javascript, or any other WebXR compatible platforms.
+The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our `index.html` as the entry point. This will load ThreeJS which creates our scene graph and attaches to the WebXR Device API. Your WebXR site can be built with BabylonJS, vanilla JavaScript, or any other WebXR compatible platform.
 
 ## Build The Package
 
 Now that we have our WebXR site completed and we've added a manifest, we're ready to build our final output.
 
-Open a command prompt and navigate to the project root where the manifest.json is located. Then issue the command build command as follows to build a new bundle from the contents of the current working directory:
+Open a command prompt and navigate to the project root where `manifest.json` is located. Then issue the `build` command as follows to build a new bundle from the contents of the current working directory:
 
 ```bash
 $ cd project_root
@@ -72,7 +67,7 @@ $ xrpk build .
 a.wbn
 ```
 
-If everything went successfully you should see a line with `filename.wbn`, which is the filename of our final XRPackage file.
+If everything went successfully you should see a line with like `filename.wbn`, which is the filename of our final XRPackage file.
 
 ## Test The Package
 
