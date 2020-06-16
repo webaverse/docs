@@ -1,9 +1,15 @@
 {
-  "docs": {
+  "dev": {
     "Developer Guides": [
       "dev-guides/xrpackage-overview",
       "dev-guides/creating-an-aug",
       "dev-guides/distributing-xrpackage"
+    ]
+  },
+  "user": {
+    "User Guides": [
+      "user-guides/metachromium-overview",
+      "user-guides/metartc-overview"
     ]
   }
 }

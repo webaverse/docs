@@ -41,7 +41,7 @@ One of the caveats with overlaying WebXR objects is that all WebXR content appea
 
 ### Further Reading
 
-To learn more about how to develop your own content for Metachromium, follow our simple [developer guides](./dev-guides/index.md)! Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below:
+To learn more about how to develop your own content for Metachromium, follow our simple [developer guides](../dev-guides/index.md)! Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below:
 
-- [`Getting Started With Webaverse`](getting-started.md)
-- [`MetaRTC Overview`](metartc-overview.md)
+- [`Getting Started With Webaverse`](../getting-started.md)
+- [`MetaRTC Overview`](./metartc-overview.md)

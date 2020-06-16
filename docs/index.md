@@ -77,6 +77,10 @@ Are you a JavaScript developer who wants to build spatialized applications for W
 
 The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 
+## 🧑 Users
+
+Check out [our user guides](./user-guides/index.md) to learn more about the Webaverse ecosystem, Metachromium and how to get started using it!
+
 ## ❤️ Contributing
 
 Contributions are welcome in the form of pull requests or issues. Please see [CONTRIBUTING.md](https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md) for additional information.
