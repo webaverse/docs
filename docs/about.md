@@ -3,6 +3,8 @@ id: about
 title: What is Webaverse?
 ---
 
+<img alt="Webaverse" src="/img/webaverse-banner.png" width="70%">
+
 The Webaverse is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR.
 
 The future of human-computer interaction and application design is spatial. The market for Virtual Reality and Augmented Reality devices continues to progress at a steady rate. As the hardware improves the software ecosystem will need new creators and content to take advantage of the new medium. Currently the market is comprised of a handful of large companies who hold the final decision on what types of content and technology is allowed on their platform. This entirely new medium of applications and experiences risks being owned and controlled by these monopolies.

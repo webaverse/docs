@@ -3,15 +3,13 @@ id: xrpackage-overview
 title: XRPackage Overview
 ---
 
-## What is an XRPackage?
-
 XRPackage turns 3D apps into a file you can load anywhere.
 
 It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn` file. It provides a runtime to load multiple `.wbn` applications at once into a shared composited world. Finally, XRPackage provides a package registry distributed on IPFS / Ethereum, to easily share your XRPackage applications. The registry follows the ERC1155 standard so packages can be traded on OpenSea.
 
 ## What's in a package?
 
-An XRPackage is a bundle of files. The entrypoint is a `manifest.json` (following the [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) standard). The rest of the files in the bundle are the source files for the app.
+An XRPackage is a bundle of files. The entry point is a `manifest.json` (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.
 
 The main addition to the Web App Manifest specification is the `xr_type` field, which specifies the type of application and the spec version.
 
@@ -24,34 +22,35 @@ $ cat manifest.json
 ```
 
 `xr_type` can currently be:
+
 - `webxr-site@0.0.1`
 - `gltf@0.0.1`
 - `vrm@0.0.1`
 - `vox@0.0.1`
 
-See also the [examples](https://github.com/webaverse/xrpackage/tree/master/examples).
+See also the <a href="https://github.com/webaverse/xrpackage/tree/master/examples" target="_blank" rel="noopener noreferrer">examples</a>.
 
-## Asset packages
+The `start_url` field depends on the type of package:
 
-Asset packages are those with the following types:
+1. Asset packages
 
-- `gltf@0.0.1`
-- `vrm@0.0.1`
-- `vox@0.0.1`
+   For the following types of packages, the `start_url` references the single static asset file to be loaded:
 
-These types of packages represent only a static asset to be loaded. The corresponding asset file is referenced in the `start_url` field of `manifest.json`.
+   - `gltf@0.0.1`
+   - `vrm@0.0.1`
+   - `vox@0.0.1`
 
-## WebXR packages
+2) WebXR packages
 
-A WebXR package references the `index.html` entrypoint for the webXR application in the `start_url` field of the `manifest.json` file. `index.html` should be a regular WebXR application, with its assets referenced using relative paths.
+   For WebXR packages, the `start_url` references the `index.html` entry point for the WebXR app. `index.html` should be a regular WebXR application, with assets referenced using relative paths.
 
-Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application autoimatically starts its WebXR session upon receiving the `sessiongranted` event (see the [WebXR Navigation Specification](https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md) and the [example](https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25).
+   Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the `sessiongranted` event (see the <a href="https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md" target="_blank" rel="noopener noreferrer">WebXR Navigation Specification</a> and the <a href="https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25" target="_blank" rel="noopener noreferrer">example</a>.
 
 ## Package icons
 
-Packages can contain icons that represent them in previews. Multiple icons can be in the same package, with different types. The icon files are included along with the package as a regular part of the bundle and referenced in the manifest. This follows the web bundle standard.
+Packages can contain icons that represent them in previews. Multiple icons can be in the same package, with different types. The icon files are included along with the package as regular files and referenced in the manifest. This follows the web bundle standard.
 
-Icons are used not only for rendering a preview for the package, but also specify how it behaves in relation to other packages. For example, the collision mesh icon type (`"model/gltf-binary+preview"`) specifies the collision boundary geometry that the package uses, in GLTF form.
+Icons are used to both render a preview for the package, and specify how it behaves in relation to other packages. For example, the collision mesh icon type (`"model/gltf-binary+preview"`) specifies the collision boundary geometry that the package uses, in GLTF form.
 
 ```
 {
@@ -113,27 +112,26 @@ The package manifest can contain an `xr_details` field which further specifies h
 
 Regardless of package type, packages are built with the `xrpk` tool which you can get on `npm`:
 
-```
+```bash
 $ npm install -g xrpk
-
 ```
 
 To build a package with `manifest.json` in the current directory:
 
-```
+```bash
 $ xrpk build .
 a.wbn
 ```
 
 Note: this will open up your browser to perform screenshotting of the application; you can close that tab when it completes.
 
-The resulting package is `a.wbn`. It will also output `a.wbn.gif` as a screenshot and `a.wbn.glb` as a 3D model preview -- these are used when publishing your package but are not required to run it.
+The resulting package is `a.wbn`. It will also output `a.wbn.gif` as an animated GIF and `a.wbn.glb` as a 3D model preview -- these are used when publishing your package but are not required to run it.
 
 ## Test the package
 
-Once you have a package (`a.wbn`), you can run it in your browser like so:
+Once you have an XRPackage (`a.wbn`), you can run it in your browser like so:
 
-```
+```bash
 $ xrpk run ./a.wbn
 ```
 
@@ -141,14 +139,14 @@ This will open up the `xrpackage.js` runtime in your browser and load the given 
 
 ## Run XRPackage programmatically
 
-See [run.html](https://github.com/webaverse/xrpackage/blob/master/run.html) for the full example.
+See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer">`run.html`</a> for the full example.
 
-```
-import {XRPackageEngine, XRPackage} from 'https://xrpackage.org/xrpackage.js';
+```javascript
+import { XRPackageEngine, XRPackage } from "https://xrpackage.org/xrpackage.js";
 const pe = new XRPackageEngine();
 document.body.appendChild(pe.domElement);
 
-const res = await fetch('a.wbn'); // built package stored somewhere
+const res = await fetch("a.wbn"); // built package stored somewhere
 const arrayBuffer = await res.arrayBuffer();
 const p = new XRPackage(new Uint8Array(arrayBuffer));
 pe.add(p);
@@ -156,57 +154,55 @@ pe.add(p);
 
 You can also compile a `.wbn` package programmatically:
 
-```
-const uint8Array = XRPackage.compileRaw(
-	[
-	  {
-	    url: '/cube.html',
-	    type: 'text/html',
-	    data: cubeHtml,
-	  },
-	  {
-	    url: '/manifest.json',
-	    type: 'application/json',
-	    data: cubeManifest,
-	  }
-	]
-);
+```javascript
+const uint8Array = XRPackage.compileRaw([
+  {
+    url: "/cube.html",
+    type: "text/html",
+    data: cubeHtml,
+  },
+  {
+    url: "/manifest.json",
+    type: "application/json",
+    data: cubeManifest,
+  },
+]);
 // save uint8Array somewhere or new XRPackage(uint8Array)
 ```
 
 ## Publish packages: log into wallet
 
-```
-xrkp login
+```bash
+$ xrpk login
 ```
 
 Follow the prompts to create or import a wallet. It is a regular BIP39 mnemonic.
 
 ## Check your wallet address
 
-```
-xrkp whoami
+```bash
+$ xrpk whoami
 ```
 
 ## Publish a package
 
-Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the [faucet](https://faucet.rinkeby.io/).
+Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the <a href="https://faucet.rinkeby.io/" target="_blank" rel="noopener noreferrer">faucet</a>.
 
 Once you are ready, you can publish a package to your wallet with this command:
 
-```
-xrkp publish a.wbn
+```bash
+$ xrpk publish a.wbn
 ```
 
 The contracts used are here: https://github.com/webaverse/contracts
 
 ## Browse published packages
 
-You can browse the list of published packages [here](https://xrpackage.org/browse.html).
+You can browse the list of published packages <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Install a published package
 
-```
+```bash
 xrpk install [id]
 ```
 
@@ -216,15 +212,15 @@ This will download the given package id locally.
 
 ### Building packages
 
-- Use transparent backgrounds if possible to make it easier to compose multiple pacakges
+- Use transparent backgrounds if possible to make it easier to compose multiple packages
 - Be mindful of size to improve loading speeds
 
 ### Deploying to your own website
 
-The XRPackage uses [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
+The XRPackage uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" target="_blank" rel="noopener noreferrer">Service Workers</a> to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
 
 ```js
-importScripts('https://xrpackage.org/sw.js');
+importScripts("https://xrpackage.org/sw.js");
 ```
 
 ### Running in Brave

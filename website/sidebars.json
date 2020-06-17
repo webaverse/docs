@@ -1,10 +1,18 @@
 {
-  "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+  "dev": {
+    "Developer Guides": [
+      "dev-guides/dev-overview",
+      "dev-guides/xrpackage-overview",
+      "dev-guides/creating-an-xrpk",
+      "dev-guides/distributing-xrpackage",
+      "dev-guides/examples"
+    ]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "user": {
+    "User Guides": [
+      "user-guides/user-overview",
+      "user-guides/metachromium-overview",
+      "user-guides/metartc-overview"
+    ]
   }
 }
