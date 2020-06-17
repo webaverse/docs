@@ -3,7 +3,7 @@ id: metachromium-overview
 title: Metachromium Overview
 ---
 
-[Metachromium](https://metachromium.com/) is a spatial app browser that runs side-by side with OpenVR (SteamVR). It lets you open any WebXR page as a spatial overlay app that runs on top of any other VR game.
+<a href="https://metachromium.com/" target="_blank" rel="noopener noreferrer">Metachromium</a> is a spatial app browser that runs side-by side with OpenVR (SteamVR). It lets you open any WebXR page as a spatial overlay app that runs on top of any other VR game.
 
 ## Features
 
@@ -20,7 +20,7 @@ title: Metachromium Overview
 
 ### Running
 
-1. Install Metachromium through [Steam](https://store.steampowered.com/app/685110/Metachromium/). If you need an early-access key, get one [here](https://metachromium.com/).
+1. Install Metachromium through <a href="https://store.steampowered.com/app/685110/Metachromium/" target="_blank" rel="noopener noreferrer">Steam</a>. If you need an early-access key, get one <a href="https://metachromium.com/" target="_blank" rel="noopener noreferrer">here</a>.
 2. Run your SteamVR application.
 3. Run Metachromium and choose an app you would like to overlay.
 4. Enjoy!

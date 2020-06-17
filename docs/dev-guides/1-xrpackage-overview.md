@@ -9,7 +9,7 @@ It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn
 
 ## What's in a package?
 
-An XRPackage is a bundle of files. The entrypoint is a `manifest.json` (following the [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) standard). The rest of the files in the bundle are the source files for the app.
+An XRPackage is a bundle of files. The entrypoint is a `manifest.json` (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.
 
 The main addition to the Web App Manifest specification is the `xr_type` field, which specifies the type of application and the spec version.
 
@@ -28,7 +28,7 @@ $ cat manifest.json
 - `vrm@0.0.1`
 - `vox@0.0.1`
 
-See also the [examples](https://github.com/webaverse/xrpackage/tree/master/examples).
+See also the <a href="https://github.com/webaverse/xrpackage/tree/master/examples" target="_blank" rel="noopener noreferrer">examples</a>.
 
 The `start_url` field depends on the type of package:
 
@@ -44,7 +44,7 @@ The `start_url` field depends on the type of package:
 
    For WebXR packages, the `start_url` references the `index.html` entrypoint for the WebXR app. `index.html` should be a regular WebXR application, with assets referenced using relative paths.
 
-   Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the `sessiongranted` event (see the [WebXR Navigation Specification](https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md) and the [example](https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25).
+   Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the `sessiongranted` event (see the <a href="https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md" target="_blank" rel="noopener noreferrer">WebXR Navigation Specification</a> and the <a href="https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25" target="_blank" rel="noopener noreferrer">example</a>.
 
 ## Package icons
 
@@ -139,7 +139,7 @@ This will open up the `xrpackage.js` runtime in your browser and load the given 
 
 ## Run XRPackage programmatically
 
-See [`run.html`](https://github.com/webaverse/xrpackage/blob/master/run.html) for the full example.
+See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer">`run.html`</a> for the full example.
 
 ```javascript
 import { XRPackageEngine, XRPackage } from "https://xrpackage.org/xrpackage.js";
@@ -186,7 +186,7 @@ $ xrpk whoami
 
 ## Publish a package
 
-Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the [faucet](https://faucet.rinkeby.io/).
+Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the <a href="https://faucet.rinkeby.io/" target="_blank" rel="noopener noreferrer">faucet</a>.
 
 Once you are ready, you can publish a package to your wallet with this command:
 
@@ -198,7 +198,7 @@ The contracts used are here: https://github.com/webaverse/contracts
 
 ## Browse published packages
 
-You can browse the list of published packages [here](https://xrpackage.org/browse.html).
+You can browse the list of published packages <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Install a published package
 
@@ -217,7 +217,7 @@ This will download the given package id locally.
 
 ### Deploying to your own website
 
-The XRPackage uses [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
+The XRPackage uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" target="_blank" rel="noopener noreferrer">Service Workers</a> to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
 
 ```js
 importScripts("https://xrpackage.org/sw.js");

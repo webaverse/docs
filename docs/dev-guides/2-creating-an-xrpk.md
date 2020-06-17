@@ -12,11 +12,11 @@ XRPackage will be used to package the assets into a bundle. Although XRPackage s
 ## Prerequisites
 
 - Familiarity with the command line
-- NodeJS and NPM installed and available on PATH. See the [NPMJS guide on installing Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for setup instructions
+- NodeJS and NPM installed and available on PATH. See the <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank" rel="noopener noreferrer">NPMJS guide on installing Node</a> for setup instructions
 
 ## Install XRPackage
 
-The first step is to install the [XRPackage CLI](https://www.npmjs.com/package/xrpk). This tool is used to create, test, and publish XRPackages.
+The first step is to install the <a href="https://www.npmjs.com/package/xrpk" target="_blank" rel="noopener noreferrer">XRPackage CLI</a>. This tool is used to create, test, and publish XRPackages.
 
 ```bash
 $ npm install -g xrpk

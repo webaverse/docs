@@ -19,7 +19,7 @@ hide_title: true
   <a href="https://twitter.com/webmixedreality" target="_blank">Twitter</a>
 </div>
 
-<h4 align="center">🚧 This new site is under active development and so many things are still missing. [Contributions are welcome!](https://github.com/webaverse/docs) 🧰</h4>
+<h4 align="center">🚧 This new site is under active development and so many things are still missing. <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">Contributions are welcome!</a> 🧰</h4>
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
 ## ❓ What is the Webaverse?
@@ -36,9 +36,9 @@ XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike tradit
 
 ## ▶️ Start Using XRPKs
 
-**From The Directory:** You can browse through all the published packages at the [xrpackage.org](https://xrpackage.org/browse.html).
+**From The Directory:** You can browse through all the published packages at the <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
 
-**From The Web:** You can find amazing community creations from the [awesome-xrpackage](https://github.com/webaverse/awesome-xrpackage) repository on GitHub.
+**From The Web:** You can find amazing community creations from the <a href="https://github.com/webaverse/awesome-xrpackage" target="_blank" rel="noopener noreferrer">awesome-xrpackage</a> repository on GitHub.
 
 ## 🧑 Users
 
@@ -52,10 +52,10 @@ The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS
 
 ## ❤️ Contributing
 
-Contributions are welcome in the form of pull requests or issues. Please see [CONTRIBUTING.md](https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md) for additional information.
+Contributions are welcome in the form of pull requests or issues. Please see <a href="https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> for additional information.
 
 ## 💬 Community
 
-You can find the Webaverse community on Discord and Twitter. [Join our Discord server](https://discord.gg/MQNUGgB) to share and discuss the future of spatial applications or follow [@webmixedreality](https://twitter.com/webmixedreality/) on Twitter.
+You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.
 
 ## 📚 Guides & Further Reading
