@@ -9,7 +9,7 @@ It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn
 
 ## What's in a package?
 
-An XRPackage is a bundle of files. The entrypoint is a `manifest.json` (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.
+An XRPackage is a bundle of files. The entry point is a `manifest.json` (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.
 
 The main addition to the Web App Manifest specification is the `xr_type` field, which specifies the type of application and the spec version.
 
@@ -42,7 +42,7 @@ The `start_url` field depends on the type of package:
 
 2) WebXR packages
 
-   For WebXR packages, the `start_url` references the `index.html` entrypoint for the WebXR app. `index.html` should be a regular WebXR application, with assets referenced using relative paths.
+   For WebXR packages, the `start_url` references the `index.html` entry point for the WebXR app. `index.html` should be a regular WebXR application, with assets referenced using relative paths.
 
    Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the `sessiongranted` event (see the <a href="https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md" target="_blank" rel="noopener noreferrer">WebXR Navigation Specification</a> and the <a href="https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25" target="_blank" rel="noopener noreferrer">example</a>.
 
@@ -212,7 +212,7 @@ This will download the given package id locally.
 
 ### Building packages
 
-- Use transparent backgrounds if possible to make it easier to compose multiple pacakges
+- Use transparent backgrounds if possible to make it easier to compose multiple packages
 - Be mindful of size to improve loading speeds
 
 ### Deploying to your own website

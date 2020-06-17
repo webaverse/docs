@@ -23,7 +23,7 @@ IPFS is also an open source, _decentralized_ system - it uses a peer-to-peer pro
 
 Ethereum has a native cryptocurrency ('digital money') called <a href="https://ethereum.org/eth/" target="_blank" rel="noopener noreferrer">Ether (ETH)</a>.
 
-Ethereum gives ownership and interopability of your packages -- you will always have a complete sense of ownership for anything you create and can provably sell anything you own.
+Ethereum gives ownership and interoperability of your packages -- you will always have a complete sense of ownership for anything you create and can provably sell anything you own.
 
 ## What is the Registry?
 
@@ -60,4 +60,4 @@ $ xrpk publish ./path/to/.wbn
 
 Congratulations! You've successfully created and published your first XRPackage!
 
-See [`Examples`](./4-examples.md) for more fully open-source example of content you could package with XRPackage!
+See [`Examples`](./4-examples.md) for more fully open-source examples of content you could package with XRPackage!
