@@ -24,13 +24,13 @@ $ npm install -g xrpk
 
 ## Project Files
 
-XRPackages can be built from multiple asset types, including WebXR sites written with BabylonJS or vanilla Javascript.
+XRPackages can be built from multiple asset types, including WebXR sites written with BabylonJS or vanilla JavaScript.
 
 For the purposes of this guide, a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
 
-[`Click here to download the project files`](/my-first-aug.zip)
+[`Click here to download the project files`](/my-first-xrpk.zip)
 
-You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other augs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
+You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
 
 ## Create The Package Manifest
 

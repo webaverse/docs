@@ -23,9 +23,9 @@ hide_title: true
 
 ## ❓ What is the Webaverse?
 
-<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "augs".
+<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "XR Packages" (XRPKs).
 
-See [`What Is Webaverse?`](about.md) for a more in-depth explanation, or read on to get started with using and developing augs!
+See [`What Is Webaverse?`](about.md) for a more in-depth explanation, or read on to get started with using and developing XRPKs!
 
 See [`Getting Started`](getting-started.md) for detailed guides on how to get started, as a user or developer!
 
@@ -45,7 +45,7 @@ Check out [our user guides](./user-guides/index.md) to learn more about the Weba
 
 ## 🦸 Developers
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional augs that bring your visions and creations into reality!
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
 
 The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 

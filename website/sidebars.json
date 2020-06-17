@@ -3,7 +3,7 @@
     "Developer Guides": [
       "dev-guides/dev-overview",
       "dev-guides/xrpackage-overview",
-      "dev-guides/creating-an-aug",
+      "dev-guides/creating-an-xrpk",
       "dev-guides/distributing-xrpackage",
       "dev-guides/examples"
     ]

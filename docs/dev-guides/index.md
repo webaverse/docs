@@ -30,7 +30,7 @@ Currently the following file formats are supported:
 
 Webaverse can package existing WebXR sites written using THREE.js, A-Frame, Babylon, or any other WebXR compatible JavaScript framework!
 
-For more information on packaging an aug from an existing WebXR site, see the [`Create Your First Aug`](./2-creating-an-aug.md) guide to get started.
+For more information on packaging an XRPK from an existing WebXR site, see the [`Create Your First XRPackage`](./2-creating-an-xrpk.md) guide to get started.
 
 In addition, Webaverse supports traditional 3D models. Any content creation platform that can export to one of the following formats can be easily packaged and brought into the Webaverse.
 
