@@ -3,7 +3,7 @@ id: distributing-xrpackage
 title: Distributing XRPackages
 ---
 
-Once you've [created your first aug](./creating-an-aug.md), you can optionally publish your package the the IPFS/Ethereum network!
+Once you've [created your first XR Package](./creating-an-xrpk.md), you can optionally publish your package the the IPFS/Ethereum network!
 
 **Note: Publishing your package to the IPFS/Ethereum network is completely optional. You can use any hosting and distribution platform to share your XRPackages. IPFS is the preferred hosting solution for the Webaverse due to its decentralized trustless infrastructure.**
 

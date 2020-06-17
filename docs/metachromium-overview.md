@@ -47,7 +47,7 @@ One of the caveats with overlaying WebXR objects is that all WebXR content appea
 
 ### Further Reading
 
-To learn more about Metachromium and how to develop your own content, follow our [`Create Your First Aug`](creating-an-aug.md) tutorial. Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below.
+To learn more about Metachromium and how to develop your own content, follow our [`Create Your First XR Package`](creating-an-xrpk.md) tutorial. Other useful links to learning more about the Webaverse, XRPackage, and XR development can be found below.
 
 ## Useful Links
 

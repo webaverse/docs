@@ -1,9 +1,9 @@
 ---
-id: creating-an-aug
-title: Create Your First Aug
+id: creating-an-xrpk
+title: Create Your First XR Package
 ---
 
-This guide will walk you through the basic steps for creating an aug for use in the Webaverse ecosystem. The term "aug" is an abbreviation for "augmentation" in the same way that "app" is the abbreviation of "application". Augs in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, augs are applications that exist in three dimensional space.
+This guide will walk you through the basic steps for creating an XR Package for use in the Webaverse ecosystem. The term "XRPK" stands for "XR Package", which can be thought of as an "application" or "widget" in the Webaverse. XR Packages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
 
 XRPackage will be used to package the assets into a bundle. XRPackage supports multiple asset types, this guide will demonstrate packaging an existing WebXR scene. See the [XRPackage overview page](xrpackage-overview.md) for more information on XRPackage and other supported asset types.
 
@@ -37,7 +37,7 @@ For the purposes of this demonstration a barebones WebXR scene built with ThreeJ
 
 [`Click here to download the project files`](/my-first-aug.zip)
 
-You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scenes skybox transparent so that it can be composited along other augs and the base reality layer. Additionally, be mindful of bundle sizes. Excessively large bundles will result in a delayed loading experience for users.
+You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scenes skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes. Excessively large bundles will result in a delayed loading experience for users.
 
 ## Create The Package Manifest
 
