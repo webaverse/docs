@@ -9,6 +9,7 @@
   },
   "user": {
     "User Guides": [
+      "user-guides/user-overview",
       "user-guides/metachromium-overview",
       "user-guides/metartc-overview"
     ]

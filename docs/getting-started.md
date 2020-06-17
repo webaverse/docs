@@ -12,11 +12,13 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 
 # For Developers
 
-- [XRPackage Overview](./dev-guides/index.md)
+- [Developer Overview](./dev-guides/index.md)
+- [XRPackage Overview](./dev-guides/1-xrpackage-overview.md)
 - [Create Your First XRPackage](./dev-guides/2-creating-an-xrpk.md)
 - [Distributing your XRPackage](./dev-guides/3-distributing-xrpackage.md)
 
 # For Users
 
-- [Metachromium Overview](./user-guides/index.md)
-- [MetaRTC Overview](./user-guides/metartc-overview.md)
+- [Users Overview](./user-guides/index.md)
+- [Metachromium Overview](./user-guides/1-metachromium-overview.md)
+- [MetaRTC Overview](./user-guides/2-metartc-overview.md)
