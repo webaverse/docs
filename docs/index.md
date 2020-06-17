@@ -56,5 +56,3 @@ Contributions are welcome in the form of pull requests or issues. Please see <a 
 ## 💬 Community
 
 You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.
-
-## 📚 Guides & Further Reading
