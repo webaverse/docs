@@ -19,7 +19,6 @@ hide_title: true
   <a href="https://twitter.com/webmixedreality" target="_blank">Twitter</a>
 </div>
 
-<h4 align="center">🚧 This new site is under active development and so many things are still missing. <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">Contributions are welcome!</a> 🧰</h4>
 <h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
 
 ## ❓ What is the Webaverse?
