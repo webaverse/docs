@@ -59,3 +59,5 @@ $ xrpk publish ./path/to/.wbn
 **<a href="https://github.com/webaverse/contracts" target="_blank" rel="noopener noreferrer">Click here to view the smart contracts for XRPackage Publishing</a>**.
 
 Congratulations! You've successfully created and published your first XRPackage!
+
+See [`Examples`](./4-examples.md) for more fully open-source example of content you could package with XRPackage!

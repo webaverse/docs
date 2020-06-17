@@ -16,6 +16,7 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 - [XRPackage Overview](./dev-guides/1-xrpackage-overview.md)
 - [Create Your First XRPackage](./dev-guides/2-creating-an-xrpk.md)
 - [Distributing your XRPackage](./dev-guides/3-distributing-xrpackage.md)
+- [Examples](./dev-guides/4-examples.md)
 
 ## For Users
 
