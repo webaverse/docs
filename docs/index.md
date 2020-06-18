@@ -7,7 +7,7 @@ hide_title: true
 <div style='margin-top: -60px'></div>
 <h1 align="center"><b>🌌 Welcome To A Universe Of Apps ⚙️</b></h1>
 
-<img alt="Hands Reality Tab" src="https://user-images.githubusercontent.com/29695350/55507781-0e463300-561e-11e9-9b1a-f43b8259d041.gif" width="60%">
+<img alt="Webaverse world demo" src="/img/demo.gif" width="40%">
 
 <div align="center">
   <a href="https://webaverse.com" target="_blank">Site</a>
