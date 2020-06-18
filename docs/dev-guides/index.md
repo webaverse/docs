@@ -9,7 +9,7 @@ The Webaverse runs on applications that you can write, package and distribute. T
 
 We've made it as easy as possible to get started! A few points to start with:
 
-- There's no Webaverse SDK! Just make your app using one of the many supported asset types (see below) and quickly package it using our CLI.
+- There's no Webaverse SDK! Just make your app using one of the many supported asset types (see below) and quickly package it using our CLI or our simple drag-and-drop UI at <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
 - Once you've made your apps, it's really easy to distribute your packages to decentralized systems -- meaning you don't need your own server or hosting service to get your creations out to the world!
 
 Please check out our [`XRPackage Overview`](./1-xrpackage-overview.md) to begin your developer journey into the Webaverse.
