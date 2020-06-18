@@ -13,6 +13,7 @@ const siteConfig = {
   headerLinks: [
     { doc: 'about', label: 'What Is Webaverse?' },
     { doc: 'getting-started', label: 'Getting Started' },
+    { doc: 'other-projects', label: 'Other Projects' },
   ],
 
   headerIcon: 'img/favicon.ico',
