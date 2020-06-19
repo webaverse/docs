@@ -12,6 +12,8 @@
   "user": {
     "User Guides": [
       "user-guides/user-overview",
+      "user-guides/finding-xrpackages",
+      "user-guides/creating-for-webaverse"
     ]
   }
 }
