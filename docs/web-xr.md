@@ -1,5 +1,5 @@
 ---
-id: web-xr
+id: webxr-overview
 title: WebXR Overview
 ---
 
