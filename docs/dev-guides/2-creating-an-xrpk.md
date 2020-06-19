@@ -67,6 +67,8 @@ a.wbn
 
 If everything went successfully you should see a line with like `filename.wbn`, which is the filename of our final XRPackage file.
 
+To simplify the process, we even have a <a href="https://github.com/webaverse/xrpackage-build-action" target="_blank" rel="noopener noreferrer">GitHub action</a> to easily package and deploy your apps! Every `git push` action will verify your app, tag the release, build the package, and optionally release it!
+
 ## Test The Package
 
 Now that we've created our bundle we should test it in a browser and make sure everything is still working as it should. Fortunately the XRPackage CLI makes testing a package really simple. Just use the `run` command to test in a browser:
