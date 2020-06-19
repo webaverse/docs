@@ -22,5 +22,3 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 ## For Users
 
 - [Users Overview](./user-guides/index.md)
-- [Metachromium Overview](./user-guides/1-metachromium-overview.md)
-- [MetaRTC Overview](./user-guides/2-metartc-overview.md)
