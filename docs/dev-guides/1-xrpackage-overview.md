@@ -142,7 +142,7 @@ This will open up the `xrpackage.js` runtime in your browser and load the given 
 See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer">`run.html`</a> for the full example.
 
 ```javascript
-import { XRPackageEngine, XRPackage } from "https://xrpackage.org/xrpackage.js";
+import { XRPackageEngine, XRPackage } from "https://static.xrpackage.org/xrpackage.js";
 const pe = new XRPackageEngine();
 document.body.appendChild(pe.domElement);
 
@@ -220,7 +220,7 @@ This will download the given package id locally.
 The XRPackage uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" target="_blank" rel="noopener noreferrer">Service Workers</a> to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
 
 ```js
-importScripts("https://xrpackage.org/sw.js");
+importScripts("https://static.xrpackage.org/sw.js");
 ```
 
 ### Running in Brave
