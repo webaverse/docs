@@ -51,6 +51,8 @@ Now that we understand the terminology and have _baked_ our package, let's publi
 
 There are two methods in which we officially suggest publishing your packages: via the Webaverse Blockchain, or via the Webaverse Package Registry. You may choose whichever method you prefer, and can even choose to host your XRPackage yourself, or send it via any other means!
 
+**Note:** The uniqueness of your XRPackage's `name` is enforced, as this is what will identify your package on the registry.
+
 ### Using the Webaverse Package Registry
 
 It's really simple to use the Registry to publish your XRPackage &mdash; just 2 commands!
