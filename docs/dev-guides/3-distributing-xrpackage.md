@@ -42,7 +42,7 @@ Baking is the process where a `.wbn` XRPackage is taken as input and run within 
 Our CLI tool does this for you completely automatically! The rest of this page assumes you have the XRPackage CLI tool (`xrpk`) installed (see [the previous section](./2-creating-an-xrpk.md#install-xrpackage)) and have performed the baking process on your `.wbn` XRPackage:
 
 ```bash
-$ xrpk bake
+$ xrpk bake ./path/to/.wbn
 ```
 
 ## Publishing to IPFS
