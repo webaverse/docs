@@ -15,6 +15,12 @@ When the page loads, you will see a collection of packages:
 
 > ![XRPackage Browse page](/img/xrpackage-browse.png)
 
+You can download these packages with the appropriate buttons, or note the IDs so you can install and use them yourself!
+
+Clicking on one of the images will bring you to the 'inspect' page where you can freely play around with the object:
+
+> ![XRPackage 'chicken' inspection](/img/chicken-inspect.gif)
+
 ### IPFS, Ethereum, and the Registry
 
 You might wonder what the groups "IPFS" and "Ethereum" at the top of the page mean. These describe the different publishing modes for XRPackages.
