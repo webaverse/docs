@@ -52,10 +52,10 @@ Packages can contain icons that represent them in previews. Multiple icons can b
 
 Icons are used to both render a preview for the package, and specify how it behaves in relation to other packages. For example, the collision mesh icon type (`"model/gltf-binary+preview"`) specifies the collision boundary geometry that the package uses, in GLTF form.
 
-```
+```json
 {
   "xr_type": "webxr-site@0.0.1",
-   "start_url": "cube.html",
+  "start_url": "cube.html",
   "icons": [
     {
       "src": "icon.gif",
@@ -77,7 +77,7 @@ Icons are used to both render a preview for the package, and specify how it beha
 
 The package manifest can contain an `xr_details` field which further specifies how it should be treated by a compatible runtime.
 
-```
+```json
 {
   "xr_type": "webxr-site@0.0.1",
     "start_url": "cube.html",
@@ -142,7 +142,10 @@ This will open up the `xrpackage.js` runtime in your browser and load the given 
 See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer">`run.html`</a> for the full example.
 
 ```javascript
-import { XRPackageEngine, XRPackage } from "https://static.xrpackage.org/xrpackage.js";
+import {
+  XRPackageEngine,
+  XRPackage,
+} from "https://static.xrpackage.org/xrpackage.js";
 const pe = new XRPackageEngine();
 document.body.appendChild(pe.domElement);
 
