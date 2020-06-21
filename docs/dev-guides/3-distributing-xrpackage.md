@@ -3,7 +3,9 @@ id: distributing-xrpackage
 title: Distributing XRPackages
 ---
 
-Once you've [created your first XR Package](./2-creating-an-xrpk.md), you can optionally publish your package the the IPFS/Ethereum network!
+Once you've [bundled your application into an XR Package](./2-creating-an-xrpk.md), you can optionally publish it to the the IPFS/Ethereum network, so that it can easily be shared and consumed by Webaverse users. This guide explains how to distribute XRPackages by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting.
+
+<a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">You can browse previously published packages here</a>.
 
 **Note: Publishing your package to the IPFS/Ethereum networks is completely optional. You can use any hosting and distribution platform to share your XRPackages. IPFS is the preferred hosting solution for the Webaverse due to its decentralized trustless infrastructure.**
 
@@ -19,10 +21,6 @@ Our CLI tool does this for you completely automatically! The rest of this page a
 $ xrpk bake ./path/to/.wbn
 ```
 
-We've now successfully packaged our demo application into a bundle that can easily be shared and consumed by Webaverse users. This guide explains how to distribute XRPackages by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting.
-
-<a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">You can browse previously published packages here</a>.
-
 ## Publishing Modes
 
 Now that we understand the terminology and have _baked_ our package, let's publish it!
@@ -37,7 +35,7 @@ IPFS is the <a href="https://ipfs.io/" target="_blank" rel="noopener noreferrer"
 
 IPFS is also an open source, _decentralized_ system - it uses a peer-to-peer protocol to spread data across the network of computers instead of storing your files on a single centralized server. This means you can publish your packages yourself, without needing to rely on your own (costly), or someone else's (unreliable or potentially unsecure) server!
 
-Put simply, IPFS is a decentralized hosting solution for publicly storing and sharing your XRPackage files. 
+Put simply, IPFS is a decentralized hosting solution for publicly storing and sharing your XRPackage files.
 
 #### What is the Webaverse Package Registry?
 
