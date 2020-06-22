@@ -30,13 +30,13 @@ XRPackages can be built from multiple asset types, including WebXR sites written
 
 For the purposes of this guide, a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
 
-[`Click here to download the project files`](/threejs-xrpk-demo.zip)
+<a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">`Click here to download the project files`</a>
 
 You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
 
 If you're unfamiliar with WebXR, check out our [overview of WebXR](./6-webxr-overview.md)!
 
-We also have example project files for an <a href="https://aframe.io/" target="_blank" rel="noopener noreferrer">A-Frame</a> project, available [here](/aframe-xrpk-demo.zip)!
+We also have example project files for an <a href="https://aframe.io/" target="_blank" rel="noopener noreferrer">A-Frame</a> project, available <a href="https://github.com/MLH-Fellowship/aframe-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">here</a>!
 
 ## Create The Package Manifest
 

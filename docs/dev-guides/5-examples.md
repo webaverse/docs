@@ -29,8 +29,8 @@ We'll be regularly updating this -- if you have a contribution you want listed, 
 
 Some of the guides on this site use example projects compressed into a ZIP file. You can download them below:
 
-- [Example WebXR (three.js) project](/threejs-xrpk-demo.zip)
-- [Example WebXR (A-Frame) project](/aframe-xrpk-demo.zip)
+- <a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (three.js) project</a>
+- <a href="https://github.com/MLH-Fellowship/aframe-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (A-Frame) project</a>
 
 ## Templates
 
