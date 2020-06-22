@@ -37,4 +37,4 @@ You might wonder what the groups "IPFS" and "Ethereum" at the top of the page me
 
   This makes it ideal for creators who want to permanently record their package as belonging to themselves, opening up possibilities for sharing and selling securely.
 
-**Now that you can find XRPackages, move onto reading about [how to actually use them!](./2-using-xrpackages.md).**
+**Now that you can find XRPackages, move onto reading about [how to actually use them](./2-using-xrpackages.md)!**

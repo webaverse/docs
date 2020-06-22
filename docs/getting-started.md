@@ -24,4 +24,5 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 - [Users Overview](./user-guides/index.md)
 - [Finding Applications](./user-guides/1-finding-xrpackages.md)
 - [Using Applications](./user-guides/2-using-xrpackages.md)
-- [Creating for the Webaverse](./user-guides/3-creating-for-webaverse.md)
+- [Using Avatars](./user-guides/3-using-avatars.md)
+- [Creating for the Webaverse](./user-guides/4-creating-for-webaverse.md)
