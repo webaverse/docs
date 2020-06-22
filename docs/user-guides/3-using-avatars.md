@@ -3,9 +3,11 @@ id: using-avatars
 title: Using Avatars
 ---
 
-Avatars are just XRPackages. Your avatar is what you can control and view in first-person mode to see their perspective.
+Avatars are just XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a> (built on top of glTF binary files). Your avatar is what you can control and view in first-person mode to see their perspective.
 
-Similar to [using XRPackages](./2-using-xrpackages.md), you can select Avatars from the <a href="https://xrpackage.org/edit.html">XRPackage edit page</a>.
+Similar to [using XRPackages](./2-using-xrpackages.md), you can select pre-published Avatars from the <a href="https://xrpackage.org/edit.html">XRPackage edit page</a>.
+
+The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find and upload avatars for your use.
 
 You can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything from a sword to a person, packaged into an XRPackage.
 
