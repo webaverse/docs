@@ -3,9 +3,14 @@
 }
 
 .post a:hover {
-  color: #0000EE;
+  color: #0000ee;
 }
 
 .logo-banner {
   max-width: 600px;
+}
+
+blockquote {
+  background-color: lightgray;
+  border-left: 8px solid grey;
 }

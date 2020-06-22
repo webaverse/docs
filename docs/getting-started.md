@@ -13,14 +13,17 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 ## For Developers
 
 - [Developer Overview](./dev-guides/index.md)
-- [WebXR Overview](./dev-guides/5-webxr-overview.md)
 - [XRPackage Overview](./dev-guides/1-xrpackage-overview.md)
 - [Create Your First XRPackage](./dev-guides/2-creating-an-xrpk.md)
 - [Distributing your XRPackage](./dev-guides/3-distributing-xrpackage.md)
-- [Examples](./dev-guides/4-examples.md)
+- [Technical Notes](./dev-guides/4-technical-notes.md)
+- [Examples](./dev-guides/5-examples.md)
+- [WebXR Overview](./dev-guides/6-webxr-overview.md)
 
 ## For Users
 
 - [Users Overview](./user-guides/index.md)
-- [Metachromium Overview](./user-guides/1-metachromium-overview.md)
-- [MetaRTC Overview](./user-guides/2-metartc-overview.md)
+- [Finding Applications](./user-guides/1-finding-xrpackages.md)
+- [Using Applications](./user-guides/2-using-xrpackages.md)
+- [Using Avatars](./user-guides/3-using-avatars.md)
+- [Creating for the Webaverse](./user-guides/4-creating-for-webaverse.md)

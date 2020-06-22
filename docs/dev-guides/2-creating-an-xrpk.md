@@ -1,13 +1,15 @@
 ---
 id: creating-an-xrpk
-title: Create Your First XR Package
+title: Create Your First XRPackage
 ---
 
 This guide will walk you through the basic steps for creating an XR Package for use in the Webaverse ecosystem. The term "XRPK" stands for "XR Package", which can be thought of as an "application" or "widget" in the Webaverse. XR Packages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
 
 XRPackage will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing WebXR scene.
 
-**Note**: This guide assumes you have read the [XRPackage Overview](xrpackage-overview.md) or are familiar with what an XRPackage is.
+**Note**: This guide assumes you have read the [XRPackage Overview](./1-xrpackage-overview.md) or are familiar with what an XRPackage is.
+
+If you're unfamiliar with WebXR, check out our quick [overview of WebXR](./6-webxr-overview.md)!
 
 ## Prerequisites
 
@@ -28,9 +30,13 @@ XRPackages can be built from multiple asset types, including WebXR sites written
 
 For the purposes of this guide, a barebones WebXR scene built with ThreeJS is available at the link below. This scene contains tracked controllers and an animated blob.
 
-[`Click here to download the project files`](/my-first-xrpk.zip)
+<a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">`Click here to download the project files`</a>
 
 You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
+
+If you're unfamiliar with WebXR, check out our [overview of WebXR](./6-webxr-overview.md)!
+
+We also have example project files for an <a href="https://aframe.io/" target="_blank" rel="noopener noreferrer">A-Frame</a> project, available <a href="https://github.com/MLH-Fellowship/aframe-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">here</a>!
 
 ## Create The Package Manifest
 
@@ -66,6 +72,8 @@ a.wbn
 ```
 
 If everything went successfully you should see a line with like `filename.wbn`, which is the filename of our final XRPackage file.
+
+To simplify the process, we even have a <a href="https://github.com/webaverse/xrpackage-build-action" target="_blank" rel="noopener noreferrer">GitHub action</a> to easily package and deploy your apps! Every `git push` action will verify your app, tag the release, build the package, and optionally release it!
 
 ## Test The Package
 
