@@ -9,15 +9,15 @@ This page aims to serve as a reference for community and official examples of We
 
 If you think something is missing from this documentation or list, please create an issue or submit a pull request <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">on GitHub</a>.
 
-Finally, you can reach our friendly community <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a> for guidance if you need.
+Finally, you can reach out to the Webaverse community <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a> for guidance if you need.
 
 ## Glitch
 
-<a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> is a simple tool to create, edit, and share web apps.
+<a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> is a tool to create, edit, and share web apps.
 
-It's a simple editor in your browser where you can run code that people share with you and 'remix' (like a GitHub fork) them in your own account.
+It's a code editor in your browser where you can run code that people share with you and 'remix' (like a GitHub fork) them in your own account.
 
-We've <a href="https://glitch.com/~xrpackage-creator" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> for you to play around with -- feel free to remix them and turn them into your own amazing ideas!
+We've <a href="https://glitch.com/~xrpackage-creator" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> to play around with, which you can remix and experiment with!
 
 ## awesome-xrpackage
 
