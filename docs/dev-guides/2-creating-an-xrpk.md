@@ -9,7 +9,7 @@ XRPackage will be used to package the assets into a bundle. Although XRPackage s
 
 **Note**: This guide assumes you have read the [XRPackage Overview](./1-xrpackage-overview.md) or are familiar with what an XRPackage is.
 
-If you're unfamiliar with WebXR, check out our quick [overview of WebXR](./5-webxr-overview.md)!
+If you're unfamiliar with WebXR, check out our quick [overview of WebXR](./6-webxr-overview.md)!
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ For the purposes of this guide, a barebones WebXR scene built with ThreeJS is av
 
 You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
 
-If you're unfamiliar with WebXR, check out our [overview of WebXR](./5-webxr-overview.md)!
+If you're unfamiliar with WebXR, check out our [overview of WebXR](./6-webxr-overview.md)!
 
 We also have example project files for an <a href="https://aframe.io/" target="_blank" rel="noopener noreferrer">A-Frame</a> project, available [here](/aframe-xrpk-demo.zip)!
 

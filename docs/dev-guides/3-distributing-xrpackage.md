@@ -98,4 +98,4 @@ $ xrpk publish ./path/to/.wbn # publish it to IPFS
 
 **Congratulations! You've successfully created and published your first XRPackage!**
 
-See [`Examples`](./4-examples.md) for more (fully open-source!) examples of content you could create and package with XRPackage!
+See [`Examples`](./5-examples.md) for more (fully open-source!) examples of content you could create and package with XRPackage!
