@@ -45,7 +45,11 @@ You can browse the XRPackage Registry at <a href="https://xrpackage.org/browse.h
 
 #### Using the Webaverse Package Registry
 
-It's really simple to use the Registry to publish your XRPackage &mdash; just 2 commands!
+You can use the Registry to publish your XRPackage using the CLI or web-interface.
+
+To use a web-interface, go to <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">the XRPackage.org</a> website and click "Create from file" &mdash; this will allow you to select your entry-point file, and create a package in your browser!
+
+To use the CLI, run the following two commands:
 
 ```bash
 $ xrpk login # this will send an email code
