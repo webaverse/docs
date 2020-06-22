@@ -22,9 +22,3 @@ To use Metachromium, install it Metachromium through <a href="https://store.stea
 For different WebXR contexts to be overlaid inside an OpenVR application, special math must be done so the outlines of these different applications blend into the world correctly in terms of its alpha (opacity). Metachromium does the blending such that the renderings appear as though they are in the correct space when viewed through the headset.
 
 More specifically, Metachromium is capturing a 360 stereoscopic view from the WebXR frame buffer and then mapping that view to a transparent sphere that surrounds the user. By drawing the correct pixels in the correct place on the sphere and tracking the headset at 144hz, the user has virtually no idea that the content being overlaid is from a different application.
-
-## MetaRTC
-
-MetaRTC is a Metaverse party system. It abstracts WebRTC into rooms of peers, using a presence server to negotiate P2P connections.
-
-You can find the code <a href="https://github.com/webaverse/metartc2" target="_blank" rel="noopener noreferrer">at GitHub</a> for further details.
