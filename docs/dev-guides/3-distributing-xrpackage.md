@@ -72,10 +72,10 @@ Ethereum gives ownership and interoperability of your packages &mdash; you will 
 
 The following steps assume you have at least a basic familiarity with the Ethereum network; we will login to our Ethereum wallet and publish our packages to the network.
 
-First, use the `login` command to either login to an existing wallet, or create a new wallet. This is the wallet we will be using to pay the gas fees for publishing our package. If you create a new wallet using the CLI, make sure to visit the faucet and load it with ETH before attempting to publish a package.
+First, use the `wallet` command to either login to an existing wallet, or create a new wallet. This is the wallet we will be using to pay the gas fees for publishing our package. If you create a new wallet using the CLI, make sure to visit the faucet and load it with ETH before attempting to publish a package.
 
 ```bash
-$ xrpk login # or `xrpk wallet`
+$ xrpk wallet
 # Follow the on-screen prompts to create or import an existing wallet
 ```
 
