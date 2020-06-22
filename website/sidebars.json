@@ -2,11 +2,17 @@
   "dev": {
     "Developer Guides": [
       "dev-guides/dev-overview",
-      "dev-guides/webxr-overview",
       "dev-guides/xrpackage-overview",
       "dev-guides/creating-an-xrpk",
       "dev-guides/distributing-xrpackage",
-      "dev-guides/examples"
+      "dev-guides/examples",
+      {
+        "type": "subcategory",
+        "label": "Asset type guides",
+        "ids": [
+          "dev-guides/webxr-overview"
+        ]
+      }
     ]
   },
   "user": {
