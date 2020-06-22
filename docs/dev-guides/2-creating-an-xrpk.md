@@ -36,6 +36,8 @@ You can also follow this guide to package an existing WebXR scene. If you are pa
 
 If you're unfamiliar with WebXR, check out our [overview of WebXR](./5-webxr-overview.md)!
 
+We also have example project files for an <a href="https://aframe.io/" target="_blank" rel="noopener noreferrer">A-Frame</a> project, available [here](/aframe-xrpk-demo.zip)!
+
 ## Create The Package Manifest
 
 When building an XRPackage with the CLI, a `manifest.json` file in the root directory will be read to define the package's configuration. The sample below is the simplest possible manifest file. Copy the contents below into a file named `manifest.json` in the root directory of the package, or use the CLI `xrpk init` command to generate it for you:

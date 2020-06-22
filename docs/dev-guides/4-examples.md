@@ -11,20 +11,26 @@ If you think something is missing from this documentation or list, please create
 
 Finally, our amazing friendly community is just a few clicks away to help guide you if you need! Find us <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a>.
 
-
 ## Glitch
 
 <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> is a simple tool to create, edit, and share web apps.
 
 It's a simple editor in your browser where you can run code that people share with you and 'remix' (like a GitHub fork) them in your own account.
 
-We've <a href="https://glitch.com/@webaverse" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> for you to play around with -- feel free to remix them and turn them into your own amazing ideas!
+We've <a href="https://glitch.com/~xrpackage-creator" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> for you to play around with -- feel free to remix them and turn them into your own amazing ideas!
 
 ## awesome-xrpackage
 
 We have a curated list of XRPackages from the community and developers of XRPackage. You can find these <a href="https://github.com/webaverse/awesome-xrpackage" target="_blank" rel="noopener noreferrer">at GitHub</a>.
 
 We'll be regularly updating this -- if you have a contribution you want listed, we'd love a pull request!
+
+## Project files
+
+Some of the guides on this site use example projects compressed into a ZIP file. You can download them below:
+
+- [Example WebXR (three.js) project](/threejs-xrpk-demo.zip)
+- [Example WebXR (A-Frame) project](/aframe-xrpk-demo.zip)
 
 ## Templates
 
