@@ -9,7 +9,7 @@ The Webaverse runs on applications that you can write, package and distribute. T
 
 Follow the guides on the left to get started! A few points to begin with:
 
-- There's no Webaverse SDK! Instead, make your app using one of the many supported asset types (see below) and package it into an XRPackage (XRPK) using our <a href="https://github.com/webaverse/xrpackage-cli" target="_blank" rel="noopener noreferrer">`xrpk` CLI tool</a> or our simple drag-and-drop UI at <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
+- The Webaverse SDK can be found in <a href="https://github.com/webaverse/xrpackage-cli" target="_blank" rel="noopener noreferrer">`xrpk`</a>. To make a Webaverse application, you create your app using one of the many supported asset types (see below) and package it into an XRPackage using `xrpk`, or the drag-and-drop UI at <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
 - Once you've made your apps, it's really easy to distribute your packages to decentralized systems -- meaning you don't need your own server or hosting service to get your creations out to the world!
 
 Please check out our [`XRPackage Overview`](./1-xrpackage-overview.md) to begin your developer journey into the Webaverse.
