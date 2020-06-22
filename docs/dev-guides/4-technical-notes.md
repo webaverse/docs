@@ -7,7 +7,7 @@ This page contains technical notes that might help in development of specific ki
 
 ## Avatars
 
-Avatars are applications that you can control and view in first-person mode to see their perspective. They can be anything from a sword to a person, packaged into an XRPackage.
+Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They can be anything from a sword to a person, packaged into an XRPackage.
 
 On a deeper level, avatars are usually <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a> (a file for handling humanoid 3D avatar data for VR apps). VRMs are built on top of <a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener noreferrer">glTF binary (GLB)</a> files.
 
