@@ -9,7 +9,7 @@ This page aims to serve as a reference for community and official examples of We
 
 If you think something is missing from this documentation or list, please create an issue or submit a pull request <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">on GitHub</a>.
 
-Finally, our amazing friendly community is just a few clicks away to help guide you if you need! Find us <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a>.
+Finally, you can reach our friendly community <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a> for guidance if you need.
 
 ## Glitch
 

@@ -15,7 +15,7 @@ Before your package is ready for distribution, we need to **bake** it.
 
 Baking is the process where a `.wbn` XRPackage is taken as input and run within a browser, where it is rewritten with an added generated icons that store collision meshes and preview screenshots for packages.
 
-Our CLI tool does this for you completely automatically! The rest of this page assumes you have the XRPackage CLI tool (`xrpk`) installed (see [the previous section](./2-creating-an-xrpk.md#install-xrpackage)) and have performed the baking process on your `.wbn` XRPackage:
+The `xrpk` CLI tool can be used to "bake" packages in conjunction with your browser. The rest of this page assumes you have the XRPackage CLI tool (`xrpk`) installed (see [the previous section](./2-creating-an-xrpk.md#install-xrpackage)) and have performed the baking process on your `.wbn` XRPackage:
 
 ```bash
 $ xrpk bake ./path/to/.wbn

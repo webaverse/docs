@@ -7,7 +7,7 @@ We're thrilled to have you on board with making the Webaverse a more exciting pl
 
 The Webaverse runs on applications that you can write, package and distribute. These packages are called XRPackages (XRPKs).
 
-We've made it as easy as possible to get started! A few points to start with:
+Follow the guides on the left to get started! A few points to begin with:
 
 - There's no Webaverse SDK! Just make your app using one of the many supported asset types (see below) and quickly package it using our CLI or our simple drag-and-drop UI at <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
 - Once you've made your apps, it's really easy to distribute your packages to decentralized systems -- meaning you don't need your own server or hosting service to get your creations out to the world!

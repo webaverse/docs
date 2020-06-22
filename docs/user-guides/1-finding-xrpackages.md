@@ -9,7 +9,7 @@ This guide explains how you can find XRPKs that other users have created and pub
 
 ## Browsing for XRPackages
 
-You can easily browse, download, inspect, and modify XRPackages via <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">the XRPackage site</a> &mdash; all through your browser!
+You can browse, download, inspect, and modify XRPackages via <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">the XRPackage site</a>.
 
 When the page loads, you will see a collection of packages:
 
