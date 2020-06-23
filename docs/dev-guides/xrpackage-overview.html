@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>XRPackage Overview · Webaverse Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="XRPackage turns 3D apps into a file you can load anywhere."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="XRPackage Overview · Webaverse Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.webaverse.com/"/><meta property="og:description" content="XRPackage turns 3D apps into a file you can load anywhere."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Webaverse Documentation"/><h2 class="headerTitleWithLogo">Webaverse Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/about" target="_self">What Is Webaverse?</a></li><li class=""><a href="/docs/getting-started" target="_self">Getting Started</a></li><li class=""><a href="/docs/other-projects" target="_self">Other Projects</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Developer Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Developer Guides</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/dev-guides/dev-overview">Developer Overview</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/dev-guides/xrpackage-overview">XRPackage Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/creating-an-xrpk">Create Your First XRPackage</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/distributing-xrpackage">Distributing XRPackages</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/technical-notes">Technical Notes</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/examples">Examples</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Asset type guides</h4><ul><li class="navListItem"><a class="navItem" href="/docs/dev-guides/webxr-overview">WebXR Overview</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">XRPackage Overview</h1></header><article><div><span><p>XRPackage turns 3D apps into a file you can load anywhere.</p>
+<p>It uses standards like WebXR, GLTF, and WebBundle to package an app into a <code>.wbn</code> file. It provides a runtime to load multiple <code>.wbn</code> applications at once into a shared composited world. Finally, XRPackage provides a package registry distributed on IPFS / Ethereum, to easily share your XRPackage applications. The registry follows the ERC1155 standard so packages can be traded on OpenSea.</p>
+<h2><a class="anchor" aria-hidden="true" id="whats-in-a-package"></a><a href="#whats-in-a-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What's in a package?</h2>
+<p>An XRPackage is a bundle of files. The entry point is a <code>manifest.json</code> (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.</p>
+<p>The main addition to the Web App Manifest specification is the <code>xr_type</code> field, which specifies the type of application and the spec version.</p>
+<pre><code class="hljs">$ cat manifest.<span class="hljs-class">json
+</span>{
+  <span class="hljs-string">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-string">"start_url"</span>: <span class="hljs-string">"cube.html"</span>
+}
+</code></pre>
+<p><code>xr_type</code> can currently be:</p>
+<ul>
+<li><code>webxr-site@0.0.1</code></li>
+<li><code>gltf@0.0.1</code></li>
+<li><code>vrm@0.0.1</code></li>
+<li><code>vox@0.0.1</code></li>
+</ul>
+<p>See also the <a href="https://github.com/webaverse/xrpackage/tree/master/examples" target="_blank" rel="noopener noreferrer">examples</a>.</p>
+<p>The <code>start_url</code> field depends on the type of package:</p>
+<ol>
+<li><p>Asset packages</p>
+<p>For the following types of packages, the <code>start_url</code> references the single static asset file to be loaded:</p>
+<ul>
+<li><code>gltf@0.0.1</code></li>
+<li><code>vrm@0.0.1</code></li>
+<li><code>vox@0.0.1</code></li>
+</ul></li>
+</ol>
+<ol start="2">
+<li><p>WebXR packages</p>
+<p>For WebXR packages, the <code>start_url</code> references the <code>index.html</code> entry point for the WebXR app. <code>index.html</code> should be a regular WebXR application, with assets referenced using relative paths.</p>
+<p>Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the <code>sessiongranted</code> event (see the <a href="https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md" target="_blank" rel="noopener noreferrer">WebXR Navigation Specification</a> and the <a href="https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25" target="_blank" rel="noopener noreferrer">example</a>.</p></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="package-icons"></a><a href="#package-icons" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package icons</h2>
+<p>Packages can contain icons that represent them in previews. Multiple icons can be in the same package, with different types. The icon files are included along with the package as regular files and referenced in the manifest. This follows the web bundle standard.</p>
+<p>Icons are used to both render a preview for the package, and specify how it behaves in relation to other packages. For example, the collision mesh icon type (<code>&quot;model/gltf-binary+preview&quot;</code>) specifies the collision boundary geometry that the package uses, in GLTF form.</p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"icons"</span>: [
+    {
+      <span class="hljs-attr">"src"</span>: <span class="hljs-string">"icon.gif"</span>,
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"image/gif"</span> <span class="hljs-comment">// screen capture</span>
+    },
+    {
+      <span class="hljs-attr">"src"</span>: <span class="hljs-string">"collision.glb"</span>,
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"model/gltf-binary+preview"</span> <span class="hljs-comment">// collision mesh</span>
+    },
+    {
+      <span class="hljs-attr">"src"</span>: <span class="hljs-string">"xrpackage_model.glb"</span>,
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"model/gltf-binary"</span> <span class="hljs-comment">// gltf preview</span>
+    }
+  ]
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="package-configuration"></a><a href="#package-configuration" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package configuration</h2>
+<p>The package manifest can contain an <code>xr_details</code> field which further specifies how it should be treated by a compatible runtime.</p>
+<pre><code class="hljs css language-json">{
+  "xr_type": "webxr-site@0.0.1",
+    "start_url": "cube.html",
+    "xr_details": {
+      "schema": { // describes configurable properties of the package
+        "floofiness": {
+          "type": "string", // currently only "string"
+          "default": "very"
+        }
+      },
+      "events": { // describes events the we can receive from other packages
+        "refloof": {
+          "type": "string"
+        }
+      },
+      "aabb": [ // axis-aligned bounding box
+        [-1, -1, -1], // min point
+        [1, 1, 1] // max point
+      ],
+      "wearable": { // how this package can be worn on an avatar
+        "head": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], // matrix offset from specified bone to package
+        "hand": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+        "back": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+      },
+      "physics": "static" // physics mode for the packge: null (no physics, default), "static", or "dynamic"
+    }
+  }
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="building-a-package"></a><a href="#building-a-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Building a package</h2>
+<p>Regardless of package type, packages are built with the <code>xrpk</code> tool which you can get on <code>npm</code>:</p>
+<pre><code class="hljs css language-bash">$ npm install -g xrpk
+</code></pre>
+<p>To build a package with <code>manifest.json</code> in the current directory:</p>
+<pre><code class="hljs css language-bash">$ xrpk build .
+a.wbn
+</code></pre>
+<p>Note: this will open up your browser to perform screenshotting of the application; you can close that tab when it completes.</p>
+<p>The resulting package is <code>a.wbn</code>. It will also output <code>a.wbn.gif</code> as an animated GIF and <code>a.wbn.glb</code> as a 3D model preview -- these are used when publishing your package but are not required to run it.</p>
+<h2><a class="anchor" aria-hidden="true" id="test-the-package"></a><a href="#test-the-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test the package</h2>
+<p>Once you have an XRPackage (<code>a.wbn</code>), you can run it in your browser like so:</p>
+<pre><code class="hljs css language-bash">$ xrpk run ./a.wbn
+</code></pre>
+<p>This will open up the <code>xrpackage.js</code> runtime in your browser and load the given file for viewing.</p>
+<h2><a class="anchor" aria-hidden="true" id="run-xrpackage-programmatically"></a><a href="#run-xrpackage-programmatically" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Run XRPackage programmatically</h2>
+<p>See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer"><code>run.html</code></a> for the full example.</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> {
+  XRPackageEngine,
+  XRPackage,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"https://static.xrpackage.org/xrpackage.js"</span>;
+<span class="hljs-keyword">const</span> pe = <span class="hljs-keyword">new</span> XRPackageEngine();
+<span class="hljs-built_in">document</span>.body.appendChild(pe.domElement);
+
+<span class="hljs-keyword">const</span> res = <span class="hljs-keyword">await</span> fetch(<span class="hljs-string">"a.wbn"</span>); <span class="hljs-comment">// built package stored somewhere</span>
+<span class="hljs-keyword">const</span> arrayBuffer = <span class="hljs-keyword">await</span> res.arrayBuffer();
+<span class="hljs-keyword">const</span> p = <span class="hljs-keyword">new</span> XRPackage(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Uint8Array</span>(arrayBuffer));
+pe.add(p);
+</code></pre>
+<p>You can also compile a <code>.wbn</code> package programmatically:</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> uint8Array = XRPackage.compileRaw([
+  {
+    <span class="hljs-attr">url</span>: <span class="hljs-string">"/cube.html"</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">"text/html"</span>,
+    <span class="hljs-attr">data</span>: cubeHtml,
+  },
+  {
+    <span class="hljs-attr">url</span>: <span class="hljs-string">"/manifest.json"</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">"application/json"</span>,
+    <span class="hljs-attr">data</span>: cubeManifest,
+  },
+]);
+<span class="hljs-comment">// save uint8Array somewhere or new XRPackage(uint8Array)</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="publish-packages-log-into-wallet"></a><a href="#publish-packages-log-into-wallet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Publish packages: log into wallet</h2>
+<pre><code class="hljs css language-bash">$ xrpk login
+</code></pre>
+<p>Follow the prompts to create or import a wallet. It is a regular BIP39 mnemonic.</p>
+<h2><a class="anchor" aria-hidden="true" id="check-your-wallet-address"></a><a href="#check-your-wallet-address" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Check your wallet address</h2>
+<pre><code class="hljs css language-bash">$ xrpk whoami
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="publish-a-package"></a><a href="#publish-a-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Publish a package</h2>
+<p>Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the <a href="https://faucet.rinkeby.io/" target="_blank" rel="noopener noreferrer">faucet</a>.</p>
+<p>Once you are ready, you can publish a package to your wallet with this command:</p>
+<pre><code class="hljs css language-bash">$ xrpk publish a.wbn
+</code></pre>
+<p>The contracts used are here: <a href="https://github.com/webaverse/contracts">https://github.com/webaverse/contracts</a></p>
+<h2><a class="anchor" aria-hidden="true" id="browse-published-packages"></a><a href="#browse-published-packages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Browse published packages</h2>
+<p>You can browse the list of published packages <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="install-a-published-package"></a><a href="#install-a-published-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install a published package</h2>
+<pre><code class="hljs css language-bash">xrpk install [id]
+</code></pre>
+<p>This will download the given package id locally.</p>
+<h2><a class="anchor" aria-hidden="true" id="tips"></a><a href="#tips" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips:</h2>
+<h3><a class="anchor" aria-hidden="true" id="building-packages"></a><a href="#building-packages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Building packages</h3>
+<ul>
+<li>Use transparent backgrounds if possible to make it easier to compose multiple packages</li>
+<li>Be mindful of size to improve loading speeds</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="deploying-to-your-own-website"></a><a href="#deploying-to-your-own-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deploying to your own website</h3>
+<p>The XRPackage uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" target="_blank" rel="noopener noreferrer">Service Workers</a> to serve packages on a page. In order to get this working, you will need to add a file called <code>sw.js</code> to the root of your website with the following contents:</p>
+<pre><code class="hljs css language-js">importScripts(<span class="hljs-string">"https://static.xrpackage.org/sw.js"</span>);
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="running-in-brave"></a><a href="#running-in-brave" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Running in Brave</h3>
+<p>You may run into issues on Brave where it'll block XRPackage from running any Three.js code due to it's cross-origin fingerprint blocking. You will need to either serve all the XRPackage code from the same origin, or tell users to click the <code>Brave Shield</code> and allow fingerprinting for your website.</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/22/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/dev-guides/dev-overview"><span class="arrow-prev">← </span><span>Developer Overview</span></a><a class="docs-next button" href="/docs/dev-guides/creating-an-xrpk"><span>Create Your First XRPackage</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#whats-in-a-package">What's in a package?</a></li><li><a href="#package-icons">Package icons</a></li><li><a href="#package-configuration">Package configuration</a></li><li><a href="#building-a-package">Building a package</a></li><li><a href="#test-the-package">Test the package</a></li><li><a href="#run-xrpackage-programmatically">Run XRPackage programmatically</a></li><li><a href="#publish-packages-log-into-wallet">Publish packages: log into wallet</a></li><li><a href="#check-your-wallet-address">Check your wallet address</a></li><li><a href="#publish-a-package">Publish a package</a></li><li><a href="#browse-published-packages">Browse published packages</a></li><li><a href="#install-a-published-package">Install a published package</a></li><li><a href="#tips">Tips:</a><ul class="toc-headings"><li><a href="#building-packages">Building packages</a></li><li><a href="#deploying-to-your-own-website">Deploying to your own website</a></li><li><a href="#running-in-brave">Running in Brave</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Webaverse Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/index.html">Home</a><a href="/docs/about.html">About</a><a href="/docs/getting-started.html">Getting Started</a><a href="https://github.com/webaverse/docs" target="_blank" rel="noreferrer noopener">Contribute</a></div><div><h5>Community</h5><a href="https://discord.gg/MQNUGgB" target="_blank" rel="noreferrer noopener">Discord Server</a><a href="https://glitch.com/@webaverse" target="_blank" rel="noreferrer noopener">Glitch Examples</a><a href="https://github.com/topics/webaverse" target="_blank" rel="noreferrer noopener">Github Topic</a><a href="https://twitter.com/search?q=webaverse" target="_blank" rel="noreferrer noopener">Twitter Discussion</a></div><div><h5>More</h5><a href="https://webaverse.com">Website</a><a href="https://github.com/webaverse/">GitHub</a><a href="https://twitter.com/webmixedreality/">Twitter</a><a href="https://discord.gg/MQNUGgB">Discord</a></div></section><section class="copyright">Copyright © 2020 Webaverse</section></footer></div></body></html>

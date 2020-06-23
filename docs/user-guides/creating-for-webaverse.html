@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Creating for the Webaverse · Webaverse Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="If you&#x27;ve read the previous sections of the User Guides, it should be clear that the Webaverse simply revolves around &quot;applications&quot; packaged into &quot;XRPackages&quot; (XRPKs)."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Creating for the Webaverse · Webaverse Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.webaverse.com/"/><meta property="og:description" content="If you&#x27;ve read the previous sections of the User Guides, it should be clear that the Webaverse simply revolves around &quot;applications&quot; packaged into &quot;XRPackages&quot; (XRPKs)."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Webaverse Documentation"/><h2 class="headerTitleWithLogo">Webaverse Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/about" target="_self">What Is Webaverse?</a></li><li class=""><a href="/docs/getting-started" target="_self">Getting Started</a></li><li class=""><a href="/docs/other-projects" target="_self">Other Projects</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>User Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">User Guides</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/user-guides/user-overview">Users Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/finding-xrpackages">Finding Applications (XRPackages)</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/using-xrpackages">Using Applications (XRPackages)</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/using-avatars">Using Avatars</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/user-guides/creating-for-webaverse">Creating for the Webaverse</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Creating for the Webaverse</h1></header><article><div><span><p>If you've read the previous sections of the User Guides, it should be clear that the Webaverse simply revolves around &quot;applications&quot; packaged into &quot;XRPackages&quot; (XRPKs).</p>
+<p>You can just drop the XRPackages into a world, and what you make is only limited by your imagination. We've written guides to help you get started with developing for the Webaverse.</p>
+<p>If you already have some 3D or VR content, it's likely you'll be able to immediately package and distribute this with little effort.</p>
+<p>If you want to create something from scratch, our developer guides will introduce you to making your own WebXR application in a few steps, and provide you with a simple template — ready for you to build on and make your ideas come to life in the Webaverse!</p>
+<p>Please give our <a href="/docs/dev-guides/dev-overview">developer guides</a> a read for more information on how to get started! We're really excited to see what you create!</p>
+<p>Remember, you can always find our friendly Webaverse community on <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">Discord</a>.</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/22/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/user-guides/using-avatars"><span class="arrow-prev">← </span><span>Using Avatars</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Webaverse Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/index.html">Home</a><a href="/docs/about.html">About</a><a href="/docs/getting-started.html">Getting Started</a><a href="https://github.com/webaverse/docs" target="_blank" rel="noreferrer noopener">Contribute</a></div><div><h5>Community</h5><a href="https://discord.gg/MQNUGgB" target="_blank" rel="noreferrer noopener">Discord Server</a><a href="https://glitch.com/@webaverse" target="_blank" rel="noreferrer noopener">Glitch Examples</a><a href="https://github.com/topics/webaverse" target="_blank" rel="noreferrer noopener">Github Topic</a><a href="https://twitter.com/search?q=webaverse" target="_blank" rel="noreferrer noopener">Twitter Discussion</a></div><div><h5>More</h5><a href="https://webaverse.com">Website</a><a href="https://github.com/webaverse/">GitHub</a><a href="https://twitter.com/webmixedreality/">Twitter</a><a href="https://discord.gg/MQNUGgB">Discord</a></div></section><section class="copyright">Copyright © 2020 Webaverse</section></footer></div></body></html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Using Avatars · Webaverse Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from &lt;a href=&quot;https://vrm.dev/en&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;VRM files&lt;/a&gt; (built on top of glTF binary files)."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Using Avatars · Webaverse Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.webaverse.com/"/><meta property="og:description" content="Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from &lt;a href=&quot;https://vrm.dev/en&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;VRM files&lt;/a&gt; (built on top of glTF binary files)."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Webaverse Documentation"/><h2 class="headerTitleWithLogo">Webaverse Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/about" target="_self">What Is Webaverse?</a></li><li class=""><a href="/docs/getting-started" target="_self">Getting Started</a></li><li class=""><a href="/docs/other-projects" target="_self">Other Projects</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>User Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">User Guides</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/user-guides/user-overview">Users Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/finding-xrpackages">Finding Applications (XRPackages)</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/using-xrpackages">Using Applications (XRPackages)</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/user-guides/using-avatars">Using Avatars</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/creating-for-webaverse">Creating for the Webaverse</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Using Avatars</h1></header><article><div><span><p>Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a> (built on top of glTF binary files).</p>
+<p>Similar to <a href="/docs/user-guides/using-xrpackages">using XRPackages</a>, you can select pre-published Avatars from the <a href="https://xrpackage.org/edit.html">XRPackage edit page</a>.</p>
+<p>The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find and upload avatars for your use.</p>
+<p>You can <strong>wear</strong> <em>any</em> XRPackage to make it your avatar — it can be anything from a sword to a person, packaged into an XRPackage.</p>
+<p>Just like in the previous guide, selecting 'Packages' will let you choose an XRPK to <em>wear</em>:</p>
+<blockquote>
+<p><img src="/img/xrpackage-edit-miku-xrpk.png" alt="XRPackage list"></p>
+</blockquote>
+<p>Clicking 'Wear' will set your avatar to be this XRPackage.</p>
+<h2><a class="anchor" aria-hidden="true" id="view-modes"></a><a href="#view-modes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>View modes</h2>
+<p>Once you have an avatar, it's useful to experiment with the different view modes! At the top-right of the screen you will see the following control panel:</p>
+<blockquote>
+<p><img src="/img/xrpackage-edit-view-modes.png" alt="XRPackage View Modes"></p>
+</blockquote>
+<p>These toggle between the different view modes of the world, listed here in-order from left-to-right:</p>
+<ol>
+<li><strong>Camera Tool</strong>: drag around the world to move to different areas, and zoom in/out by scrolling up/down. Your arrow keys will also let you move the view around!</li>
+<li><strong>First Person</strong>: view the world from your avatar's view! You can use your keyboard's W, A, S, D keys to move around the world, and move your mouse to look around it!</li>
+<li><strong>Third Person</strong>: view the world as a 3rd person, looking at your avatar. The controls are the same as First Person mode.</li>
+<li><strong>Isometric Mode</strong>: view the world in isometric view, eliminating any shape distortions created by perspective.</li>
+<li><strong>Select Tool</strong>: select XRPackages in the world and manipulate them by altering their position, scale, and many more!</li>
+</ol>
+<p><strong>We've finished our crash course in using XRPackages! If this has inspired you to create your own applications for the Webaverse, continue on to learn <a href="/docs/user-guides/creating-for-webaverse">how to create for the Webaverse</a>!</strong></p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/22/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/user-guides/using-xrpackages"><span class="arrow-prev">← </span><span>Using Applications (XRPackages)</span></a><a class="docs-next button" href="/docs/user-guides/creating-for-webaverse"><span>Creating for the Webaverse</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#view-modes">View modes</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Webaverse Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/index.html">Home</a><a href="/docs/about.html">About</a><a href="/docs/getting-started.html">Getting Started</a><a href="https://github.com/webaverse/docs" target="_blank" rel="noreferrer noopener">Contribute</a></div><div><h5>Community</h5><a href="https://discord.gg/MQNUGgB" target="_blank" rel="noreferrer noopener">Discord Server</a><a href="https://glitch.com/@webaverse" target="_blank" rel="noreferrer noopener">Glitch Examples</a><a href="https://github.com/topics/webaverse" target="_blank" rel="noreferrer noopener">Github Topic</a><a href="https://twitter.com/search?q=webaverse" target="_blank" rel="noreferrer noopener">Twitter Discussion</a></div><div><h5>More</h5><a href="https://webaverse.com">Website</a><a href="https://github.com/webaverse/">GitHub</a><a href="https://twitter.com/webmixedreality/">Twitter</a><a href="https://discord.gg/MQNUGgB">Discord</a></div></section><section class="copyright">Copyright © 2020 Webaverse</section></footer></div></body></html>

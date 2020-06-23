@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Examples · Webaverse Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Before diving into creating your own XRPackages, it can be useful to see some examples and play around with the code!"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Examples · Webaverse Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.webaverse.com/"/><meta property="og:description" content="Before diving into creating your own XRPackages, it can be useful to see some examples and play around with the code!"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Webaverse Documentation"/><h2 class="headerTitleWithLogo">Webaverse Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/about" target="_self">What Is Webaverse?</a></li><li class=""><a href="/docs/getting-started" target="_self">Getting Started</a></li><li class=""><a href="/docs/other-projects" target="_self">Other Projects</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Developer Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Developer Guides</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/dev-guides/dev-overview">Developer Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/xrpackage-overview">XRPackage Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/creating-an-xrpk">Create Your First XRPackage</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/distributing-xrpackage">Distributing XRPackages</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/technical-notes">Technical Notes</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/dev-guides/examples">Examples</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Asset type guides</h4><ul><li class="navListItem"><a class="navItem" href="/docs/dev-guides/webxr-overview">WebXR Overview</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Examples</h1></header><article><div><span><p>Before diving into creating your own XRPackages, it can be useful to see some examples and play around with the code!</p>
+<p>This page aims to serve as a reference for community and official examples of WebXR and similar content to help get started!</p>
+<p>If you think something is missing from this documentation or list, please create an issue or submit a pull request <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">on GitHub</a>.</p>
+<p>Finally, you can reach out to the Webaverse community <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a> for guidance if you need.</p>
+<h2><a class="anchor" aria-hidden="true" id="glitch"></a><a href="#glitch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Glitch</h2>
+<p><a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> is a tool to create, edit, and share web apps.</p>
+<p>It's a code editor in your browser where you can run code that people share with you and 'remix' (like a GitHub fork) them in your own account.</p>
+<p>We've <a href="https://glitch.com/~xrpackage-creator" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> to play around with, which you can remix and experiment with!</p>
+<h2><a class="anchor" aria-hidden="true" id="awesome-xrpackage"></a><a href="#awesome-xrpackage" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>awesome-xrpackage</h2>
+<p>We have a curated list of XRPackages from the community and developers of XRPackage. You can find these <a href="https://github.com/webaverse/awesome-xrpackage" target="_blank" rel="noopener noreferrer">at GitHub</a>.</p>
+<p>We'll be regularly updating this -- if you have a contribution you want listed, we'd love a pull request!</p>
+<h2><a class="anchor" aria-hidden="true" id="project-files"></a><a href="#project-files" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project files</h2>
+<p>Some of the guides on this site use example projects compressed into a ZIP file. You can download them below:</p>
+<ul>
+<li><a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (three.js) project</a></li>
+<li><a href="https://github.com/MLH-Fellowship/aframe-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (A-Frame) project</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="templates"></a><a href="#templates" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Templates</h2>
+<p>We and the community have created some simple templates you can clone and start working off to make your own creations:</p>
+<ul>
+<li>See <a href="https://github.com/Zetaphor/webxr-template" target="_blank" rel="noopener noreferrer">webxr-template on GitHub</a> for a barebones WebXR scene with tracked controllers.</li>
+<li>See <a href="https://github.com/webaverse/xrpackage-threejs-template" target="_blank" rel="noopener noreferrer">xrpackage-threejs-template on GitHub</a> as an example of a full XRPackage repository, complete with <code>manifest.json</code> and a THREE.js WebXR scene!</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/22/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/dev-guides/technical-notes"><span class="arrow-prev">← </span><span>Technical Notes</span></a><a class="docs-next button" href="/docs/dev-guides/webxr-overview"><span class="function-name-prevnext">WebXR Overview</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#glitch">Glitch</a></li><li><a href="#awesome-xrpackage">awesome-xrpackage</a></li><li><a href="#project-files">Project files</a></li><li><a href="#templates">Templates</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Webaverse Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/index.html">Home</a><a href="/docs/about.html">About</a><a href="/docs/getting-started.html">Getting Started</a><a href="https://github.com/webaverse/docs" target="_blank" rel="noreferrer noopener">Contribute</a></div><div><h5>Community</h5><a href="https://discord.gg/MQNUGgB" target="_blank" rel="noreferrer noopener">Discord Server</a><a href="https://glitch.com/@webaverse" target="_blank" rel="noreferrer noopener">Glitch Examples</a><a href="https://github.com/topics/webaverse" target="_blank" rel="noreferrer noopener">Github Topic</a><a href="https://twitter.com/search?q=webaverse" target="_blank" rel="noreferrer noopener">Twitter Discussion</a></div><div><h5>More</h5><a href="https://webaverse.com">Website</a><a href="https://github.com/webaverse/">GitHub</a><a href="https://twitter.com/webmixedreality/">Twitter</a><a href="https://discord.gg/MQNUGgB">Discord</a></div></section><section class="copyright">Copyright © 2020 Webaverse</section></footer></div></body></html>
