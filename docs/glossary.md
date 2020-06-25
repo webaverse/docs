@@ -15,7 +15,7 @@ The Webaverse is a universe of spatial apps that can run everywhere. It is a col
 
 ### XRPackages
 
-[XRPackages (XRPKs)](./dev-guides/1-xrpackage-overview.md) are distributed 3D spatial web applications that can be loaded anywhere. XRPackages compile various asset types like WebXR and GTLF into modular, standardized Web Bundle pacakges (`.wbn` files) that enable virtual objects to interact with each other in the Webaverse.
+[XRPackages (XRPKs)](./dev-guides/1-xrpackage-overview.md) are distributed 3D spatial web 'applications' that can be loaded anywhere. XRPackages compile various asset types like WebXR and GTLF into modular, standardized Web Bundle pacakges (`.wbn` files) that enable virtual objects to interact with each other in the Webaverse.
 
 ### Tracked Controllers
 
@@ -32,3 +32,5 @@ Collision Meshes are invisible meshes containing an object, and are automaticall
 ### Skybox
 
 In 3D, a _skybox_ is a virtual cube with a texture (e.g. a sky, or a park, or mountains) that is the bounds of a virtual world. It essentially allows you to provide a background environment that the user sees all around them.
+
+In a multi-app case, care needs to be taken with skyboxes &mdash; if every app has its own skybox, they tend to obscure each other and 'take over'. This is why when developing your own [XRPKs](#xrpackages), you should usually have a _transparent skybox_!
