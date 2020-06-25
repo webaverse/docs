@@ -32,7 +32,7 @@ For the purposes of this guide, a barebones WebXR scene built with ThreeJS is av
 
 <a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">`Click here to download the project files`</a>
 
-You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
+You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's [skybox](../glossary.md#skybox) transparent so that it can be composited along other XRPKs and the base reality layer. Additionally, be mindful of bundle sizes: excessively large bundles will result in a delayed loading experience for users.
 
 If you're unfamiliar with WebXR, check out our [overview of WebXR](./6-webxr-overview.md)!
 

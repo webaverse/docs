@@ -14,3 +14,8 @@ blockquote {
   background-color: lightgray;
   border-left: 8px solid grey;
 }
+
+a[href*="#"] {
+  text-decoration: none;
+  border-bottom: 1.5px dotted black;
+}
