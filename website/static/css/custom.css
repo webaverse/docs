@@ -15,7 +15,7 @@ blockquote {
   border-left: 8px solid grey;
 }
 
-a[href*="#"] {
+a[href*="#"]:not(.onPageNav a) {
   text-decoration: none;
   border-bottom: 1.5px dotted black;
 }
