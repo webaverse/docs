@@ -22,7 +22,9 @@ The 'World' button at the bottom left will let you browse and select any existin
 Once you're in a world, there are two ways to load packages: from the registry, or uploading your own XRPackage `.wbn` file.
 
 - The 'Add package' button at the bottom lets you upload your own package, to import into the world
-- The 'Packages' button lets you browse through all the packages available, and add them to the world with one click!
+- The 'Packages' button lets you browse through all the packages available, and add them to the world with one click:
+
+> ![The 'XRPKs' panel on XRPackage.org/edit.html](/img/xrpackage-edit-xrpks.png)
 
 ## Saving worlds
 
