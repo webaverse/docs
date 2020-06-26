@@ -15,9 +15,11 @@ When the page loads, you will see a collection of packages:
 
 > ![XRPackage Browse page](/img/xrpackage-browse.png)
 
-You can download these packages with the appropriate buttons, or note the IDs so you can install and use them yourself!
+You can download these packages with the appropriate buttons so you can install and use them yourself!
 
-Clicking on one of the images will bring you to the 'inspect' page where you can freely play around with the object:
+Clicking on the 'Try' button will bring you to the 'edit' page where you can interactively interact with it in a world.
+
+Clicking on one of the animated GIFs will bring you to the 'inspect' page where you can inspect the package's manifest, files, and screenshots:
 
 > ![XRPackage 'chicken' inspection](/img/chicken-inspect.gif)
 
