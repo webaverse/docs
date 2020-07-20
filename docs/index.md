@@ -23,15 +23,15 @@ hide_title: true
 
 ## ❓ What is the Webaverse?
 
-<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "XR Packages" (XRPKs).
+<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "XRPackages" (XRPKs).
 
 See [`What Is Webaverse?`](about.md) for a more in-depth explanation, or read on to get started with using and developing XRPKs!
 
 See [`Getting Started`](getting-started.md) for detailed guides on how to get started, as a user or developer!
 
-## ❓ What Are XR Packages (XRPKs)?
+## ❓ What Are XRPackages (XRPKs)?
 
-XR Packages (XRPKs) are creative spatial apps that run everywhere. Unlike traditional 2D applications, XRPKs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. XRPKs are created and owned by users like you! Getting started with XRPKs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
+XRPackages (XRPKs) are creative spatial apps that run everywhere. Unlike traditional 2D applications, XRPKs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. XRPKs are created and owned by users like you! Getting started with XRPKs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
 
 ## ▶️ Start Using XRPKs
 

@@ -3,7 +3,7 @@ id: distributing-xrpackage
 title: Distributing XRPackages
 ---
 
-Once you've [bundled your application into an XR Package](./2-creating-an-xrpk.md), you can optionally publish it to the the IPFS/Ethereum network, so that it can easily be shared and consumed by Webaverse users. This guide explains how to distribute XRPackages by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting.
+Once you've [bundled your application into an XRPackage](./2-creating-an-xrpk.md), you can optionally publish it to the the IPFS/Ethereum network, so that it can easily be shared and consumed by Webaverse users. This guide explains how to distribute XRPackages by publishing them to the decentralized IPFS network. This allows our packages to be browsed from a central directory and removes the requirement of package hosting.
 
 <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">You can browse previously published packages here</a>.
 
