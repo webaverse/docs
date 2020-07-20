@@ -3,7 +3,7 @@ id: creating-an-xrpk
 title: Create Your First XRPackage
 ---
 
-This guide will walk you through the basic steps for creating an XR Package for use in the Webaverse ecosystem. The term "XRPK" stands for "XR Package", which can be thought of as an "application" or "widget" in the Webaverse. XR Packages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
+This guide will walk you through the basic steps for creating an XRPackage for use in the Webaverse ecosystem. The term "XRPK" stands for "XRPackage", which can be thought of as an "application" or "widget" in the Webaverse. XRPackages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
 
 XRPackage will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing WebXR scene.
 
