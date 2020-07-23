@@ -41,7 +41,15 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 ## `getScreenshotImage()`
 
+**Parameters**: None
+
+**Returns**: an <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image" target="_blank" rel="noopener noreferrer">`Image`</a> object with `src` set to the result of [`getScreenshotImageUrl()`](#getscreenshotimageurl), or `null` if no image is available.
+
 ## `getScreenshotImageUrl()`
+
+**Parameters**: None
+
+**Returns**: a <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMString" target="_blank" rel="noopener noreferrer">`DOMString`</a> for the first image in the manifest's `icons` array, or `null` if there is no manifest/icon.
 
 ## `getVolumeMesh`
 
