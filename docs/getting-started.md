@@ -22,6 +22,8 @@ Please have a look at the [Glossary](glossary.md) if you come across any terms y
 - [Technical Notes](./dev-guides/4-technical-notes.md)
 - [Examples](./dev-guides/5-examples.md)
 - [WebXR Overview](./dev-guides/6-webxr-overview.md)
+- [`XRPackage` API](./dev-guides/7-xrpackage-api.md)
+- [`XRPackageEngine` API](./dev-guides/8-xrpackage-engine-api.md)
 
 ## For Users
 

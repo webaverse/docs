@@ -7,6 +7,9 @@
       "dev-guides/distributing-xrpackage",
       "dev-guides/technical-notes",
       "dev-guides/examples",
+      "dev-guides/xrpackage-api",
+      "dev-guides/xrpackage-engine-api",
+      "dev-guides/examples",
       {
         "type": "subcategory",
         "label": "Asset type guides",
