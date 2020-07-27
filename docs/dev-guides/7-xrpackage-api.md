@@ -27,7 +27,11 @@ const p = await fetch("/a.wbn")
 
 ## `addFile`
 
-## `clone`
+## `clone()`
+
+**Parameters**: None
+
+**Returns**: an `XRPackage` instance duplicating the current XRPackage.
 
 ## `compileFromFile`
 
