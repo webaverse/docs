@@ -9,7 +9,19 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 **Note: This page is still in development, whilst the API is documented**.
 
-## `constructor`
+## `constructor(a)`
+
+**Parameters**: `a` can either be an `XRPackage` instance (to duplicate it), or a `Uint8Array` of data for a `.wbn` XRPackage.
+
+**Returns**: an `XRPackage` instance.
+
+**Example**:
+
+```js
+const p = await fetch("/a.wbn")
+  .then((res) => res.arrayBuffer())
+  .then((uint8Array) => new XRPackage(uint8Array));
+```
 
 ## `add`
 
