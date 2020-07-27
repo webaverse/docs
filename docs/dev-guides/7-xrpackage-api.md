@@ -106,7 +106,18 @@ Uploads the XRPackage to the IPFS directory and returns the IPFS hash of the pac
 
 **Returns**: `hash`, a string containing the IPFS hash of the newly uploaded package.
 
+## `async waitForLoad()`
 
-## `waitForLoad`
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves when the package has been parsed and it's loader completes successfully.
+
+**Example**:
+
+```js
+const p = new XRPackage(uint8Array);
+await p.waitForLoad();
+await packageEngine.add(p);
+```
 
 ## `waitForRun`
