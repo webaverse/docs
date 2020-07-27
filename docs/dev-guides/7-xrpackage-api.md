@@ -66,13 +66,20 @@ Downloads and returns an XRPackage object with the specified hash from IPFS.
 
 ## `getParentEngine`
 
-## `getScreenshotImage()`
+## `async getScreenshotImage()`
 
 **Parameters**: None
 
 **Returns**: an <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image" target="_blank" rel="noopener noreferrer">`Image`</a> object with `src` set to the result of [`getScreenshotImageUrl()`](#getscreenshotimageurl), or `null` if no image is available.
 
-## `getScreenshotImageUrl()`
+**Example**:
+
+```js
+const image = await p.getScreenshotImage();
+if (image) document.getElementById("image").appendChild(image);
+```
+
+## `async getScreenshotImageUrl()`
 
 **Parameters**: None
 
