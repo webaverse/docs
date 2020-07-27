@@ -52,7 +52,11 @@ Downloads and returns an XRPackage object with the specified hash from IPFS.
 
 ## `getMainData`
 
-## `getManifestJson`
+## `getManifestJson()`
+
+**Parameters**: None
+
+**Returns**: an object representing the package's root `manifest.json`, or `null` if the file is not found.
 
 ## `getModel`
 
