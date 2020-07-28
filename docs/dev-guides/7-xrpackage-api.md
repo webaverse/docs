@@ -53,6 +53,10 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 ## `getVolumeMesh`
 
+**Parameters**: None
+
+**Returns**: An `Object` containing metadata and positional geometry data for the package if a volume mesh exists, or `null` if a volume mesh does not exist.
+
 ## `grabrelease`
 
 ## `isAttached`

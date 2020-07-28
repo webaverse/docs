@@ -93,4 +93,10 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 ## `wearAvatar`
 
+**Parameters**: `p`, an `XRPackage` object
+
+**Returns**: None
+
+
+
 
