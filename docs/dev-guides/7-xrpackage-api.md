@@ -53,6 +53,33 @@ await packageEngine.add(p);
 
 ## `compileRaw(files)`
 
+**Parameters**: `files` is an array of objects with keys `url`, `type`, `data` for the path, MIME type, and body (string or `Uint8Array`) of each file in the XRPackage to be compiled.
+
+**Returns**: A `Uint8Array` representing the `XRPackage` for the files passed in.
+
+**Example**:
+
+```js
+const uint8Array = XRPackage.compileRaw([
+  {
+    url: "/manifest.json",
+    type: "application/json",
+    data: JSON.stringify({
+      xr_type: "webxr-site@0.0.1",
+      start_url: "index.html",
+    }),
+  },
+  {
+    url: "/index.html",
+    type: "text/html",
+    data: "<html>...</html>",
+  },
+]);
+const p = new XRPackage(uint8Array);
+await p.waitForLoad();
+await packageEngine.add(p);
+```
+
 ## `download`
 
 Downloads and returns an XRPackage object with the specified hash from IPFS.
