@@ -55,7 +55,7 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 **Parameters**: None
 
-**Returns**: An `Object` containing metadata and positional geometry data for the package if a volume mesh exists, or `null` if a volume mesh does not exist.
+**Returns**: An <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" target="_blank" rel="noopener noreferrer">`Object`</a> containing metadata and geometry data for the package if a volume mesh exists, or `null` if a volume mesh does not exist.
 
 ## `grabrelease`
 
