@@ -126,7 +126,7 @@ if (image) document.getElementById("image").appendChild(image);
 
 **Parameters**: None
 
-**Returns**: a <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMString" target="_blank" rel="noopener noreferrer">`DOMString`</a> for the first image in the manifest's `icons` array, or `null` if there is no manifest/icon.
+**Returns**: an <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL" target="_blank" rel="noopener noreferrer">Object URL</a> for the first image in the manifest's `icons` array, or `null` if there is no manifest/icon.
 
 ## `getVolumeMesh`
 
