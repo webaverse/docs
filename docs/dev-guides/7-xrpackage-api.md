@@ -33,9 +33,25 @@ const p = await fetch("/a.wbn")
 
 **Returns**: an `XRPackage` instance duplicating the current XRPackage.
 
-## `compileFromFile`
+## `async compileFromFile(blob)`
 
-## `compileRaw`
+**Parameters**: `blob` is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob" target="_blank" rel="noopener noreferrer">`Blob`</a> object representing the asset that is to be compiled into an `XRPackage`.
+
+**Returns**: A `Uint8Array` representing the `XRPackage` for the asset in `blob`.
+
+**Example**:
+
+```js
+const path = "/camera.glb";
+const blob = await fetch(path).then((res) => res.blob());
+blob.name = path.split("/").pop();
+const uint8Array = await XRPackage.compileFromFile(blob);
+const p = new XRPackage(uint8Array);
+await p.waitForLoad();
+await packageEngine.add(p);
+```
+
+## `compileRaw(files)`
 
 ## `download`
 
