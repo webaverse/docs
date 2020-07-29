@@ -25,7 +25,30 @@ const p = await fetch("/a.wbn")
 
 ## `add`
 
-## `addFile`
+## `addFile(pathname, data, type)`
+
+_Adds a file to the XRPackage._
+
+**Parameters**:
+
+- `pathname` is the path for the file to add
+- `data` is a string or `Uint8Array` representing the file to add
+- `type` is the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types" target="_blank" rel="noopener noreferrer">MIME type</a> for the file to add
+
+**Returns**: Nothing
+
+**Example**:
+
+```js
+const uint8Array = await fetch("/avatar.vrm").then((res) => res.arrayBuffer());
+const xrpk = new XRPackage();
+xrpk.addFile(
+  "manifest.json",
+  JSON.stringify({ start_url: "avatar.vrm", xr_type: "vrm@0.0.1" }),
+  "application/json"
+);
+xrpk.addFile("avatar.vrm", uint8Array, "application/octet-stream");
+```
 
 ## `clone()`
 
