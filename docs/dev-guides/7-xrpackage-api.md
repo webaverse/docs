@@ -169,7 +169,13 @@ Retrieve the collision mesh of the XRPackage if it exists.
 
 ## `remove`
 
-## `removeFile`
+## `removeFile(pathname)`
+
+_Removes a file from the XRPackage._
+
+**Parameters**: `pathname` is the path of the file to remove from the package.
+
+**Returns**: Nothing
 
 ## `setMatrix`
 
