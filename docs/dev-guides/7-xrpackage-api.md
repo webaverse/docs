@@ -64,8 +64,7 @@ Retrieve the collision mesh of the XRPackage if it exists.
 
 **Parameters**: None
 
-**Returns**: A <a href="https://threejs.org/docs/#api/en/scenes/Scene" target="_blank" rel="noopener noreferrer">`Scene`</a> object in JSON format with metadata for the package if a volume mesh exists, or `null` if a volume mesh does not exist. See <a href="https://github.com/mrdoob/three.js/wiki/JSON-Object-Scene-format-4" target="_blank" rel="noopener noreferrer">`JSON Object Scene Format`</a> and <a href="https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js" target="_blank" rel="noopener noreferrer">`Scene.js`</a> for more information.
-
+**Returns**: A <a href="https://threejs.org/docs/#api/en/scenes/Scene" target="_blank" rel="noopener noreferrer">`Scene`</a> object for the package volume mesh if it exists, or `null` if a volume mesh does not exist.
 
 ## `grabrelease`
 
