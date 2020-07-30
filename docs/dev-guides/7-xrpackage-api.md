@@ -23,6 +23,13 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 ## `download`
 
+Downloads and returns an XRPackage object with the specified hash from IPFS.
+
+**Parameters**: `hash`, a string of the IPFS package hash to be downloaded.
+
+**Returns**: `p`. an `XRPackage` object
+
+
 ## `ensureRunStop`
 
 ## `export`
@@ -53,6 +60,12 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 ## `getVolumeMesh`
 
+Retrieve the collision mesh of the XRPackage if it exists.
+
+**Parameters**: None
+
+**Returns**: A <a href="https://threejs.org/docs/#api/en/scenes/Scene" target="_blank" rel="noopener noreferrer">`Scene`</a> object for the package volume mesh if it exists, or `null` if a volume mesh does not exist.
+
 ## `grabrelease`
 
 ## `isAttached`
@@ -74,6 +87,13 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 ## `setXrFramebuffer`
 
 ## `upload`
+
+Uploads the XRPackage to the IPFS directory and returns the IPFS hash of the package.
+
+**Parameters**: None
+
+**Returns**: `hash`, a string containing the IPFS hash of the newly uploaded package.
+
 
 ## `waitForLoad`
 
