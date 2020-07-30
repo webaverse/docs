@@ -114,7 +114,11 @@ Downloads and returns an XRPackage object with the specified hash from IPFS.
 
 ## `ensureRunStop`
 
-## `export`
+## `export()`
+
+**Parameters**: None
+
+**Returns**: a `Uint8Array` representing the XRPackage's data.
 
 ## `getAabb`
 
