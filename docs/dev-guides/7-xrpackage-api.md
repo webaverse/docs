@@ -109,14 +109,13 @@ await p.waitForLoad();
 await packageEngine.add(p);
 ```
 
-## `download`
+## `async download(hash)`
 
-Downloads and returns an XRPackage object with the specified hash from IPFS.
+_Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Parameters**: `hash`, a string of the IPFS package hash to be downloaded.
 
 **Returns**: `p`. an `XRPackage` object
-
 
 ## `ensureRunStop`
 
@@ -161,9 +160,9 @@ if (image) document.getElementById("image").appendChild(image);
 
 **Returns**: an <a href="https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL" target="_blank" rel="noopener noreferrer">Object URL</a> for the first image in the manifest's `icons` array, or `null` if there is no manifest/icon.
 
-## `getVolumeMesh`
+## `async getVolumeMesh()`
 
-Retrieve the collision mesh of the XRPackage if it exists.
+_Retrieve the collision mesh of the XRPackage if it exists._
 
 **Parameters**: None
 
@@ -195,9 +194,9 @@ _Removes a file from the XRPackage._
 
 ## `setXrFramebuffer`
 
-## `upload`
+## `async upload()`
 
-Uploads the XRPackage to the IPFS directory and returns the IPFS hash of the package.
+_Uploads the XRPackage to the IPFS directory and returns the IPFS hash of the package._
 
 **Parameters**: None
 
