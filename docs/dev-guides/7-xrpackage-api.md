@@ -15,6 +15,12 @@ The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engi
 
 **Returns**: an `XRPackage` instance.
 
+**Throws**: an `Error` if `a.byteLength > 0` and either:
+
+- no `manifest.json` was found in the package,
+- no `xr_type` or `start_url` is find in the manifest,
+- an unknown `xr_type` was provided
+
 **Example**:
 
 ```js
