@@ -33,7 +33,11 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 ## `equip`
 
-## `exportScene`
+## `async exportScene()`
+
+**Parameters**: None
+
+**Returns**: A `Uint8Array` representing the `.wbn` bundle for the current scene.
 
 ## `getContext`
 
