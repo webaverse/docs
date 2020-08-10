@@ -14,7 +14,7 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 **Parameters**: `options` is an optional Object, where all the following keys are also optional:
 
 | Key                | Default                   | Description                                       |
-|--------------------|---------------------------|---------------------------------------------------|
+| ------------------ | ------------------------- | ------------------------------------------------- |
 | `width`            | `window.innerWidth`       | The width of the renderer                         |
 | `height`           | `window.innerHeight`      | The height of the renderer                        |
 | `devicePixelRatio` | `window.devicePixelRatio` | The pixel ratio of the renderer                   |
@@ -63,7 +63,13 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 ## `render`
 
-## `reset`
+## `reset()`
+
+_Removes all the children of the XRPackageEngine instance._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `resize`
 
