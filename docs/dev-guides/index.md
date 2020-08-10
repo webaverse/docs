@@ -5,7 +5,7 @@ title: Developer Overview
 
 We're thrilled to have you on board with making the Webaverse a more exciting place for users around the world!
 
-The Webaverse runs on applications that you can write, package and distribute. These packages are called XRPackages (XRPKs).
+The Webaverse runs on applications that you can write, package and distribute. These applications (apps) are called XRPackages (XRPKs).
 
 Follow the guides on the left to get started! A few points to begin with:
 
@@ -32,12 +32,13 @@ Webaverse can package existing WebXR sites written using THREE.js, A-Frame, Baby
 
 For more information on packaging an XRPK from an existing WebXR site, see the [`Create Your First XRPackage`](./2-creating-an-xrpk.md) guide to get started.
 
-In addition, Webaverse supports traditional 3D models. Any content creation platform that can export to one of the following formats can be easily packaged and brought into the Webaverse.
+In addition, Webaverse supports traditional 3D models. Any content creation platform that can export to one of the above formats can be easily packaged and brought into the Webaverse.
 
-To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms
+To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms.
 
 **I want to package my creations from...** (**_coming soon!_**)
 
+- [Blender](./9-blender-import.md)
 - [~~Tiltbrush~~](index.md)
 - [~~SculptVR~~](index.md)
 - [~~Oculus Medium~~](index.md)
