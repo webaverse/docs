@@ -107,7 +107,11 @@ _Removes all the children of the XRPackageEngine instance._
 
 ## `uploadScene`
 
-## `waitForLoad`
+## `waitForLoad()`
+
+**Parameters**: None
+
+**Returns**: A Promise that resolves when the `XRPackageInstance` is initialised and the service worker has been registered successfully.
 
 ## `wearAvatar`
 
