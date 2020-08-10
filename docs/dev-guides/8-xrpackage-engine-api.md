@@ -105,7 +105,15 @@ _Removes all the children of the XRPackageEngine instance._
 
 ## `updateMatrixWorld`
 
-## `uploadScene`
+## `async uploadScene()`
+
+_Uploads the current scene to the Webaverse IPFS backend._
+
+**Parameters**: None
+
+**Returns**: a string that is the IPFS hash of the uploaded scene.
+
+**Throws**: an `Error` if there is an error uploading the scene (i.e. if the network request does not return a 200 status).
 
 ## `waitForLoad()`
 
