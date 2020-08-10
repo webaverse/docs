@@ -14,7 +14,8 @@
         "type": "subcategory",
         "label": "Asset type guides",
         "ids": [
-          "dev-guides/webxr-overview"
+          "dev-guides/webxr-overview",
+          "dev-guides/importing-from-blender"
         ]
       }
     ]
