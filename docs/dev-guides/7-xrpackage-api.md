@@ -131,7 +131,11 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: `null` if this package's manifest is missing/invalid/has no `aabb` property, or the `THREE.Box3` representing this package's AABB Box.
 
-## `getHash`
+## `async getHash()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves to the hash of this package's data.
 
 ## `getMainData`
 
