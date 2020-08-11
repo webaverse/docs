@@ -187,7 +187,13 @@ const mediaStream = await navigator.mediaDevices.getUserMedia({
 pe.setMicrophoneMediaStream(mediaStream);
 ```
 
-## `setRigMatrix`
+## `setRigMatrix(rigMatrix)`
+
+_Sets the rig matrix (the offset of the user's avatar from the scene's camera, useful for implementing third-person view modes)._
+
+**Parameters**: the `rigMatrix` to set. If this is falsy, the rig matrix is disabled.
+
+**Returns**: Nothing
 
 ## `setScale(scale)`
 
