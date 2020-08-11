@@ -139,7 +139,13 @@ _Resizes this XRPackageEngine instance._
 
 ## `setClearFreeFramebuffer`
 
-## `setEnv`
+## `setEnv(key, value)`
+
+_Sets a single key-value environment pair._
+
+**Parameters**: a `key` and `value` to be associated with that `key`.
+
+**Returns**: Nothing
 
 ## `setGamepadsConnected(connected)`
 
