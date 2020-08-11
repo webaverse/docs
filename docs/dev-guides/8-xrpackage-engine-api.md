@@ -171,7 +171,21 @@ _Sets the matrix for this `XRPackageEngine` and sets all the children to need th
 
 **Returns**: Nothing
 
-## `setMicrophoneMediaStream`
+## `setMicrophoneMediaStream(mediaStream)`
+
+**Parameters**: `mediaStream` is the media stream to set for this `XRPackageEngine`.
+
+**Returns**: Nothing
+
+**Example**:
+
+```js
+const pe = new XRPackageEngine();
+const mediaStream = await navigator.mediaDevices.getUserMedia({
+  audio: true,
+});
+pe.setMicrophoneMediaStream(mediaStream);
+```
 
 ## `setRigMatrix`
 
