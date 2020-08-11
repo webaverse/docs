@@ -38,7 +38,13 @@ _Adds an `XRPackage` to the engine, and blocks until it is loaded._
 
 ## `dispatchXrEvent`
 
-## `downloadScene`
+## `async downloadScene(hash)`
+
+_Downloads & imports an arbitrary scene from IPFS into the Engine._
+
+**Parameters**: `hash` is the IPFS hash of the scene to be downloaded
+
+**Returns**: a `Promise` that resolves when the scene is downloaded and imported successfully, or rejects when there is a non-200 response when downloading or the downloaded scene is invalid.
 
 ## `draw`
 
