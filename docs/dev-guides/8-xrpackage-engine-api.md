@@ -48,7 +48,7 @@ _Adds an `XRPackage` to the engine, and blocks until it is loaded._
 
 **Parameters**: None
 
-**Returns**: A `Uint8Array` representing the `.wbn` bundle for the current scene.
+**Returns**: a `Promise` that resolves with a `Uint8Array` representing the `.wbn` bundle for the current scene.
 
 ## `getContext`
 
@@ -126,7 +126,7 @@ _Uploads the current scene to the Webaverse IPFS backend._
 
 **Parameters**: None
 
-**Returns**: a string that is the IPFS hash of the uploaded scene.
+**Returns**: a `Promise` that resolves with a string which is the IPFS hash of the uploaded scene.
 
 **Throws**: an `Error` if there is an error uploading the scene (i.e. if the network request does not return a 200 status).
 
@@ -134,7 +134,7 @@ _Uploads the current scene to the Webaverse IPFS backend._
 
 **Parameters**: None
 
-**Returns**: A Promise that resolves when the `XRPackageInstance` is initialised and the service worker has been registered successfully.
+**Returns**: a Promise that resolves when the `XRPackageInstance` is initialised and the service worker has been registered successfully.
 
 ## `wearAvatar`
 
