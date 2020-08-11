@@ -78,7 +78,13 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 ## `grabuse`
 
-## `importScene`
+## `async importScene(uint8Array)`
+
+_Imports a scene into the current `XRPackageEngine`._
+
+**Parameters**: `uint8Array` is a `Uint8Array` representing an XRPackage `.wbn` file
+
+**Returns**: a `Promise` that resolves when the package is loaded and added to this `XRPackageEngine` instance, and rejects if the `XRPackage` to be added is not an `xrpackage-scene@0.0.1`.
 
 ## `listen`
 
