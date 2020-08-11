@@ -137,7 +137,11 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: a `Promise` that resolves to the hash of this package's data.
 
-## `getMainData`
+## `getMainData()`
+
+**Parameters**: None
+
+**Returns**: the body of the contents of the `start_url` file of this package.
 
 ## `getManifestJson()`
 
