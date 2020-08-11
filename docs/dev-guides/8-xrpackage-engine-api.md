@@ -203,7 +203,13 @@ _Sets the rig matrix (the offset of the user's avatar from the scene's camera, u
 
 ## `setSession`
 
-## `setXrFramebuffer`
+## `setXrFramebuffer(xrfb)`
+
+_Sets the XR Framebuffer for the engine's iframe._
+
+**Parameters**: `xrfb`, the framebuffer to be set.
+
+**Returns**: Nothing
 
 ## `start`
 
