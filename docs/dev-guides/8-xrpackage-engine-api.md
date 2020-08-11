@@ -111,7 +111,19 @@ _Removes all the children of the XRPackageEngine instance._
 
 **Returns**: Nothing
 
-## `resize`
+## `resize(width, height, devicePixelRatio)`
+
+_Resizes this XRPackageEngine instance._
+
+**Parameters**: all parameters are optional, with defaults as follows:
+
+| Key                | Default                         | Description                         |
+| ------------------ | ------------------------------- | ----------------------------------- |
+| `width`            | `this.options.width`            | The new width of the renderer       |
+| `height`           | `this.options.height`           | The new height of the renderer      |
+| `devicePixelRatio` | `this.options.devicePixelRatio` | The new pixel ratio of the renderer |
+
+**Returns**: Nothing |
 
 ## `setCamera(camera)`
 
