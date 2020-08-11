@@ -149,7 +149,11 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: an object representing the package's root `manifest.json`, or `null` if the file is not found.
 
-## `getModel`
+## `async getModel()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves to `null` if there is no model defined in this package's manifest, otherwise the parsed model for this package.
 
 ## `getParentEngine()`
 
