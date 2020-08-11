@@ -23,6 +23,17 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 **Returns**: an `XRPackageEngine` instance.
 
+## `async add(p, reason)`
+
+_Adds an `XRPackage` to the engine, and blocks until it is loaded._
+
+**Parameters**:
+
+- `p`: the `XRPackage` object to add
+- `reason`: an optional string describing the reason for adding the package
+
+**Returns**: a `Promise` that resolves when the package is fully loaded.
+
 ## `defaultAvatar`
 
 ## `dispatchXrEvent`
