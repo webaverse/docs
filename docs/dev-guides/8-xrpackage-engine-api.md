@@ -163,7 +163,13 @@ _Sets a single key-value environment pair._
 
 **Returns**: Nothing
 
-## `setMatrix`
+## `setMatrix(m)`
+
+_Sets the matrix for this `XRPackageEngine` and sets all the children to need their matrix world updating._
+
+**Parameters**: `m` is the matrix to set.
+
+**Returns**: Nothing
 
 ## `setMicrophoneMediaStream`
 
