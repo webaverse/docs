@@ -221,7 +221,13 @@ _Sets the XR Framebuffer for the engine's iframe._
 
 ## `tick`
 
-## `updateMatrixWorld`
+## `updateMatrixWorld()`
+
+_Updates the matrix world for all the children of this `XRPackageEngine`, if necessary._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `async uploadScene()`
 
