@@ -125,7 +125,11 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: a `Uint8Array` representing the XRPackage's data.
 
-## `getAabb`
+## `getAabb()`
+
+**Parameters**: None
+
+**Returns**: `null` if this package's manifest is missing/invalid/has no `aabb` property, or the `THREE.Box3` representing this package's AABB Box.
 
 ## `getHash`
 
