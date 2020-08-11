@@ -190,7 +190,11 @@ _Retrieve the collision mesh of the XRPackage if it exists._
 
 ## `grabrelease`
 
-## `isAttached`
+## `isAttached()`
+
+**Parameters**: None
+
+**Returns**: a `Boolean` representing whether the current package is attached to an `XRPackageEngine` instance.
 
 ## `load`
 
