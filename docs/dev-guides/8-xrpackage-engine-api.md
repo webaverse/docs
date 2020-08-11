@@ -125,7 +125,11 @@ _Removes all the children of the XRPackageEngine instance._
 
 ## `setRigMatrix`
 
-## `setScale`
+## `setScale(scale)`
+
+**Parameters**: `scale` is the numeric scale to set for the Engine.
+
+**Returns**: Nothing
 
 ## `setSession`
 
