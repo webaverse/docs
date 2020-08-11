@@ -117,7 +117,11 @@ _Removes all the children of the XRPackageEngine instance._
 
 ## `setEnv`
 
-## `setGamepadsConnected`
+## `setGamepadsConnected(connected)`
+
+**Parameters**: `connected` is a `Boolean` representing whether the gamepads are now connected.
+
+**Returns**: Nothing
 
 ## `setMatrix`
 
