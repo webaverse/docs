@@ -64,7 +64,11 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 ## `getContext`
 
-## `getEnv`
+## `getEnv(key)`
+
+**Parameters**: the `key` for which you want to get the corresponding `value`.
+
+**Returns**: the corresponding `value` for the given `key`.
 
 ## `getProxySession`
 
