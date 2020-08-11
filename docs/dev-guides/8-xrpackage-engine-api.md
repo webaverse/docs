@@ -107,7 +107,11 @@ _Removes all the children of the XRPackageEngine instance._
 
 ## `resize`
 
-## `setCamera`
+## `setCamera(camera)`
+
+**Parameters**: `camera` is the camera to set for the Engine (e.g. a `Three.PerspectiveCamera`)
+
+**Returns**: Nothing
 
 ## `setClearFreeFramebuffer`
 
