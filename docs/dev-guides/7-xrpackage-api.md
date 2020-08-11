@@ -240,4 +240,8 @@ await p.waitForLoad();
 await packageEngine.add(p);
 ```
 
-## `waitForRun`
+## `async waitForRun()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves once this package is attached to an `XRPackageEngine` instance.
