@@ -90,7 +90,13 @@ _Imports a scene into the current `XRPackageEngine`._
 
 **Returns**: a `Promise` that resolves when the package is loaded and added to this `XRPackageEngine` instance, and rejects if the `XRPackage` to be added is not an `xrpackage-scene@0.0.1`.
 
-## `listen`
+## `listen()`
+
+_Attaches a `resize` event listener to automatically respond to resize events._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `packageCancelAnimationFrame`
 
