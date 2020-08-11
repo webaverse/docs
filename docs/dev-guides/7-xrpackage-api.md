@@ -151,7 +151,11 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 ## `getModel`
 
-## `getParentEngine`
+## `getParentEngine()`
+
+**Parameters**: None
+
+**Returns**: `null` if there is no parent `XRPackageEngine`, or the `XRPackageEngine` instance for this package.
 
 ## `async getScreenshotImage()`
 
