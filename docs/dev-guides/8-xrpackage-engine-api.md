@@ -212,7 +212,11 @@ _Sets the rig matrix (the offset of the user's avatar from the scene's camera, u
 
 **Returns**: Nothing
 
-## `setSession`
+## `async setSession(realSession)`
+
+**Parameters**: `realSession` is the <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSession" target="_blank" rel="noopener noreferrer">`XRSession`</a> to set for this `XRPackageEngine` instance.
+
+**Returns**: a `Promise` that resolves when the session has been successfully set.
 
 ## `setXrFramebuffer(xrfb)`
 
