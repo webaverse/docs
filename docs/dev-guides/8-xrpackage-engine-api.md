@@ -42,7 +42,18 @@ _Sets the avatar of this XRPackageEngine to the default avatar, with fingers and
 
 **Returns**: Nothing
 
-## `dispatchXrEvent`
+## `dispatchXrEvent(p, type, data, onresponse)`
+
+_Sends an XR event message to all the children in this `XRPackageEngine` instance._
+
+**Parameters**:
+
+- `p` is an `XRPackage` that is sending the event
+- `type` is the type of message
+- `data` is the data to send
+- `onresponse` is a function that is called with the parameter `response` when the event is handled
+
+**Returns**: Nothing
 
 ## `async downloadScene(hash)`
 
