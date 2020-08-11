@@ -82,6 +82,19 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 ## `packageRequestPresent`
 
+## `remove(p, reason)`
+
+_Removes an XRPackage from the Engine._
+
+**Parameters**:
+
+- `p` is the `XRPackage` to remove
+- `reason` is an optional string describing why the package is being removed
+
+**Returns**: Nothing
+
+**Throws** an `Error` if the given `p` is not a child of this `XRPackageEngine` instance.
+
 ## `render`
 
 ## `reset()`
