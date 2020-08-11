@@ -34,7 +34,13 @@ _Adds an `XRPackage` to the engine, and blocks until it is loaded._
 
 **Returns**: a `Promise` that resolves when the package is fully loaded.
 
-## `defaultAvatar`
+## `defaultAvatar()`
+
+_Sets the avatar of this XRPackageEngine to the default avatar, with fingers and hair, in debug mode._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `dispatchXrEvent`
 
