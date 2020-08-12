@@ -83,8 +83,6 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 ## `getProxySession`
 
-## `getUserMedia`
-
 ## `grabdown`
 
 ## `grabtriggerdown`
@@ -109,11 +107,7 @@ _Attaches a `resize` event listener to automatically respond to resize events._
 
 **Returns**: Nothing
 
-## `packageCancelAnimationFrame`
-
 ## `packageRequestAnimationFrame`
-
-## `packageRequestPresent`
 
 ## `remove(p, reason)`
 
@@ -225,14 +219,6 @@ _Sets the XR Framebuffer for the engine's iframe._
 **Parameters**: `xrfb`, the framebuffer to be set.
 
 **Returns**: Nothing
-
-## `start`
-
-## `tick`
-
-## `updateMatrixWorld`
-
-## `start`
 
 ## `tick`
 
