@@ -20,7 +20,8 @@
         "label": "Asset type guides",
         "ids": [
           "dev-guides/webxr-overview",
-          "dev-guides/importing-from-blender"
+          "dev-guides/importing-from-blender",
+          "dev-guides/importing-from-vroid-studio"
         ]
       }
     ],

@@ -39,6 +39,7 @@ To get you started we've written some guides that document the process of export
 **I want to package my creations from...** (**_coming soon!_**)
 
 - [Blender](./10-blender-import.md)
+- [VRoid Studio](./11-vroid-studio-import.md)
 - [~~Tiltbrush~~](index.md)
 - [~~SculptVR~~](index.md)
 - [~~Oculus Medium~~](index.md)
