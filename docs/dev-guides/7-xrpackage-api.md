@@ -196,8 +196,6 @@ _Retrieve the collision mesh of the XRPackage if it exists._
 
 **Returns**: a `Boolean` representing whether the current package is attached to an `XRPackageEngine` instance.
 
-## `load`
-
 ## `loadAvatar`
 
 ## `remove`
@@ -215,8 +213,6 @@ _Removes a file from the XRPackage._
 ## `setPose`
 
 ## `setSchema`
-
-## `setXrFramebuffer`
 
 ## `async upload()`
 
