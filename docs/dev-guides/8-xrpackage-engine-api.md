@@ -9,27 +9,79 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 **Note: This page is still in development, whilst the API is documented**.
 
-## `constructor`
+## `constructor(options)`
 
-## `defaultAvatar`
+**Parameters**: `options` is an optional Object, where all the following keys are also optional:
 
-## `dispatchXrEvent`
+| Key                | Default                   | Description                                       |
+| ------------------ | ------------------------- | ------------------------------------------------- |
+| `width`            | `window.innerWidth`       | The width of the renderer                         |
+| `height`           | `window.innerHeight`      | The height of the renderer                        |
+| `devicePixelRatio` | `window.devicePixelRatio` | The pixel ratio of the renderer                   |
+| `autoStart`        | `true`                    | Whether to auto start the XR Session              |
+| `autoListen`       | `true`                    | Whether to automatically listen to window resizes |
 
-## `downloadScene`
+**Returns**: an `XRPackageEngine` instance.
+
+## `async add(p, reason)`
+
+_Adds an `XRPackage` to the engine, and blocks until it is loaded._
+
+**Parameters**:
+
+- `p`: the `XRPackage` object to add
+- `reason`: an optional string describing the reason for adding the package
+
+**Returns**: a `Promise` that resolves when the package is fully loaded.
+
+## `defaultAvatar()`
+
+_Sets the avatar of this XRPackageEngine to the default avatar, with fingers and hair, in debug mode._
+
+**Parameters**: None
+
+**Returns**: Nothing
+
+## `dispatchXrEvent(p, type, data, onresponse)`
+
+_Sends an XR event message to all the children in this `XRPackageEngine` instance._
+
+**Parameters**:
+
+- `p` is an `XRPackage` that is sending the event
+- `type` is the type of message
+- `data` is the data to send
+- `onresponse` is a function that is called with the parameter `response` when the event is handled
+
+**Returns**: Nothing
+
+## `async downloadScene(hash)`
+
+_Downloads & imports an arbitrary scene from IPFS into the Engine._
+
+**Parameters**: `hash` is the IPFS hash of the scene to be downloaded
+
+**Returns**: a `Promise` that resolves when the scene is downloaded and imported successfully, or rejects when there is a non-200 response when downloading or the downloaded scene is invalid.
 
 ## `draw`
 
 ## `equip`
 
-## `exportScene`
+## `async exportScene()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves with a `Uint8Array` representing the `.wbn` bundle for the current scene.
 
 ## `getContext`
 
-## `getEnv`
+## `getEnv(key)`
+
+**Parameters**: the `key` for which you want to get the corresponding `value`.
+
+**Returns**: the corresponding `value` for the given `key`.
 
 ## `getProxySession`
-
-## `getUserMedia`
 
 ## `grabdown`
 
@@ -39,57 +91,160 @@ The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md
 
 ## `grabuse`
 
-## `importScene`
+## `async importScene(uint8Array)`
 
-## `listen`
+_Imports a scene into the current `XRPackageEngine`._
 
-## `packageCancelAnimationFrame`
+**Parameters**: `uint8Array` is a `Uint8Array` representing an XRPackage `.wbn` file
+
+**Returns**: a `Promise` that resolves when the package is loaded and added to this `XRPackageEngine` instance, and rejects if the `XRPackage` to be added is not an `xrpackage-scene@0.0.1`.
+
+## `listen()`
+
+_Attaches a `resize` event listener to automatically respond to resize events._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `packageRequestAnimationFrame`
 
-## `packageRequestPresent`
+## `remove(p, reason)`
+
+_Removes an XRPackage from the Engine._
+
+**Parameters**:
+
+- `p` is the `XRPackage` to remove
+- `reason` is an optional string describing why the package is being removed
+
+**Returns**: Nothing
+
+**Throws** an `Error` if the given `p` is not a child of this `XRPackageEngine` instance.
 
 ## `render`
 
-## `reset`
+## `reset()`
 
-## `resize`
+_Removes all the children of the XRPackageEngine instance._
 
-## `setCamera`
+**Parameters**: None
+
+**Returns**: Nothing
+
+## `resize(width, height, devicePixelRatio)`
+
+_Resizes this XRPackageEngine instance._
+
+**Parameters**: all parameters are optional, with defaults as follows:
+
+| Key                | Default                         | Description                         |
+| ------------------ | ------------------------------- | ----------------------------------- |
+| `width`            | `this.options.width`            | The new width of the renderer       |
+| `height`           | `this.options.height`           | The new height of the renderer      |
+| `devicePixelRatio` | `this.options.devicePixelRatio` | The new pixel ratio of the renderer |
+
+**Returns**: Nothing |
+
+## `setCamera(camera)`
+
+**Parameters**: `camera` is the camera to set for the Engine (e.g. a `Three.PerspectiveCamera`)
+
+**Returns**: Nothing
 
 ## `setClearFreeFramebuffer`
 
-## `setEnv`
+## `setEnv(key, value)`
 
-## `setGamepadsConnected`
+_Sets a single key-value environment pair._
 
-## `setMatrix`
+**Parameters**: a `key` and `value` to be associated with that `key`.
 
-## `setMicrophoneMediaStream`
+**Returns**: Nothing
 
-## `setRigMatrix`
+## `setGamepadsConnected(connected)`
 
-## `setScale`
+**Parameters**: `connected` is a `Boolean` representing whether the gamepads are now connected.
 
-## `setSession`
+**Returns**: Nothing
 
-## `setXrFramebuffer`
+## `setMatrix(m)`
 
-## `start`
+_Sets the matrix for this `XRPackageEngine` and sets all the children to need their matrix world updating._
+
+**Parameters**: `m` is the matrix to set.
+
+**Returns**: Nothing
+
+## `setMicrophoneMediaStream(mediaStream)`
+
+**Parameters**: `mediaStream` is the media stream to set for this `XRPackageEngine`.
+
+**Returns**: Nothing
+
+**Example**:
+
+```js
+const pe = new XRPackageEngine();
+const mediaStream = await navigator.mediaDevices.getUserMedia({
+  audio: true,
+});
+pe.setMicrophoneMediaStream(mediaStream);
+```
+
+## `setRigMatrix(rigMatrix)`
+
+_Sets the rig matrix (the offset of the user's avatar from the scene's camera, useful for implementing third-person view modes)._
+
+**Parameters**: the `rigMatrix` to set. If this is falsy, the rig matrix is disabled.
+
+**Returns**: Nothing
+
+## `setScale(scale)`
+
+**Parameters**: `scale` is the numeric scale to set for the Engine.
+
+**Returns**: Nothing
+
+## `async setSession(realSession)`
+
+**Parameters**: `realSession` is the <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSession" target="_blank" rel="noopener noreferrer">`XRSession`</a> to set for this `XRPackageEngine` instance.
+
+**Returns**: a `Promise` that resolves when the session has been successfully set.
+
+## `setXrFramebuffer(xrfb)`
+
+_Sets the XR Framebuffer for the engine's iframe._
+
+**Parameters**: `xrfb`, the framebuffer to be set.
+
+**Returns**: Nothing
 
 ## `tick`
 
-## `updateMatrixWorld`
+## `updateMatrixWorld()`
 
-## `start`
+_Updates the matrix world for all the children of this `XRPackageEngine`, if necessary._
 
-## `tick`
+**Parameters**: None
 
-## `updateMatrixWorld`
+**Returns**: Nothing
 
-## `uploadScene`
+## `async uploadScene()`
 
-## `waitForLoad`
+_Uploads the current scene to the Webaverse IPFS backend._
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves with a string which is the IPFS hash of the uploaded scene.
+
+**Throws**: an `Error` if there is an error uploading the scene (i.e. if the network request does not return a 200 status).
+
+## `waitForLoad()`
+
+**Parameters**: None
+
+**Returns**: a Promise that resolves when the `XRPackageInstance` is initialised and the service worker has been registered successfully.
 
 ## `wearAvatar`
 

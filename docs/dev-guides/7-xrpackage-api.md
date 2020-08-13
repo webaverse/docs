@@ -125,11 +125,23 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: a `Uint8Array` representing the XRPackage's data.
 
-## `getAabb`
+## `getAabb()`
 
-## `getHash`
+**Parameters**: None
 
-## `getMainData`
+**Returns**: `null` if this package's manifest is missing/invalid/has no `aabb` property, or the `THREE.Box3` representing this package's AABB Box.
+
+## `async getHash()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves to the hash of this package's data.
+
+## `getMainData()`
+
+**Parameters**: None
+
+**Returns**: the body of the contents of the `start_url` file of this package.
 
 ## `getManifestJson()`
 
@@ -137,9 +149,17 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: an object representing the package's root `manifest.json`, or `null` if the file is not found.
 
-## `getModel`
+## `async getModel()`
 
-## `getParentEngine`
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves to `null` if there is no model defined in this package's manifest, otherwise the parsed model for this package.
+
+## `getParentEngine()`
+
+**Parameters**: None
+
+**Returns**: `null` if there is no parent `XRPackageEngine`, or the `XRPackageEngine` instance for this package.
 
 ## `async getScreenshotImage()`
 
@@ -170,9 +190,11 @@ _Retrieve the collision mesh of the XRPackage if it exists._
 
 ## `grabrelease`
 
-## `isAttached`
+## `isAttached()`
 
-## `load`
+**Parameters**: None
+
+**Returns**: a `Boolean` representing whether the current package is attached to an `XRPackageEngine` instance.
 
 ## `loadAvatar`
 
@@ -191,8 +213,6 @@ _Removes a file from the XRPackage._
 ## `setPose`
 
 ## `setSchema`
-
-## `setXrFramebuffer`
 
 ## `async upload()`
 
@@ -216,4 +236,8 @@ await p.waitForLoad();
 await packageEngine.add(p);
 ```
 
-## `waitForRun`
+## `async waitForRun()`
+
+**Parameters**: None
+
+**Returns**: a `Promise` that resolves once this package is attached to an `XRPackageEngine` instance.
