@@ -21,7 +21,8 @@
         "ids": [
           "dev-guides/webxr-overview",
           "dev-guides/importing-from-blender",
-          "dev-guides/importing-from-vroid-studio"
+          "dev-guides/importing-from-vroid-studio",
+          "dev-guides/importing-from-unity"
         ]
       }
     ],
