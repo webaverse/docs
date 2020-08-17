@@ -58,7 +58,11 @@ _Gets the value for the provided `key` for the `XRPackageEngine` for this `ifram
 
 ## render
 
-## setMatrix
+## setMatrix(matrixArray)
+
+**Parameters**: `matrixArray` is the offset matrix between the camera and the avatar.
+
+**Returns**: Nothing
 
 ## setSchema
 
