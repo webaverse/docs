@@ -115,6 +115,14 @@ _Marks the given hand as in grabbing mode. Does nothing if there is no avatar/ri
 
 ## `grabtriggerdown`
 
+## `grabtriggerup(handedness)`
+
+_Triggers a release-grab attempt for the given hand._
+
+**Parameters**: `handedness` is a string out of `left`, `right` that represents which hand is releasing the grab.
+
+**Returns**: Nothing
+
 ## `grabup(handedness)`
 
 _Releases the given hand from grabbing mode._
