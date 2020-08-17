@@ -26,6 +26,8 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 ## get children
 
+**Returns**: an `Array` of `XRPackage` instances that are children of the `XRPackage` that this `iframe` is representing.
+
 ## add
 
 ## getAvatar
