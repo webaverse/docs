@@ -217,7 +217,13 @@ _Releases all grabs on the current package._
 
 **Returns**: a `Boolean` representing whether the current package is attached to an `XRPackageEngine` instance.
 
-## `loadAvatar`
+## `async loadAvatar()`
+
+_Waits for the avatar to load, if applicable._
+
+**Parameters**: None
+
+**Returns**: A `Promise` that resolves when the avatar is loaded/immediately if loading was not applicable.
 
 ## `remove`
 
