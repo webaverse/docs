@@ -105,7 +105,13 @@ _Gets the proxied <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSe
 
 **Returns**: an `Object` representing the proxied/hijacked <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSession" target="_blank" rel="noopener noreferrer">XRSession</a> for this engine instance.
 
-## `grabdown`
+## `grabdown(handedness)`
+
+_Marks the given hand as in grabbing mode. Does nothing if there is no avatar/rig for this engine instance._
+
+**Parameters**: `handedness` is a string out of `left`, `right` that represents which hand is grabbing.
+
+**Returns**: Nothing
 
 ## `grabtriggerdown`
 
