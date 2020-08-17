@@ -50,7 +50,11 @@ _Gets the value for the provided `key` for the `XRPackageEngine` for this `ifram
 
 ## iframeInit
 
-## remove
+## remove(p)
+
+**Parameters**: `p` is the `XRPackage` instance that is to be removed from the `XRPackage` that this iframe represents.
+
+**Returns**: Nothing
 
 ## render
 
