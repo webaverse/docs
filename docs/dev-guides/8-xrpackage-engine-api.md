@@ -80,7 +80,16 @@ _Equips the relevant object (note: the engine must have an avatar/rig set)._
 
 **Returns**: a `Promise` that resolves with a `Uint8Array` representing the `.wbn` bundle for the current scene.
 
-## `getContext`
+## `getContext(type, opts)`
+
+_Wraps the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext" target="_blank" rel="noopener noreferrer">`HTMLCanvasElement.getContext()`</a> method for this `XRPackageEngine` instance_.
+
+**Parameters**:
+
+- `type` corresponds to the `contextType` parameter from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext" target="_blank" rel="noopener noreferrer">`HTMLCanvasElement.getContext()`</a> method.
+- `opts` corresponds to the `contextAttributes` parameter from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext" target="_blank" rel="noopener noreferrer">`HTMLCanvasElement.getContext()`</a> method.
+
+**Returns**: The <a href="https://developer.mozilla.org/en-US/docs/Web/API/RenderingContext" target="_blank" rel="noopener noreferrer">`RenderingContext`</a> of the engine's canvas, or `null` if the context identifier is not supported.
 
 ## `getEnv(key)`
 
