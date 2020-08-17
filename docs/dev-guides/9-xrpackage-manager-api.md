@@ -22,6 +22,8 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 ## get package
 
+**Returns**: the `XRPackage` instance that this `iframe` is representing.
+
 ## get children
 
 ## add
