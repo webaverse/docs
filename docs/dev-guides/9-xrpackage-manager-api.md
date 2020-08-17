@@ -34,7 +34,11 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 **Returns**: a `Promise` that resolves when the package is added successfully, or rejects if adding the package times out.
 
-## getAvatar
+## getAvatar()
+
+**Parameters**: None
+
+**Returns**: the rig for the avatar that this `XRPackage` is, if applicable.
 
 ## getEnv
 
