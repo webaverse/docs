@@ -225,7 +225,20 @@ _Waits for the avatar to load, if applicable._
 
 **Returns**: A `Promise` that resolves when the avatar is loaded/immediately if loading was not applicable.
 
-## `remove`
+## `remove(p, options)`
+
+_Removes an XRPackage from this instance._
+
+**Parameters**:
+
+- `p` is the `XRPackage` instance to remove.
+- `options` is an Object with the following optional parameters:
+
+| Key      | Default | Description                                  |
+| -------- | ------- | -------------------------------------------- |
+| `reason` | N/A     | String describing why the package is removed |
+
+**Returns**: Nothing.
 
 ## `removeFile(pathname)`
 
