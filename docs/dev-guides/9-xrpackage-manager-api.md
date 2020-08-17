@@ -40,7 +40,13 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 **Returns**: the rig for the avatar that this `XRPackage` is, if applicable.
 
-## getEnv
+## getEnv(key)
+
+_Gets the value for the provided `key` for the `XRPackageEngine` for this `iframe`._
+
+**Parameters**: `key` is the key for which the corresponding value should be returned.
+
+**Returns**: the value that corresponds to the provided `key`.
 
 ## iframeInit
 
