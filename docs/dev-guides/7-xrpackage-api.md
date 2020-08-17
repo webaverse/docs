@@ -256,7 +256,11 @@ _Removes a file from the XRPackage._
 
 ## `setPose`
 
-## `setSchema`
+## `setSchema(key, value)`
+
+**Parameters**: the `key` and corresponding `value` to set for the schema for this package
+
+**Returns**: Nothing
 
 ## `async upload()`
 
