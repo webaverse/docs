@@ -283,7 +283,16 @@ _Sets the XR Framebuffer for the engine's iframe._
 
 **Returns**: Nothing
 
-## `tick`
+## `tick(timestamp, frame)`
+
+_Performs a single renderer tick._
+
+**Parameters**:
+
+- `timestamp`, which defaults to `performance.now()`
+- `frame`, which defaults to `null`
+
+**Returns**: Nothing
 
 ## `updateMatrixWorld()`
 
