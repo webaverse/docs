@@ -66,7 +66,13 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 ## `draw`
 
-## `equip`
+## `equip(slot)`
+
+_Equips the relevant object (note: the engine must have an avatar/rig set)._
+
+**Parameters**: The `slot` to store the object in, which must be a string out of `head`, `left`, `right`, and `back`.
+
+**Returns**: Nothing
 
 ## `async exportScene()`
 
