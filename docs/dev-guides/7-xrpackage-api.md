@@ -30,7 +30,21 @@ const p = await fetch("/a.wbn")
   .then((uint8Array) => new XRPackage(uint8Array));
 ```
 
-## `add`
+## `async add(p, options)`
+
+_Adds an XRPackage to this instance._
+
+**Parameters**:
+
+- `p` is the `XRPackage` instance to add.
+- `options` is an Object with the following optional parameters:
+
+| Key       | Default | Description                                                         |
+| --------- | ------- | ------------------------------------------------------------------- |
+| `reason`  | N/A     | String describing why the package is added                          |
+| `timeout` | 30000   | Milliseconds after which this method should reject if loading fails |
+
+**Returns**: A `Promise` that resolves when the package loads successfully, or rejects if the `timeout` is reached before the load occurs.
 
 ## `addFile(pathname, data, type)`
 
