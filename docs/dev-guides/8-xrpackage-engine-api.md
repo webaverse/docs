@@ -137,7 +137,13 @@ _Releases the given hand from grabbing mode._
 
 **Returns**: Nothing
 
-## `grabuse`
+## `grabuse(handedness)`
+
+_Marks a grab as being in use._
+
+**Parameters**: `handedness` is a string out of `left`, `right` that represents which hand is grabbing.
+
+**Returns**: Nothing
 
 ## `async importScene(uint8Array)`
 
