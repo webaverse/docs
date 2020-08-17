@@ -318,10 +318,10 @@ _Uploads the current scene to the Webaverse IPFS backend._
 
 **Returns**: a Promise that resolves when the `XRPackageInstance` is initialised and the service worker has been registered successfully.
 
-## `wearAvatar`
+## `async wearAvatar(p)`
 
 Wear the specified package as an avatar.
 
 **Parameters**: `p`, an `XRPackage` object.
 
-**Returns**: None
+**Returns**: a `Promise` that resolves when the avatar is worn successfully.
