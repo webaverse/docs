@@ -48,7 +48,22 @@ _Gets the value for the provided `key` for the `XRPackageEngine` for this `ifram
 
 **Returns**: the value that corresponds to the provided `key`.
 
-## iframeInit
+## iframeInit(options)
+
+**Parameters**: `options` is an `Object` with the following required keys:
+
+| Key         | Description                                                                                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `engine`    | The `XRPackageEngine` instance to be used for this `iframe`                                                                                                              |
+| `pkg`       | The `XRPackage` instance that this `iframe` is to render                                                                                                                 |
+| `indexHtml` | The HTML of the `start_url` of this package, as a UTF-8 string                                                                                                           |
+| `context`   | The <a href="https://developer.mozilla.org/en-US/docs/Web/API/RenderingContext" target="_blank" rel="noopener noreferrer">`RenderingContext`</a> to use for the renderer |
+| `id`        | A unique identifier for this `XRPackage`                                                                                                                                 |
+| `schema`    | The Schema for this `XRPackage`                                                                                                                                          |
+| `xrState`   | An `Object` representing the state for this `XRPackage`                                                                                                                  |
+| `XRPackage` | A reference to the `XRPackage` class to be used in this `iframe`                                                                                                         |
+
+**Returns**: Nothing
 
 ## remove(p)
 
