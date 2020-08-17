@@ -10,7 +10,11 @@ The `XRPackageManager` API is documented here. See install instructions and deve
 
 The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s, in the form of an `XRPackageManager` instance as the iframe's `window.xrpackage` variable.
 
-## constructor
+## constructor()
+
+**Parameters**: None
+
+**Returns**: an `XRPackageManager` instance.
 
 ## get engine
 
