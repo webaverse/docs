@@ -19,7 +19,11 @@ Once you have configured your XRPackage for WebXR, you can export your project a
 
 ### Via the XRPackage exporter plugin
 
-**TODO** Import the `WebXR-Assets.unitypackage` package to your project.
+The plugin is currently undergoing a remake to better support modern Unity features.
+
+Whilst the plugin is being rebuilt, you can download a ZIP file of the plugin and copy <a href="https://github.com/webaverse/unity-webxr-export-plugin/tree/master/Assets" target="_blank" rel="noopener noreferrer">the `Assets` folder</a> into your project's `Assets` directory.
+
+Once this is done, Unity will automatically detect the changes and reload the window, adding the following toolbar icon to the menu bar:
 
 > ![Unity XRPackage Exporter toolbar icon](/img/unity-exporter-1-package-app-btn.png)
 
@@ -45,7 +49,7 @@ If you would prefer to package your app manually, you can do so via the terminal
 
    `xrpk init`
 
-Answer the relevant questions, or hit `Enter` straight away to use the defaults.
+   Answer the relevant questions, or hit `Enter` straight away to use the defaults.
 
 5. Build the directory into an XRPackage:
 
