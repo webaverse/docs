@@ -64,6 +64,10 @@ _Gets the value for the provided `key` for the `XRPackageEngine` for this `ifram
 
 **Returns**: Nothing
 
-## setSchema
+## setSchema(key, value)
+
+**Parameters**: the `key` and corresponding `value` to set for the schema for the `XRPackage` this iframe represents.
+
+**Returns**: Nothing
 
 ## setXrFramebuffer
