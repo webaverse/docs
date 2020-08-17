@@ -8,8 +8,6 @@ The `XRPackageEngine` API is documented here. See install instructions and devel
 - The `XRPackage` API is documented [in the previous section](./7-xrpackage-api.md).
 - The `XRPackageManager` API is documented [in the next section](./9-xrpackage-manager-api.md).
 
-**Note: This page is still in development, whilst the API is documented**.
-
 ## `constructor(options)`
 
 **Parameters**: `options` is an optional Object, where all the following keys are also optional:

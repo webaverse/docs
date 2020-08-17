@@ -8,8 +8,6 @@ The `XRPackage` API is documented here. See install instructions and development
 - The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engine-api.md).
 - The `XRPackageManager` API is documented [in a later section](./9-xrpackage-manager-api.md).
 
-**Note: This page is still in development, whilst the API is documented**.
-
 ## `constructor(a)`
 
 **Parameters**: `a` can either be an `XRPackage` instance (to duplicate it), or a `Uint8Array` of data for a `.wbn` XRPackage.
