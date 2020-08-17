@@ -248,7 +248,11 @@ _Removes a file from the XRPackage._
 
 **Returns**: Nothing
 
-## `setMatrix`
+## `setMatrix(m)`
+
+**Parameters**: the matrix `m` to set.
+
+**Returns**: Nothing
 
 ## `setPose`
 
