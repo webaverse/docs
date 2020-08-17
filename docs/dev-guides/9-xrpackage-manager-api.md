@@ -70,4 +70,8 @@ _Gets the value for the provided `key` for the `XRPackageEngine` for this `ifram
 
 **Returns**: Nothing
 
-## setXrFramebuffer
+## setXrFramebuffer(xrfb)
+
+**Parameters**: `xrfb` is the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/createFramebuffer" target="_blank" rel="noopener noreferrer">`WebGLFramebuffer`</a> to set for the XRSession being used in this `iframe`.
+
+**Returns**: Nothing
