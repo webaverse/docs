@@ -18,6 +18,8 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 ## get engine
 
+**Returns**: the `XRPackageEngine` instance for this `iframe`.
+
 ## get package
 
 ## get children
