@@ -172,7 +172,22 @@ _Removes an XRPackage from the Engine._
 
 **Throws** an `Error` if the given `p` is not a child of this `XRPackageEngine` instance.
 
-## `render`
+## `render(pak, width, height, viewMatrix, projectionMatrix, framebuffer)`
+
+_Performs a render of the engine (useful when needing to perform manual renders, such as for a packaged mirror)._
+
+**Parameters**: all parameters are required, as follows:
+
+| Key                | Description                                                                                                                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pak`              | The `XRPackage` to render (can be `null`)                                                                                                                                                |
+| `width`            | The new width of the renderer                                                                                                                                                            |
+| `height`           | The new height of the renderer                                                                                                                                                           |
+| `viewMatrix`       | The camera's matrix                                                                                                                                                                      |
+| `projectionMatrix` | The camera's projection matrix                                                                                                                                                           |
+| `framebuffer`      | The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/createFramebuffer" target="_blank" rel="noopener noreferrer">`WebGLFramebuffer`</a> for the renderer |
+
+**Returns**: Nothing
 
 ## `reset()`
 
