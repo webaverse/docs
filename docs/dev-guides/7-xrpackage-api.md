@@ -203,7 +203,13 @@ _Retrieve the collision mesh of the XRPackage if it exists._
 
 **Returns**: A <a href="https://threejs.org/docs/#api/en/scenes/Scene" target="_blank" rel="noopener noreferrer">`Scene`</a> object for the package volume mesh if it exists, or `null` if a volume mesh does not exist.
 
-## `grabrelease`
+## `grabrelease()`
+
+_Releases all grabs on the current package._
+
+**Parameters**: None
+
+**Returns**: Nothing
 
 ## `isAttached()`
 
