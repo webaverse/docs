@@ -252,7 +252,13 @@ _Removes a file from the XRPackage._
 
 **Returns**: Nothing
 
-## `setPose`
+## `setPose(pose)`
+
+_Sets the pose for this avatar._
+
+**Parameters**: `pose` is an array of three arrays: `[head, leftGamepad, rightGamepad]`. The elements for each inner array must be describe the relevant position, quaternion, pointer (if applicable), and grip (if applicable) -- in that order.
+
+**Returns**: Nothing
 
 ## `setSchema(key, value)`
 
