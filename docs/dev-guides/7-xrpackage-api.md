@@ -5,7 +5,8 @@ title: XRPackage API
 
 The `XRPackage` API is documented here. See install instructions and development setup <a href="https://github.com/webaverse/xrpackage" target="_blank" rel="noopener noreferrer">at the GitHub repository</a>.
 
-The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engine-api.md).
+- The `XRPackageEngine` API is documented [in the next section](./8-xrpackage-engine-api.md).
+- The `XRPackageManager` API is documented [in a later section](./9-xrpackage-manager-api.md).
 
 **Note: This page is still in development, whilst the API is documented**.
 
