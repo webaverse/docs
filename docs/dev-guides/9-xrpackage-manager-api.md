@@ -28,7 +28,11 @@ The `XRPackageManager` API is exposed to `iframe`s that are running `XRPackage`s
 
 **Returns**: an `Array` of `XRPackage` instances that are children of the `XRPackage` that this `iframe` is representing.
 
-## add
+## add(p)
+
+**Parameters**: `p` is an `XRPackage` instance to add to the `XRPackage` that this `iframe` represents.
+
+**Returns**: a `Promise` that resolves when the package is added successfully, or rejects if adding the package times out.
 
 ## getAvatar
 
