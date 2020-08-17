@@ -97,7 +97,13 @@ _Wraps the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasE
 
 **Returns**: the corresponding `value` for the given `key`.
 
-## `getProxySession`
+## `getProxySession(options)`
+
+_Gets the proxied <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSession" target="_blank" rel="noopener noreferrer">XRSession</a> for this engine instance._
+
+**Parameters**: `options` is an Object with an optional `order` parameter (defaults to `0`).
+
+**Returns**: an `Object` representing the proxied/hijacked <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSession" target="_blank" rel="noopener noreferrer">XRSession</a> for this engine instance.
 
 ## `grabdown`
 
