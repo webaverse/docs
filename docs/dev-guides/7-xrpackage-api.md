@@ -132,8 +132,6 @@ _Downloads and returns an XRPackage object with the specified hash from IPFS._
 
 **Returns**: `p`. an `XRPackage` object
 
-## `ensureRunStop`
-
 ## `export()`
 
 **Parameters**: None

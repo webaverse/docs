@@ -64,8 +64,6 @@ _Downloads & imports an arbitrary scene from IPFS into the Engine._
 
 **Returns**: a `Promise` that resolves when the scene is downloaded and imported successfully, or rejects when there is a non-200 response when downloading or the downloaded scene is invalid.
 
-## `draw`
-
 ## `equip(slot)`
 
 _Equips the relevant object (note: the engine must have an avatar/rig set)._
@@ -161,8 +159,6 @@ _Attaches a `resize` event listener to automatically respond to resize events._
 
 **Returns**: Nothing
 
-## `packageRequestAnimationFrame`
-
 ## `remove(p, reason)`
 
 _Removes an XRPackage from the Engine._
@@ -205,8 +201,6 @@ _Resizes this XRPackageEngine instance._
 **Parameters**: `camera` is the camera to set for the Engine (e.g. a `Three.PerspectiveCamera`)
 
 **Returns**: Nothing
-
-## `setClearFreeFramebuffer`
 
 ## `setEnv(key, value)`
 
