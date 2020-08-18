@@ -5,7 +5,7 @@ title: Using Multiplayer
 
 The Webaverse has multiplayer support. This is in the form of individual XRPackages that implement multiplayer however they want, using some information that the XRPackage system provides to them.
 
-If you want to use multiplayer in your world, you'll need to import a Hubs or multiplayer package. An example of this is <a href="https://github.com/webaverse/multiplayer" target="_blank" rel="noopener noreferrer">the Webaverse `multiplayer`</a> package.
+An example of a multiplayer package that can be imported into your world is <a href="https://github.com/webaverse/multiplayer" target="_blank" rel="noopener noreferrer">the Webaverse `multiplayer`</a> package.
 
 Once you add a multiplayer package such as the Webaverse multiplayer one, you will be able to interact with objects such as avatars cross-device with multiple users. Bare in mind that different packages will have their own system of connecting to peers, for example the Webaverse multiplayer package connects to "rooms" using a room code, which all players will need to have!
 
