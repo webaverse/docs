@@ -109,6 +109,8 @@ The package manifest can contain an `xr_details` field which further specifies h
 }
 ```
 
+See [`xr_details` API](./9-xr-details-api.md) for more details on these properties.
+
 ## Building a package
 
 Regardless of package type, packages are built with the `xrpk` tool which you can get on `npm`:
