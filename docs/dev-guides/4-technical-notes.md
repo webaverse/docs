@@ -14,3 +14,15 @@ On a deeper level, avatars are usually <a href="https://vrm.dev/en" target="_bla
 You can find avatars at <a href="hub.vroid.com" target="_blank" rel="noopener noreferrer">https://hub.vroid.com/</a>, which is the largest open public hub of avatars.
 
 The three.js implementation which is used in our avatars is <a href="https://github.com/pixiv/three-vrm" target="_blank" rel="noopener noreferrer">`three-vrm`</a>, which can be used to aid development of avatars if using three.js.
+
+## Package loading
+
+In the Webaverse, XRPackages are loaded using <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank" rel="noopener noreferrer">`iframe`</a> elements &mdash; these represent single packages which are manipulated inside the `iframe`.
+
+The individual content from the XRPackages is loaded with the support of the page's <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="noopener noreferrer">Service Worker</a>. The Service Worker acts as a proxy server in that it intercepts requests to files in the package, and returns the actual content rather than assuming it is an actual network request. For example, a request to `/cube.html` (which may be the entry-point `start_url` for an XRPackage) will be intercepted to return the actual file, rather than `/cube.html` on the server hosting the webpage.
+
+You can find the XRPackage Service Worker <a href="https://github.com/webaverse/xrpackage/blob/master/sw.js" target="_blank" rel="noopener noreferrer">at GitHub</a>. If you are deploying XRPackages to your own website, you'll need to import this Service Worker to your own site by adding a `sw.js` file to the root of your website with the following contents:
+
+```js
+importScripts("https://static.xrpackage.org/sw.js");
+```
