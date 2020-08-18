@@ -127,6 +127,36 @@ navigator.xr.addEventListener("schemachange", (e) => {
 });
 ```
 
+## `script`
+
+_Defines a worker JavaScript file for GLTF packages._
+
+**Format**: a string that is the filename of the JavaScript script to run, after being loaded in a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API" target="_blank" rel="noopener noreferrer">Worker</a>.
+
+**Note**: a global variable `object` is automatically passed into the worker script, which is a reference to a <a href="https://threejs.org/docs/#api/en/core/Object3D" target="_blank" rel="noopener noreferrer">three.js `Object3D`</a> bound to the GLTF object itself.
+
+**Example**:
+
+_manifest.json_
+
+```json
+{
+  "xr_type": "gltf@0.0.1",
+  "start_url": "model.glb",
+  "xr_details": {
+    "script": "model.js"
+  }
+}
+```
+
+_model.js_
+
+```js
+setInterval(() => {
+  object.position.y = Math.sin(((Date.now() % 1000) / 1000) * Math.PI * 2);
+}, 10);
+```
+
 ## `wearable`
 
 _Defines how this package can be worn as an avatar._
