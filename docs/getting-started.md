@@ -32,4 +32,5 @@ Please have a look at the [Glossary](glossary.md) if you come across any terms y
 - [Finding Applications](./user-guides/1-finding-xrpackages.md)
 - [Using Applications](./user-guides/2-using-xrpackages.md)
 - [Using Avatars](./user-guides/3-using-avatars.md)
-- [Creating for the Webaverse](./user-guides/4-creating-for-webaverse.md)
+- [Using Multiplayer](./user-guides/4-multiplayer.md)
+- [Creating for the Webaverse](./user-guides/5-creating-for-webaverse.md)

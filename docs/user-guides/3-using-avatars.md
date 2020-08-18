@@ -31,4 +31,4 @@ These toggle between the different view modes of the world, listed here in-order
 4. **Isometric Mode**: view the world in isometric view, eliminating any shape distortions created by perspective.
 5. **Select Tool**: select XRPackages in the world and manipulate them by altering their position, scale, and many more!
 
-**We've finished our crash course in using XRPackages! If this has inspired you to create your own applications for the Webaverse, continue on to learn [how to create for the Webaverse](./4-creating-for-webaverse.md)!**
+**We can now move onto learning [how to use multiplayer packages](./4-multiplayer.md)!**
