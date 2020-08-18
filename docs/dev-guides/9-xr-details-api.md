@@ -134,3 +134,17 @@ _Defines how this package can be worn as an avatar._
 ```
 
 ## `physics`
+
+_Defines the physics mode for the package._
+
+**Format**: a string (`static`, or `default`), or `null` (no physics &mdash; the default)
+
+**Example**:
+
+```json
+{
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "cube.html",
+  "xr_details": { "physics": "static" }
+}
+```
