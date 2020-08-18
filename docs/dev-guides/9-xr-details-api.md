@@ -92,6 +92,25 @@ navigator.xr.addEventListener("event", (e) => {
 
 ## `aabb`
 
+_Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection" target="_blank" rel="noopener noreferrer">axis-aligned bounding box</a> for this package._
+
+**Format**: a 2D array with the first inner array defining the minimum point, and second inner array defining the maximum point.
+
+**Example**:
+
+```json
+{
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "cube.html",
+  "xr_details": {
+    "aabb": [
+      [-1, -1, -1], // min point
+      [1, 1, 1] // max point
+    ]
+  }
+}
+```
+
 ## `wearable`
 
 ## `physics`
