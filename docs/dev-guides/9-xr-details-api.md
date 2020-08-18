@@ -9,13 +9,11 @@ This page details the API of the `xr_details` field, which allows you to provide
 
 Each heading below corresponds to the _optional_ key in the `xr_details` object of your XRPackage `manifest.json`.
 
-## `schema`
+## `aabb`
 
-_Describes the configurable properties of the package, which can be interpreted by the package code as needed._
+_Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection" target="_blank" rel="noopener noreferrer">axis-aligned bounding box</a> for this package._
 
-**Format**: an Object with any number of customizable keys, which can be accessed and used by the package code however it is needed. The value must currently be an Object that contains a `type` key equalling `string`.
-
-The `iframe` will dispatch the `schemachange` event for each schema key-value pair on initialisation.
+**Format**: a 2D array with the first inner array defining the minimum point, and second inner array defining the maximum point.
 
 **Example**:
 
@@ -26,24 +24,12 @@ _manifest.json_
   "xr_type": "webxr-site@0.0.1",
   "start_url": "cube.html",
   "xr_details": {
-    "schema": {
-      "color": { "type": "string" }
-    }
+    "aabb": [
+      [-1, -1, -1], // min point
+      [1, 1, 1] // max point
+    ]
   }
 }
-```
-
-_your package code_
-
-```js
-const cubeMesh = getCubeMeshObject();
-navigator.xr.addEventListener("schemachange", (e) => {
-  const { key, value } = e.data;
-  if (key === "color" && value) {
-    console.log("update cube color", value, cubeMesh.material);
-    cubeMesh.material.color.set(value);
-  }
-});
 ```
 
 ## `events`
@@ -90,11 +76,29 @@ navigator.xr.addEventListener("event", (e) => {
 });
 ```
 
-## `aabb`
+## `physics`
 
-_Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection" target="_blank" rel="noopener noreferrer">axis-aligned bounding box</a> for this package._
+_Defines the physics mode for the package._
 
-**Format**: a 2D array with the first inner array defining the minimum point, and second inner array defining the maximum point.
+**Format**: a string (`static`, or `default`), or `null` (no physics &mdash; the default)
+
+**Example**:
+
+```json
+{
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "cube.html",
+  "xr_details": { "physics": "static" }
+}
+```
+
+## `schema`
+
+_Describes the configurable properties of the package, which can be interpreted by the package code as needed._
+
+**Format**: an Object with any customizable keys and values, which can be accessed and used by the package code however it is needed. The value must currently be an Object that contains a `type` key equalling `string`.
+
+The `iframe` will dispatch the `schemachange` event for each schema key-value pair on initialisation.
 
 **Example**:
 
@@ -103,12 +107,24 @@ _Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/
   "xr_type": "webxr-site@0.0.1",
   "start_url": "cube.html",
   "xr_details": {
-    "aabb": [
-      [-1, -1, -1], // min point
-      [1, 1, 1] // max point
-    ]
+    "schema": {
+      "color": { "type": "string" }
+    }
   }
 }
+```
+
+_your package code_
+
+```js
+const cubeMesh = getCubeMeshObject();
+navigator.xr.addEventListener("schemachange", (e) => {
+  const { key, value } = e.data;
+  if (key === "color" && value) {
+    console.log("update cube color", value, cubeMesh.material);
+    cubeMesh.material.color.set(value);
+  }
+});
 ```
 
 ## `wearable`
@@ -130,21 +146,5 @@ _Defines how this package can be worn as an avatar._
       "back": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
     }
   }
-}
-```
-
-## `physics`
-
-_Defines the physics mode for the package._
-
-**Format**: a string (`static`, or `default`), or `null` (no physics &mdash; the default)
-
-**Example**:
-
-```json
-{
-  "xr_type": "webxr-site@0.0.1",
-  "start_url": "cube.html",
-  "xr_details": { "physics": "static" }
 }
 ```
