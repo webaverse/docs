@@ -113,4 +113,24 @@ _Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/
 
 ## `wearable`
 
+_Defines how this package can be worn as an avatar._
+
+**Format**: an Object with 3 keys: `head`, `hand`, `back` that are arrays defining the bone offset matrix (from the named bone) to the package.
+
+**Example**:
+
+```json
+{
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "cube.html",
+  "xr_details": {
+    "wearable": {
+      "head": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+      "hand": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+      "back": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+    }
+  }
+}
+```
+
 ## `physics`
