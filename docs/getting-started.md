@@ -13,7 +13,7 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 
 Please have a look at the [Glossary](glossary.md) if you come across any terms you're unfamiliar with!
 
-# For Developers
+## For Developers
 
 - [Developer Overview](./dev-guides/index.md)
 - [XRPackage Overview](./dev-guides/1-xrpackage-overview.md)
