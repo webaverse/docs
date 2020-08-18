@@ -48,6 +48,48 @@ navigator.xr.addEventListener("schemachange", (e) => {
 
 ## `events`
 
+_Describes events the package can receive from other packages._
+
+**Format**: an Object with keys corresponding to the event names to be received, and values being an object that is `{"type": "string"}`. Currently, the `type` _must_ be `string`.
+
+**Example**: in this example, we state that this package can receive the `reloof` event from other packages, with the payload type being a `string`.
+
+_manifest.json_
+
+```json
+{
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "cube.html",
+  "xr_details": {
+    "events": {
+      "dock": { "type": "string" }
+    }
+  }
+}
+```
+
+_your package code_
+
+```js
+const listener = new THREE.AudioListener();
+camera.add(listener);
+const sound = new THREE.Audio(listener);
+const audioLoader = new THREE.AudioLoader();
+
+navigator.xr.addEventListener("event", (e) => {
+  const { package, type, data, respond } = e.data;
+  if (type === "dock") {
+    console.log("docked");
+    audioLoader.load("sounds/docked.ogg", function (buffer) {
+      sound.setBuffer(buffer);
+      sound.setLoop(true);
+      sound.setVolume(0.5);
+      sound.play();
+    });
+  }
+});
+```
+
 ## `aabb`
 
 ## `wearable`
