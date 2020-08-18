@@ -15,6 +15,19 @@ You can find avatars at <a href="hub.vroid.com" target="_blank" rel="noopener no
 
 The three.js implementation which is used in our avatars is <a href="https://github.com/pixiv/three-vrm" target="_blank" rel="noopener noreferrer">`three-vrm`</a>, which can be used to aid development of avatars if using three.js.
 
+## Multiplayer
+
+The Webaverse does have 'multiplayer' support! Multiplayer should be implemented by individual packages via the APIs exposed to them. These APIs can be found at the following pages:
+
+- [`XRPackage` API](./7-xrpackage-api.md)
+- [`XRPackageEngine` API](./8-xrpackage-engine-api.md)
+
+In the `iframe`, `window.xrpackage` will be available to access these APIs.
+
+An example of a multiplayer package is the <a href="https://github.com/webaverse/multiplayer" target="_blank" rel="noopener noreferrer">Webaverse Multiplayer package</a> which uses <a href="https://github.com/webaverse/metartc" target="_blank" rel="noopener noreferrer">MetaRTC</a>.
+
+Your implementation can use anything else that is suitable, for example <a href="https://github.com/networked-aframe/networked-aframe" target="_blank" rel="noopener noreferrer">Networked-Aframe (NAF)</a>.
+
 ## Package loading
 
 In the Webaverse, XRPackages are loaded using <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank" rel="noopener noreferrer">`iframe`</a> elements &mdash; these represent single packages which are manipulated inside the `iframe`.
