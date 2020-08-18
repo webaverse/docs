@@ -1,5 +1,8 @@
 {
-  "dev": {
+  "guides": {
+    "Getting Started": [
+      "getting-started"
+    ],
     "Developer Guides": [
       "dev-guides/dev-overview",
       "dev-guides/xrpackage-overview",
@@ -9,6 +12,7 @@
       "dev-guides/examples",
       "dev-guides/xrpackage-api",
       "dev-guides/xrpackage-engine-api",
+      "dev-guides/xr-details-api",
       "dev-guides/examples",
       {
         "type": "subcategory",
@@ -18,14 +22,13 @@
           "dev-guides/importing-from-blender"
         ]
       }
-    ]
-  },
-  "user": {
+    ],
     "User Guides": [
       "user-guides/user-overview",
       "user-guides/finding-xrpackages",
       "user-guides/using-xrpackages",
       "user-guides/using-avatars",
+      "user-guides/multiplayer",
       "user-guides/creating-for-webaverse"
     ]
   }
