@@ -39,6 +39,8 @@ const siteConfig = {
 
   enableUpdateTime: true,
   cleanUrl: true,
+
+  docsSideNavCollapsible: true,
 };
 
 module.exports = siteConfig;

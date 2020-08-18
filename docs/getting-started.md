@@ -1,9 +1,9 @@
 ---
 id: getting-started
-title: Getting started with Webaverse
+title: Getting started
 ---
 
-Start using the Webaverse ecosystem today with these helpful articles for users and developers of the platform.
+Start using the Webaverse ecosystem today with these articles targeted at users and developers of the platform.
 
 ## Requirements
 
@@ -13,24 +13,6 @@ A virtual reality HMD is recommended to enjoy the full experience and capabiliti
 
 Please have a look at the [Glossary](glossary.md) if you come across any terms you're unfamiliar with!
 
-## For Developers
+## Guides
 
-- [Developer Overview](./dev-guides/index.md)
-- [XRPackage Overview](./dev-guides/1-xrpackage-overview.md)
-- [Create Your First XRPackage](./dev-guides/2-creating-an-xrpk.md)
-- [Distributing your XRPackage](./dev-guides/3-distributing-xrpackage.md)
-- [Technical Notes](./dev-guides/4-technical-notes.md)
-- [Examples](./dev-guides/5-examples.md)
-- [WebXR Overview](./dev-guides/6-webxr-overview.md)
-- [`XRPackage` API](./dev-guides/7-xrpackage-api.md)
-- [`XRPackageEngine` API](./dev-guides/8-xrpackage-engine-api.md)
-- [`xr_details` API](./dev-guides/9-xr-details-api.md)
-
-## For Users
-
-- [Users Overview](./user-guides/index.md)
-- [Finding Applications](./user-guides/1-finding-xrpackages.md)
-- [Using Applications](./user-guides/2-using-xrpackages.md)
-- [Using Avatars](./user-guides/3-using-avatars.md)
-- [Using Multiplayer](./user-guides/4-multiplayer.md)
-- [Creating for the Webaverse](./user-guides/5-creating-for-webaverse.md)
+Please follow the links in the sidebar on the left to find the Webaverse documentation, split by guides for [**Developers**](./dev-guides/index.md), and for [**Users**](./user-guides/index.md).

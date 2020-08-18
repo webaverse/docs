@@ -1,5 +1,8 @@
 {
-  "dev": {
+  "guides": {
+    "Getting Started": [
+      "getting-started"
+    ],
     "Developer Guides": [
       "dev-guides/dev-overview",
       "dev-guides/xrpackage-overview",
@@ -19,9 +22,7 @@
           "dev-guides/importing-from-blender"
         ]
       }
-    ]
-  },
-  "user": {
+    ],
     "User Guides": [
       "user-guides/user-overview",
       "user-guides/finding-xrpackages",
