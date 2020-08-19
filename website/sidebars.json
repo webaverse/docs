@@ -12,6 +12,7 @@
       "dev-guides/examples",
       "dev-guides/xrpackage-api",
       "dev-guides/xrpackage-engine-api",
+      "dev-guides/xrpackage-manager-api",
       "dev-guides/xr-details-api",
       "dev-guides/examples",
       {
