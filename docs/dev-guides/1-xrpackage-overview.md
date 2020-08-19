@@ -109,7 +109,7 @@ The package manifest can contain an `xr_details` field which further specifies h
 }
 ```
 
-See [`xr_details` API](./9-xr-details-api.md) for more details on these properties.
+See [`xr_details` API](./10-xr-details-api.md) for more details on these properties.
 
 ## Building a package
 
