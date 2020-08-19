@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>xr_details API · Webaverse Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="An overview of XRPackages and the `manifest.json` file is provided in [the XRPackage Overview](/docs/dev-guides/xrpackage-overview)."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="xr_details API · Webaverse Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.webaverse.com/"/><meta property="og:description" content="An overview of XRPackages and the `manifest.json` file is provided in [the XRPackage Overview](/docs/dev-guides/xrpackage-overview)."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Webaverse Documentation"/><h2 class="headerTitleWithLogo">Webaverse Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/about" target="_self">What Is Webaverse?</a></li><li class="siteNavGroupActive"><a href="/docs/getting-started" target="_self">Getting Started</a></li><li class=""><a href="/docs/other-projects" target="_self">Other Projects</a></li><li class=""><a href="/docs/glossary" target="_self">Glossary</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Developer Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/getting-started">Getting started</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Developer Guides<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/dev-guides/dev-overview">Developer Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/xrpackage-overview">XRPackage Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/creating-an-xrpk">Create Your First XRPackage</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/distributing-xrpackage">Distributing XRPackages</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/technical-notes">Technical Notes</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/xrpackage-api">XRPackage API</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/xrpackage-engine-api">XRPackageEngine API</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/xrpackage-manager-api">XRPackageManager API</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/dev-guides/xr-details-api">xr_details API</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/examples">Examples</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Asset type guides</h4><ul><li class="navListItem"><a class="navItem" href="/docs/dev-guides/webxr-overview">WebXR Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/importing-from-blender">Importing content from Blender</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/importing-from-vroid-studio">Importing content from VRoid Studio</a></li><li class="navListItem"><a class="navItem" href="/docs/dev-guides/importing-from-unity">Importing content from Unity3D</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">User Guides<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/user-guides/user-overview">Users Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/finding-xrpackages">Finding Applications (XRPackages)</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/using-xrpackages">Using Applications (XRPackages)</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/using-avatars">Using Avatars</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/multiplayer">Using Multiplayer</a></li><li class="navListItem"><a class="navItem" href="/docs/user-guides/creating-for-webaverse">Creating for the Webaverse</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">xr_details API</h1></header><article><div><span><p>An overview of XRPackages and the <code>manifest.json</code> file is provided in <a href="/docs/dev-guides/xrpackage-overview">the XRPackage Overview</a>.</p>
+<p>This page details the API of the <code>xr_details</code> field, which allows you to provide further details about how a package should be treated by a compatible runtime.</p>
+<p>Each heading below corresponds to the <em>optional</em> key in the <code>xr_details</code> object of your XRPackage <code>manifest.json</code>.</p>
+<h2><a class="anchor" aria-hidden="true" id="aabb"></a><a href="#aabb" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>aabb</code></h2>
+<p><em>Defines the <a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection" target="_blank" rel="noopener noreferrer">axis-aligned bounding box</a> for this package.</em></p>
+<p><strong>Format</strong>: a 2D array with the first inner array defining the minimum point, and second inner array defining the maximum point.</p>
+<p><strong>Example</strong>:</p>
+<p><em>manifest.json</em></p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"xr_details"</span>: {
+    <span class="hljs-attr">"aabb"</span>: [
+      [<span class="hljs-number">-1</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">-1</span>], <span class="hljs-comment">// min point</span>
+      [<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>] <span class="hljs-comment">// max point</span>
+    ]
+  }
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="events"></a><a href="#events" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>events</code></h2>
+<p><em>Describes events the package can receive from other packages.</em></p>
+<p><strong>Format</strong>: an Object with keys corresponding to the event names to be received, and values being an object that is <code>{&quot;type&quot;: &quot;string&quot;}</code>. Currently, the <code>type</code> <em>must</em> be <code>string</code>.</p>
+<p><strong>Example</strong>: in this example, we state that this package can receive the <code>reloof</code> event from other packages, with the payload type being a <code>string</code>.</p>
+<p><em>manifest.json</em></p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"xr_details"</span>: {
+    <span class="hljs-attr">"events"</span>: {
+      <span class="hljs-attr">"dock"</span>: { <span class="hljs-attr">"type"</span>: <span class="hljs-string">"string"</span> }
+    }
+  }
+}
+</code></pre>
+<p><em>your package code</em></p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">const</span> listener = <span class="hljs-keyword">new</span> THREE.AudioListener();
+camera.add(listener);
+<span class="hljs-keyword">const</span> sound = <span class="hljs-keyword">new</span> THREE.Audio(listener);
+<span class="hljs-keyword">const</span> audioLoader = <span class="hljs-keyword">new</span> THREE.AudioLoader();
+
+navigator.xr.addEventListener(<span class="hljs-string">"event"</span>, (e) =&gt; {
+  <span class="hljs-keyword">const</span> { package, type, data, respond } = e.data;
+  <span class="hljs-keyword">if</span> (type === <span class="hljs-string">"dock"</span>) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"docked"</span>);
+    audioLoader.load(<span class="hljs-string">"sounds/docked.ogg"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">buffer</span>) </span>{
+      sound.setBuffer(buffer);
+      sound.setLoop(<span class="hljs-literal">true</span>);
+      sound.setVolume(<span class="hljs-number">0.5</span>);
+      sound.play();
+    });
+  }
+});
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="physics"></a><a href="#physics" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>physics</code></h2>
+<p><em>Defines the physics mode for the package.</em></p>
+<p><strong>Format</strong>: a string (<code>static</code>, or <code>default</code>), or <code>null</code> (no physics — the default)</p>
+<p><strong>Example</strong>:</p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"xr_details"</span>: { <span class="hljs-attr">"physics"</span>: <span class="hljs-string">"static"</span> }
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="schema"></a><a href="#schema" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>schema</code></h2>
+<p><em>Describes the configurable properties of the package, which can be interpreted by the package code as needed.</em></p>
+<p><strong>Format</strong>: an Object with any customizable keys and values, which can be accessed and used by the package code however it is needed. The value must currently be an Object that contains a <code>type</code> key equalling <code>string</code>.</p>
+<p>The <code>iframe</code> will dispatch the <code>schemachange</code> event for each schema key-value pair on initialisation.</p>
+<p><strong>Example</strong>:</p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"xr_details"</span>: {
+    <span class="hljs-attr">"schema"</span>: {
+      <span class="hljs-attr">"color"</span>: { <span class="hljs-attr">"type"</span>: <span class="hljs-string">"string"</span> }
+    }
+  }
+}
+</code></pre>
+<p><em>your package code</em></p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">const</span> cubeMesh = getCubeMeshObject();
+navigator.xr.addEventListener(<span class="hljs-string">"schemachange"</span>, (e) =&gt; {
+  <span class="hljs-keyword">const</span> { key, value } = e.data;
+  <span class="hljs-keyword">if</span> (key === <span class="hljs-string">"color"</span> &amp;&amp; value) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"update cube color"</span>, value, cubeMesh.material);
+    cubeMesh.material.color.set(value);
+  }
+});
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="script"></a><a href="#script" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>script</code></h2>
+<p><em>Defines a worker JavaScript file for GLTF packages.</em></p>
+<p><strong>Format</strong>: a string that is the filename of the JavaScript script to run, after being loaded in a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API" target="_blank" rel="noopener noreferrer">Worker</a>.</p>
+<p><strong>Note</strong>: a global variable <code>object</code> is automatically passed into the worker script, which is a reference to a <a href="https://threejs.org/docs/#api/en/core/Object3D" target="_blank" rel="noopener noreferrer">three.js <code>Object3D</code></a> bound to the GLTF object itself.</p>
+<p><strong>Example</strong>:</p>
+<p><em>manifest.json</em></p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"gltf@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"model.glb"</span>,
+  <span class="hljs-attr">"xr_details"</span>: {
+    <span class="hljs-attr">"script"</span>: <span class="hljs-string">"model.js"</span>
+  }
+}
+</code></pre>
+<p><em>model.js</em></p>
+<pre><code class="hljs css language-js">setInterval(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+  object.position.y = <span class="hljs-built_in">Math</span>.sin(((<span class="hljs-built_in">Date</span>.now() % <span class="hljs-number">1000</span>) / <span class="hljs-number">1000</span>) * <span class="hljs-built_in">Math</span>.PI * <span class="hljs-number">2</span>);
+}, <span class="hljs-number">10</span>);
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="wearable"></a><a href="#wearable" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>wearable</code></h2>
+<p><em>Defines how this package can be worn as an avatar.</em></p>
+<p><strong>Format</strong>: an Object with 3 keys: <code>head</code>, <code>hand</code>, <code>back</code> that are arrays defining the bone offset matrix (from the named bone) to the package.</p>
+<p><strong>Example</strong>:</p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"xr_type"</span>: <span class="hljs-string">"webxr-site@0.0.1"</span>,
+  <span class="hljs-attr">"start_url"</span>: <span class="hljs-string">"cube.html"</span>,
+  <span class="hljs-attr">"xr_details"</span>: {
+    <span class="hljs-attr">"wearable"</span>: {
+      <span class="hljs-attr">"head"</span>: [<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>],
+      <span class="hljs-attr">"hand"</span>: [<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>],
+      <span class="hljs-attr">"back"</span>: [<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>]
+    }
+  }
+}
+</code></pre>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 8/18/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/dev-guides/xrpackage-manager-api"><span class="arrow-prev">← </span><span class="function-name-prevnext">XRPackageManager API</span></a><a class="docs-next button" href="/docs/dev-guides/examples"><span>Examples</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#aabb"><code>aabb</code></a></li><li><a href="#events"><code>events</code></a></li><li><a href="#physics"><code>physics</code></a></li><li><a href="#schema"><code>schema</code></a></li><li><a href="#script"><code>script</code></a></li><li><a href="#wearable"><code>wearable</code></a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="Webaverse Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/index.html">Home</a><a href="/docs/about.html">About</a><a href="/docs/getting-started.html">Getting Started</a><a href="https://github.com/webaverse/docs" target="_blank" rel="noreferrer noopener">Contribute</a></div><div><h5>Community</h5><a href="https://discord.gg/MQNUGgB" target="_blank" rel="noreferrer noopener">Discord Server</a><a href="https://glitch.com/@webaverse" target="_blank" rel="noreferrer noopener">Glitch Examples</a><a href="https://github.com/topics/webaverse" target="_blank" rel="noreferrer noopener">Github Topic</a><a href="https://twitter.com/search?q=webaverse" target="_blank" rel="noreferrer noopener">Twitter Discussion</a></div><div><h5>More</h5><a href="https://webaverse.com">Website</a><a href="https://github.com/webaverse/">GitHub</a><a href="https://twitter.com/webmixedreality/">Twitter</a><a href="https://discord.gg/MQNUGgB">Discord</a></div></section><section class="copyright">Copyright © 2020 Webaverse</section></footer></div></body></html>
