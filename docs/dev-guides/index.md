@@ -1,6 +1,6 @@
 ---
 id: dev-overview
-title: Overview 
+title: Overview
 ---
 
 The Webaverse runs on applications that you can write, package and distribute. These applications (apps) are called XRPackages (XRPKs).
