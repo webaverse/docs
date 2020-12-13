@@ -9,7 +9,7 @@ hide_title: true
 
 <br/>
 
-There's a huge problem, which is, The Metaverse is already here -- it's just locked away in silos. <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> solves this by plugging into existing standards and communities in order to bootstrap the metaverse.
+These docs will help you create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a>.
 
 ## Developers
 
