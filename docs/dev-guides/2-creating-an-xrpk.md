@@ -18,7 +18,7 @@ If you're unfamiliar with WebXR, check out our quick [overview of WebXR](./6-web
 
 ## Install XRPackage
 
-The first step is to install the <a href="https://www.npmjs.com/package/xrpk" target="_blank" rel="noopener noreferrer">XRPackage CLI</a>. This tool is used to create, test, and publish XRPackages.
+The first step is to install the <a href="https://www.npmjs.com/package/xrpk" target="_blank" rel="noopener noreferrer">XRPackage CLI</a>. This tool is used to create and test XRPackages.
 
 ```bash
 $ npm install -g xrpk
