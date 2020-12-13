@@ -19,9 +19,7 @@
         "type": "subcategory",
         "label": "Import",
         "ids": [
-          "dev-guides/importing-from-blender",
-          "dev-guides/importing-from-vroid-studio",
-          "dev-guides/importing-from-unity"
+          "dev-guides/importing-from-vroid-studio"
         ]
       }
     ]

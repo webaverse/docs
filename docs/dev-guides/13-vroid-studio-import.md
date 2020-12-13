@@ -33,32 +33,5 @@ After clicking "OK", you will need to choose a location on your computer to save
 
 ## 2. Package your VRM file as an XRPackage
 
-See [Create your First XRPackage](./2-creating-an-xrpk.md) for full details on how to build your package. A condensed version follows.
+See [Create your First XRPackage](./2-creating-an-xrpk.md) for full details on how to build your package.
 
-### Via the web interface
-
-1. Visit the <a href="https://xrpackage.org/inspect.html" target="_blank" rel="noopener noreferrer">xrpackage.org/inspect.html</a> page
-
-2. Click the `Create from file` button and choose your new exported `.vrm` file
-
-3. Click the `Actions` tab, then the `Export package` button to download a `.wbn` package for your model:
-
-> ![XRPackage.org/inspect.html Actions tab](/img/xrpackage-inspect-actions-tab.png)
-
-### Via the CLI tool
-
-1. Install the <a href="https://github.com/webaverse/xrpackage-cli/" target="_blank" rel="noopener noreferrer">`xrpk` CLI tool</a>:
-
-   `npm install -g xrpk`
-
-2. Change your working directory to the one with your new glTF file:
-
-   `cd my-awesome-avatar/`
-
-3. Build the file into an XRPackage:
-
-   `xrpk build my-exported-avatar.vrm`
-
-This will package and automatically generate a `.wbn` file that you can now share and import into the Webaverse ecosystem.
-
-Regardless of the method you choose to build your XRPackage, you can now read the [Distributing XRPackages](./3-distributing-xrpackage.md) section for more details on how to share your content!
