@@ -36,6 +36,4 @@ To get you started we've written some guides that document the process of export
 
 **I want to package my creations from...**
 
-- [Blender](./11-blender-import.md)
-- [Unity](./12-unity-import.md)
 - [VRoid Studio](./13-vroid-studio-import.md)
