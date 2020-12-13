@@ -1,6 +1,6 @@
 ---
 id: creating-an-xrpk
-title: Create Your First XRPackage
+title: Create An XRPackage
 ---
 
 This guide will walk you through the basic steps for creating an XRPackage for use in the Webaverse ecosystem. The term "XRPK" stands for "XRPackage", which can be thought of as an "application" or "widget" in the Webaverse. XRPackages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
@@ -82,5 +82,3 @@ Now that we've created our bundle we should test it in a browser and make sure e
 ```bash
 $ xrpk run ./a.wbn
 ```
-
-If everything looks good in the browser we can move onto the next step, [publishing our package](./3-distributing-xrpackage.md) to the decentralized IPFS network!

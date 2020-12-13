@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: Getting started
+title: Getting Started
 ---
 
 Start using the Webaverse ecosystem today with these articles targeted at users and developers of the platform.

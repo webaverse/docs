@@ -1,6 +1,6 @@
 ---
 id: importing-from-blender
-title: Importing content from Blender
+title: Import From Blender
 ---
 
 This guide explains how you can export your content from Blender to bring it into the Webaverse ecosystem.

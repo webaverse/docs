@@ -1,6 +1,6 @@
 ---
 id: importing-from-unity
-title: Importing content from Unity3D
+title: Import From Unity
 ---
 
 This guide explains how you can export your content from <a href="https://unity3d.com/" target="_blank" rel="noopener noreferrer">Unity 3D</a> to bring it into the Webaverse ecosystem.

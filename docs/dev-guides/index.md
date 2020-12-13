@@ -1,9 +1,7 @@
 ---
 id: dev-overview
-title: Developer Overview
+title: Overview 
 ---
-
-We're thrilled to have you on board with making the Webaverse a more exciting place for users around the world!
 
 The Webaverse runs on applications that you can write, package and distribute. These applications (apps) are called XRPackages (XRPKs).
 
@@ -36,16 +34,8 @@ In addition, Webaverse supports traditional 3D models. Any content creation plat
 
 To get you started we've written some guides that document the process of exporting and packaging content from some popular creation platforms.
 
-**I want to package my creations from...** (**_coming soon!_**)
+**I want to package my creations from...**
 
 - [Blender](./11-blender-import.md)
 - [Unity](./12-unity-import.md)
 - [VRoid Studio](./13-vroid-studio-import.md)
-- [~~Tiltbrush~~](index.md)
-- [~~SculptVR~~](index.md)
-- [~~Oculus Medium~~](index.md)
-- [~~Google Blocks/Poly~~](index.md)
-- [~~Quill~~](index.md)
-- [~~SculptVR~~](index.md)
-- [~~Supercraft~~](index.md)
-- [~~Anyland~~](index.md)

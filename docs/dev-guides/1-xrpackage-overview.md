@@ -1,13 +1,13 @@
 ---
 id: xrpackage-overview
-title: XRPackage Overview
+title: XRPackage
 ---
 
 <img src="/img/xrpk-logo.png" width="250px" height="250px" />
 
 XRPackage turns 3D apps into a file you can load anywhere.
 
-It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn` file. It provides a runtime to load multiple `.wbn` applications at once into a shared composited world. Finally, XRPackage provides a package registry distributed on IPFS / Ethereum, to easily share your XRPackage applications. The registry follows the ERC1155 standard so packages can be traded on OpenSea.
+It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn` file.
 
 ## What's in a package?
 
@@ -139,80 +139,7 @@ $ xrpk run ./a.wbn
 ```
 
 This will open up the `xrpackage.js` runtime in your browser and load the given file for viewing.
-
-## Run XRPackage programmatically
-
-See <a href="https://github.com/webaverse/xrpackage/blob/master/run.html" target="_blank" rel="noopener noreferrer">`run.html`</a> for the full example.
-
-```javascript
-import {
-  XRPackageEngine,
-  XRPackage,
-} from "https://static.xrpackage.org/xrpackage.js";
-const pe = new XRPackageEngine();
-document.body.appendChild(pe.domElement);
-
-const res = await fetch("a.wbn"); // built package stored somewhere
-const arrayBuffer = await res.arrayBuffer();
-const p = new XRPackage(new Uint8Array(arrayBuffer));
-pe.add(p);
-```
-
-You can also compile a `.wbn` package programmatically:
-
-```javascript
-const uint8Array = XRPackage.compileRaw([
-  {
-    url: "/cube.html",
-    type: "text/html",
-    data: cubeHtml,
-  },
-  {
-    url: "/manifest.json",
-    type: "application/json",
-    data: cubeManifest,
-  },
-]);
-// save uint8Array somewhere or new XRPackage(uint8Array)
-```
-
-## Publish packages: log into wallet
-
-```bash
-$ xrpk login
-```
-
-Follow the prompts to create or import a wallet. It is a regular BIP39 mnemonic.
-
-## Check your wallet address
-
-```bash
-$ xrpk whoami
-```
-
-## Publish a package
-
-Note: Rinkeby testnet only. You will need sufficient Rinkeby testnet ETH balance in your wallet address to publish. You can get free Rinkeby testnet ETH at the <a href="https://faucet.rinkeby.io/" target="_blank" rel="noopener noreferrer">faucet</a>.
-
-Once you are ready, you can publish a package to your wallet with this command:
-
-```bash
-$ xrpk publish a.wbn
-```
-
-The contracts used are here: https://github.com/webaverse/contracts
-
-## Browse published packages
-
-You can browse the list of published packages <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">here</a>.
-
-## Install a published package
-
-```bash
-xrpk install [id]
-```
-
-This will download the given package id locally.
+  
 
 ## Tips:
 

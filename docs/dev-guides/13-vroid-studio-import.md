@@ -1,6 +1,6 @@
 ---
 id: importing-from-vroid-studio
-title: Importing content from VRoid Studio
+title: Import From VRoid Studio
 ---
 
 This guide explains how you can export your avatar from <a href="https://vroid.com/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into the Webaverse ecosystem.
