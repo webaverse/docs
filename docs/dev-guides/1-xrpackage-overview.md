@@ -19,7 +19,7 @@ The main addition to the Web App Manifest specification is the `xr_type` field, 
 $ cat manifest.json
 {
   "xr_type": "webxr-site@0.0.1",
-  "start_url": "cube.html"
+  "start_url": "cube.js"
 }
 ```
 
@@ -44,70 +44,11 @@ The `start_url` field depends on the type of package:
 
 2) WebXR packages
 
-   For WebXR packages, the `start_url` references the `index.html` entry point for the WebXR app. `index.html` should be a regular WebXR application, with assets referenced using relative paths.
-
-   Because XRPackage is a spatial packaging format, the main additional requirement is that the WebXR application automatically starts its WebXR session upon receiving the `sessiongranted` event (see the <a href="https://github.com/immersive-web/webxr/blob/master/designdocs/navigation.md" target="_blank" rel="noopener noreferrer">WebXR Navigation Specification</a> and the <a href="https://github.com/webaverse/xrpackage/blob/88a87d296019530f4f76ec18ce64f9397cd4b27d/examples/html/cube.html#L25" target="_blank" rel="noopener noreferrer">example</a>.
-
-## Package icons
-
-Packages can contain icons that represent them in previews. Multiple icons can be in the same package, with different types. The icon files are included along with the package as regular files and referenced in the manifest. This follows the web bundle standard.
-
-Icons are used to both render a preview for the package, and specify how it behaves in relation to other packages. For example, the collision mesh icon type (`"model/gltf-binary+preview"`) specifies the collision boundary geometry that the package uses, in GLTF form.
-
-```json
-{
-  "xr_type": "webxr-site@0.0.1",
-  "start_url": "cube.html",
-  "icons": [
-    {
-      "src": "icon.gif",
-      "type": "image/gif" // screen capture
-    },
-    {
-      "src": "collision.glb",
-      "type": "model/gltf-binary+preview" // collision mesh
-    },
-    {
-      "src": "xrpackage_model.glb",
-      "type": "model/gltf-binary" // gltf preview
-    }
-  ]
-}
-```
+   For WebXR packages, the `start_url` references the `index.js` entry point for the app. `index.js` should have any assets referenced using relative paths.
 
 ## Package configuration
 
 The package manifest can contain an `xr_details` field which further specifies how it should be treated by a compatible runtime.
-
-```json
-{
-  "xr_type": "webxr-site@0.0.1",
-  "start_url": "cube.html",
-  "xr_details": {
-    "schema": { // describes configurable properties of the package
-      "floofiness": {
-        "type": "string", // currently only "string"
-        "default": "very"
-      }
-    },
-    "events": { // describes events the we can receive from other packages
-      "refloof": {
-        "type": "string"
-      }
-    },
-    "aabb": [ // axis-aligned bounding box
-      [-1, -1, -1], // min point
-      [1, 1, 1] // max point
-    ],
-    "wearable": { // how this package can be worn on an avatar
-      "head": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], // matrix offset from specified bone to package
-      "hand": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
-      "back": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
-    },
-    "physics": "static" // physics mode for the packge: null (no physics, default), "static", or "dynamic"
-  }
-}
-```
 
 See [`xr_details` API](./10-xr-details-api.md) for more details on these properties.
 
@@ -126,9 +67,9 @@ $ xrpk build .
 a.wbn
 ```
 
-Note: this will open up your browser to perform screenshotting of the application; you can close that tab when it completes.
-
 The resulting package is `a.wbn`.
+
+See [Create An XRPackage](./10-xr-details-api.md) for how to create an XRPackage.
 
 ## Test the package
 
@@ -138,7 +79,7 @@ Once you have an XRPackage (`a.wbn`), you can run it in your browser like so:
 $ xrpk run ./a.wbn
 ```
 
-This will open up the `xrpackage.js` runtime in your browser and load the given file for viewing.
+This will open up the XRPackage runtime in your browser and load the given file for viewing.
   
 
 ## Design Guidelines:
