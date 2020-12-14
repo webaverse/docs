@@ -12,7 +12,7 @@
           "dev-guides/xrpackage-overview",
           "dev-guides/creating-an-xrpk",
           "dev-guides/xrpackage-design-guidelines",
-          "dev-guides/add-web-monetization",
+          "dev-guides/monetization",
           "dev-guides/examples"
         ]
       },
@@ -20,7 +20,8 @@
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "dev-guides/xr-details-api"
+          "dev-guides/xr-details-api",
+          "dev-guides/monetization-api"
         ]
       },
       {

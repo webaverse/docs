@@ -1,16 +1,16 @@
 ---
-id: add-web-monetization 
-title: Web Monetization
+id: monetization 
+title: Monetization
 ---
 
-This guide will walk you through the basic steps for adding the ability to "unlock" features in your XRPackage when a user has web monetization enabled or when a user owns a NFT of your XRPackage.
+This guide will walk you through the basic steps for adding the ability to "unlock" features in your XRPackage when a user has web monetization enabled *or* when a user owns a NFT of your XRPackage.
 
 **Note**: This guide assumes you have read [Creating Your First XRPackage](./2-creating-an-xrpk.md) or are familiar with what an XRPackage is.
 
 ## Prerequisites
 
-- Understand and be able to [create an xrpk](./2-creating-an-xrpk.md)
-- Have an XRPackage you want to add the ability to unlock a feature when a user has web monetization enabled *or* own your XRPackage as an NFT
+- Understand and be able to [create an XRPackage](./2-creating-an-xrpk.md).
+- Have an XRPackage you want to add the ability to unlock a feature when a user has web monetization enabled *or* own your XRPackage as an NFT.
 
 ## Add The Monetization Start Event Listener
 
