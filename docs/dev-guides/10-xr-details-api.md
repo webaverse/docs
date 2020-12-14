@@ -5,7 +5,7 @@ title: xr_details API
 
 An overview of XRPackages and the `manifest.json` file is provided in [the XRPackage Overview](./1-xrpackage-overview.md).
 
-This page details the API of the `xr_details` field, which allows you to provide further details about how a package should be treated by a compatible runtime.
+This page details the API of the `xr_details` field, which allows you to provide further details about how a package should be treated by Webaverse.
 
 Each heading below corresponds to the _optional_ key in the `xr_details` object of your XRPackage `manifest.json`.
 
@@ -38,7 +38,7 @@ _Describes events the package can receive from other packages._
 
 **Format**: an Object with keys corresponding to the event names to be received, and values being an object that is `{"type": "string"}`. Currently, the `type` _must_ be `string`.
 
-**Example**: in this example, we state that this package can receive the `reloof` event from other packages, with the payload type being a `string`.
+**Example**: in this example, we state that this package can receive the `dock` event from other packages, with the payload type being a `string`.
 
 _manifest.json_
 
@@ -92,13 +92,31 @@ _Defines the physics mode for the package._
 }
 ```
 
+## `physics_url`
+
+_Defines the physics .bin file for the package._
+
+**Format**: a string that is the filename of the physics .bin which can be generated for .glb models [here](https://app.webaverse.com/build.html).
+
+**Example**:
+
+```json
+{
+  "name": "snowglobe",
+  "description": "Snowglobe XRPackage",
+  "xr_type": "webxr-site@0.0.1",
+  "start_url": "snowglobe.glb",
+  "physics_url": "snowglobe.bin"
+}
+```
+
 ## `schema`
 
 _Describes the configurable properties of the package, which can be interpreted by the package code as needed._
 
 **Format**: an Object with any customizable keys and values, which can be accessed and used by the package code however it is needed. The value must currently be an Object that contains a `type` key equalling `string`.
 
-The `iframe` will dispatch the `schemachange` event for each schema key-value pair on initialisation.
+The `iframe` will dispatch the `schemachange` event for each schema key-value pair on initialization.
 
 **Example**:
 

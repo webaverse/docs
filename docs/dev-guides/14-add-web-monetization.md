@@ -10,7 +10,7 @@ This guide will walk you through the basic steps for adding the ability to "unlo
 ## Prerequisites
 
 - Understand and be able to [create an xrpk](./2-creating-an-xrpk.md)
-- Have an XRPackage you want to add the ability to unlock a feature
+- Have an XRPackage you want to add the ability to unlock a feature when a user has web monetization enabled *or* own your XRPackage as an NFT
 
 ## Add The Monetization Start Event Listener
 

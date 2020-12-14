@@ -5,36 +5,37 @@ title: Examples
 
 Before diving into creating your own XRPackages, it can be useful to see some examples and play around with the code!
 
-This page aims to serve as a reference for community and official examples of WebXR and similar content to help get started!
-
 If you think something is missing from this documentation or list, please create an issue or submit a pull request <a href="https://github.com/webaverse/docs" target="_blank" rel="noopener noreferrer">on GitHub</a>.
 
-Finally, you can reach out to the Webaverse community <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">on Discord</a> for guidance if you need.
+# Things
+- [Hubs](https://github.com/avaer/hubs)
+- [Kokiri Forest](https://github.com/avaer/kokiri-forest)
+- [Hatsune Miku](https://github.com/avaer/miku)
+- [Dropship](https://github.com/avaer/dropship)
+- [Doggo](https://github.com/avaer/doggo)
+- [WebXR Blob](https://github.com/Zetaphor/webxr-blob)
+- [WebXR Triforce](https://github.com/Zetaphor/webxr-triforce)
+- [WebXR Chicken](https://github.com/Zetaphor/webxr-chicken)
+- [VR Dos](https://github.com/avaer/vr-dos)
+- [Tip Jar](https://github.com/avaer/tipjar)
+- [Glorb](https://github.com/avaer/glorb)
+- [Booth](https://github.com/avaer/booth)
 
-## Glitch
+# Procedural Generation
 
-<a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> is a tool to create, edit, and share web apps.
+- [Terrain](https://github.com/avaer/terrain)
+- [Tree](https://github.com/avaer/tree)
+- [Grass](https://github.com/avaer/grass)
+- [Cloud](https://github.com/avaer/cloud)
+- [NPC](https://github.com/avaer/npc)
+- [Chest](https://github.com/avaer/chest)
 
-It's a code editor in your browser where you can run code that people share with you and 'remix' (like a GitHub fork) them in your own account.
+# UI
+- [XR Menu Prototype](https://github.com/Zetaphor/xr-menu-prototype)
 
-We've <a href="https://glitch.com/~xrpackage-creator" target="_blank" rel="noopener noreferrer">created some examples on Glitch</a> to play around with, which you can remix and experiment with!
+# Tooling
+- [XRPackage Builder Github Action](https://github.com/webaverse/xrpackage-build-action)
+- [Unity WebXR export plugin](https://github.com/webaverse/unity-webxr-export-plugin)
+- [Unity WebXR export demo](https://github.com/webaverse/unity-webxr-export)
+- [Sandcastle WebXR engine](https://github.com/plutoVR/sandcastle/)
 
-## awesome-xrpackage
-
-We have a curated list of XRPackages from the community and developers of XRPackage. You can find these <a href="https://github.com/webaverse/awesome-xrpackage" target="_blank" rel="noopener noreferrer">at GitHub</a>.
-
-We'll be regularly updating this -- if you have a contribution you want listed, we'd love a pull request!
-
-## Project files
-
-Some of the guides on this site use example projects compressed into a ZIP file. You can download them below:
-
-- <a href="https://github.com/MLH-Fellowship/threejs-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (three.js) project</a>
-- <a href="https://github.com/MLH-Fellowship/aframe-demo/archive/master.zip" target="_blank" rel="noopener noreferrer">Example WebXR (A-Frame) project</a>
-
-## Templates
-
-We and the community have created some simple templates you can clone and start working off to make your own creations:
-
-- See <a href="https://github.com/Zetaphor/webxr-template" target="_blank" rel="noopener noreferrer">webxr-template on GitHub</a> for a barebones WebXR scene with tracked controllers.
-- See <a href="https://github.com/webaverse/xrpackage-threejs-template" target="_blank" rel="noopener noreferrer">xrpackage-threejs-template on GitHub</a> as an example of a full XRPackage repository, complete with `manifest.json` and a THREE.js WebXR scene!

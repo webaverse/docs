@@ -1,13 +1,13 @@
 ---
 id: xrpackage-overview
-title: XRPackage
+title: What is XRPackage?
 ---
 
 <img src="/img/xrpk-logo.png" width="250px" height="250px" />
 
 XRPackage turns 3D apps into a file you can load anywhere.
 
-It uses standards like WebXR, GLTF, and WebBundle to package an app into a `.wbn` file.
+It uses standards like WebGL, WebXR, GLTF, and WebBundle to package an app into a `.wbn` file.
 
 ## What's in a package?
 
@@ -128,7 +128,7 @@ a.wbn
 
 Note: this will open up your browser to perform screenshotting of the application; you can close that tab when it completes.
 
-The resulting package is `a.wbn`. It will also output `a.wbn.gif` as an animated GIF and `a.wbn.glb` as a 3D model preview -- these are used when publishing your package but are not required to run it.
+The resulting package is `a.wbn`.
 
 ## Test the package
 
@@ -141,21 +141,9 @@ $ xrpk run ./a.wbn
 This will open up the `xrpackage.js` runtime in your browser and load the given file for viewing.
   
 
-## Tips:
+## Design Guidelines:
 
-### Building packages
+- Use transparent skyboxes to make it easier to compose multiple apps together.
+- Be mindful of size to improve loading speeds, keep packages under 100mb.
 
-- Use transparent backgrounds if possible to make it easier to compose multiple packages
-- Be mindful of size to improve loading speeds
-
-### Deploying to your own website
-
-The XRPackage uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" target="_blank" rel="noopener noreferrer">Service Workers</a> to serve packages on a page. In order to get this working, you will need to add a file called `sw.js` to the root of your website with the following contents:
-
-```js
-importScripts("https://static.xrpackage.org/sw.js");
-```
-
-### Running in Brave
-
-You may run into issues on Brave where it'll block XRPackage from running any Three.js code due to it's cross-origin fingerprint blocking. You will need to either serve all the XRPackage code from the same origin, or tell users to click the `Brave Shield` and allow fingerprinting for your website.
+See [Design Guidelines](./15-xrpackage-design-guidelines.md) for more.

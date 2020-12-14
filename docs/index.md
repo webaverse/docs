@@ -11,11 +11,11 @@ hide_title: true
 
 These docs will help you create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a>.
 
+The Webaverse ecosystem is built on existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
+
 ## Developers
 
 Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
-
-The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
 
 ## Contributing
 

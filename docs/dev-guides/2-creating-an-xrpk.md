@@ -9,12 +9,10 @@ XRPackage will be used to package the assets into a bundle. Although XRPackage s
 
 **Note**: This guide assumes you have read the [XRPackage Overview](./1-xrpackage-overview.md) or are familiar with what an XRPackage is.
 
-If you're unfamiliar with WebXR, check out our quick [overview of WebXR](./6-webxr-overview.md)!
-
 ## Prerequisites
 
 - Familiarity with the command line
-- NodeJS and NPM installed and available on PATH. See the <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank" rel="noopener noreferrer">NPMJS guide on installing Node</a> for setup instructions
+- NodeJS and NPM installed
 
 ## Install XRPackage
 

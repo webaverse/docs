@@ -5,7 +5,7 @@ title: Import From VRoid Studio
 
 This guide explains how you can export your avatar from <a href="https://vroid.com/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into the Webaverse ecosystem.
 
-The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>, and then package this `.vrm` file into an XRPackage `.wbn` bundle.
+The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>.
 
 ## 1. Export your VRoid Studio avatar as a VRM file
 
@@ -29,9 +29,4 @@ You can now fill in any final details in the "VRM Settings" popup, and click "OK
 
 > <img src="/img/vroid-studio-4-vrm-settings.png" width="40%" alt="VRoid Studio 'VRM Settings' popup" />
 
-After clicking "OK", you will need to choose a location on your computer to save the exported file to.
-
-## 2. Package your VRM file as an XRPackage
-
-See [Create your First XRPackage](./2-creating-an-xrpk.md) for full details on how to build your package.
-
+After clicking "OK", you will need to choose a location on your computer to save the new .VRM exported file to.

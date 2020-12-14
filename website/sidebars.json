@@ -5,9 +5,17 @@
     ],
     "For Developers": [
       "dev-guides/dev-overview",
-      "dev-guides/xrpackage-overview",
-      "dev-guides/creating-an-xrpk",
-      "dev-guides/add-web-monetization",
+      {
+        "type": "subcategory",
+        "label": "XRPackage",
+        "ids": [
+          "dev-guides/xrpackage-overview",
+          "dev-guides/creating-an-xrpk",
+          "dev-guides/xrpackage-design-guidelines",
+          "dev-guides/add-web-monetization",
+          "dev-guides/examples"
+        ]
+      },
       {
         "type": "subcategory",
         "label": "API",
