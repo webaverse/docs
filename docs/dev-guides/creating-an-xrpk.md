@@ -11,7 +11,7 @@ XRPackages in the Webaverse are spatialized apps. Unlike traditional apps that e
 
 XRPackage will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing WebXR scene.
 
-**Note**: This guide assumes you have read the [XRPackage Overview](./1-xrpackage-overview.md) or are familiar with what an XRPackage is.
+**Note**: This guide assumes you have read the [XRPackage Overview](./xrpackage-overview.md) or are familiar with what an XRPackage is.
 
 ## Prerequisites
 
