@@ -3,9 +3,9 @@ id: runtime-api
 title: Runtime API
 ---
 
-The Runtime API exposes everything you could possibly want to access within Webaverse. This includes access to crypto minting, world physics, ui building, and more.
+The Runtime API exposes everything you could possibly want to access within the Webaverse runtime. This includes access to crypto minting, the world scene, camera, physics, and more.
 
-You can call these directly within your app without any extra requirements on your end. This is because the Runtime API is injected to your code at runtime.
+You can call these directly within your app without any extra requirements on your end. This is because the Runtime API is exposed to your code at runtime.
 
 ## `renderer`
 This provides a THREE.js renderer at runtime that can be used to `setAnimationLoop` on.

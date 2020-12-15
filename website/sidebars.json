@@ -2,60 +2,60 @@
   "guides": {
     "Webaverse": [
       "index",
-      "users/grease",
-      "users/avatars",
-      "users/nfts",
-      "users/parcels",
-      "users/seasons",
-      "users/discord-bot"
+      "webaverse/grease",
+      "webaverse/avatars",
+      "webaverse/nfts",
+      "webaverse/parcels",
+      "webaverse/seasons",
+      "webaverse/discord-bot"
     ],
     "Market": [
-      "users/grease-guide",
-      "users/nfts-guide",
-      "users/trade-guide"
+      "market/grease-guide",
+      "market/nfts-guide",
+      "market/trade-guide"
     ],
     "Create": [
-      "creators/overview",
-      "creators/mint",
+      "create/overview",
+      "create/mint",
       {
         "type": "subcategory",
         "label": "Avatars",
         "ids": [
-          "creators/importing-from-vroid-studio"
+          "create/import-vroid-studio"
         ]
       },
       {
         "type": "subcategory",
         "label": "3D Models",
         "ids": [
-          "creators/import-blender"
+          "create/import-blender"
         ]
       },
       {
         "type": "subcategory",
         "label": "Voxels",
         "ids": [
-          "creators/import-magicavoxel"
+          "create/import-magicavoxel"
         ]
       },
       {
         "type": "subcategory",
         "label": "XRPackage",
         "ids": [
-          "developers/xrpackage-overview",
-          "developers/creating-an-xrpk",
-          "developers/xrpackage-design-guidelines",
-          "developers/monetization",
-          "developers/examples"
+          "create/xrpackage-overview",
+          "create/creating-an-xrpk",
+          "create/xrpackage-design-guidelines",
+          "create/monetization",
+          "create/examples"
         ]
       },
       {
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "developers/runtime-api",
-          "developers/manifest-api",
-          "developers/monetization-api"
+          "create/runtime-api",
+          "create/manifest-api",
+          "create/monetization-api"
         ]
       }
     ]

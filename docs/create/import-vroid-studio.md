@@ -1,5 +1,5 @@
 ---
-id: importing-from-vroid-studio
+id: import-vroid-studio
 title: Import From VRoid Studio
 ---
 

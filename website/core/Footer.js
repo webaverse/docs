@@ -38,18 +38,15 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('index.html')}>
-              Home
+              Overview 
             </a>
-            <a href={this.docUrl('about.html')}>
-              About
-            </a>
-            <a href={this.docUrl('getting-started.html')}>
-              Getting Started
+            <a href={this.docUrl('create/overview')}>
+              Create Overview
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://discord.gg/MQNUGgB"
+            <a href="https://discord.gg/R5wqYhvv53"
               target="_blank"
               rel="noreferrer noopener">
               Discord

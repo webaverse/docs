@@ -28,4 +28,6 @@ In addition, Webaverse supports traditional 3D models. Any content creation plat
 
 **I want to package my creations from...**
 
-- [VRoid Studio](./vroid-studio-import.md)
+- [VRoid Studio](./import-vroid-studio.md)
+- [Blender](./import-blender.md)
+- [MagicaVoxel](./import-magicavoxel.md)

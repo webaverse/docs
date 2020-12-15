@@ -15,7 +15,7 @@ The Webaverse ecosystem is built on existing open standards and technologies lik
 
 ## Developers
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
+Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our creator guides](./create/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
 
 ## Contributing
 
@@ -23,4 +23,4 @@ Contributions are welcome in the form of pull requests or issues. Please see <a 
 
 ## Community
 
-You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.
+You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/R5wqYhvv53" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.

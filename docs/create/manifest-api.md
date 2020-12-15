@@ -9,11 +9,10 @@ This page details the API of the manifest, which allows you to provide further d
 
 ```json
 {
-  "name": "snowglobe",
-  "description": "Snowglobe XRPackage",
+  "name": "physicscube",
+  "description": "Physics Cube XRPackage",
   "xr_type": "webxr-site@0.0.1",
-  "start_url": "snowglobe.glb",
-  "physics_url": "snowglobe.bin"
+  "start_url": "index.js"
 }
 ```
 ## `name`

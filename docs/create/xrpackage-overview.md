@@ -48,9 +48,9 @@ The `start_url` field depends on the type of package:
 
 ## Package configuration
 
-The package manifest can contain an `xr_details` field which further specifies how it should be treated by a compatible runtime.
+The package manifest contains fields to describe aspects of your XRPackage such as name, description, etc.
 
-See [`xr_details` API](./10-xr-details-api.md) for more details on these properties.
+See [Manifest API](./manifest-api.md) for more details on these properties.
 
 ## Building a package
 
@@ -69,7 +69,7 @@ a.wbn
 
 The resulting package is `a.wbn`.
 
-See [Create An XRPackage](./10-xr-details-api.md) for how to create an XRPackage.
+See [Create An XRPackage](./creating-an-xrpk.md) for how to create an XRPackage.
 
 ## Test the package
 
@@ -87,4 +87,4 @@ This will open up the XRPackage runtime in your browser and load the given file 
 - Use transparent skyboxes to make it easier to compose multiple apps together.
 - Be mindful of size to improve loading speeds, keep packages under 100mb.
 
-See [Design Guidelines](./15-xrpackage-design-guidelines.md) for more.
+See [Design Guidelines](./xrpackage-design-guidelines.md) for more.
