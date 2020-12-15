@@ -3,30 +3,28 @@ id: import-blender
 title: Import From Blender
 ---
 
-This guide explains how you can export your avatar from <a href="https://vroid.com/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into the Webaverse ecosystem.
+This guide explains how you can export your content from Blender to bring it into Webaverse.
 
-The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>.
+The easiest way to do this is to export your Blender model into a <a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener noreferrer">glTF format</a>, and then mint this `.glb` file.
 
-## 1. Export your VRoid Studio avatar as a VRM file
+## 1. Export your Blender model as a `.glb` (binary glTF) file
 
-To export your model, click the "Camera/Exporter" tab at the top of the program:
+As of Blender 2.8 and above, the Khronos glTF 2.0 importer/exporter is enabled by default. If you don't see this, check out <a href="https://github.com/KhronosGroup/glTF-Blender-IO" target="_blank" rel="noopener noreferrer">the official documentation</a> for more instructions.
 
-> ![VRoid Studio "Camera/Exporter" tab](/img/vroid-studio-1-camera-exporter-tab.png)
+- To export your model, use the `File` -> `Import/Export` -> `glTF 2.0 (.glb, .gltf)` menu button.
 
-You can find out more about the Camera/Exporter tab at the <a href="https://vroid.pixiv.help/hc/en-us/articles/360012474773-Camera-Exporter" target="_blank" rel="noopener noreferrer">the VRoid site</a>.
+> ![Blender export to gltf menu option](/img/blender-1.png)
 
-Click the "Export" button in the panel on the left:
+**Note:** It's preferable to export your Blender content as a `.glb` file where possible. This is a single binary file that can be easily shared and packaged.
 
-> <img src="/img/vroid-studio-2-export-btn.png" width="30%" alt="VRoid Studio 'Export' button" />
+- Select the `glTF Binary (.glb)` file format 
+- To further optimize your file size go to `Geometry` dropdown -> `Images` -> `JPEG Format (.jpg)`
 
-You can tweak any mesh, material, or bone reduction settings you want in the panel on the right.
+> ![Blender optimize to jpeg save menu option](/img/blender-2.png)
 
-Click "Export":
 
-> <img src="/img/vroid-studio-3-export-panel.png" width="20%" alt="VRoid Studio 'Export' panel" />
+- Click `Export glTF 2.0` to save your file to your computer
 
-You can now fill in any final details in the "VRM Settings" popup, and click "OK" to export the avatar as a `.vrm` file.
+## 2. Mint your `.glb` file as an NFT
 
-> <img src="/img/vroid-studio-4-vrm-settings.png" width="40%" alt="VRoid Studio 'VRM Settings' popup" />
-
-After clicking "OK", you will need to choose a location on your computer to save the new .VRM exported file to.
+See [How To Mint NFTs](./mint.md) for how to mint the `.glb` file you exported above.

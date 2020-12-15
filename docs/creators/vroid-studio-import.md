@@ -3,7 +3,7 @@ id: importing-from-vroid-studio
 title: Import From VRoid Studio
 ---
 
-This guide explains how you can export your avatar from <a href="https://vroid.com/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into the Webaverse ecosystem.
+This guide explains how you can export your avatar from <a href="https://vroid.com/en/studio/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into Webaverse.
 
 The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>.
 
@@ -30,3 +30,7 @@ You can now fill in any final details in the "VRM Settings" popup, and click "OK
 > <img src="/img/vroid-studio-4-vrm-settings.png" width="40%" alt="VRoid Studio 'VRM Settings' popup" />
 
 After clicking "OK", you will need to choose a location on your computer to save the new .VRM exported file to.
+
+## 2. Mint your VRM file as an NFT
+
+See [How To Mint NFTs](./mint.md) for how to mint the `.vrm` file you exported above.
