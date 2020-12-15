@@ -3,9 +3,14 @@ id: discord-bot
 title: Discord Bot 
 ---
 
-Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a>.
+The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing in the Webaverse Discord.
 
-You can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything from a sword to a person, packaged into an XRPackage.
+The Discord Bot runs on an Ethereum side chain and allows you to interact with the blockchain by running commands in Discord like `.inventory`. There’s no setup required, anybody in the Webaverse Discord will already have an Ethereum address.
+
+## Help
+
+### `.help`
+show help
 
 ## Account 
 
@@ -23,6 +28,14 @@ print your address, or that of a user
 
 ### `.key`
 get your private key in a DM
+
+## Key Management (DM to bot)
+
+### `.key [new mnemonic key]`
+set your Discord private key
+
+### `.key reset`
+generate and set a new Discord private key
 
 ## Profile
 
@@ -69,3 +82,41 @@ mint [count] NFTs from the provided [url]
 ### `.update [id] (in upload comment)`
 update nft content
 
+## Packing
+
+### `.packs [@user|nftid]`
+check packed ft balances of [@user] or [nftid]
+
+### `.pack [nftid] [amount]`
+pack [amount] ft from yourself into [nftid]
+
+### `.unpack [nftid] [amount]`
+unpack [amount] ft from [nftid] to yourself
+
+## Trade
+
+### `.trade [@user|0xaddr]`
+start a trade with user/address
+
+### `.addnft [tradeid] [nftid]`
+add nonfungible token to trade [tradeid]
+
+### `.removenft [tradeid] [index]`
+remove nonfungible token at [index] from trade [tradeid]
+
+### `.addft [tradeid] [amount]`
+add fungible tokens to trade [tradeid]
+
+## Store
+
+### `.store [@user]`
+show the treasury store, or that of a user
+
+### `.sell [nftid] [price]`
+list [nftid] for sale at [price]
+
+### `.unsell [saleid]`
+unlist [saleid] from the store
+
+### `.buy [saleid]`
+buy the [saleid] from [@user]
