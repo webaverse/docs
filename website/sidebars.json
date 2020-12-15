@@ -3,32 +3,39 @@
     "Introduction": [
       "index"
     ],
+    "For Users": [
+      "users/user-overview",
+      "users/avatars",
+      "users/things",
+      "users/land",
+      "users/discord-bot"
+    ],
     "For Developers": [
-      "dev-guides/dev-overview",
+      "developers/overview",
       {
         "type": "subcategory",
         "label": "XRPackage",
         "ids": [
-          "dev-guides/xrpackage-overview",
-          "dev-guides/creating-an-xrpk",
-          "dev-guides/xrpackage-design-guidelines",
-          "dev-guides/monetization",
-          "dev-guides/examples"
+          "developers/xrpackage-overview",
+          "developers/creating-an-xrpk",
+          "developers/xrpackage-design-guidelines",
+          "developers/monetization",
+          "developers/examples"
         ]
       },
       {
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "dev-guides/xr-details-api",
-          "dev-guides/monetization-api"
+          "developers/xr-details-api",
+          "developers/monetization-api"
         ]
       },
       {
         "type": "subcategory",
         "label": "Import",
         "ids": [
-          "dev-guides/importing-from-vroid-studio"
+          "developers/importing-from-vroid-studio"
         ]
       }
     ]

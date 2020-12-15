@@ -1,6 +1,6 @@
 ---
 id: monetization 
-title: Monetization
+title: Add Monetization
 ---
 
 This guide will walk you through the basic steps for adding the ability to "unlock" features in your XRPackage when a user has web monetization enabled *or* when a user owns a NFT of your XRPackage.

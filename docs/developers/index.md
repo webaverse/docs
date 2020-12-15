@@ -1,5 +1,5 @@
 ---
-id: dev-overview
+id: overview
 title: Overview
 ---
 

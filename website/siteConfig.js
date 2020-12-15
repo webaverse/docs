@@ -6,7 +6,7 @@ const siteConfig = {
   url: 'https://docs.webaverse.com',
   baseUrl: '/',
 
-  projectName: 'docs',
+  projectName: '',
   organizationName: 'webaverse',
   cname: 'docs.webaverse.com',
 
