@@ -328,6 +328,33 @@ You can call these directly within your app without any extra requirements on yo
 
 -------------------
 
+## `physics`
+
+### `addBoxGeometry`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `position` | position |
+| `quaternion` | quaternion |
+| `size` |  |
+| `dynamic` |  |
+
+-------------------
+
+### `addGeometry`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `mesh` | mesh |
+
+-------------------
+
+
+
 ## `app`
 ## `appManager`
 ## `renderer`
