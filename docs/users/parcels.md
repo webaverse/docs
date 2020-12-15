@@ -1,6 +1,6 @@
 ---
-id: things-guide 
-title: How To Buy And Sell Things 
+id: parcels 
+title: Parcels 
 ---
 
 Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a>.

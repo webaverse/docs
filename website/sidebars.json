@@ -1,26 +1,20 @@
 {
   "guides": {
-    "Introduction": [
-      "index"
-    ],
-    "For Users": [
-      "users/user-overview",
+    "Webaverse": [
+      "index",
       "users/grease",
       "users/avatars",
-      "users/things",
-      "users/land",
-      "users/discord-bot",
-      {
-        "type": "subcategory",
-        "label": "Guides",
-        "ids": [
-          "users/grease-guide",
-          "users/things-guide",
-          "users/trade-guide"
-        ]
-      }
+      "users/nfts",
+      "users/parcels",
+      "users/seasons",
+      "users/discord-bot"
     ],
-    "For Creators": [
+    "Market": [
+      "users/grease-guide",
+      "users/nfts-guide",
+      "users/trade-guide"
+    ],
+    "Create": [
       "creators/overview",
       "creators/mint",
       {
@@ -29,10 +23,21 @@
         "ids": [
           "creators/importing-from-vroid-studio"
         ]
-      }
-    ],
-    "For Developers": [
-      "developers/overview",
+      },
+      {
+        "type": "subcategory",
+        "label": "3D Models",
+        "ids": [
+          "creators/import-blender"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Voxels",
+        "ids": [
+          "creators/import-magicavoxel"
+        ]
+      },
       {
         "type": "subcategory",
         "label": "XRPackage",
@@ -48,7 +53,8 @@
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "developers/xr-details-api",
+          "developers/runtime-api",
+          "developers/manifest-api",
           "developers/monetization-api"
         ]
       }

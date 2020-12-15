@@ -1,6 +1,6 @@
 ---
-id: xr-details-api
-title: xr_details API
+id: manifest-api
+title: Manifest API
 ---
 
 An overview of XRPackages and the `manifest.json` file is provided in [the XRPackage Overview](./xrpackage-overview.md).

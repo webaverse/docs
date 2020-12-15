@@ -1,7 +1,6 @@
 ---
-id: index 
-title: Overview 
-hide_title: true
+id: faq 
+title: FAQ 
 ---
 
 <div style='margin-top: -60px'></div>
