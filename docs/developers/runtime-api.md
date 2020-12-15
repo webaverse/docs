@@ -3,17 +3,71 @@ id: runtime-api
 title: Runtime API
 ---
 
-The Monetization API allows you to lock or unlock content in your XRPackage based on whether a user has [Web Monetization](https://webmonetization.org/) enabled or if they are a NFT owner of your XRPackage.
+The Runtime API exposes everything you could possibly want to access within Webaverse. This includes access to crypto minting, world physics, ui building, and more.
 
-## `renderer`
+You can call these directly within your app without any extra requirements on your end. This is because the Runtime API is injected to your code at runtime.
 
-
-## `scene`
-## `camera`
-## `runtime`
-## `world`
-## `physics`
 ## `ui`
+
+### `makeCubeMesh`
+
+#### Returns
+| Name| Type | Description |
+| --- | ---- | ----------- |
+| `mesh` | THREE.mesh | Cube mesh |
+
+### `makeTextMesh`
+
+#### Parameters
+
+| Name| Type | Description |
+| --- | ---- | ----------- |
+| `text` | string | The text on the mesh |
+| `font` | string | The path to the font, defaults to "./GeosansLight.tff" |
+| `fontSize` | number | The size of the font, default is 1 |
+| `anchorX` | string | The x anchor, default is "left" |
+| `anchorY` | string | The y anchor, default is "middle" |
+
+#### Returns
+| Name| Type | Description |
+| --- | ---- | ----------- |
+| `textMesh` | mesh | The generated text mesh |
+
+### `makeToolsMesh`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- |
+| `tools` | array |
+| `selectTool` | function |
+| `selectMenu` | function |
+
+#### Returns
+| Name| Type | Description |
+| --- | ---- | ----------- |
+| `mesh` | mesh | The generated tool mesh |
+
+### `makeDetailMesh`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- |
+| `cubeMesh` | mesh |
+| `onrun` | function |
+| `onbake` | function |
+| `onadd` | function |
+| `onremove` | function |
+| `onclose` | function |
+| `selectMenu` | function |
+
+#### Returns
+| Name| Type |
+| --- | ---- |
+| `mesh` | mesh |
+
+
 ## `crypto`
 
 ### `mintToken`
@@ -22,13 +76,20 @@ The Monetization API allows you to lock or unlock content in your XRPackage base
 
 | Name| Type | Description |
 | --- | ---- | ----------- |
-| `file` | Blob | The data of the file to be tokenized |
-| `options` | Object | You can define the `description` of the token here |
+| `file` | blob | The data of the file to be tokenized |
+| `options` | object | You can define the `description` of the token here |
 
 #### Returns
 | Name| Type | Description |
 | --- | ---- | ----------- |
-| `tokenId` | Number | The id of the newly minted token |
+| `tokenId` | number | The id of the newly minted token |
 
 ## `app`
 ## `appManager`
+## `renderer`
+## `scene`
+## `camera`
+## `runtime`
+## `world`
+## `physics`
+
