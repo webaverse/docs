@@ -5,10 +5,31 @@
     ],
     "For Users": [
       "users/user-overview",
+      "users/grease",
       "users/avatars",
       "users/things",
       "users/land",
-      "users/discord-bot"
+      "users/discord-bot",
+      {
+        "type": "subcategory",
+        "label": "Guides",
+        "ids": [
+          "users/grease-guide",
+          "users/things-guide",
+          "users/trade-guide"
+        ]
+      }
+    ],
+    "For Creators": [
+      "creators/overview",
+      "creators/mint",
+      {
+        "type": "subcategory",
+        "label": "Avatars",
+        "ids": [
+          "creators/importing-from-vroid-studio"
+        ]
+      }
     ],
     "For Developers": [
       "developers/overview",
@@ -29,13 +50,6 @@
         "ids": [
           "developers/xr-details-api",
           "developers/monetization-api"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Import",
-        "ids": [
-          "developers/importing-from-vroid-studio"
         ]
       }
     ]
