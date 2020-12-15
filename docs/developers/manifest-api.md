@@ -3,8 +3,6 @@ id: manifest-api
 title: Manifest API
 ---
 
-An overview of XRPackages and the `manifest.json` file is provided in [the XRPackage Overview](./xrpackage-overview.md).
-
 This page details the API of the manifest, which allows you to provide further details about the XRPackage.
 
 **Example `manifest.json`**:
