@@ -18,8 +18,10 @@ The main addition to the Web App Manifest specification is the `xr_type` field, 
 ```
 $ cat manifest.json
 {
+  "name": "cube",
+  "description": "Cube XRPackage",
   "xr_type": "webxr-site@0.0.1",
-  "start_url": "cube.js"
+  "start_url": "index.js"
 }
 ```
 
@@ -64,23 +66,12 @@ To build a package with `manifest.json` in the current directory:
 
 ```bash
 $ xrpk build .
-a.wbn
+cube.wbn
 ```
 
-The resulting package is `a.wbn`.
+The resulting package is `cube.wbn`.
 
 See [Create An XRPackage](./creating-an-xrpk.md) for how to create an XRPackage.
-
-## Test the package
-
-Once you have an XRPackage (`a.wbn`), you can run it in your browser like so:
-
-```bash
-$ xrpk run ./a.wbn
-```
-
-This will open up the XRPackage runtime in your browser and load the given file for viewing.
-  
 
 ## Design Guidelines:
 
