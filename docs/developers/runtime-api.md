@@ -7,308 +7,14 @@ The Runtime API exposes everything you could possibly want to access within Weba
 
 You can call these directly within your app without any extra requirements on your end. This is because the Runtime API is injected to your code at runtime.
 
-## `ui`
+## `renderer`
+This provides a THREE.js renderer at runtime that can be used to `setAnimationLoop` on.
 
-### `makeCubeMesh`
+## `scene`
+This provides a THREE.js scene at runtime.
 
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeTextMesh`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `text` | string | The text on the mesh |
-| `font` | string | The path to the font, defaults to "./GeosansLight.tff" |
-| `fontSize` | number | The size of the font, default is 1 |
-| `anchorX` | string | The x anchor, default is "left" |
-| `anchorY` | string | The y anchor, default is "middle" |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `textMesh` | mesh |
-
--------------------
-
-### `makeToolsMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `tools` | array |
-| `selectTool` | function |
-| `selectMenu` | function |
-
-#### Returns
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `mesh` | mesh | The generated tool mesh |
-
--------------------
-
-### `makeDetailMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `cubeMesh` | mesh |
-| `onrun` | function |
-| `onbake` | function |
-| `onadd` | function |
-| `onremove` | function |
-| `onclose` | function |
-| `selectMenu` | function |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeTradeMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `cubeMesh` | mesh |
-| `ontrade` | function |
-| `onclose` | function |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makePopupMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeInventoryMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `cubeMesh` | mesh |
-| `onscroll` | function |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeColorsMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `cubeMesh` | mesh |
-| `colors` | array |
-| `oncolorchange` | function |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeIconMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeMenuMesh`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `cubeMesh` | mesh |
-| `onclickBindings` | array |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `intersectUi`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- |
-| `raycaster` | raycast |
-| `meshes` | array |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeHighlightMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeRayMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `ray` | mesh |
-
--------------------
-
-### `makeRigCapsule`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeButtonMesh`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `text` | string | The text on the mesh |
-| `font` | string | The path to the font, defaults to "./GeosansLight.tff" |
-| `size` | number | The size of the font, default is 0.1 |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `textMesh` | mesh |
-
--------------------
-
-### `makeArrowMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `mesh` | mesh |
-
--------------------
-
-### `makeCornersMesh`
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `cornersMesh` | mesh |
-
--------------------
-
-### `makeTextInput`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `text` | string | The text on the mesh |
-| `font` | string | The path to the font, defaults to "./GeosansLight.tff" |
-| `size` | number | The size of the font, default is 0.1 |
-| `width` | number | The width of the input, default is 1 |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `textInput` | Object3d |
-
--------------------
-
-### `makeTabs`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `tabs` | array | The array of tabs |
-| `size` | number | The size of the tabs, default is 0.08 |
-| `width` | number | The width of the tabs, default is 1 |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `object` | Object3d |
-
--------------------
-
-### `makeItem`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `previewUrl` | string |  |
-| `text` | string | The text on the mesh |
-| `size` | number | The size, default is 0.1 |
-| `width` | number | The width, default is 1 |
-| `buttons` | array | The array defaults to empty [] |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `object` | Object3d |
-
--------------------
-
-### `makeScrollbar`
-
-#### Parameters
-
-| Name| Type | Description |
-| --- | ---- | ----------- |
-| `slots` | number | The # of slots, default is 4 |
-| `totalSlots` | number | The total # of slots, default is 20 |
-| `size` | number | The size, default is 0.1 |
-| `width` | number | The width, default is 1 |
-
-#### Returns
-| Name| Type |
-| --- | ---- |
-| `scrollbarMesh` | mesh |
-
--------------------
-
+## `camera`
+This provides a THREE.js camera at runtime.
 
 ## `crypto`
 
@@ -330,19 +36,6 @@ You can call these directly within your app without any extra requirements on yo
 
 ## `physics`
 
-### `addBoxGeometry`
-
-#### Parameters
-
-| Name| Type |
-| --- | ---- | 
-| `position` | position |
-| `quaternion` | quaternion |
-| `size` |  |
-| `dynamic` |  |
-
--------------------
-
 ### `addGeometry`
 
 #### Parameters
@@ -353,14 +46,92 @@ You can call these directly within your app without any extra requirements on yo
 
 -------------------
 
+### `removeGeometry`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `physicsId` | number |
+
+-------------------
+
+### `getRigTransforms`
+
+#### Returns
+```js
+[
+  {
+    position: this.localRig.inputs.leftGamepad.position,
+    quaternion: this.localRig.inputs.leftGamepad.quaternion,
+  },
+  {
+    position: this.localRig.inputs.rightGamepad.position,
+    quaternion: this.localRig.inputs.rightGamepad.quaternion,
+  },
+];
+```
+
+-------------------
 
 
 ## `app`
-## `appManager`
-## `renderer`
-## `scene`
-## `camera`
-## `runtime`
-## `world`
-## `physics`
 
+### `object.add`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `mesh` | mesh |
+
+-------------------
+
+### `files[]`
+
+This is an array of files to load from relative paths.
+
+-------------------
+
+### `unload`
+
+This is an event that gets emitted when the app instance is deleted.
+
+-------------------
+
+### `onBeforeRender()`
+
+This is a function to run alongside anything you want to run before rendering.
+
+-------------------
+
+### `onAfterRender()`
+
+This is a function to run alongisde anyhting you want to run after rendering.
+
+-------------------
+
+## `runtime`
+
+### `loadFile`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `file` | file |
+| `opts` | object |
+
+## `world`
+
+### `addObject`
+
+#### Parameters
+
+| Name| Type |
+| --- | ---- | 
+| `contentId` | number |
+| `parentId` | number |
+| `position` | THREE.Vector3 |
+| `quaternion` | THREE.Quaternion |
+| `options` | object |
