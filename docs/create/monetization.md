@@ -25,17 +25,3 @@ document.monetization.addEventListener('monetizationstart', () => {
 ```
 
 That's it! Inside of the event listener, you can change whatever you want to change for users who unlock your XRPackage.
-
-## Build And Test The XRPackage
-
-Open a command prompt and navigate to the project root for your XRPackage. Then issue the `build` command as follows to build a new bundle from the contents of the current working directory and then `run` your XRPackage:
-
-```bash
-$ cd project_root
-$ xrpk build .
-a.wbn
-$ xrpk run ./a.wbn
-```
-For NFT ownership: If you load in the NFT of your XRPackage as the owner, and your item unlocks, then everything worked!
-
-For Web Monetization: If you see your Web Monetization extension, such as Coil, turn on web monetization and your item unlocks, then everything worked!
