@@ -3,9 +3,9 @@ id: avatars
 title: Avatars
 ---
 
-Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a>.
+Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. 
 
-You can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything from a sword to a person, packaged into an XRPackage.
+Avatars are typically <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM-based avatar models</a>, but you can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything you want.
 
 
 ## Where Can I Find Avatars?
@@ -14,8 +14,8 @@ The largest public hub of VRM avatars can be found at <a href="https://hub.vroid
 
 ## How Can I Make An Avatars?
 
-You can make your own custom VRM avatar with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../developers/importing-from-vroid-studio).
+You can make your own custom VRM avatar with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid-studio).
 
 ## How Do I Set My Avatar?
 
-You can set your avatar in Discord by minting your VRM avatar and then setting it in your profile by typing `.avatar` + the ID of your minted VRM avatar.
+You can set your avatar in Discord by [minting](../create/mint) your avatar as an NFT and then setting it in your profile by typing `.avatar` + the ID of the NFT you want as your avatar.

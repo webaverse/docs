@@ -3,8 +3,8 @@
     "Webaverse": [
       "index",
       "webaverse/grease",
-      "webaverse/avatars",
       "webaverse/nfts",
+      "webaverse/avatars",
       "webaverse/parcels",
       "webaverse/seasons",
       "webaverse/discord-bot"
