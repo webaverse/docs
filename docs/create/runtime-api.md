@@ -131,7 +131,7 @@ This is a function to run alongisde anyhting you want to run after rendering.
 
 | Name| Type |
 | --- | ---- | 
-| `contentId` | number |
+| `contentId` | number *or* URL |
 | `parentId` | number |
 | `position` | THREE.Vector3 |
 | `quaternion` | THREE.Quaternion |
