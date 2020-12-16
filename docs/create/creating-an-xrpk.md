@@ -46,7 +46,6 @@ When building an XRPackage with the CLI, a `manifest.json` file in the root dire
 {
   "name": "physicscube",
   "description": "Physics Cube XRPackage",
-  "xr_type": "webxr-site@0.0.1",
   "start_url": "index.js"
 }
 ```
@@ -55,9 +54,7 @@ See the [XRPackage Manifest API](./manifest-api.md) for the full list of availab
 
 The first two fields are self evident, they define the name and description that will be exposed to users who want to consume our package.
 
-The third field, `xr_type` specifies what type of contents are contained in this package (see the [XRPackage Manifest API](./manifest-api.md)). In this guide, we'll use `webxr-site@0.0.1`.
-
-The last field defines the entry point for our package. Since this package is a `webxr-site` we're going to define our `index.js` as the entry point. This will load ThreeJS which creates our scene.
+The last field defines the entry point for our package. Since this package is a 3d WebXR website, we're going to define our `index.js` as the entry point. This will load ThreeJS which creates our scene.
 
 ## Build The Package
 
