@@ -1,21 +1,42 @@
 ---
 id: grease-guide 
-title: How To Buy And Sell Grease 
+title: How To Buy Grease 
 ---
 
-Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. They are XRPackages created from <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM files</a>.
+This guide will walk you step-by-step to buying GREASE on Uniswap.
 
-You can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything from a sword to a person, packaged into an XRPackage.
+### Prerequisites
+- Have a MetaMask wallet
+- Have ETH to swap for Grease
 
+## 1. Go To The Grease Uniswap Page
+Go to the [Grease Uniswap page](https://uniswap.exchange/swap?inputCurrency=0x617f2b3558604708288ab0454c4e7771ea7c712c), and click "I understand" and "Continue".
 
-## Where Can I Find Avatars?
+> ![Uniswap](/img/uniswap-1.png)
 
-The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use.
+## 2. Enter The Ammount of Grease You Want And Connect Wallet
+Here is where you enter the amount of Grease you want to purchase. Keep in mind you will need to have enough ETH to swap for it.
 
-## How Can I Make An Avatars?
+> ![Uniswap](/img/uniswap-2.png)
 
-You can make your own custom VRM avatar with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../developers/importing-from-vroid-studio).
+## 3. Choose The Wallet You Want To Connect With
+For this guide specifically, we're using MetaMask.
 
-## How Do I Set My Avatar?
+> ![Uniswap](/img/uniswap-3.png)
 
-You can set your avatar in Discord by minting your VRM avatar and then setting it in your profile by typing `.avatar` + the ID of your minted VRM avatar.
+## 4. Approve The Grease Swap
+> ![Uniswap](/img/uniswap-4.png)
+
+## 5. Confirm The Transaction Fee
+> ![Uniswap](/img/uniswap-5.png)
+
+## 6. Swap
+> ![Uniswap](/img/uniswap-6.png)
+
+## 7. Confirm Swap
+> ![Uniswap](/img/uniswap-7.png)
+
+## 8. That's it!
+At this point, you've submitted the swap. You can click the link to view the transaction on Etherscan.
+
+> ![Uniswap](/img/uniswap-8.png)

@@ -5,8 +5,6 @@ title: Overview
 
 Webaverse loads multiple XR apps simulatenously in a shared space. These applications (apps) are called XRPackages (XRPKs).
 
-To make a Webaverse application, you create your app using one of the many supported asset types (see below) and package it into an XRPackage using  <a href="https://github.com/webaverse/xrpackage-cli" target="_blank" rel="noopener noreferrer">`xrpk`</a>.
-
 ## Supported Asset Types
 
 Webaverse supports many different asset types to enable creators to easily bring their original content directly into Webaverse.
