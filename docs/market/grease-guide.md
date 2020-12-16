@@ -7,7 +7,7 @@ This guide will walk you step-by-step to buying GREASE on Uniswap.
 
 ### Prerequisites
 - Have a [MetaMask wallet](https://metamask.io/) or equivalent wallet
-- Have ETH or another valid token to swap for Grease
+- Have ETH to swap for Grease
 
 ## 1. Go To The Grease Uniswap Page
 Go to the [Grease Uniswap page](https://uniswap.exchange/swap?inputCurrency=0x617f2b3558604708288ab0454c4e7771ea7c712c), and click "I understand" and "Continue".
