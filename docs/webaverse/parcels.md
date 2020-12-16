@@ -7,6 +7,8 @@ Parcels represent an area of the Webaverse world that you can own and build what
 
 Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and there will not be another exactly like it.
 
+## FAQ
+
 ### How Can I Buy Parcels?
 
 You can buy parcels as they're avaliable at the [Webaverse](https://webaverse.com) website, or a third party marketplace like [OpenSea](https://opensea.io/).
