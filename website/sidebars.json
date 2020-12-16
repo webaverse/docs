@@ -7,7 +7,14 @@
       "webaverse/avatars",
       "webaverse/parcels",
       "webaverse/seasons",
-      "webaverse/discord-bot"
+      "webaverse/discord-bot",
+      {
+        "type": "subcategory",
+        "label": "Guides",
+        "ids": [
+          "webaverse/start"
+        ]
+      }
     ],
     "Market": [
       "market/grease-guide",
