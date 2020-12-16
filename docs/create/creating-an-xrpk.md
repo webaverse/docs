@@ -52,7 +52,7 @@ When building an XRPackage with the CLI, a `manifest.json` file in the root dire
 
 See the [XRPackage Manifest API](./manifest-api.md) for the full list of available configuration options.
 
-The first two fields are self evident, they define the name and description that will be exposed to users who want to consume our package.
+The first two fields define the name and description that will be exposed to users who want to consume our package.
 
 The last field defines the entry point for our package. Since this package is a 3d WebXR website, we're going to define our `index.js` as the entry point. This will load ThreeJS which creates our scene.
 
