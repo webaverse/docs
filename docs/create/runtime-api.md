@@ -10,9 +10,6 @@ You can call these directly within your app without any extra requirements on yo
 ## `renderer`
 This provides a THREE.js renderer at runtime that can be used to `setAnimationLoop` on.
 
-## `scene`
-This provides a THREE.js scene at runtime.
-
 ## `camera`
 This provides a THREE.js camera at runtime.
 
@@ -123,6 +120,10 @@ This is a function to run alongisde anyhting you want to run after rendering.
 | `opts` | object |
 
 ## `world`
+
+### `object`
+
+`app.object` is a THREE.js  object where you should attach your app (using `app.object.add`, see below), this should be used instead of a `scene.`
 
 ### `addObject`
 
