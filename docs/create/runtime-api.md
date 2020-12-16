@@ -86,7 +86,11 @@ This provides a THREE.js camera at runtime.
 
 ### `files[]`
 
-This is an array of files to load from relative paths.
+This is a map of relative file URL -> file load URL you can `fetch`.
+
+No matter how you are loading the package, whether it is an XRPK or a URL or an NFT, this map should let you access all of the app's files.
+
+**Note:** Files in this map are prefixed with `./`
 
 -------------------
 
