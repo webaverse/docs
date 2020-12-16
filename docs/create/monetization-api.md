@@ -55,9 +55,7 @@ function startEventHandler (event) {
   console.log(event)
 }
 
-document
-  .monetization
-  .addEventListener('monetizationstart', startEventHandler)
+document.monetization.addEventListener('monetizationstart', startEventHandler)
 ```
 
 ### `monetizationstop`
@@ -72,7 +70,5 @@ function stopEventHandler (event) {
   console.log(event)
 }
 
-document
-  .monetization
-  .addEventListener('monetizationstop', stopEventHandler)
+document.monetization.addEventListener('monetizationstop', stopEventHandler)
 ```
