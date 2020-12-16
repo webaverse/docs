@@ -9,18 +9,28 @@ hide_title: true
 
 <br/>
 
-These docs will help you create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a>.
+These docs will help you navigate and create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">Webaverse</a>.
 
 The Webaverse ecosystem is built on existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
 
-## Developers
+## Market 
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our creator guides](./create/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
+Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
 
-## Contributing
+Check out [our market guides](./market/grease-guide.md) for more information on how you can buy, sell, and trade in Webaverse.
 
-Contributions are welcome in the form of pull requests or issues. Please see <a href="https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> for additional information.
+## Create 
+
+Creators of a variety of backgrounds can build for Webaverse: 3D modelers, JavaScript 3D website programmers, and designers. 
+
+Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
 ## Community
 
-You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/R5wqYhvv53" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.
+You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webmixedreality).
+
+## Contributing
+
+Contributions are welcome please see <a href="https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> for additional information.
+
+
