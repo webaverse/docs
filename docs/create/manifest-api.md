@@ -11,7 +11,6 @@ This page details the API of the manifest, which allows you to provide further d
 {
   "name": "physicscube",
   "description": "Physics Cube XRPackage",
-  "xr_type": "webxr-site@0.0.1",
   "start_url": "index.js"
 }
 ```
@@ -26,12 +25,6 @@ _Defines the name of the package._
 _Defines the description for the package._
 
 **Format**: a string
-
-## `xr_type`
-
-_Defines the type of application and the spec version for the package._
-
-**Format**: a string (`webxr-site@0.0.1` or `gltf@0.0.1` or `vrm@0.0.1` or `vox@0.0.1`)
 
 ## `start_url`
 
