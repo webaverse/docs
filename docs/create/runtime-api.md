@@ -92,7 +92,9 @@ This is an array of files to load from relative paths.
 
 ### `unload`
 
-This is an event that gets emitted when the app instance is deleted.
+This is an event that gets emitted when the app instance is deleted. You should clean up anything you app is doing here, such as removing physics, objects, timers, etc.
+
+**Note:** The `app.object` will be automatically removed from the scene so there is no need to clean up that.
 
 -------------------
 
