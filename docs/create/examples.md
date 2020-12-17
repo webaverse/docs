@@ -28,6 +28,3 @@ If you think something is missing from this list, you can submit a pull request 
 
 # VRM XRPKs
 - [Hatsune Miku](https://github.com/avaer/miku) - A Hatsune Miku avatar.
-
-# Tools
-- [XRPackage Builder](https://github.com/webaverse/xrpackage-build-action) - A GitHub action to automatically build your XRPackages.
