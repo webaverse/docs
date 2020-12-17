@@ -11,7 +11,7 @@ hide_title: true
 
 These docs will help you navigate and create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">Webaverse</a>.
 
-The Webaverse ecosystem is built on existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
+Webaverse is built on existing communities like Discord and existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
 
 ## Webaverse 
 
@@ -25,7 +25,7 @@ Or that you can create your very own [Avatars](./webaverse/avatars) and build on
 
 Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
 
-Check out [our market guides](./market/grease-guide.md) for more information on how you can buy, sell, and trade in Webaverse.
+Check out [our market guides](./market/grease-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
 
 ## Create 
 

@@ -13,26 +13,14 @@ It uses standards like WebGL, WebXR, GLTF, and WebBundle to package an app into 
 
 An XRPackage is a bundle of files. The entry point is a `manifest.json` (following the <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="noopener noreferrer">Web App Manifest</a> standard). The rest of the files in the bundle are the source files for the app.
 
-The main addition to the Web App Manifest specification is the `xr_type` field, which specifies the type of application and the spec version.
-
 ```
 $ cat manifest.json
 {
   "name": "cube",
   "description": "Cube XRPackage",
-  "xr_type": "webxr-site@0.0.1",
   "start_url": "index.js"
 }
 ```
-
-`xr_type` can currently be:
-
-- `webxr-site@0.0.1`
-- `gltf@0.0.1`
-- `vrm@0.0.1`
-- `vox@0.0.1`
-
-See also the <a href="https://github.com/webaverse/xrpackage/tree/master/examples" target="_blank" rel="noopener noreferrer">examples</a>.
 
 The `start_url` field depends on the type of package:
 
