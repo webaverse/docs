@@ -5,6 +5,10 @@ title: Avatars
 
 Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. 
 
+## Usernames and Accounts
+Usernames can be set on your account and is stored on-chain. Learn how to setup your account [here](./start).
+
+Each account has a unique address that it is identified by. The unique address helps keep track of who each person is and who owns what.
 
 ## FAQ
 
