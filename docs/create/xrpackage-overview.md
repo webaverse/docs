@@ -28,7 +28,7 @@ The `start_url` field depends on the type of package:
 
    For the following types of packages, the `start_url` references the single static asset file to be loaded:
 
-   - `gltf@0.0.1`
+   - `glb@0.0.1`
    - `vrm@0.0.1`
    - `vox@0.0.1`
 
