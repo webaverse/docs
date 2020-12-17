@@ -32,6 +32,12 @@ _Defines the entry point for the package._
 
 **Format**: a string, the path to the asset (gltf, glb, vrm, vox) or the website (html, js)
 
+## `physics`
+
+_Defines if physic meshes should be automatically generated for the package._
+
+**Format**: a boolean
+
 ## `physics_url`
 
 _Defines the physics .bin file for the package._
