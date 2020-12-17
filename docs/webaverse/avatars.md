@@ -24,6 +24,6 @@ You can make your own custom VRM avatar with [VRoid Studio](https://vroid.com/en
 
 You can set your avatar in Discord by [minting](../create/mint) your avatar as an NFT and then setting it in your profile by typing `.avatar` + the ID of the NFT you want as your avatar. For a full step-by-step guide to getting started in Webaverse, check out [this guide](./start).
 
-### Technically, what are they?
+### Technically, what are Avatars?
 
 Avatars are typically <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM-based avatar models</a>, but you can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything you want.
