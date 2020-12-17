@@ -16,7 +16,7 @@ The `xrpk` command line tool will be used to package the assets into a bundle. A
 ## Prerequisites
 
 - Familiarity with the command line
-- NodeJS and NPM installed
+- NodeJS
 
 ## Install XRPackage
 
