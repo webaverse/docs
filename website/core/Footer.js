@@ -38,52 +38,30 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('index.html')}>
-              Home
+              Overview 
             </a>
-            <a href={this.docUrl('about.html')}>
-              About
-            </a>
-            <a href={this.docUrl('getting-started.html')}>
-              Getting Started
-            </a>
-            <a href="https://github.com/webaverse/docs"
-              target="_blank"
-              rel="noreferrer noopener">
-              Contribute
+            <a href={this.docUrl('create/overview')}>
+              Create Overview
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://discord.gg/MQNUGgB"
+            <a href="https://discord.gg/R5wqYhvv53"
               target="_blank"
               rel="noreferrer noopener">
-              Discord Server
+              Discord
             </a>
             <a
-              href="https://glitch.com/@webaverse"
+              href="https://twitter.com/webmixedreality"
               target="_blank"
               rel="noreferrer noopener">
-              Glitch Examples
-            </a>
-            <a
-              href="https://github.com/topics/webaverse"
-              target="_blank"
-              rel="noreferrer noopener">
-              Github Topic
-            </a>
-            <a
-              href="https://twitter.com/search?q=webaverse"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter Discussion
+              Twitter
             </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://webaverse.com">Website</a>
+            <a href="https://webaverse.com">Webaverse</a>
             <a href="https://github.com/webaverse/">GitHub</a>
-            <a href="https://twitter.com/webmixedreality/">Twitter</a>
-            <a href="https://discord.gg/MQNUGgB">Discord</a>
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>

@@ -1,39 +1,70 @@
 {
   "guides": {
-    "Getting Started": [
-      "getting-started"
-    ],
-    "Developer Guides": [
-      "dev-guides/dev-overview",
-      "dev-guides/xrpackage-overview",
-      "dev-guides/creating-an-xrpk",
-      "dev-guides/add-web-monetization",
-      "dev-guides/distributing-xrpackage",
-      "dev-guides/technical-notes",
-      "dev-guides/examples",
-      "dev-guides/xrpackage-api",
-      "dev-guides/xrpackage-engine-api",
-      "dev-guides/xrpackage-manager-api",
-      "dev-guides/xr-details-api",
-      "dev-guides/examples",
+    "Webaverse": [
+      "index",
+      "webaverse/grease",
+      "webaverse/nfts",
+      "webaverse/avatars",
+      "webaverse/parcels",
+      "webaverse/seasons",
+      "webaverse/discord-bot",
       {
         "type": "subcategory",
-        "label": "Asset type guides",
+        "label": "Guides",
         "ids": [
-          "dev-guides/webxr-overview",
-          "dev-guides/importing-from-blender",
-          "dev-guides/importing-from-vroid-studio",
-          "dev-guides/importing-from-unity"
+          "webaverse/start"
         ]
       }
     ],
-    "User Guides": [
-      "user-guides/user-overview",
-      "user-guides/finding-xrpackages",
-      "user-guides/using-xrpackages",
-      "user-guides/using-avatars",
-      "user-guides/multiplayer",
-      "user-guides/creating-for-webaverse"
+    "Market": [
+      "market/grease-guide",
+      "market/nfts-guide",
+      "market/trade-guide"
+    ],
+    "Create": [
+      "create/overview",
+      "create/mint",
+      {
+        "type": "subcategory",
+        "label": "Avatars",
+        "ids": [
+          "create/import-vroid-studio"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "3D Models",
+        "ids": [
+          "create/import-blender"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Voxels",
+        "ids": [
+          "create/import-magicavoxel"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "XRPackage",
+        "ids": [
+          "create/xrpackage-overview",
+          "create/creating-an-xrpk",
+          "create/xrpackage-design-guidelines",
+          "create/monetization",
+          "create/examples"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "API",
+        "ids": [
+          "create/runtime-api",
+          "create/manifest-api",
+          "create/monetization-api"
+        ]
+      }
     ]
   }
 }

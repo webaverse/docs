@@ -1,58 +1,44 @@
 ---
-id: index
-title: Welcome to Webaverse
+id: index 
+title: Overview 
 hide_title: true
 ---
 
 <div style='margin-top: -60px'></div>
-<h1 align="center"><b>🌌 Welcome To A Universe Of Apps ⚙️</b></h1>
+<h1 align="center"><b>Welcome To Webaverse</b></h1>
 
-<img alt="Webaverse world demo" src="/img/demo.gif" width="40%">
+<br/>
 
-<div align="center">
-  <a href="https://webaverse.com" target="_blank">Site</a>
-  &mdash;
-  <a href="https://github.com/webaverse/" target="_blank">Github</a>
-  &mdash;
-  <a href="https://discord.gg/MQNUGgB" target="_blank">Discord</a>
-  &mdash;
-  <a href="https://twitter.com/webmixedreality" target="_blank">Twitter</a>
-</div>
+These docs will help you navigate and create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">Webaverse</a>.
 
-<h3 align="center">⚠️ M3 is hosting a hackathon for Webaverse creations! [Find more information on participating here!](m3-hackathon.md) 🔍</h3>
+Webaverse is built on existing communities like Discord and existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
 
-## ❓ What is the Webaverse?
+## Webaverse 
 
-<a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">The Webaverse</a> is a blanket term used to describe a set of technologies that enable the use of spatial applications and objects powered by WebXR. These spatial applications are called "XRPackages" (XRPKs).
+In this initial section you can go from zero understanding to knowing exactly what Webaverse is.
 
-See [`What Is Webaverse?`](about.md) for a more in-depth explanation, or read on to get started with using and developing XRPKs!
+You'll learn that you can buy and use [Grease](./webaverse/grease) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
 
-See [`Getting Started`](getting-started.md) for detailed guides on how to get started, as a user or developer!
+Or that you can create your very own [Avatars](./webaverse/avatars) and build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 
-## ❓ What Are XRPackages (XRPKs)?
+## Market 
 
-XRPackages (XRPKs) are creative spatial apps that run everywhere. Unlike traditional 2D applications, XRPKs exist in three dimensions and can be experienced with a desktop browser or any SteamVR compatible headset. XRPKs are created and owned by users like you! Getting started with XRPKs today is easy, keep reading below to get started, or see the more page [`What Is Webaverse?`](about.md) for a more in-depth explanation.
+Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
 
-## ▶️ Start Using XRPKs
+Check out [our market guides](./market/grease-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
 
-**From The Directory:** You can browse through all the published packages at the <a href="https://xrpackage.org/browse.html" target="_blank" rel="noopener noreferrer">xrpackage.org</a>.
+## Create 
 
-**From The Web:** You can find amazing community creations from the <a href="https://github.com/webaverse/awesome-xrpackage" target="_blank" rel="noopener noreferrer">awesome-xrpackage</a> repository on GitHub.
+Creators of a variety of backgrounds can build for Webaverse: 3D modelers, JavaScript 3D website programmers, and designers. 
 
-## 🧑 Users
+Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
-Check out [our user guides](./user-guides/index.md) to learn more about the Webaverse ecosystem, Metachromium and how to get started using it!
+## Community
 
-## 🦸 Developers
+You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webmixedreality).
 
-Are you a JavaScript developer who wants to build spatialized applications for Webaverse? Or do you want to import your existing creations? Check out [our developer guides](./dev-guides/index.md) for more information on getting started with building functional XRPKs that bring your visions and creations into reality!
+## Contributing
 
-The Webaverse ecosystem is built on existing open web standards like WebXR, IPFS, and Ethereum.
+Contributions are welcome please see <a href="https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> for additional information.
 
-## ❤️ Contributing
 
-Contributions are welcome in the form of pull requests or issues. Please see <a href="https://github.com/webaverse/docs/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> for additional information.
-
-## 💬 Community
-
-You can find the Webaverse community on Discord and Twitter. <a href="https://discord.gg/MQNUGgB" target="_blank" rel="noopener noreferrer">Join our Discord server</a> to share and discuss the future of spatial applications or follow <a href="https://twitter.com/webmixedreality/" target="_blank" rel="noopener noreferrer">@webmixedreality</a> on Twitter.
