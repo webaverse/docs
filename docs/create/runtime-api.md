@@ -106,6 +106,8 @@ This is an event that gets emitted when the app instance is deleted. You should 
 
 This is a function to run alongside anything you want to run before rendering.
 
+**Note:** If you do mirror rendering, it should occur between `onBeforeRender` and `onAfterRender` to ensure proper recursion.
+
 -------------------
 
 ### `onAfterRender()`
