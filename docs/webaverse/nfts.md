@@ -12,8 +12,8 @@ Working with NFTs in Webaverse is so easy, you don't need any kind of crypto bac
 ## Inventory
 You can access all of the digital assets you own in Webaverse in your inventory.
 
-## Grease vs NFTs
-Grease is fungible token, which means any one Grease is equivalent to another. (think of dollars)
+## FLUX vs NFTs
+FLUX is fungible token, which means any one FLUX is equivalent to another. (think of dollars)
 
 On the other hand, NFTs are non-fungible which means, no two NFTs are the same. (think different kinds of pokemon cards)
 
@@ -27,8 +27,8 @@ You can mint NFTs simply by dragging and dropping a file into Discord. If you wa
 
 NFT stands stands for Non-Fungible Token. The term and the NFTs in Webaverse are based off the Ethereum [ERC-721](https://eips.ethereum.org/EIPS/eip-721) token standard.
 
-Non-fungible means that it is not interchangable, so while you can trade NFTs, you'll never have an exactly equivalent trade. NFTs are not interchangable, unlike a fungible token like [Grease](./grease).
+Non-fungible means that it is not interchangable, so while you can trade NFTs, you'll never have an exactly equivalent trade. NFTs are not interchangable, unlike a fungible token like [FLUX](./flux).
 
 By default, all transactions (buying, selling, trading, etc.) are done on the Webaverse sidechain. Using the Webaverse sidechain allows for extremely fast and completely free transactions.
 
-If you want to transfer your Grease or NFTs to the main Ethereum change, you can do so. The ability to move to the Ethereum blockchain also allows you to sell your NFTs on a marketplace like OpenSea.
+If you want to transfer your FLUX or NFTs to the main Ethereum change, you can do so. The ability to move to the Ethereum blockchain also allows you to sell your NFTs on a marketplace like OpenSea.

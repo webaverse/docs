@@ -1,21 +1,21 @@
 ---
-id: grease-guide 
-title: How To Buy Grease 
+id: flux-guide 
+title: How To Buy FLUX 
 ---
 
-This guide will walk you step-by-step to buying GREASE on Uniswap.
+This guide will walk you step-by-step to buying FLUX on Uniswap.
 
 ### Prerequisites
 - Have a [MetaMask wallet](https://metamask.io/) or equivalent wallet
-- Have ETH to swap for Grease
+- Have ETH to swap for FLUX 
 
-## 1. Go To The Grease Uniswap Page
-Go to the [Grease Uniswap page](https://uniswap.exchange/swap?inputCurrency=0x617f2b3558604708288ab0454c4e7771ea7c712c), and click "I understand" and "Continue".
+## 1. Go To The FLUX Uniswap Page
+Go to the [FLUX Uniswap page](https://uniswap.exchange/swap?inputCurrency=0x617f2b3558604708288ab0454c4e7771ea7c712c), and click "I understand" and "Continue".
 
 > ![Uniswap](/img/uniswap-1.png)
 
-## 2. Enter The Ammount of Grease You Want And Connect Wallet
-Here is where you enter the amount of Grease you want to purchase. Keep in mind you will need to have enough ETH to swap for it.
+## 2. Enter The Ammount of FLUX You Want And Connect Wallet
+Here is where you enter the amount of FLUX you want to purchase. Keep in mind you will need to have enough ETH to swap for it.
 
 > ![Uniswap](/img/uniswap-2.png)
 
@@ -24,7 +24,7 @@ For this guide specifically, we're using MetaMask.
 
 > ![Uniswap](/img/uniswap-3.png)
 
-## 4. Approve The Grease Swap
+## 4. Approve The FLUX Swap
 > ![Uniswap](/img/uniswap-4.png)
 
 ## 5. Confirm The Transaction Fee

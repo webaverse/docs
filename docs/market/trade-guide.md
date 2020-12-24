@@ -11,7 +11,7 @@ You can learn how to mint NFTs [here](../create/mint).
 > ![](/img/trade-1.PNG)
 
 ## 2. `.trade` + @user and `.addnft` + trade id + nft id
-Optionally, you can use `.addft` + trade id + amount of Grease to add to trade.
+Optionally, you can use `.addft` + trade id + amount of FLUX to add to trade.
 > ![](/img/trade-2.PNG)
 
 ## 3. Optionally, the second person can `.addnft` + trade id + nft id
