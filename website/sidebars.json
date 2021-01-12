@@ -26,6 +26,13 @@
       "create/mint",
       {
         "type": "subcategory",
+        "label": "Season 0: Genesis",
+        "ids": [
+          "create/guidelines"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Avatars",
         "ids": [
           "create/import-vroid-studio"
