@@ -20,10 +20,12 @@ To be announced soon.
 
 As an artist, you get to design and create your own neighborhood on The Street and issue up to 12 parcels which will be sold with the Season 0 launch.
 
-## Size limits
+## Technical limits
 
 Each neighborhood should follow the limits below and be respectful in design to not clog The Street.
 
 **Triangles:** No more than 200k triangles.
   
 **Materials:** No more than 8 materials.
+
+**Textures:** No larger than 4k texture size.
