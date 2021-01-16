@@ -29,3 +29,7 @@ Each neighborhood should follow the limits below and be respectful in design to 
 **Materials:** No more than 8 materials.
 
 **Textures:** No larger than 4k texture size.
+
+**Size:** No larger than 100m wide. (depth & height can be larger)
+
+**Total file package size:** No larger than 20mb.
