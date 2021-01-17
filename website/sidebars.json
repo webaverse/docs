@@ -42,7 +42,8 @@
         "type": "subcategory",
         "label": "3D Models",
         "ids": [
-          "create/import-blender"
+          "create/import-blender",
+          "create/bake-physics"
         ]
       },
       {
