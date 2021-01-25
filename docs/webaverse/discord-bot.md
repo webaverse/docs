@@ -3,7 +3,9 @@ id: discord-bot
 title: Discord Bot 
 ---
 
-The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing in the Webaverse Discord.
+The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing in Discord.
+
+You can interact the Webaverse Discord Bot by inviting it to your Discord server [here](https://discord.com/oauth2/authorize?client_id=758956702669209611&permissions=0&scope=bot). Or you can interact with the bot by joining the [Webaverse Discord](https://discord.gg/3byWubumSa) server.
 
 The Discord Bot runs on an Ethereum side chain and allows you to interact with the blockchain by running commands in Discord like `.inventory`. There’s no setup required, anybody in the Webaverse Discord will already have an Ethereum address.
 
