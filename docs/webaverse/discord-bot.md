@@ -31,15 +31,16 @@ print your address, or that of a user
 ### `.key`
 get your private key in a DM
 
-## Key Management (DM to bot)
+### `.login`
+get a login link in a DM
 
-### `.key [new mnemonic key]`
-set your Discord private key
+### `.play`
+get a login link in a DM to go directly into the 3D Webaverse.
 
-### `.key reset`
-generate and set a new Discord private key
+### `.realm [num]`
+play link in a DM to go directly into the 3D Webaverse in that realm.
 
-## Profile
+## Account 
 
 ### `.name [newname]`
 set your name to [name]
@@ -50,12 +51,18 @@ set your monetization pointer to [mp]
 ### `.avatar [id]`
 set your avatar to [id]
 
+### `.loadout [num] [id]`
+set loadout NFT [1-8] to [id]
+
+### `.homespace [id]`
+set NFT as home space
+
 ## Tokens
 
-### `.send [@user|0xaddr|treasury] [amount]`
-send [amount] FT to user/address
+### `.send [@user|0xaddress|treasury] [amount]`
+send [amount] of FLUX to user/address
 
-### `.transfer [@user|0xaddr|treasury] [id] [quantity]`
+### `.transfer [@user|0xaddress|treasury] [id] [quantity]`
 send [quantity] [id] NFTs to user/addr/treasury
 
 ### `.preview [id]`
@@ -73,6 +80,9 @@ get metadata key [key] for NFT [id]
 ### `.set [id] [key] [value]`
 set metadata key [key] to [value] for NFT [id]
 
+### `.tokencollab [@user|0xaddr] [tokenId]`
+add collaborator to [tokenId]
+
 ## Minting
 
 ### `.mint [count] (in upload comment)`
@@ -84,7 +94,7 @@ mint [count] NFTs from the provided [url]
 ### `.update [id] (in upload comment)`
 update nft content
 
-## Packing
+## Packs
 
 ### `.packs [@user|nftid]`
 check packed ft balances of [@user] or [nftid]
@@ -122,3 +132,11 @@ unlist [saleid] from the store
 
 ### `.buy [saleid]`
 buy the [saleid] from [@user]
+
+## Key Management (DM to bot)
+
+### `.key [new mnemonic key]`
+set your Discord private key
+
+### `.key reset`
+generate and set a new Discord private key
