@@ -7,6 +7,20 @@ This guide will walk you step-by-step to setting up your Webaverse profile.
 
 You will set up your own avatar, name, and log into the Webaverse world for the first time!
 
+# How to login to the website
+
+## 0. Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53)
+
+## 1. Type `.login` in the #bot channel
+
+# How to login to the 3d world 
+
+## 0. Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53)
+
+## 1. Type `.play ` in the #bot channel
+
+# How to setup your Webaverse profile
+
 ## 1. Drag and drop avatar into Discord
 > ![Dropping file into Discord](/img/avatar-1.png)
 
@@ -26,30 +40,4 @@ The token id will be what the Discord Bot responded with in step #2, in this cas
 If you type `.status`, you should now see your name and avatar set in your profile.
 > ![](/img/avatar-6.png)
 
-## 5. Run `.key` to get your login key in a DM
-> ![](/img/avatar-8.png)
-
-**Note:** If you do not receive a DM, make sure that you allow direct messages from server members. Go to the settings in Discord -> `Privacy & Safety` -> make sure `Allow direct messages from server members` is checked green.
-
-> ![](/img/avatar-7.png)
-
-You should get a DM from our lovely Discord Bot, brypto-bot.
-> ![](/img/avatar-9.png)
-
-## 6. Login to Webaverse with key
-Copy the key that the bypto-bot sends you as a DM.
-
-> ![](/img/avatar-91.png)
-
-### Go to [https://app.webaverse.com/edit.html](https://app.webaverse.com/edit.html)
-
-### Click the top right dropdown and click "Switch Account"
-> ![](/img/avatar-92.png)
-
-### Paste your key in and click `Log in`
-> ![](/img/avatar-93.png)
-
-## Done!
-
-You should now be logged in and see your avatar and name you set on your profile!
-> ![](/img/avatar-94.png)
+## 5. Run `.play` to get your Webaverse login link in a DM from the bot
