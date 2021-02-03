@@ -32,6 +32,6 @@ Once the add-on is installed and activated, scenes or models can be exported by 
 
 ![circled exporter in add-on list](/img/blender-5.png)
 
-### Click "Export to Webaverse"
+### Click "Export Webaverse NFT"
 
 This will send your 3d model to Webaverse and open it in a new web page for previewing and minting.
