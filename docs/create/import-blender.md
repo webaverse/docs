@@ -5,26 +5,33 @@ title: Import From Blender
 
 This guide explains how you can export your content from Blender to bring it into Webaverse.
 
-The easiest way to do this is to export your Blender model into a <a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener noreferrer">glTF format</a>, and then mint this `.glb` file.
+## 1. Download the add-on
+[Download the latest version here](https://github.com/webaverse/blender-plugin/archive/master.zip).
 
-## 1. Export your Blender model as a `.glb` (binary glTF) file
+## 2. Install the add-on
 
-As of Blender 2.8 and above, the Khronos glTF 2.0 importer/exporter is enabled by default. If you don't see this, check out <a href="https://github.com/KhronosGroup/glTF-Blender-IO" target="_blank" rel="noopener noreferrer">the official documentation</a> for more instructions.
+Open the preferences window by selecting Preferences from the Edit menu
 
-- To export your model, use the `File` -> `Import/Export` -> `glTF 2.0 (.glb, .gltf)` menu button.
+![circled preferences from blender dropdown](/img/blender-1.png)
 
-> ![Blender export to gltf menu option](/img/blender-1.png)
+Select the *Add-ons* tab and press the *Install* button
 
-**Note:** It's preferable to export your Blender content as a `.glb` file where possible. This is a single binary file that can be easily shared and packaged.
+![install button circled in add-ons tab](/img/blender-2.png)
 
-- Select the `glTF Binary (.glb)` file format 
-- To further optimize your file size go to `Geometry` dropdown -> `Images` -> `JPEG Format (.jpg)`
+Select the downloaded zip-file and press *Install Add-on from file*
 
-> ![Blender optimize to jpeg save menu option](/img/blender-2.png)
+![circled install add-on from file](/img/blender-3.png)
 
+Locate the Webaverse exporter in the add-on list and enable it by pressing the checkbox.
 
-- Click `Export glTF 2.0` to save your file to your computer
+![circled exporter in add-on list](/img/blender-4.png)
 
-## 2. Mint your `.glb` file as an NFT
+## 3. Export a scene/model to Webaverse
 
-See [How To Mint NFTs](./mint.md) for how to mint the `.glb` file you exported above.
+Once the add-on is installed and activated, scenes or models can be exported by selecting Webaverse from the File -> Export menu.
+
+![circled exporter in add-on list](/img/blender-5.png)
+
+### Click "Export to Webaverse"
+
+This will send your 3d model to Webaverse and open it in a new web page for previewing and minting.
