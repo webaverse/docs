@@ -43,7 +43,8 @@
         "label": "3D Models",
         "ids": [
           "create/import-blender",
-          "create/bake-physics"
+          "create/bake-physics",
+          "create/multiple-animations"
         ]
       },
       {
