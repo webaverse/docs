@@ -25,6 +25,7 @@
     "Create": [
       "create/overview",
       "create/mint",
+      "create/mint-discord",
       {
         "type": "subcategory",
         "label": "Season 0: Genesis",
