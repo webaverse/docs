@@ -3,13 +3,9 @@ id: flux
 title: FLUX 
 ---
 
-FLUX is a token that is used in Webaverse primarily to mint [NFTs](./nfts), but also can function as a currency to trade with.
+FLUX is a token that is used in Webaverse primarily to mint [NFTs](./nfts).
 
 ## FAQ
-
-### How Can I Buy FLUX?
-
-You can buy FLUX on Uniswap by swapping for ETH. If you want a step-by-step guide on how to buy FLUX on Uniswap, check out [this guide](../market/flux-guide).
 
 ### Technically, what is FLUX?
 
