@@ -2,7 +2,8 @@
 id: nfts 
 title: NFTs 
 ---
-
+![NFTs in the same space](/img/nftstogether.png)
+  
 The Webaverse is built by having a bunch of spatial NFTs together in the same shared space. Anything from [Avatars](./avatars), [Parcels](./parcels), Images, and 3D items can be NFTs.
 
 With NFTs you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.
@@ -11,17 +12,23 @@ Working with NFTs in Webaverse is so easy, you don't need any kind of crypto bac
 
 ## Inventory
 You can access all of the digital assets you own in Webaverse in your inventory.
+  
+![profile inventory](/img/inventory.png)
 
 ## FLUX vs NFTs
 FLUX is fungible token, which means any one FLUX is equivalent to another. (think of dollars)
-
+  
+![fungible token example](/img/equalft.png)
+  
 On the other hand, NFTs are non-fungible which means, no two NFTs are the same. (think different kinds of pokemon cards)
+  
+![non-fungible token example](/img/nftsexample.png)
 
 ## FAQ
 
 ### How Can I Mint NFTs?
 
-You can mint NFTs simply by dragging and dropping a file into Discord. If you want a step-by-step guide on how mint NFTs, check out [this guide](../create/mint).
+You can mint NFTs simply by dragging and dropping a file into the [Webaverse mint page](https://webaverse.com/mint) or [Discord](https://discord.gg/R5wqYhvv53). If you want a step-by-step guide on how mint NFTs, check out [this guide](../create/mint).
 
 ### Technically, what are NFTs?
 
