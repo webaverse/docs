@@ -1,8 +1,6 @@
 ---
 id: flux-guide 
-title: How To Buy FLUX 
+title: How To Get FLUX 
 ---
 
-This guide will walk you step-by-step to buying FLUX.
-
-**Coming soon.**
+You can get FLUX by asking the Webaverse Team in the [Webaverse Discord](https://discord.gg/R5wqYhvv53).
