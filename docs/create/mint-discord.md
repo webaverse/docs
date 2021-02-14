@@ -7,7 +7,7 @@ Minting NFTs in Webaverse can be done by simply dragging and dropping into the [
 
 ### Prerequisites:
 - Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53).
-- Have a balance of atleast 10 [FLUX](../market/flux-guide.md).
+- Have a balance of atleast 10 [SILK](../market/silk-guide.md).
 
 ## 1. Drag and drop file into Discord
 

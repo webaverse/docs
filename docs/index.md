@@ -17,7 +17,7 @@ Webaverse is built on existing communities like Discord and existing open standa
 
 In this initial section you can go from zero understanding to knowing exactly what Webaverse is.
 
-You'll learn that you can buy and use [FLUX](./webaverse/flux) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
+You'll learn that you can buy and use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
 
 Or that you can create your very own [Avatars](./webaverse/avatars) and build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 
@@ -25,7 +25,7 @@ Or that you can create your very own [Avatars](./webaverse/avatars) and build on
 
 Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
 
-Check out [our market guides](./market/flux-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
+Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
 
 ## Create 
 

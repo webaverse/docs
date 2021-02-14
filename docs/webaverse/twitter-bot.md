@@ -51,7 +51,7 @@ set NFT as home space
 ## Tokens
 
 ### `.send [@user|0xaddress|treasury] [amount]`
-send [amount] of FLUX to user/address
+send [amount] of SILK to user/address
 
 ### `.transfer [@user|0xaddress|treasury] [id] [quantity]`
 send [quantity] [id] NFTs to user/addr/treasury

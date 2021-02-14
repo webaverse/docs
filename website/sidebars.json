@@ -2,7 +2,7 @@
   "guides": {
     "Webaverse": [
       "index",
-      "webaverse/flux",
+      "webaverse/silk",
       "webaverse/nfts",
       "webaverse/avatars",
       "webaverse/parcels",
@@ -18,7 +18,7 @@
       }
     ],
     "Market": [
-      "market/flux-guide",
+      "market/silk-guide",
       "market/nfts-guide",
       "market/trade-guide"
     ],

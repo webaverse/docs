@@ -15,8 +15,8 @@ You can access all of the digital assets you own in Webaverse in your inventory.
   
 ![profile inventory](/img/inventory.png)
 
-## FLUX vs NFTs
-FLUX is fungible token, which means any one FLUX is equivalent to another. (think of dollars)
+## SILK vs NFTs
+SILK is fungible token, which means any one SILK is equivalent to another. (think of dollars)
   
 ![fungible token example](/img/equalft.png)
   
@@ -34,8 +34,8 @@ You can mint NFTs simply by dragging and dropping a file into the [Webaverse min
 
 NFT stands stands for Non-Fungible Token. The term and the NFTs in Webaverse are based off the Ethereum [ERC-721](https://eips.ethereum.org/EIPS/eip-721) token standard.
 
-Non-fungible means that it is not interchangable, so while you can trade NFTs, you'll never have an exactly equivalent trade. NFTs are not interchangable, unlike a fungible token like [FLUX](./flux).
+Non-fungible means that it is not interchangable, so while you can trade NFTs, you'll never have an exactly equivalent trade. NFTs are not interchangable, unlike a fungible token like [SILK](./silk).
 
 By default, all transactions (buying, selling, trading, etc.) are done on the Webaverse sidechain. Using the Webaverse sidechain allows for extremely fast and completely free transactions.
 
-If you want to transfer your FLUX or NFTs to the main Ethereum change, you can do so. The ability to move to the Ethereum blockchain also allows you to sell your NFTs on a marketplace like OpenSea.
+If you want to transfer your SILK or NFTs to the main Ethereum change, you can do so. The ability to move to the Ethereum blockchain also allows you to sell your NFTs on a marketplace like OpenSea.
