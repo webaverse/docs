@@ -1,27 +1,34 @@
 ---
-id: import-vroid-studio
-title: Import From VRoid Studio
+id: import-vroid
+title: Import From VRoid
 ---
 
-This guide explains how you can export your avatar from <a href="https://vroid.com/en/studio/" target="_blank" rel="noopener noreferrer">VRoid Studio</a> to bring it into Webaverse.
+Webaverse uses [VRM](https://vrm.dev/en/), a 3D avatar file format based on the royalty free glTF2.0 standard. VRM avatars have features such as blendshapes for emotes, facial animations, physics, and are widely supported across dozens of apps and VR platforms.
 
-The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>.
+This guide explains how you can export your avatar from [VRoid Hub](https://hub.vroid.com/en/) and [VRoid Studio](https://vroid.com/en/studio/ to bring it into Webaverse.
 
-## 1. Export your VRoid Studio avatar as a VRM file
+## Download from VRoid Hub
 
-To export your model, click the "Camera/Exporter" tab at the top of the program:
+VRoid hub is a place where people can upload and share their VRM avatars to each other. You can filter through the latest characters for downloadable files here: https://hub.vroid.com/en/models.
+
+Double check the conditions of use before you download the model. Also, VRM files carry the license and authorship information inside the file itself.
+
+
+## Export your VRoid Studio avatar as a VRM file
+
+![Vroid studio steps](/img/vroidstudio.jpg)
+
+1. Click the "[Camera/Exporter](https://vroid.pixiv.help/hc/en-us/articles/360012474773-Camera-Exporter)" tab at the top of the program:
 
 > ![VRoid Studio "Camera/Exporter" tab](/img/vroid-studio-1-camera-exporter-tab.png)
 
-You can find out more about the Camera/Exporter tab at the <a href="https://vroid.pixiv.help/hc/en-us/articles/360012474773-Camera-Exporter" target="_blank" rel="noopener noreferrer">the VRoid site</a>.
-
-Click the "Export" button in the panel on the left:
+2. Click the "Export" button in the panel on the left:
 
 > <img src="/img/vroid-studio-2-export-btn.png" width="30%" alt="VRoid Studio 'Export' button" />
 
-You can tweak any mesh, material, or bone reduction settings you want in the panel on the right.
+3. You can tweak any mesh, material, or bone reduction settings you want in the panel on the right. Since Webaverse runs on web browsers, we recommend reducing the polygons with the sliders, bring materials down to 2 with 2048 resolution, and reducing the bones as much as possible. 
 
-Click "Export":
+4. Click "Export":
 
 > <img src="/img/vroid-studio-3-export-panel.png" width="20%" alt="VRoid Studio 'Export' panel" />
 
@@ -31,6 +38,12 @@ You can now fill in any final details in the "VRM Settings" popup, and click "OK
 
 After clicking "OK", you will need to choose a location on your computer to save the new .VRM exported file to.
 
-## 2. Mint your VRM file as an NFT
+## 2. Test your avatar
+
+In order to preview your avatar is working, open the [Webaverse 3D app](https://app.webaverse.com) and simply drag n' drop the VRM file into the browser window to spawn it.
+
+To change avatars you have to look for the bounding box to select the object (usually located by the VRM's feet) by pressing `e`, then press `g` to activate.
+
+## 3. Mint your VRM file as an NFT
 
 See [How To Mint NFTs](./mint.md) for how to mint the `.vrm` file you exported above.

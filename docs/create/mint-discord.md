@@ -3,7 +3,7 @@ id: mint-discord
 title: How To Mint NFTs in Discord
 ---
 
-Minting NFTs in Webaverse can be done by simply dragging and dropping into the [Webaverse Discord](https://discord.gg/R5wqYhvv53).
+Minting NFTs in Webaverse can be done by simply dragging and dropping into the [Webaverse Discord](https://discord.gg/R5wqYhvv53). If you're a server admin interested in minting NFTs with your community, drop by and ask us for some SILK to power your bot with!
 
 ### Prerequisites:
 - Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53).

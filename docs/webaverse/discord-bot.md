@@ -3,23 +3,22 @@ id: discord-bot
 title: Discord Bot 
 ---
 
-The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing in Discord.
+The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing into Discord.
 
 You can interact the Webaverse Discord Bot by inviting it to your Discord server [here](https://discord.com/oauth2/authorize?client_id=758956702669209611&permissions=0&scope=bot). Or you can interact with the bot by joining the [Webaverse Discord](https://discord.gg/3byWubumSa) server.
 
-The Discord Bot runs on an Ethereum side chain and allows you to interact with the blockchain by running commands in Discord like `.inventory`. There’s no setup required, anybody in the Webaverse Discord will already have an Ethereum address.
+The Discord Bot runs on an Ethereum side chain and allows you to interact with the blockchain by running commands in Discord like `.inventory`. There’s no setup required, anybody in the Discord server the bot is installed in will already have an Ethereum address generated for them.
 
-## Help
+
+## Info 
 
 ### `.help`
 show help
 
-## Account 
-
 ### `.status`
 show your account details
 
-### `.balance` 
+### `.balance [@user|0xaddr]`
 show your FT balance, or that of a user/address
 
 ### `.inventory [@user|0xaddr]`
@@ -35,27 +34,10 @@ get your private key in a DM
 get a login link in a DM
 
 ### `.play`
-get a login link in a DM to go directly into the 3D Webaverse.
+get a login link in a DM to go directly into the 3D Webaverse
 
 ### `.realm [num]`
-play link in a DM to go directly into the 3D Webaverse in that realm.
-
-## Account 
-
-### `.name [newname]`
-set your name to [name]
-
-### `.monetizationpointer [mp]`
-set your monetization pointer to [mp]
-
-### `.avatar [id]`
-set your avatar to [id]
-
-### `.loadout [num] [id]`
-set loadout NFT [1-8] to [id]
-
-### `.homespace [id]`
-set NFT as home space
+play link in a DM to go directly into the 3D Webaverse in that realm [1-5]
 
 ## Tokens
 
@@ -82,6 +64,27 @@ set metadata key [key] to [value] for NFT [id]
 
 ### `.tokencollab [@user|0xaddr] [tokenId]`
 add collaborator to [tokenId]
+
+
+## Account 
+
+### `.name [newname]`
+set your name to [name]
+
+### `.monetizationpointer [mp]`
+set your monetization pointer to [mp]
+
+### `.avatar [id]`
+set your avatar to [id]
+
+### `.loadout [num] [id]`
+set loadout NFT [1-8] to [id]
+
+### `.homespace [id]`
+set NFT as home space
+
+### `.redeem`
+redeem NFT roles
 
 ## Minting
 
@@ -132,6 +135,17 @@ unlist [saleid] from the store
 
 ### `.buy [saleid]`
 buy the [saleid] from [@user]
+
+## Land
+
+### .parcels
+list owned parcels
+
+### .deploy [parcelId] [nftId]
+deploy [nftId] to [parcelId]
+
+### .landcollab [@user|0xaddr] [parcelId]
+add collaborator to [parcelId]
 
 ## Key Management (DM to bot)
 

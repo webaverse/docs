@@ -3,26 +3,39 @@ id: avatars
 title: Avatars
 ---
 
-Avatars are representations of a user in a world, which you can control and view in first-person mode to see their perspective. 
+Avatars are the audio visual representations of a user in a world. You can control and view in first-person mode to see their perspective or zoom out with mouse wheel to view in 3rd person in Desktop mode.
 
 ## Usernames and Accounts
-Usernames can be set on your account and is stored on-chain. Learn how to setup your account [here](./start).
 
-Each account has a unique address that it is identified by. The unique address helps keep track of who each person is and who owns what.
+Usernames can be set on your account and is stored on-chain in the Webaverse sidechain. There's no initial wallet setup needed, when you enter a Discord server that has the Webaverse bot you're automatically assigned an address.
+
+Each account has a unique Ethereum address that it is identified by. The unique address helps keep track of who each person is and who owns what.
+
+Learn more on how to setup your account [here](./start).
+
 
 ## FAQ
 
 ### Where Can I Find Avatars?
 
-The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use.
+The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use. Be sure to double check the conditions of use first.
+
+More public resources for obtaining VRM avatars are coming soon.
 
 ### How Can I Make An Avatars?
 
-You can make your own custom VRM avatar with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid-studio).
+The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid-studio). Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
+
 
 ### How Do I Set My Avatar?
 
-You can set your avatar in Discord by [minting](../create/mint) your avatar as an NFT and then setting it in your profile by typing `.avatar` + the ID of the NFT you want as your avatar. For a full step-by-step guide to getting started in Webaverse, check out [this guide](./start).
+Currently the fastest way is to drag and drop a VRM file into the 3D app browser window, grab it with `e`, then activate with `g`.
+
+You can also set your avatar by [minting](../create/mint) it as an NFT, and then setting it in your profile by either typing `.avatar` + the NFT ID of the item you want as your avatar or selecting it from the dropdown menu on the item's webpage. Visit https://webaverse.com/mint to mint.
+
+![Set as avatar](/img/setavatar.jpg)
+
+For a full step-by-step guide to getting started in Webaverse, check out [this guide](./start).
 
 ### Technically, what are Avatars?
 
