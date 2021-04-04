@@ -5,8 +5,8 @@
       "webaverse/silk",
       "webaverse/nfts",
       "webaverse/avatars",
+      "webaverse/seasons",  
       "webaverse/parcels",
-      "webaverse/seasons",
       "webaverse/discord-bot",
       "webaverse/twitter-bot",
       {
@@ -37,7 +37,8 @@
         "type": "subcategory",
         "label": "Avatars",
         "ids": [
-          "create/import-vroid-studio"
+          "create/import-vroid-studio",
+		  "creates/wearables"
         ]
       },
       {
@@ -47,6 +48,15 @@
           "create/import-blender",
           "create/bake-physics",
           "create/multiple-animations"
+        ]
+      },
+	  {
+        "type": "subcategory",
+        "label": "Pets and Vehicles",
+        "ids": [
+          "create/pets",
+		  "create/mounts",
+		  "create/hoverboards"
         ]
       },
       {

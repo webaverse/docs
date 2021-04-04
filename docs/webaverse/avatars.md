@@ -5,11 +5,12 @@ title: Avatars
 
 Avatars are the audio visual representations of a user in a world. You can control and view in first-person mode to see their perspective or zoom out with mouse wheel to view in 3rd person in Desktop mode.
 
+![Group of avatars](/img/avatars.jpg)
+
+
 ## Usernames and Accounts
 
-Usernames can be set on your account and is stored on-chain in the Webaverse sidechain. There's no initial wallet setup needed, when you enter a Discord server that has the Webaverse bot you're automatically assigned an address.
-
-Each account has a unique Ethereum address that it is identified by. The unique address helps keep track of who each person is and who owns what.
+Usernames can be set on your account and is stored on-chain in the Webaverse sidechain. There's no initial wallet setup needed, when you enter a Discord server that has the Webaverse bot you're automatically assigned an Ethereum address. The unique address helps keep track of who each person is and who owns what.
 
 Learn more on how to setup your account [here](./start).
 
