@@ -38,8 +38,8 @@
         "type": "subcategory",
         "label": "Avatars",
         "ids": [
-          "create/import-vroid-studio",
-		  "creates/wearables"
+          "create/import-vroid",
+		  "create/wearables"
         ]
       },
       {

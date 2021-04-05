@@ -5,7 +5,7 @@ title: Mint Avatar Wearables
 
 In this guide you'll learn how to design and mint custom avatar wearables. All you need is a 3D model that you want for the type of wearable (hat, glasses, sword, etc) you want to make in glTF binary (.glb) file format. 
 
-For presentation purposes, we'll use this [Cat in hat](https://sketchfab.com/3d-models/cat-in-hat-a5301f9e3045462f8b023c20b7a1b2f2) by [patrakeevasveta](https://sketchfab.com/patrakeevasveta) to demonstrate.
+For presentation purposes only, we'll use this [Cat in hat](https://sketchfab.com/3d-models/cat-in-hat-a5301f9e3045462f8b023c20b7a1b2f2) by [patrakeevasveta](https://sketchfab.com/patrakeevasveta) to demonstrate.
 
 ![Cat in hat](/img/cathat.jpg)
 
