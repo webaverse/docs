@@ -44,6 +44,15 @@
       },
       {
         "type": "subcategory",
+        "label": "Weapons",
+        "ids": [
+          "create/sword",
+          "create/pickaxe",
+		  "create/rifle"
+        ]
+      },	  
+      {
+        "type": "subcategory",
         "label": "3D Models",
         "ids": [
           "create/import-blender",

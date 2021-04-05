@@ -1,13 +1,16 @@
 ---
-id: hoverboard 
+id: hoverboards
 title: How To Mint Hoverboards 
 ---
 
-Hoverboards are rideable NFTs you can use to speed around the map. Surf the internet in style!
+Hoverboards are rideable NFTs you can use to speed around the map. Surf the internet in style! You can accelerate pretty fast on these baords, someday there may be ramps for you to jump from too.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rNtFumWOBPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-All you need is a glTF file to stand on, and a manifest.json in order to build the [XRPK](https://docs.webaverse.com/docs/create/creating-an-xrpk). Below is an example manifest.json for the hoverboard. 
+<iframe width="720" height="400" src="https://www.youtube.com/embed/rNtFumWOBPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+All you need is a glTF file to stand on, and a manifest.json in order to build the [XRPK](https://docs.webaverse.com/docs/create/creating-an-xrpk). Below is an example manifest.json for the hoverboard.
 
 ```
 {
@@ -36,5 +39,6 @@ All you need is a glTF file to stand on, and a manifest.json in order to build t
   ]
 }
 ```
+
 
 There's no drag and drop web UI for minting hoverboards yet so you'll have to build it yourself. The instructions for that are here: https://docs.webaverse.com/docs/create/creating-an-xrpk if you're comfortable with command line. If not, there's a web UI here: https://app.webaverse.com/build.html.
