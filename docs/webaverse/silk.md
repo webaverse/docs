@@ -11,9 +11,8 @@ If you're a Discord server admin that wants to distribute SILK amongst your comm
 
 ### Why the name SILK?
 
-Backstory: For years we've been thinking about and working on interoperability problems in the space. We want projects to be more compatible with one another so we can have a Metaverse or 3D internet. Right now virtual worlds act as separate colonies or countries, each with their own currencies and moderation practices.
-
 The issue for bridging worlds together isn't so much a tech related problem, its a matter of incentives. The name SILK is inspired by the ancient Silk Road, which connected the world thousands of years ago through cross-country trade routes. We aim to unlock the value loops to connect virtual worlds together into something greater than the sum of their parts.
+
 
 ### Technically, what is SILK?
 

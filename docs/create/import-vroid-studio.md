@@ -3,7 +3,13 @@ id: import-vroid
 title: Import From VRoid
 ---
 
-Webaverse uses [VRM](https://vrm.dev/en/), a cross-platform 3D avatar file format with features such as blendshapes for emotes, facial animations, spring physics, eye gaze, and embedded license information. VRM is based on the royalty free glTF2.0 standard and are widely supported across dozens of [applications](https://vrm.dev/en/vrm_applications/).
+Webaverse uses [VRM](https://vrm.dev/en/), a cross-platform 3D avatar file format with features such as blendshapes for emotes, facial animations, spring physics, eye gaze, and embedded license information. VRM is based on the royalty free glTF2.0 standard and are widely supported across dozens of [applications](https://vrm.dev/en/vrm_applications/), such as:
+
+- [Cluster](https://cluster.mu/) - PCVR, Windows, macOS, iOS, Android
+- [Craftopia](https://store.steampowered.com/app/1307550/Craftopia/) - Steam
+- [VRAST!](https://rc-cobalt.booth.pm/items/1756359) - Windows
+- [VseeFace](https://www.vseeface.icu/) - Windows
+- and more: https://vrm.dev/en/vrm_applications/
 
 This guide explains how you can export your avatar from [VRoid Hub](https://hub.vroid.com/en/) and [VRoid Studio](https://vroid.com/en/studio/ to bring it into Webaverse.
 

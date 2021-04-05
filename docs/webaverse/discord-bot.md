@@ -31,16 +31,16 @@ show help on a topic (info, tokens, account, minting, packing, trade, store, lan
 ### `.status`
 show your account details
 
-### `.balance [@user|0xaddr]`
+### `.balance [@user|0xaddr]?`
 show your FT (fungible token) balance, or that of a user/address
 
-### `.inventory [@user|0xaddr] [page]`
+### `.inventory [@user|0xaddr]? [page]?`
 show your NFTs, or those of a user/address
 
-### `.address [@user]`
+### `.address [@user]?`
 print your address, or that of a user
 
-### `.key [@user]`
+### `.key [@user]?`
 get your private key in a DM
 
 ### `.login`
@@ -62,7 +62,7 @@ inspect token details
 ### `.send [@user|0xaddress|treasury] [amount]`
 send [amount] of SILK to user/address
 
-### `.transfer [@user|0xaddress|treasury] [id] [quantity]`
+### `.transfer [@user|0xaddress|treasury] [id] [quantity]?`
 send [quantity] [id] NFTs to user/addr/treasury
 
 ### `.preview [id]`
@@ -91,7 +91,7 @@ remove collaborator from [tokenId]
 ## Account 
 
 ### `.name [newname]`
-set your name to [name]
+set your name to [newname]
 
 ### `.monetizationpointer [mp]`
 set your monetization pointer to [mp]
@@ -112,10 +112,10 @@ redeem NFT for Discord roles
 
 ## Minting
 
-### `.mint [count] (in upload comment)`
+### `.mint [count]? (in upload comment)`
 mint [count] NFTs from file upload
 
-### `.mint [count] [url]`
+### `.mint [count]? [url]`
 mint [count] NFTs from the provided [url]
 
 ### `.update [id] (in upload comment)`
@@ -154,7 +154,7 @@ add fungible tokens to trade [tradeid]
 
 ## Store
 
-### `.store [@user]`
+### `.store [@user]?`
 show the treasury store, or that of a user
 
 ### `.sell [nftid] [price]`
@@ -189,8 +189,10 @@ set your Discord private key
 ### `.key reset`
 generate and set a new Discord private key
 
-### `.gets`
+### `.gets [nftId]`
+get the unlockable sent via DM
 
-### `.sets`
+### `.sets [nftId] [text]`
+DM the bot to use this command. Sets unlockable content for the NFT.
 
 ---

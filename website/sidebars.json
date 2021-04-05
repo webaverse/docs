@@ -5,7 +5,7 @@
       "webaverse/silk",
       "webaverse/nfts",
       "webaverse/avatars",
-      "webaverse/seasons",  
+      "webaverse/worlds",
       "webaverse/parcels",
       "webaverse/discord-bot",
       "webaverse/twitter-bot",
@@ -20,7 +20,8 @@
     "Market": [
       "market/silk-guide",
       "market/nfts-guide",
-      "market/trade-guide"
+      "market/trade-guide",
+	  "market/matic-guide"
     ],
     "Create": [
       "create/overview",

@@ -5,7 +5,7 @@ title: What is XRPackage?
 
 <img src="/img/xrpk-logo.png" width="250px" height="250px" />
 
-[XRPackage](https://github.com/webaverse/xrpackage) turns 3D apps into a file you can load anywhere.
+XRPackage turns 3D apps into a file you can load anywhere.
 
 ![Moving an XRPK around in a scene](/img/xrpks.gif)
 

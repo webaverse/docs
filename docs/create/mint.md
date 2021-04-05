@@ -25,4 +25,4 @@ More: [How To Mint NFTs in Discord](/docs/create/mint-discord)
 
 ### Twitter
 
-Coming soon
+The Twitter has closely similar functionality and syntax to the Discord bot which means you can trade with anybod on Twitter. The bot is still under development, for an early preview of features check the [documentation here](https://docs.webaverse.com/docs/webaverse/twitter-bot).

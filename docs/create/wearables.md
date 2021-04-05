@@ -28,3 +28,4 @@ The Web UI for minting wearables isn't ready at the moment so you'll need to man
 }
 
 ```
+

@@ -60,4 +60,4 @@ The ability to move to the Ethereum blockchain also allows you to sell your NFTs
 
 ### What happens when I mint a NFT?
 
-When you mint a file from the web interface or Discord bot it gets automatically uploaded to [IPFS](https://ipfs.io/) with data about the token uploaded to the Webaverse sidechain. This process takes 0 gas because its all on the [sidechain](https://ethereum.org/en/developers/docs/layer-2-scaling/#sidechains), a separate blockchain which runs in parallel to mainnet and operates independently. You can choose to then move it to mainnet afterwords, just pay the transaction fees.
+When you mint a file from the web interface or Discord bot it gets automatically uploaded to [IPFS](https://ipfs.io/) with data about the token uploaded to the Webaverse sidechain. Gas is free since it's all on the [sidechain](https://ethereum.org/en/developers/docs/layer-2-scaling/#sidechains), a separate blockchain which runs in parallel to mainnet and operates independently. You can choose to then move it to mainnet afterwards, just pay the transaction fees.
