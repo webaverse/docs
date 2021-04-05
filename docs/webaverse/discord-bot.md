@@ -3,66 +3,66 @@ id: discord-bot
 title: Discord Bot 
 ---
 
-The Discord Bot allows anyone to manage their profile, items inventory, avatar, and create just by typing in Discord.
+The Discord Bot is the easiest way to mint and trade NFTs. It allows anyone to manage their profile, items inventory, avatar, and create just by uploading files and typing commands into Discord.
+ 
+![Minting a NFT with the bot](/img/discord-mint.jpg)
 
-You can interact the Webaverse Discord Bot by inviting it to your Discord server [here](https://discord.com/oauth2/authorize?client_id=758956702669209611&permissions=0&scope=bot). Or you can interact with the bot by joining the [Webaverse Discord](https://discord.gg/3byWubumSa) server.
 
-The Discord Bot runs on an Ethereum side chain and allows you to interact with the blockchain by running commands in Discord like `.inventory`. There’s no setup required, anybody in the Webaverse Discord will already have an Ethereum address.
+There’s no user setup required, anybody in the server the bot is invited to will have a Webaverse Ethereum address generated for them. The Discord Bot runs on an Ethereum sidechain which makes transactions nearly instant and cost nothing.
 
-## Help
 
-### `.help`
-show help
+![See help menu](/img/discord-help.png)
 
-## Account 
+You can interact the Webaverse Discord Bot by inviting it to your Discord server [here](https://discord.com/oauth2/authorize?client_id=758956702669209611&permissions=0&scope=bot) or you can interact with the bot by joining the [Webaverse Discord](https://discord.gg/3byWubumSa) server. First command you should try is `.help`.
+
+
+
+
+---
+
+## Info 
+
+### `.help [command]`
+show help menu for all commands by itself or specify a command
+
+### `.help [topic]`
+show help on a topic (info, tokens, account, minting, packing, trade, store, land, secure)
 
 ### `.status`
 show your account details
 
-### `.balance` 
-show your FT balance, or that of a user/address
+### `.balance [@user|0xaddr]?`
+show your FT (fungible token) balance, or that of a user/address
 
-### `.inventory [@user|0xaddr]`
+### `.inventory [@user|0xaddr]? [page]?`
 show your NFTs, or those of a user/address
 
-### `.address [@user]`
+### `.address [@user]?`
 print your address, or that of a user
 
-### `.key`
+### `.key [@user]?`
 get your private key in a DM
 
 ### `.login`
 get a login link in a DM
 
 ### `.play`
-get a login link in a DM to go directly into the 3D Webaverse.
+get a login link in a DM to go directly into the 3D Webaverse
 
 ### `.realm [num]`
-play link in a DM to go directly into the 3D Webaverse in that realm.
+play link in a DM to go directly into the 3D Webaverse in that realm [1-5]
 
-## Account 
-
-### `.name [newname]`
-set your name to [name]
-
-### `.monetizationpointer [mp]`
-set your monetization pointer to [mp]
-
-### `.avatar [id]`
-set your avatar to [id]
-
-### `.loadout [num] [id]`
-set loadout NFT [1-8] to [id]
-
-### `.homespace [id]`
-set NFT as home space
+---
 
 ## Tokens
+
+### `.inspect [id]`
+inspect token details
 
 ### `.send [@user|0xaddress|treasury] [amount]`
 send [amount] of SILK to user/address
 
-### `.transfer [@user|0xaddress|treasury] [id] [quantity]`
+### `.transfer [@user|0xaddress|treasury] [id] [quantity]?`
 send [quantity] [id] NFTs to user/addr/treasury
 
 ### `.preview [id]`
@@ -80,30 +80,61 @@ get metadata key [key] for NFT [id]
 ### `.set [id] [key] [value]`
 set metadata key [key] to [value] for NFT [id]
 
-### `.tokencollab [@user|0xaddr] [tokenId]`
+### `.collab [@user|0xaddr] [tokenId]`
 add collaborator to [tokenId]
+
+### `.uncollab [@user|0xaddr] [tokenId]`
+remove collaborator from [tokenId]
+
+---
+
+## Account 
+
+### `.name [newname]`
+set your name to [newname]
+
+### `.monetizationpointer [mp]`
+set your monetization pointer to [mp]
+
+### `.avatar [id]`
+set your avatar to NFT [id]
+
+### `.loadout [num] [id]`
+set loadout NFT [1-8] to NFT [id]
+
+### `.homespace [id]`
+set NFT as home space
+
+### `.redeem`
+redeem NFT for Discord roles
+
+---
 
 ## Minting
 
-### `.mint [count] (in upload comment)`
+### `.mint [count]? (in upload comment)`
 mint [count] NFTs from file upload
 
-### `.mint [count] [url]`
+### `.mint [count]? [url]`
 mint [count] NFTs from the provided [url]
 
 ### `.update [id] (in upload comment)`
-update nft content
+update NFT content
 
-## Packs
+---
+
+## Packing
 
 ### `.packs [@user|nftid]`
-check packed ft balances of [@user] or [nftid]
+check packed NFT balances
 
 ### `.pack [nftid] [amount]`
-pack [amount] ft from yourself into [nftid]
+pack [amount] FT from yourself into [nftid]
 
 ### `.unpack [nftid] [amount]`
-unpack [amount] ft from [nftid] to yourself
+unpack [amount] FT from [nftid] to yourself
+
+---
 
 ## Trade
 
@@ -111,17 +142,19 @@ unpack [amount] ft from [nftid] to yourself
 start a trade with user/address
 
 ### `.addnft [tradeid] [nftid]`
-add nonfungible token to trade [tradeid]
+add NFT to trade [tradeid]
 
 ### `.removenft [tradeid] [index]`
-remove nonfungible token at [index] from trade [tradeid]
+remove NFT at [index] from trade [tradeid]
 
 ### `.addft [tradeid] [amount]`
 add fungible tokens to trade [tradeid]
 
+---
+
 ## Store
 
-### `.store [@user]`
+### `.store [@user]?`
 show the treasury store, or that of a user
 
 ### `.sell [nftid] [price]`
@@ -133,6 +166,21 @@ unlist [saleid] from the store
 ### `.buy [saleid]`
 buy the [saleid] from [@user]
 
+---
+
+## Land
+
+### .parcels
+list owned parcels
+
+### .deploy [parcelId] [nftId]
+deploy [nftId] to [parcelId]
+
+### .landcollab [@user|0xaddr] [parcelId]
+add collaborator to [parcelId]
+
+---
+
 ## Key Management (DM to bot)
 
 ### `.key [new mnemonic key]`
@@ -140,3 +188,11 @@ set your Discord private key
 
 ### `.key reset`
 generate and set a new Discord private key
+
+### `.gets [nftId]`
+get the unlockable sent via DM
+
+### `.sets [nftId] [text]`
+DM the bot to use this command. Sets unlockable content for the NFT.
+
+---

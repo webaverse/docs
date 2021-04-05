@@ -5,13 +5,16 @@ title: Import From MagicaVoxel
 
 This guide explains how you can export your MagicaVoxels creations by exporting as a `.vox`
 
-The easiest way to do this is to export your avatar into <a href="https://vrm.dev/en/" target="_blank" rel="noopener noreferrer">VRM format</a>.
+
 
 ## 1. Export your Voxels as a `.vox` file
 
-To export your model, click the "save" button at the top right of the program:
+To export your model, you can either:
 
-> ![MagicaVoxel save button](/img/magicavoxel-1.png)
+1. Click the "Save Project as" button at the top right of the program
+2. Go to export on the bottom right and click `vox`.
+
+> ![MagicaVoxel save button](/img/magicavoxel-1.jpg)
 
 
 Make sure you save your file as a `.vox`:
@@ -20,4 +23,6 @@ Make sure you save your file as a `.vox`:
 
 ## 2. Mint your `.vox` file as an NFT
 
-See [How To Mint NFTs](./mint.md) for how to mint the `.vox` file you exported above.
+You can drag and drop the .vox file into Discord with a `.mint` message for the [NFT Discord Bot](https://webaverse.com/discordbot) to tokenize the file or upload to [mint](https://webaverse.com/mint).
+
+See [How To Mint NFTs](./mint.md) for more details on how to mint the `.vox` file you exported above.

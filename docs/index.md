@@ -35,7 +35,7 @@ Check out [our creator guides](./create/index.md) for more information on gettin
 
 ## Community
 
-You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webmixedreality).
+You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webaverse).
 
 ## Contributing
 

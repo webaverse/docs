@@ -7,6 +7,8 @@ title: What is XRPackage?
 
 XRPackage turns 3D apps into a file you can load anywhere.
 
+![Moving an XRPK around in a scene](/img/xrpks.gif)
+
 It uses standards like WebGL, WebXR, GLTF, and WebBundle to package an app into a `.wbn` file.
 
 ## What's in a package?

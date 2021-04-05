@@ -7,7 +7,7 @@ Webaverse loads multiple XR apps simulatenously in a shared space. These applica
 
 ## Supported Asset Types
 
-Webaverse supports many different asset types to enable creators to easily bring their original content directly into Webaverse.
+Webaverse supports many different asset types to enable creators to easily bring their original content directly in.
 
 Currently the following file formats are supported:
 

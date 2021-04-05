@@ -5,8 +5,8 @@
       "webaverse/silk",
       "webaverse/nfts",
       "webaverse/avatars",
+      "webaverse/worlds",
       "webaverse/parcels",
-      "webaverse/seasons",
       "webaverse/discord-bot",
       "webaverse/twitter-bot",
       {
@@ -20,7 +20,8 @@
     "Market": [
       "market/silk-guide",
       "market/nfts-guide",
-      "market/trade-guide"
+      "market/trade-guide",
+	  "market/matic-guide"
     ],
     "Create": [
       "create/overview",
@@ -37,9 +38,19 @@
         "type": "subcategory",
         "label": "Avatars",
         "ids": [
-          "create/import-vroid-studio"
+          "create/import-vroid",
+		  "create/wearables"
         ]
       },
+      {
+        "type": "subcategory",
+        "label": "Weapons",
+        "ids": [
+          "create/sword",
+          "create/pickaxe",
+		  "create/rifle"
+        ]
+      },	  
       {
         "type": "subcategory",
         "label": "3D Models",
@@ -47,6 +58,15 @@
           "create/import-blender",
           "create/bake-physics",
           "create/multiple-animations"
+        ]
+      },
+	  {
+        "type": "subcategory",
+        "label": "Pets and Vehicles",
+        "ids": [
+          "create/pets",
+		  "create/mounts",
+		  "create/hoverboards"
         ]
       },
       {
