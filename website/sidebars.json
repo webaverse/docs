@@ -3,7 +3,7 @@
     "Webaverse": [
       "index",
       "webaverse/silk",
-      "webaverse/nfts",
+      "webaverse/items",
       "webaverse/avatars",
       "webaverse/worlds",
       "webaverse/parcels",
@@ -75,27 +75,29 @@
         "ids": [
           "create/import-magicavoxel"
         ]
-      },
-      {
+      }
+	  ],
+    "Developer": [
+	  {
         "type": "subcategory",
         "label": "XRPackage",
         "ids": [
-          "create/xrpackage-overview",
-          "create/creating-an-xrpk",
-          "create/xrpackage-design-guidelines",
-          "create/monetization",
-          "create/examples"
+          "developer/xrpackage-overview",
+          "developer/creating-an-xrpk",
+          "developer/xrpackage-design-guidelines",
+          "developer/monetization",
+          "developer/examples"
         ]
       },
       {
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "create/runtime-api",
-          "create/manifest-api",
-          "create/monetization-api"
+          "developer/runtime-api",
+          "developer/manifest-api",
+          "developer/monetization-api"
         ]
       }
-    ]
+	]
   }
 }

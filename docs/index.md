@@ -9,15 +9,24 @@ hide_title: true
 
 <br/>
 
-These docs will help you navigate and create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">Webaverse</a>.
+![Banner](/img/banner.jpg)
 
-Webaverse is built on existing communities like Discord and existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
+Webaverse is an open source virtual world built on principles of enabling true digital ownership, an open economy, and interoperability. There's several parts:
 
-## Webaverse 
+- Tools to create and monetize content
+- Custom avatars + multiplayer + VR support
+- Discovery of amazing experiences across the 3D web
 
-In this initial section you can go from zero understanding to knowing exactly what Webaverse is.
+The plan is to combine the best parts the community likes about video games + interoperable open standards + web tech into unique digital assets ([NFTs](./webaverse/items)) that get released on a periodic basis.
 
-You'll learn that you can buy and use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
+
+
+## Getting Started 
+
+
+
+
+Use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
 
 Or that you can create your very own [Avatars](./webaverse/avatars) and build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 

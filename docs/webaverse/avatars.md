@@ -38,9 +38,15 @@ Currently the fastest way is to drag and drop a VRM file into the 3D app browser
 
 <br>
 
-You can also set your avatar by [minting](../create/mint) it as an NFT, and then setting it in your profile by either typing `.avatar` + the NFT ID of the item you want as your avatar or selecting it from the dropdown menu on the item's webpage. Visit https://webaverse.com/mint to mint.
+**Discord method**
 
-![Set as avatar](/img/setavatar.jpg)
+You can also set your avatar by [minting](../create/mint) it as an NFT, and then setting it in your profile by either typing `.avatar` + the NFT ID of the item you want as your avatar.
+
+**Website method**
+
+You can also select from the dropdown menu (3 dots) on the item's webpage. Go to your profile on https://webaverse.com and click an item.
+
+![Set as avatar](/img/set_avatar.jpg)
 
 For a full step-by-step guide to getting started in Webaverse, check out [this guide](./start).
 

@@ -3,12 +3,15 @@ id: worlds
 title: Worlds
 ---
 
+![Miku in Atoll](/img/miku_atoll.jpg)
+
+
 Interested in designing a world in Webaverse? You came to the right spot. There are currently several methods to building in the virtual world. Give us feedback in the [Discord](https://discord.gg/3byWubumSa), new processes are constantly being developed.
 
 
 ## Blender
 
-Models in Webaverse are made with glTF binary files (.glb), which Blender 2.8+ has an export option for. You can also use the Webaverse [blender plugin](https://github.com/webaverse/blender-plugin) to export directly from Blender to the minting page.
+Models in Webaverse are made with glTF binary files (.glb), which Blender 2.8+ has an export option for. You can also use the Webaverse [blender plugin](https://github.com/webaverse/blender-plugin) to export directly from Blender to the minting page. To learn how to setup the plugin click [here](http://127.0.0.1:3000/docs/create/import-blender).
 
 ![Blender export](/img/blender-export.jpg)
 

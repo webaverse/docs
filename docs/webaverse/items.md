@@ -1,10 +1,10 @@
 ---
-id: nfts 
-title: NFTs 
+id: items 
+title: Items 
 ---
-![NFTs in the same space](/img/nftstogether.png)
+![NFTs in the same space](/img/nft_items.jpg)
   
-The Webaverse 3D app is built by having a bunch of spatial NFTs together in the same shared space. Anything from [Avatars](./avatars), [Parcels](./parcels), Images, and 3D items can be NFTs. The engine supports the most popular file formats for NFT content:
+The Webaverse 3D app composes unique digital items, technically known as non-fungible tokens (NFTs), in the same shared space. Anything from [Avatars](./avatars), [Parcels](./parcels), Images, and 3D items can be NFTs. The engine supports the most popular file formats for NFT content:
 
 | ASSET type  | File format |
 | ----------- | ----------- |
@@ -29,7 +29,7 @@ You can mint NFTs simply by dragging and dropping a file into the [Webaverse min
 
 You can access all of the digital assets you own in Webaverse in your inventory a couple different ways. From Discord you can type `.inventory` in a server the [Discord bot](https://webaverse.com/discordbot) is installed in. You can also go to the [main website](https://webaverse.com/) and click the icon on the top right to see your profile page that has your inventory there.
   
-![profile inventory](/img/inventory.png)
+![profile inventory](/img/inventory.jpg)
 
 ## SILK vs NFTs
 
@@ -52,9 +52,9 @@ Non-fungible means that it is not interchangable, so while you can trade NFTs, y
 
 By default, all transactions (buying, selling, trading, etc.) are done on the Webaverse sidechain. Using the Webaverse sidechain allows for extremely fast and completely free transactions.
 
-If you want to transfer your SILK or NFTs to the main Ethereum chain, you can do so from the ASSET item page on the website. Note: the user has to pay a gas transaction fee to do the transfer.
+If you want to transfer your SILK or NFTs to the main Ethereum chain, you can do so from the item page on the website. Note: users have to pay the gas transaction fee to do the transfer.
 
-![Transfer to mainnet](/img/xfermainnet.jpg)
+![Transfer to mainnet](/img/xfer_chain.jpg)
 
 The ability to move to the Ethereum blockchain also allows you to sell your NFTs on a marketplace like OpenSea.
 
