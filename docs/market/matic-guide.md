@@ -41,16 +41,12 @@ Make sure your Metamask is set to Matic network, then:
   
 ![Set metamask to Matic network](/img/metamask_matic.jpg)
 
-Then head to the page for your asset and underneath Transfer hit `Transfer to polygon`. It will open up Metamask to sign the transaction.
+Then head to the page for your asset and click current location to open the transfer menu. Hitting transfer will open up Metamask asking you to pay the transaction fee to move the NFT to the other chain.
 
-![Transfer to polygon](/img/transfer_polygon.jpg)
+![Transfer to polygon](/img/transfer-polygon.jpg)
 
 After you signed the transaction, wait a few moments for the opensea page to be updated. Check https://opensea.io/account?tab=activity to see when it shows up.
 
-## 5. Selling on Matic Opensea
+## 5. Selling on Opensea
 
-Go to https://matic.opensea.io/ and click login on the top right to sign in with your Metamask. To sell something in the Webaverse ASSET store you just need to go to My Account located at the middle top of the screen. Find something you want to list and hit sell to set a price.
-
-Your item will now be discoverable in the ASSET tab with the Webaverse logo on https://matic.opensea.io. Cheers!
-
-
+The item you transferred to Polygon network will automatically appear in your [Opensea account](https://opensea.io/account?tab=activity). You can click "Sell" to list it for purchase with Ethereum on the open marketplace. Cheers!

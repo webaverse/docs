@@ -39,6 +39,7 @@
         "label": "Avatars",
         "ids": [
           "create/import-vroid",
+		  "create/import-meebit",
 		  "create/wearables"
         ]
       },
@@ -78,6 +79,10 @@
       }
 	  ],
     "Developer": [
+		"developer/minting-flow",
+		"developer/transfer-flow",
+		"developer/loading-flow",
+		"developer/preview-flow",
 	  {
         "type": "subcategory",
         "label": "XRPackage",

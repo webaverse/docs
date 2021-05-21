@@ -6,7 +6,13 @@ title: Worlds
 ![Miku in Atoll](/img/miku_atoll.jpg)
 
 
-Interested in designing a world in Webaverse? You came to the right spot. There are currently several methods to building in the virtual world. Give us feedback in the [Discord](https://discord.gg/3byWubumSa), new processes are constantly being developed.
+If you're interested in designing a world in Webaverse you came to the right spot. There are currently several methods to building scenes in Webaverse.
+
+## Editor
+
+The editor is an early access tool for constructing and minting NFTs. There's a text editor with various templates for HTML NFT types and a library of assets pulled from Webaverse.
+
+![Editor](/img/editor.jpg)
 
 
 ## Blender
@@ -49,4 +55,4 @@ Note: Unfortunately, the code is no longer being maintained. If you're a develop
 - https://github.com/webaverse/editaverse-voxels
 
 
-If you have any questions, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).
+If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).

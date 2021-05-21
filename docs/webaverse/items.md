@@ -17,11 +17,12 @@ The Webaverse 3D app composes unique digital items, technically known as non-fun
 | Scripting   | Javascript, WebAssembly  |
 
 
-With NFTs you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.
+With items built on the standards that power NFTs (ERC-721) you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.
 
-Working with NFTs in Webaverse is very easy, you don't need any kind of crypto background to get started.
 
 ## How Can I Mint NFTs?
+
+Creating your own unique items in Webaverse is very easy, you don't need any kind of crypto background to get started.
 
 You can mint NFTs simply by dragging and dropping a file into the [Webaverse mint page](https://webaverse.com/mint) or [Discord](https://discord.gg/R5wqYhvv53). There's currently a 10 SILK fee for minting. If you want a step-by-step guide on how mint NFTs, check out [this guide](../create/mint).
 
