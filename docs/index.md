@@ -15,15 +15,24 @@ Webaverse is an open source virtual world built on principles of enabling true d
 
 - Tools to create and monetize content
 - Custom avatars + multiplayer + VR support
-- Discovery of amazing experiences across the 3D web
+- Discovery of amazing experiences across the Internet
 
-The plan is to combine the best parts the community likes about video games + interoperable open standards + web tech into unique digital assets ([NFTs](./webaverse/items)) that get released on a periodic basis.
+The virtual world is organized around one main street, like a web page that goes forwards and backwards instead of up and down. It's also a metaphor for a blockchain, in which The Street is the ever expanding chain connecting the blocks that contributors help shape throughout time.
 
+
+
+The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
+
+The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
 
 ## Getting Started 
 
 
+
+- Join the Discord
+- Create stuff
+- Sign up to be artist
 
 
 Use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
