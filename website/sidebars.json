@@ -79,6 +79,7 @@
       }
 	  ],
     "Developer": [
+		"developer/architecture",
 		"developer/minting-flow",
 		"developer/transfer-flow",
 		"developer/loading-flow",
