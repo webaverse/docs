@@ -64,7 +64,7 @@ If you want to learn more about the Discord Bot, you can [read more here](../web
 
 ### Buy on Opensea
 
-
+Webaverse NFTs are located here: [https://opensea.io/assets/asset-v3?search[chains][0]=MATIC)](https://opensea.io/assets/asset-v3?search[chains][0]=MATIC)
 
 
 ### Sell on Opensea

@@ -9,11 +9,16 @@ title: How To Mint NFTs
 
 ### WebUI
 
-Minting NFTs in Webaverse is done by simply dragging and dropping files into the [Webaverse Mint Page](https://webaverse.com/mint).
+The NFT minting interface can be accessed on the Webaverse frontpage by clicking the mint leaf in the top left corner. You can also go directly to it via: https://webaverse.com/mint.
 
-![Mint preview from the web interface](/img/mint2.jpg)
+![](/img/mint-button.jpg)
 
-You will be taken into a 3D world preview to double check the asset looks good before minting.
+Once here, you can upload the file or URL to the file of what you wish to mint then add a title + description.
+
+![](/img/mint-ui.jpg)
+
+You can optionally choose to set the NFT to be non-transferable, meaning there's no secondary market capability for it. This is useful for personal assets or those which restrict redistribution.
+
 
 ### Discord
 

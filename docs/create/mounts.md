@@ -1,11 +1,11 @@
 ---
 id: mounts 
-title: How To Mint Mounts 
+title: Mounts and Vehicles
 ---
 
 ## Blender
 
-Mounts are similar to pets in that they're based on animated glTF files but now have a place for your avatar to sit on and control the pet like a vehicle. This is specified in the model as the `sitBone`:
+Mounts and vehicles are rigged glTF files that now have a place for your avatar to sit on and commandeer the object. This is specified in the model as the `sitBone`:
 
 ```
 {
@@ -28,6 +28,10 @@ Locate the bone you want your avatar to sit on by selecting the armature in Blen
 
 ![Select the sitting bone](/img/mountbone.jpg)
 
-Afterwords export the model as a .glb and drag it into https://webaverse.com/mounts.
+**Minting**
+
+> Note: Minting vehicles and mounts is currently disabled right now
+
+Afterwords export the model as a .glb and drag it into https://webaverse.com/mint.
 
 The system will ask for the sit bone name for the mount and then the walk animation name. Input the names for both and preview to see if you're able to ride around your NFT mount before minting. Have fun!

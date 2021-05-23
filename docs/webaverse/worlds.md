@@ -3,10 +3,10 @@ id: worlds
 title: Worlds
 ---
 
+If you're interested in designing a world in Webaverse you came to the right spot. There are currently several methods to building scenes in Webaverse.
+
 ![Miku in Atoll](/img/miku_atoll.jpg)
 
-
-If you're interested in designing a world in Webaverse you came to the right spot. There are currently several methods to building scenes in Webaverse.
 
 ## Editor
 
@@ -34,8 +34,16 @@ There's also an in-game builder you can use with `Z` `X` and `C` keys to switch 
 
 ![In-game builder](/img/builder.jpg)
 
+---
 
-## Editaverse
+## Editaverse (Archived)
+
+> Note: Unfortunately, Editaverse is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](hello@webaverse.com). The code lives on in Github:
+>
+> - https://github.com/webaverse/editaverse
+> - https://github.com/webaverse/editaverse-voxels
+
+
 
 Editaverse consiststs of experimental Webaverse workflow integrations with open source 3D creation tools, such as [Mozilla Spoke](https://hubs.mozilla.com/spoke) and [Blocks Editor](https://github.com/danielesteban/blocks-editor).
 
@@ -48,11 +56,6 @@ Editaverse consiststs of experimental Webaverse workflow integrations with open 
 <iframe width="720" height="400" src="https://www.youtube.com/embed/r9PSi1GDYeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
-
-Note: Unfortunately, the code is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](hello@webaverse.com). The code lives on in Github:
-
-- https://github.com/webaverse/editaverse
-- https://github.com/webaverse/editaverse-voxels
 
 
 If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).

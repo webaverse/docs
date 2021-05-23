@@ -1,6 +1,6 @@
 ---
 id: pets 
-title: How To Mint Pets 
+title: Pets 
 ---
 
 Custom pets are NFTs made from rigged and animated glTF2.0 binary (.glb) files and can be spawned from your inventory to follow your avatar around worlds. You can also feed them too. Over time as pets get more advanced authors can publish new versions to the NFTs unlockable folder.
@@ -20,7 +20,9 @@ Walking pets have two animations, walk and idle. In Blender you can find these b
 
 Next, export the file as a .glb from Blender. You don't have to change any export settings, keep the default ones.
 
-Finally, drag and drop the .glb file of the pet into https://webaverse.com/pets and type in the type the names of the actions from step 2. You should see the pet start following you around in the preview area.
+> Note: minting pets is currently disabled right now
+
+Finally, drag and drop the .glb file of the pet into https://webaverse.com/mint and type in the type the names of the actions from step 2. You should see the pet start following you around in the preview area.
 
 ---
 

@@ -19,8 +19,6 @@ Webaverse is an open source virtual world built on principles of enabling true d
 
 The virtual world is organized around one main street, like a web page that goes forwards and backwards instead of up and down. It's also a metaphor for a blockchain, in which The Street is the ever expanding chain connecting the blocks that contributors help shape throughout time.
 
-
-
 The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
 
 The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
@@ -30,18 +28,43 @@ The current plan is to combine the best parts the community likes about video ga
 
 
 
-- Join the Discord
-- Create stuff
-- Sign up to be artist
+The engine supports the most popular file formats for NFT content:
+
+| ASSET type  | File format |
+| ----------- | ----------- |
+| 3D Models   | glTF (.glb) |
+| Avatars     | VRM         |
+| Images      | PNG, GIF, JPG (lossy)  |
+| Video       | WEBM, MP4   |
+| Audio       | MP3         |
+| Voxels      | vox         |
+| Text        | Txt         |
+| Scripting   | Javascript, WebAssembly  |
 
 
-Use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
+### Join the Server
 
-Or that you can create your very own [Avatars](./webaverse/avatars) and build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
+The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
+
+- Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
+  - Type `.name -h` in the Discord to learn how to setup your username
+  - Login to the main website by typing `.login`
+  - Ask for some [SILK](/docs/webaverse/silk) to create items
+
+### Set up your profile
+
+- Create your [avatar](./webaverse/avatars)
+  - [Import VRoid](/docs/create/import-vroid)
+
+### Creator Program
+
+Sign up to be a season artist here: <link>
+
+Build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 
 ## Market 
 
-Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
+Creations in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea.
 
 Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
 

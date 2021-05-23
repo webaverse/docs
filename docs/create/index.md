@@ -3,7 +3,7 @@ id: overview
 title: Overview
 ---
 
-Webaverse loads multiple XR apps simulatenously in a shared space. These applications (apps) are called XRPackages (XRPKs).
+Webaverse loads multiple XR apps simulatenously in a shared space. These applications (apps) are called XRPackages ([XRPKs](/docs/developer/xrpackage-overview)).
 
 ## Supported Asset Types
 

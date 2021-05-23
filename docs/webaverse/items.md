@@ -3,7 +3,7 @@ id: items
 title: Items 
 ---
 ![NFTs in the same space](/img/nft_items.jpg)
-  
+
 The Webaverse 3D app composes unique digital items, technically known as non-fungible tokens (NFTs), in the same shared space. Anything from [Avatars](./avatars), [Parcels](./parcels), Images, and 3D items can be NFTs. The engine supports the most popular file formats for NFT content:
 
 | ASSET type  | File format |
@@ -13,8 +13,10 @@ The Webaverse 3D app composes unique digital items, technically known as non-fun
 | Images      | PNG, GIF, JPG (lossy)  |
 | Video       | WEBM, MP4   |
 | Audio       | MP3         |
+| Voxels      | vox         |
 | Text        | Txt         |
 | Scripting   | Javascript, WebAssembly  |
+
 
 
 With items built on the standards that power NFTs (ERC-721) you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.

@@ -5,7 +5,7 @@ title: Import From MagicaVoxel
 
 This guide explains how you can export your MagicaVoxels creations by exporting as a `.vox`
 
-
+Download MagicaVoxel here: https://ephtracy.github.io/
 
 ## 1. Export your Voxels as a `.vox` file
 

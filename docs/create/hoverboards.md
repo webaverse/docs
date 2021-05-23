@@ -1,6 +1,6 @@
 ---
 id: hoverboards
-title: How To Mint Hoverboards 
+title: Hoverboards 
 ---
 
 Hoverboards are rideable NFTs you can use to speed around the map. Surf the internet in style! You can accelerate pretty fast on these baords, someday there may be ramps for you to jump from too.
