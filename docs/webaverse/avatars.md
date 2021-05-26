@@ -17,6 +17,10 @@ Learn more on how to setup your account [here](./start).
 
 ## FAQ
 
+### Technically, what are Avatars?
+
+Avatars are audiovisual representations of a user. Webaverse uses <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM-based avatar models</a>, but you can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything you want. Walk around as a 2D meme, become a couch, or a shader.
+
 ### Where Can I Find Avatars?
 
 The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use. Be sure to double check the conditions of use first.
@@ -25,10 +29,25 @@ More public resources for obtaining VRM avatars are coming soon to the Webaverse
 
 ### How Can I Make An Avatars?
 
-The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid-studio). Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
+The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid). Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
 
 
 ### How Do I Set My Avatar?
+
+
+**Discord method**
+
+You can also set your avatar by [minting](../create/mint) it as an NFT, and then setting it in your profile by either typing `.avatar` + the NFT ID of the item you want as your avatar.
+
+For a full step-by-step guide check out [this tutorial](./start).
+
+**Website method**
+
+You can also select from the dropdown menu (3 dots) on the item's webpage. Go to your profile on https://webaverse.com and click an item.
+
+![Set as avatar](/img/set_avatar.jpg)
+
+**Test avatar**
 
 Currently the fastest way is to drag and drop a VRM file into the 3D app browser window, grab it with `e`, then activate with `g`.
 
@@ -38,12 +57,4 @@ Currently the fastest way is to drag and drop a VRM file into the 3D app browser
 
 <br>
 
-You can also set your avatar by [minting](../create/mint) it as an NFT, and then setting it in your profile by either typing `.avatar` + the NFT ID of the item you want as your avatar or selecting it from the dropdown menu on the item's webpage. Visit https://webaverse.com/mint to mint.
 
-![Set as avatar](/img/setavatar.jpg)
-
-For a full step-by-step guide to getting started in Webaverse, check out [this guide](./start).
-
-### Technically, what are Avatars?
-
-Avatars are typically <a href="https://vrm.dev/en" target="_blank" rel="noopener noreferrer">VRM-based avatar models</a>, but you can **wear** _any_ XRPackage to make it your avatar &mdash; it can be anything you want.

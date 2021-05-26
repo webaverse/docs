@@ -9,33 +9,70 @@ hide_title: true
 
 <br/>
 
-These docs will help you navigate and create in <a href="https://webaverse.com/" target="_blank" rel="noopener noreferrer">Webaverse</a>.
+![Banner](/img/banner.jpg)
 
-Webaverse is built on existing communities like Discord and existing open standards and technologies like WebGL, WebXR, IPFS, and Ethereum.
+Webaverse is an open source virtual world built on principles of enabling true digital ownership, an open economy, and interoperability. There's several parts:
 
-## Webaverse 
+- Tools to create and monetize content
+- Custom avatars + multiplayer + VR support
+- Discovery of amazing experiences across the Internet
 
-In this initial section you can go from zero understanding to knowing exactly what Webaverse is.
+The virtual world is organized around one main street, like a web page that goes forwards and backwards instead of up and down. It's also a metaphor for a blockchain, in which The Street is the ever expanding chain connecting the blocks that contributors help shape throughout time.
 
-You'll learn that you can buy and use [SILK](./webaverse/silk) to mint [NFTs](./webaverse/nfts), just by messaging with a [Discord Bot](./webaverse/discord-bot).
+The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
 
-Or that you can create your very own [Avatars](./webaverse/avatars) and build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
+The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
-## Market 
+---
 
-Since Webaverse is built with NFTs, any creation in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea. 
+## Getting Started 
 
-Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
+The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
+
+- Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
+  - Type `.name -h` in the Discord to learn how to setup your username
+  - Login to the main website by typing `.login`
+  - Ask for some [SILK](/docs/webaverse/silk) to create items
+
+**Set your avatar**
+
+The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](/docs/create/import-vroid).
+
+> Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
 
 ## Create 
 
-Creators of a variety of backgrounds can build for Webaverse: 3D modelers, JavaScript 3D website programmers, and designers. 
+Creators of various walks of life can build in Webaverse: 3D modelers, musicians, creative web programmers, and designers.
+
+The engine supports the most popular file formats for NFT content:
+
+| ASSET type  | File format |
+| ----------- | ----------- |
+| 3D Models   | glTF (.glb) |
+| Avatars     | VRM         |
+| Images      | PNG, GIF, JPG (lossy)  |
+| Video       | WEBM, MP4   |
+| Audio       | MP3         |
+| Voxels      | vox         |
+| Text        | Txt         |
+| Scripting   | Javascript, WebAssembly  |
 
 Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
+### Creator Program
+
+Coming soon
+
+
+## Market 
+
+Creations in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea.
+
+Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
+
 ## Community
 
-You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webaverse).
+Join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and follow us on [Twitter](https://twitter.com/webaverse).
 
 ## Contributing
 

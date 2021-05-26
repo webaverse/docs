@@ -3,24 +3,22 @@
     "Webaverse": [
       "index",
       "webaverse/silk",
-      "webaverse/nfts",
+      "webaverse/items",
       "webaverse/avatars",
       "webaverse/worlds",
       "webaverse/parcels",
-      "webaverse/discord-bot",
-      "webaverse/twitter-bot",
       {
         "type": "subcategory",
-        "label": "Guides",
+        "label": "Bots",
         "ids": [
-          "webaverse/start"
+          "webaverse/discord-bot",
+		  "webaverse/twitter-bot"
         ]
       }
     ],
     "Market": [
       "market/silk-guide",
       "market/nfts-guide",
-      "market/trade-guide",
 	  "market/matic-guide"
     ],
     "Create": [
@@ -36,9 +34,19 @@
       },
       {
         "type": "subcategory",
+        "label": "3D Models",
+        "ids": [
+          "create/import-blender",
+          "create/bake-physics",
+          "create/multiple-animations"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Avatars",
         "ids": [
           "create/import-vroid",
+		  "create/import-meebit",
 		  "create/wearables"
         ]
       },
@@ -51,15 +59,6 @@
 		  "create/rifle"
         ]
       },	  
-      {
-        "type": "subcategory",
-        "label": "3D Models",
-        "ids": [
-          "create/import-blender",
-          "create/bake-physics",
-          "create/multiple-animations"
-        ]
-      },
 	  {
         "type": "subcategory",
         "label": "Pets and Vehicles",
@@ -75,27 +74,34 @@
         "ids": [
           "create/import-magicavoxel"
         ]
-      },
-      {
+      }
+	  ],
+    "Developer": [
+		"developer/architecture",
+		"developer/minting-flow",
+		"developer/transfer-flow",
+		"developer/loading-flow",
+		"developer/preview-flow",
+	  {
         "type": "subcategory",
         "label": "XRPackage",
         "ids": [
-          "create/xrpackage-overview",
-          "create/creating-an-xrpk",
-          "create/xrpackage-design-guidelines",
-          "create/monetization",
-          "create/examples"
+          "developer/xrpackage-overview",
+          "developer/creating-an-xrpk",
+          "developer/xrpackage-design-guidelines",
+          "developer/monetization",
+          "developer/examples"
         ]
       },
       {
         "type": "subcategory",
         "label": "API",
         "ids": [
-          "create/runtime-api",
-          "create/manifest-api",
-          "create/monetization-api"
+          "developer/runtime-api",
+          "developer/manifest-api",
+          "developer/monetization-api"
         ]
       }
-    ]
+	]
   }
 }

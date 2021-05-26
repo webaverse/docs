@@ -1,6 +1,6 @@
 ---
 id: vehicles
-title: How To Mint Vehicles
+title: Vehicles
 ---
 
 

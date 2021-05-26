@@ -3,12 +3,21 @@ id: worlds
 title: Worlds
 ---
 
-Interested in designing a world in Webaverse? You came to the right spot. There are currently several methods to building in the virtual world. Give us feedback in the [Discord](https://discord.gg/3byWubumSa), new processes are constantly being developed.
+If you're interested in designing a world in Webaverse you came to the right spot. There are currently several methods to building scenes in Webaverse.
+
+![Miku in Atoll](/img/miku_atoll.jpg)
+
+
+## Editor
+
+The editor is an early access tool for constructing and minting NFTs. There's a text editor with various templates for HTML NFT types and a library of assets pulled from Webaverse.
+
+![Editor](/img/editor.jpg)
 
 
 ## Blender
 
-Models in Webaverse are made with glTF binary files (.glb), which Blender 2.8+ has an export option for. You can also use the Webaverse [blender plugin](https://github.com/webaverse/blender-plugin) to export directly from Blender to the minting page.
+Models in Webaverse are made with glTF binary files (.glb), which Blender 2.8+ has an export option for. You can also use the Webaverse [blender plugin](https://github.com/webaverse/blender-plugin) to export directly from Blender to the minting page. To learn how to setup the plugin click [here](http://127.0.0.1:3000/docs/create/import-blender).
 
 ![Blender export](/img/blender-export.jpg)
 
@@ -25,8 +34,16 @@ There's also an in-game builder you can use with `Z` `X` and `C` keys to switch 
 
 ![In-game builder](/img/builder.jpg)
 
+---
 
-## Editaverse
+## Editaverse (Archived)
+
+> Note: Unfortunately, Editaverse is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](hello@webaverse.com). The code lives on in Github:
+>
+> - https://github.com/webaverse/editaverse
+> - https://github.com/webaverse/editaverse-voxels
+
+
 
 Editaverse consiststs of experimental Webaverse workflow integrations with open source 3D creation tools, such as [Mozilla Spoke](https://hubs.mozilla.com/spoke) and [Blocks Editor](https://github.com/danielesteban/blocks-editor).
 
@@ -40,10 +57,5 @@ Editaverse consiststs of experimental Webaverse workflow integrations with open 
 
 <br>
 
-Note: Unfortunately, the code is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](hello@webaverse.com). The code lives on in Github:
 
-- https://github.com/webaverse/editaverse
-- https://github.com/webaverse/editaverse-voxels
-
-
-If you have any questions, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).
+If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).

@@ -15,6 +15,48 @@ There’s no user setup required, anybody in the server the bot is invited to wi
 
 You can interact the Webaverse Discord Bot by inviting it to your Discord server [here](https://discord.com/oauth2/authorize?client_id=758956702669209611&permissions=0&scope=bot) or you can interact with the bot by joining the [Webaverse Discord](https://discord.gg/3byWubumSa) server. First command you should try is `.help`.
 
+---
+
+This guide will walk you step-by-step to setting up your Webaverse profile. You will need a Discord account to continue. In the near future we will add support for email and metamask login.
+
+You will set up your own avatar, name, and log into the Webaverse world for the first time!
+
+## Login to the Website
+
+1. Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53)
+
+2. Type `.login` in the #bot channel
+
+## Login to the 3D World 
+
+1. Join the [Webaverse Discord](https://discord.gg/R5wqYhvv53)
+
+2. Type `.play ` in the #bot channel
+
+3. Alternatively, visit https://app.webaverse.com/
+
+## Setup your Profile
+
+1. Drag and drop avatar into Discord
+> ![Dropping file into Discord](/img/avatar-1.png)
+
+2. Type `.mint 1` in the Discord comment
+> ![Typing mint 1 command in Discord comment](/img/avatar-2.png)
+
+The Discord Bot should respond with the id of the token and file hash:
+> ![Discord bot responding with token id and file hash](/img/avatar-3.png)
+
+3. Run `.avatar` + token id
+The token id will be what the Discord Bot responded with in step #2, in this case it was 15.
+> ![](/img/avatar-4.png)
+
+4. Run `.name` + the name you want
+> ![](/img/avatar-5.png)
+
+If you type `.status`, you should now see your name and avatar set in your profile.
+> ![](/img/avatar-6.png)
+
+### 5. Run `.play` to get your Webaverse login link in a DM from the bot
 
 
 
@@ -170,13 +212,13 @@ buy the [saleid] from [@user]
 
 ## Land
 
-### .parcels
+### `.parcels`
 list owned parcels
 
-### .deploy [parcelId] [nftId]
+### `.deploy [parcelId] [nftId]`
 deploy [nftId] to [parcelId]
 
-### .landcollab [@user|0xaddr] [parcelId]
+### `.landcollab [@user|0xaddr] [parcelId]`
 add collaborator to [parcelId]
 
 ---
@@ -196,3 +238,4 @@ get the unlockable sent via DM
 DM the bot to use this command. Sets unlockable content for the NFT.
 
 ---
+
