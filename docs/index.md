@@ -61,9 +61,8 @@ Check out [our creator guides](./create/index.md) for more information on gettin
 
 ### Creator Program
 
-Do you want to own 
+Coming soon
 
-Build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 
 ## Market 
 
