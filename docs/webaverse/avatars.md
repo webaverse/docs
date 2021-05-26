@@ -29,7 +29,7 @@ More public resources for obtaining VRM avatars are coming soon to the Webaverse
 
 ### How Can I Make An Avatars?
 
-The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid-studio). Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
+The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](../create/import-vroid). Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
 
 
 ### How Do I Set My Avatar?

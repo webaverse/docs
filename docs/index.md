@@ -23,10 +23,26 @@ The Street is a curated quality experience, coordinated in artistic direction pe
 
 The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
+---
 
 ## Getting Started 
 
+The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
 
+- Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
+  - Type `.name -h` in the Discord to learn how to setup your username
+  - Login to the main website by typing `.login`
+  - Ask for some [SILK](/docs/webaverse/silk) to create items
+
+**Set your avatar**
+
+The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](/docs/create/import-vroid).
+
+> Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
+
+## Create 
+
+Creators of various walks of life can build in Webaverse: 3D modelers, musicians, creative web programmers, and designers.
 
 The engine supports the most popular file formats for NFT content:
 
@@ -41,24 +57,11 @@ The engine supports the most popular file formats for NFT content:
 | Text        | Txt         |
 | Scripting   | Javascript, WebAssembly  |
 
-
-### Join the Server
-
-The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
-
-- Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
-  - Type `.name -h` in the Discord to learn how to setup your username
-  - Login to the main website by typing `.login`
-  - Ask for some [SILK](/docs/webaverse/silk) to create items
-
-### Set up your profile
-
-- Create your [avatar](./webaverse/avatars)
-  - [Import VRoid](/docs/create/import-vroid)
+Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
 ### Creator Program
 
-Sign up to be a season artist here: <link>
+Do you want to own 
 
 Build on [Parcels](./webaverse/parcels) that are a part of everchanging [Seasons](./webaverse/seasons).
 
@@ -68,15 +71,9 @@ Creations in Webaverse can be bought, sold, and traded on open and decentralized
 
 Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
 
-## Create 
-
-Creators of a variety of backgrounds can build for Webaverse: 3D modelers, JavaScript 3D website programmers, and designers. 
-
-Check out [our creator guides](./create/index.md) for more information on getting started with building.
-
 ## Community
 
-You can join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and [Twitter](https://twitter.com/webaverse).
+Join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and follow us on [Twitter](https://twitter.com/webaverse).
 
 ## Contributing
 
