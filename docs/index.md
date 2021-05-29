@@ -19,7 +19,11 @@ Webaverse is an open source virtual world built on principles of enabling true d
 
 The virtual world is organized around one main street, like a web page that goes forwards and backwards instead of up and down. It's also a metaphor for a blockchain, in which The Street is the ever expanding chain connecting the blocks that contributors help shape throughout time.
 
+![](/img/street.jpg)
+
 The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
+
+
 
 The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
@@ -42,7 +46,7 @@ The easiest way to make your own custom VRM avatar is with [VRoid Studio](https:
 
 ## Create 
 
-Creators of various walks of life can build in Webaverse: 3D modelers, musicians, creative web programmers, and designers.
+Creators of various backgrounds and skillsets from 3D modelers, musicians, creative web programmers, and designers and build, display, and monetize their works in Webaverse.
 
 The engine supports the most popular file formats for NFT content:
 
