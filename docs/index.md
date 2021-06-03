@@ -31,6 +31,8 @@ The current plan is to combine the best parts the community likes about video ga
 
 ## Getting Started 
 
+![](/img/ethbot.jpg)
+
 The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
 
 - Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
@@ -65,7 +67,9 @@ Check out [our creator guides](./create/index.md) for more information on gettin
 
 ### Creator Program
 
-Coming soon
+[Sign-up for Creator Program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
+
+Every [season](/webaverse/seasons) is a block of virtual marble chisled by financial and artistic contributions from the community. Artists can participate and earn a slice of The Street by signing up to the creator program.
 
 
 ## Market 
