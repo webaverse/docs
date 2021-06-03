@@ -7,6 +7,9 @@ Avatars are the audio visual representations of a user in a world. You can contr
 
 ![Group of avatars](/img/avatars.jpg)
 
+There's also a VR mode in the works, powered by the [WebXR API](https://www.w3.org/TR/webxr/), to deliver the experience through a web browser. This is where the full IK system really shines for players to embody their avatars.
+
+![](/img/vr.gif)
 
 ## Usernames and Accounts
 

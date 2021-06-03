@@ -19,13 +19,23 @@ Webaverse is an open source virtual world built on principles of enabling true d
 
 The virtual world is organized around one main street, like a web page that goes forwards and backwards instead of up and down. It's also a metaphor for a blockchain, in which The Street is the ever expanding chain connecting the blocks that contributors help shape throughout time.
 
+![](/img/street.jpg)
+
 The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
 
 The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
+### White Paper
+
+To learn more about the overarching vision of Webaverse, take a look at our whitepaper. Please note, some details such as terms might be slightly out of date.
+
+Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
+
 ---
 
 ## Getting Started 
+
+![](/img/ethbot.jpg)
 
 The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
 
@@ -42,7 +52,7 @@ The easiest way to make your own custom VRM avatar is with [VRoid Studio](https:
 
 ## Create 
 
-Creators of various walks of life can build in Webaverse: 3D modelers, musicians, creative web programmers, and designers.
+Creators of various backgrounds and skillsets from 3D modelers, musicians, creative web programmers, and designers and build, display, and monetize their works in Webaverse.
 
 The engine supports the most popular file formats for NFT content:
 
@@ -59,9 +69,11 @@ The engine supports the most popular file formats for NFT content:
 
 Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
-### Creator Program
+## Creator Program
 
-Coming soon
+[Sign-up for Creator Program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
+
+Every [season](/webaverse/seasons) is a block of virtual marble chisled by financial and artistic contributions from the community. Artists can participate and earn a slice of The Street by signing up to the creator program.
 
 
 ## Market 

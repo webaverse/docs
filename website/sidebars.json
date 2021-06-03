@@ -56,7 +56,7 @@
         "ids": [
           "create/sword",
           "create/pickaxe",
-		  "create/rifle"
+		  "create/guns"
         ]
       },	  
 	  {
@@ -78,10 +78,6 @@
 	  ],
     "Developer": [
 		"developer/architecture",
-		"developer/minting-flow",
-		"developer/transfer-flow",
-		"developer/loading-flow",
-		"developer/preview-flow",
 	  {
         "type": "subcategory",
         "label": "XRPackage",

@@ -7,6 +7,8 @@ Custom pets are NFTs made from rigged and animated glTF2.0 binary (.glb) files a
 
 ## Walking Pet
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/9wKi4VSyWuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In order to mint a pet that walks around behind you, you need a rigged and animated glTF 3D model.
 
 Walking pets have two animations, walk and idle. In Blender you can find these by:

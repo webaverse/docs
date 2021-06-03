@@ -5,6 +5,8 @@ title: Import From Blender
 
 This guide explains how you can export your content from Blender to bring it into Webaverse.
 
+> Note: This [plugin](https://github.com/webaverse/blender-plugin) is not currently maintained right now. If you're a developer interested in this this workflow please contact us on [Twitter](https://twitter.com/webaverse) or [Discord](https://discord.gg/R5wqYhvv53).
+
 ## 1. Download the add-on
 [Download the latest version here](https://github.com/webaverse/blender-plugin/raw/master/io_scene_webaverse.zip).
 
