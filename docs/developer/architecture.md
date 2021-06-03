@@ -4,9 +4,6 @@ title: Architecture Overview
 ---
 
 
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/FXCkoR0ASdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 View miro: https://miro.com/app/board/o9J_lbA81ag=/
 
 

@@ -21,6 +21,24 @@ The Webaverse 3D app composes unique digital items, technically known as non-fun
 
 With items built on the standards that power NFTs (ERC-721) you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.
 
+## Inventory
+
+You can access all of the digital assets you own in Webaverse in your inventory a couple different ways. From Discord you can type `.inventory` in a server the [Discord bot](https://webaverse.com/discordbot) is installed in. You can also go to the [main website](https://webaverse.com/) and click the icon on the top right to see your profile page that has your inventory there.
+  
+![profile inventory](/img/inventory.jpg)
+
+## Trading Cards
+
+Every NFT minted on Webaverse gets a trading card format version of it generated from the [preview server](/docs/developer/architecture#preview-flow).
+
+The purpose of the cards is first that it's fun but second that it actually serves a utility by combining all the useful information about the NFT onto 1 object that can be brought into digital and physical worlds.
+
+![](/img/cards.jpg)
+
+The battle stats are randomly generated attributed determined upon minting. The stats, such as hp, mp, attack, defense, etc, can be optionally used by developers or not. There are different elemental types such as fire, grass, water, as well as rarities like common up to legendary.
+
+Whenever you mint a NFT you might just land some pretty epic stats that can provide additional collector appeal to your item!
+
 
 ## How Can I Mint NFTs?
 
@@ -28,11 +46,7 @@ Creating your own unique items in Webaverse is very easy, you don't need any kin
 
 You can mint NFTs simply by dragging and dropping a file into the [Webaverse mint page](https://webaverse.com/mint) or [Discord](https://discord.gg/R5wqYhvv53). There's currently a 10 SILK fee for minting. If you want a step-by-step guide on how mint NFTs, check out [this guide](../create/mint).
 
-## Inventory
 
-You can access all of the digital assets you own in Webaverse in your inventory a couple different ways. From Discord you can type `.inventory` in a server the [Discord bot](https://webaverse.com/discordbot) is installed in. You can also go to the [main website](https://webaverse.com/) and click the icon on the top right to see your profile page that has your inventory there.
-  
-![profile inventory](/img/inventory.jpg)
 
 ## SILK vs NFTs
 

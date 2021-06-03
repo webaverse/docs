@@ -3,9 +3,13 @@ id: mounts
 title: Mounts and Vehicles
 ---
 
+Mounts and vehicles are rigged glTF files that now have a place for your avatar to sit on and commandeer the object.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/U_qhkB55gw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Blender
 
-Mounts and vehicles are rigged glTF files that now have a place for your avatar to sit on and commandeer the object. This is specified in the model as the `sitBone`:
+The place where you avatar sits on is specified in the model as the `sitBone`:
 
 ```
 {

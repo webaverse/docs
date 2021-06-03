@@ -3,12 +3,20 @@ id: parcels
 title: Parcels 
 ---
 
-Parcels represent an area of the Webaverse world that you can own and build anything on. Creators can build full virtual experiences and select an area that gets hyperlinked bidirectionally to The Street. Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and there will not be another exactly like it. 
+Parcels are pieces of land along The Street that can double as hyperlinks into other virtual worlds.
 
 
+Creators can build full virtual experiences and select an area that gets hyperlinked bidirectionally to The Street. Below is an example of transporting into another world by walking into a parcel and hitting an action key.
 
-Currently Webaverse is more interested in collaborating with artists to sell content and experiences rather than empty land. Designing something cool helps secure a spot on The Street, even if its concept art. If you're a 2D or 3D artist interested in bringing your idea to life come chat with us on the Discord: https://discord.gg/3byWubumSa
+![](/img/floortal.gif)
 
 
+Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and tradeable on open marketplaces.
 
-More information about how the parcel system works is coming soon.
+![](/img/parcels.jpg)
+
+Every season the Webaverse overworld is broken up and distributed as parcels. Webaverse is interested in collaborating with artists to market content and experiences rather than empty land during season 1.
+
+![](/img/parcels2.jpg)
+
+Designing something cool helps secure a spot in the most OG parts of The Street. If you're a 2D or 3D artist interested in bringing your idea to life take a look at the [creator program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu) or come chat with us on the Discord: https://discord.gg/3byWubumSa 

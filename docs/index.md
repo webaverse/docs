@@ -23,9 +23,13 @@ The virtual world is organized around one main street, like a web page that goes
 
 The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
 
-
-
 The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
+
+### White Paper
+
+To learn more about the overarching vision of Webaverse, take a look at our whitepaper. Please note, some details such as terms might be slightly out of date.
+
+Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
 
 ---
 
@@ -65,7 +69,7 @@ The engine supports the most popular file formats for NFT content:
 
 Check out [our creator guides](./create/index.md) for more information on getting started with building.
 
-### Creator Program
+## Creator Program
 
 [Sign-up for Creator Program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
 
