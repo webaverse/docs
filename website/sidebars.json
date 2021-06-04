@@ -7,6 +7,7 @@
       "webaverse/avatars",
       "webaverse/worlds",
       "webaverse/parcels",
+	  "webaverse/whitepaper",
       {
         "type": "subcategory",
         "label": "Bots",
