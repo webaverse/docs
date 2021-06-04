@@ -3,17 +3,13 @@ id: parcels
 title: Parcels 
 ---
 
-Parcels are pieces of land along The Street that can double as hyperlinks into other virtual worlds.
+Parcels are pieces of land along The Street that can double as hyperlinks into other virtual worlds. Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and tradeable on open marketplaces.
 
+![](/img/parcels.jpg)
 
 Creators can build full virtual experiences and select an area that gets hyperlinked bidirectionally to The Street. Below is an example of transporting into another world by walking into a parcel and hitting an action key.
 
 ![](/img/floortal.gif)
-
-
-Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and tradeable on open marketplaces.
-
-![](/img/parcels.jpg)
 
 Every season the Webaverse overworld is broken up and distributed as parcels. Webaverse is interested in collaborating with artists to market content and experiences rather than empty land during season 1.
 

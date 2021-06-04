@@ -33,7 +33,7 @@ Every NFT minted on Webaverse gets a trading card format version of it generated
 
 The purpose of the cards is first that it's fun but second that it actually serves a utility by combining all the useful information about the NFT onto 1 object that can be brought into digital and physical worlds.
 
-![](/img/cards.jpg)
+![](/img/cards2.jpg)
 
 The battle stats are randomly generated attributed determined upon minting. The stats, such as hp, mp, attack, defense, etc, can be optionally used by developers or not. There are different elemental types such as fire, grass, water, as well as rarities like common up to legendary.
 

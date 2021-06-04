@@ -13,6 +13,9 @@ Currently the following file formats are supported:
 
 - GLTF Models (`.gltf`, `.glb`)
 - VRM 3D Avatars (`.vrm`)
+- Images (`.jpg`, `.png`, `.gif`)
+- Video (`.webm`, `.mp4`)
+- Audio (`.mp3`)
 - MagicaVoxel Models (`.vox`)
 - 3D Websites (`.js`) (THREE.js, A-Frame, Babylon, etc.)
 
