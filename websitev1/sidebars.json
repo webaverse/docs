@@ -1,0 +1,104 @@
+{
+  "guides": {
+    "Webaverse": [
+      "index",
+      "webaverse/silk",
+      "webaverse/items",
+      "webaverse/avatars",
+      "webaverse/worlds",
+      "webaverse/parcels",
+	  "webaverse/whitepaper",
+      {
+        "type": "subcategory",
+        "label": "Bots",
+        "ids": [
+          "webaverse/discord-bot",
+		  "webaverse/twitter-bot"
+        ]
+      }
+    ],
+    "Market": [
+      "market/silk-guide",
+      "market/nfts-guide",
+	  "market/matic-guide"
+    ],
+    "Create": [
+      "create/overview",
+      "create/mint",
+      "create/mint-discord",
+      {
+        "type": "subcategory",
+        "label": "Season 0: Genesis",
+        "ids": [
+          "create/guidelines"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "3D Models",
+        "ids": [
+          "create/import-blender",
+          "create/bake-physics",
+          "create/multiple-animations"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Avatars",
+        "ids": [
+          "create/import-vroid",
+		  "create/import-meebit",
+		  "create/wearables"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Weapons",
+        "ids": [
+          "create/sword",
+          "create/pickaxe",
+		  "create/guns"
+        ]
+      },	  
+	  {
+        "type": "subcategory",
+        "label": "Pets and Vehicles",
+        "ids": [
+          "create/pets",
+		  "create/mounts",
+		  "create/hoverboards"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Voxels",
+        "ids": [
+          "create/import-magicavoxel"
+        ]
+      }
+	  ],
+    "Developer": [
+		"developer/architecture",
+	  {
+        "type": "subcategory",
+        "label": "XRPackage",
+        "ids": [
+          "developer/xrpackage-overview",
+          "developer/creating-an-xrpk",
+          "developer/xrpackage-design-guidelines",
+          "developer/monetization",
+          "developer/examples"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "API",
+        "ids": [
+          "developer/runtime-api",
+          "developer/manifest-api",
+          "developer/monetization-api"
+        ]
+      }
+	]
+  }
+}

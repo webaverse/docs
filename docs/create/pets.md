@@ -1,6 +1,6 @@
 ---
-id: pets 
-title: Pets 
+id: pets
+title: Pets
 ---
 
 Custom pets are NFTs made from rigged and animated glTF2.0 binary (.glb) files and can be spawned from your inventory to follow your avatar around worlds. You can also feed them too. Over time as pets get more advanced authors can publish new versions to the NFTs unlockable folder.

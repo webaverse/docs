@@ -1,6 +1,6 @@
 ---
-id: items 
-title: Items 
+id: items
+title: Items
 ---
 ![NFTs in the same space](/img/nft_items.jpg)
 

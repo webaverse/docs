@@ -1,5 +1,5 @@
 ---
-id: guns 
+id: guns
 title: Guns
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: index 
-title: Overview 
+id: index
+title: Overview
 hide_title: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: hoverboards
-title: Hoverboards 
+title: Hoverboards
 ---
 
 Hoverboards are rideable NFTs you can use to speed around the map. Surf the internet in style! You can accelerate pretty fast on these baords, someday there may be ramps for you to jump from too.
@@ -8,7 +8,7 @@ Hoverboards are rideable NFTs you can use to speed around the map. Surf the inte
 
 <iframe width="720" height="400" src="https://www.youtube.com/embed/rNtFumWOBPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+---
 
 All you need is a glTF file to stand on, and a manifest.json in order to build the [XRPK](https://docs.webaverse.com/docs/create/creating-an-xrpk). Below is an example manifest.json for the hoverboard.
 

@@ -1,6 +1,6 @@
 ---
-id: seasons 
-title: Seasons 
+id: seasons
+title: Seasons
 ---
 
 Seasons represent themed groups of LAND that are designed then rolled out periodically to allow for the intuitive and engaging discovery of user-generated content.

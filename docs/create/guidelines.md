@@ -1,5 +1,5 @@
 ---
-id: guidelines 
+id: guidelines
 title: Submission Guide
 ---
 

@@ -31,7 +31,7 @@ This will package and automatically generate a `.wbn` file in the `Build` folder
 
 ### Manually
 
-If you would prefer to package your app manually, you can do so via the terminal/command line! See [Create your First XRPackage](./2-creating-an-xrpk.md) for full details on how to build a package manually. A condensed version follows.
+If you would prefer to package your app manually, you can do so via the terminal/command line! See [Create your First XRPackage](../developer/creating-an-xrpk.md) for full details on how to build a package manually. A condensed version follows.
 
 1. Install the <a href="https://github.com/webaverse/xrpackage-cli/" target="_blank" rel="noopener noreferrer">`xrpk` CLI tool</a>:
 
@@ -57,4 +57,4 @@ If you would prefer to package your app manually, you can do so via the terminal
 
 This will package and automatically generate a `my-xrpk.wbn` file that you can now share and import into the Webaverse ecosystem.
 
-Regardless of the method you choose to build your XRPackage, you can now read the [Distributing XRPackages](./3-distributing-xrpackage.md) section for more details on how to share your content!
+Regardless of the method you choose to build your XRPackage, you can now read the Distributing XRPackages section for more details on how to share your content!

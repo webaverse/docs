@@ -54,10 +54,7 @@ You can also select from the dropdown menu (3 dots) on the item's webpage. Go to
 
 Currently the fastest way is to drag and drop a VRM file into the 3D app browser window, grab it with `e`, then activate with `g`.
 
-<br>
+---
 
-<iframe width="720" height="400" src="https://www.youtube.com/embed/wEeYmw2YPLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
+<iframe width="100%" src="https://www.youtube.com/embed/wEeYmw2YPLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,6 +1,6 @@
 ---
-id: wearables 
-title: Mint Avatar Wearables 
+id: wearables
+title: Mint Avatar Wearables
 ---
 
 > Note: minting wearables is currently disabled right now

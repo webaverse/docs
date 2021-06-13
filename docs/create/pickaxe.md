@@ -1,5 +1,5 @@
 ---
-id: pickaxe 
+id: pickaxe
 title: Pickaxe
 ---
 

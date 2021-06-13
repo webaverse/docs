@@ -1,5 +1,5 @@
 ---
-id: worlds 
+id: worlds
 title: Worlds
 ---
 
@@ -47,15 +47,14 @@ There's also an in-game builder you can use with `Z` `X` and `C` keys to switch 
 
 Editaverse consiststs of experimental Webaverse workflow integrations with open source 3D creation tools, such as [Mozilla Spoke](https://hubs.mozilla.com/spoke) and [Blocks Editor](https://github.com/danielesteban/blocks-editor).
 
-<br>
+---
 
-<iframe width="720" height="400" src="https://www.youtube.com/embed/IjFHh1Yb5Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/IjFHh1Yb5Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+---
 
-<iframe width="720" height="400" src="https://www.youtube.com/embed/r9PSi1GDYeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/r9PSi1GDYeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
-
+---
 
 If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).

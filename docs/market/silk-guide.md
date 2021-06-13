@@ -1,5 +1,5 @@
 ---
-id: silk-guide 
+id: silk-guide
 title: How To Get SILK
 ---
 

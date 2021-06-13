@@ -1,5 +1,5 @@
 ---
-id: monetization 
+id: monetization
 title: Add Monetization
 ---
 

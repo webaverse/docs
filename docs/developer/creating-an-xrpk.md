@@ -73,4 +73,4 @@ To simplify the process, we even have a <a href="https://github.com/webaverse/xr
 
 ## Mint the XRPackage
 
-Now that we've created our XRPackage, you can now [mint it as an NFT](./mint.md).
+Now that we've created our XRPackage, you can now [mint it as an NFT](/create/mint.md).
