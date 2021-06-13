@@ -7,34 +7,34 @@
       "webaverse/avatars",
       "webaverse/worlds",
       "webaverse/parcels",
-	  "webaverse/whitepaper",
+      "webaverse/whitepaper",
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Bots",
         "ids": [
           "webaverse/discord-bot",
-		  "webaverse/twitter-bot"
+	  "webaverse/twitter-bot"
         ]
       }
     ],
     "Market": [
       "market/silk-guide",
       "market/nfts-guide",
-	  "market/matic-guide"
+      "market/matic-guide"
     ],
     "Create": [
       "create/overview",
       "create/mint",
       "create/mint-discord",
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Season 0: Genesis",
         "ids": [
           "create/guidelines"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "3D Models",
         "ids": [
           "create/import-blender",
@@ -43,34 +43,34 @@
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Avatars",
         "ids": [
           "create/import-vroid",
-		  "create/import-meebit",
-		  "create/wearables"
+	  "create/import-meebit",
+	  "create/wearables"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Weapons",
         "ids": [
           "create/sword",
           "create/pickaxe",
-		  "create/guns"
+	  "create/guns"
         ]
       },	  
 	  {
-        "type": "subcategory",
+        "type": "category",
         "label": "Pets and Vehicles",
         "ids": [
           "create/pets",
-		  "create/mounts",
-		  "create/hoverboards"
+	  "create/mounts",
+	  "create/hoverboards"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Voxels",
         "ids": [
           "create/import-magicavoxel"
@@ -78,9 +78,9 @@
       }
 	  ],
     "Developer": [
-		"developer/architecture",
+	"developer/architecture",
 	  {
-        "type": "subcategory",
+        "type": "category",
         "label": "XRPackage",
         "ids": [
           "developer/xrpackage-overview",
@@ -91,7 +91,7 @@
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "API",
         "ids": [
           "developer/runtime-api",
