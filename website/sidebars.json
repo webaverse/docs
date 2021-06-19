@@ -1,5 +1,8 @@
-{
+module.exports = {
   "guides": {
+	type: 'category',
+	label: 'Webaverse',
+	collapsed: false
     "Webaverse": [
       "index",
       "webaverse/silk",
@@ -13,7 +16,7 @@
         "label": "Bots",
         "ids": [
           "webaverse/discord-bot",
-	  "webaverse/twitter-bot"
+	      "webaverse/twitter-bot"
         ]
       }
     ],
@@ -39,7 +42,8 @@
         "ids": [
           "create/import-blender",
           "create/bake-physics",
-          "create/multiple-animations"
+          "create/multiple-animations",
+          "create/import-magicavoxel"
         ]
       },
       {
@@ -47,8 +51,8 @@
         "label": "Avatars",
         "ids": [
           "create/import-vroid",
-	  "create/import-meebit",
-	  "create/wearables"
+	      "create/import-meebit",
+	      "create/wearables"
         ]
       },
       {
@@ -57,7 +61,7 @@
         "ids": [
           "create/sword",
           "create/pickaxe",
-	  "create/guns"
+	      "create/guns"
         ]
       },	  
 	  {
@@ -65,20 +69,13 @@
         "label": "Pets and Vehicles",
         "ids": [
           "create/pets",
-	  "create/mounts",
-	  "create/hoverboards"
+	      "create/mounts",
+	      "create/hoverboards"
         ]
       },
-      {
-        "type": "category",
-        "label": "Voxels",
-        "ids": [
-          "create/import-magicavoxel"
-        ]
-      }
 	  ],
     "Developer": [
-	"developer/architecture",
+	   "developer/architecture",
 	  {
         "type": "category",
         "label": "XRPackage",

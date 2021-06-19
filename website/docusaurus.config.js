@@ -34,11 +34,28 @@ module.exports={
         "src": "img/favicon.ico"
       },
       "items": [
-        {
-          "to": "docs/",
-          "label": "Docs",
-          "position": "left"
-        }
+		{
+		  "href": "https://webaverse.com",
+		  "label": "Dashboard"
+		},
+		{
+		  "href": "https://blog.webaverse.com",
+		  "label": "Blog"
+		},
+		{
+		  "href": "https://github.com/webaverse",
+		  "label": "Github"
+		},
+		{ "href": "https://discord.gg/R5wqYhvv53",
+		  "label": "Discord"
+		},
+		{ "href": "https://www.notion.so/webaverse/Webaverse-is-Hiring-8fb49c069c2f450f93ebb911149f21bd",
+		  "label": "Hiring"
+		},
+		{
+		  "type": "search",
+		  "position": "right"
+		}
       ]
     },
     "footer": {
