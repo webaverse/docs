@@ -61,7 +61,7 @@ cube.wbn
 
 The resulting package is `cube.wbn`.
 
-See [Create An XRPackage](./creating-an-xrpk.md) for how to create an XRPackage.
+There is also a [GUI](https://utils.webaverse.com/). See [Create An XRPackage](./creating-an-xrpk.md) for more info on how to create an XRPackage.
 
 ## Design Guidelines:
 

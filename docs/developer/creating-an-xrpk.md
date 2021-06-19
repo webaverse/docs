@@ -9,11 +9,23 @@ The term "XRPK" stands for "XRPackage", which can be thought of as an "applicati
 
 XRPackages in the Webaverse are spatialized apps. Unlike traditional apps that exists on a 2D plane, XRPKs are applications that exist in three dimensional space.
 
-The `xrpk` command line tool will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing ThreeJS 3d website scene.
-
 **Note**: This guide assumes you have read the [XRPackage Overview](./xrpackage-overview.md) or are familiar with what an XRPackage is.
 
-## Prerequisites
+
+## GUI
+
+Creators can build a XRPK from directory at [https://utils.webaverse.com/](https://utils.webaverse.com/). The only requirement is placing a compatible asset file somewhere in the directory. The package [`manifest.json`](https://docs.webaverse.com/docs/developer/xrpackage-overview#whats-in-a-package) describes aspects of the XRPK. If no manifest.json exists one will be generated for you.
+
+The minting flow on [Webaverse.com](https://https://webaverse.com) aims to streamline the process, although its slower to implement any new experimental new NFT types.
+
+
+
+
+## Command Line
+
+The `xrpk` command line tool will be used to package the assets into a bundle. Although XRPackage supports multiple asset types, this guide demonstrates packaging an existing ThreeJS 3d website scene.
+
+### Prerequisites
 
 - Familiarity with the command line
 - NodeJS
