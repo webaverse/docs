@@ -42,11 +42,17 @@ Nope! You will be automatically given an Ethereum address when joining a discord
 
 #### What's different about Webaverse?
 
+Webaverse technically differentiates itself from other virtual worlds in a number of different ways. When comparing to the big platforms like Roblox or Fortnite, the obvious different can be that Webaverse is open source and runs in a traditional web browser whereas those games are closed source native applications a user has to install. Another big difference is related to input output. For example, it's easy to import or export your custom avatar for Webaverse wheras its restricted for Roblox or Fortnite.
 
+Lastly, whereas most assets and account systems in traditional gaming platforms are centralized, Webaverse utilizes distributed file-hosting solutions such as [IPFS](https://ipfs.io) and blockchain for assets and identity to be truly owned by the users. This enables users to take control of their data and the ability to sell their goods on 3rd party marketplaces.
 
+There's a range of qualities that set Webaverse apart from other blockchain virtual world projects like Decentraland, Cryptovoxels, Somnium Space, and The Sandbox.
 
-
-
-
-
-
+- Webaverse is fully [open source](https://github.com/webaverse), like Decentraland, but unlike the others.
+- Unlike Decentraland, Webaverse uses a world class open source 3D library three.js instead of closed source Unity. VR is also supported.
+- Webaverse has the most advanced avatar system on the web and supports custom avatars like Somnium Space. The models are based on VRM, the most interoperable open avatar file format.
+- Webaverse is exploring user-centric features first like avatars, wearables, and pets, before LAND.
+- Webaverse overworld map is designed forwards and backwards along the street, similar to scrolling a webpage.
+- Webaverse can remotely render content from the other blockchain virtual worlds for seamless interoperability.
+- Webaverse utilizes a sidechain for fast and free transactions that is interoperable with other chains.
+- Webaverse experience extends into other platforms such as Discord where you have an interface to the world and blockchain via a bot.
