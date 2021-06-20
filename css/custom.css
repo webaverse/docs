@@ -1,0 +1,26 @@
+.post a {
+  text-decoration: underline;
+}
+
+.post a:hover {
+  color: #0000ee;
+}
+
+.logo-banner {
+  max-width: 600px;
+}
+
+blockquote {
+  background-color: lightgray;
+  border-left: 8px solid grey;
+}
+
+a[href*="#"]:not(.onPageNav a) {
+  text-decoration: underline;
+  border-bottom: 1.5px dotted black;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+}
