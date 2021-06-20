@@ -22,5 +22,5 @@ Use the provided `deploy.sh` or the following commands and environment variables
 ```bash
 cd website
 yarn install
-CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+GIT_USER=<user> CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
