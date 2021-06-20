@@ -32,7 +32,9 @@ Assets are hosted on S3 and [IPFS](https://ipfs.io), the Interplanetary File Sys
 
 ### Does this work in VR?
 
-Yes! Through the WebXR API we are able to deliver a VR experience through the web browser. VR support is still pretty experimental, we will give an ETA when we feel confident about a stable release.
+Yes! Through the WebXR API we are able to deliver a VR experience through the web browser. For devices such as the Oculus Quest you can visit [webaverse.link](https://webaverse.link) in Oculus browser to login easier.
+
+> Note: VR support is still pretty experimental, we will give an ETA when we feel confident about a stable release.
 
 
 ### Do I need a crypto wallet to participate?
