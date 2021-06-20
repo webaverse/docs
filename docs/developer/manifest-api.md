@@ -43,3 +43,15 @@ _Defines if physic meshes should be automatically generated for the package._
 _Defines the physics .bin file for the package._
 
 **Format**: a string that is the filename of the physics .bin which can be generated for .glb models [here](https://app.webaverse.com/build.html).
+
+## `dynamic`
+
+Objects (pickupable by the user) are the only ones that are autoscaled by default to 4m (Fortnite rules)
+
+**Format**: a boolean
+
+## `autoScale`
+
+Parameter allows the author to disable auto scale even on dynamic objects
+
+**Format**: a boolean

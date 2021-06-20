@@ -1,6 +1,6 @@
 ---
-id: trade-guide 
-title: How To Trade 
+id: trade-guide
+title: How To Trade
 ---
 
 This guide will walk you step-by-step to trading in Webaverse using the [Discord Bot](../webaverse/discord-bot).

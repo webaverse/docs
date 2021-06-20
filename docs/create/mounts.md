@@ -1,5 +1,5 @@
 ---
-id: mounts 
+id: mounts
 title: Mounts and Vehicles
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: twitter-bot 
-title: Twitter Bot 
+id: twitter-bot
+title: Twitter Bot
 ---
 
 > Note: The Twitter Bot is still in development and is highly experimental. We're [hiring](https://www.notion.so/webaverse/Webaverse-is-Hiring-8fb49c069c2f450f93ebb911149f21bd) developers interested in these tools to help us build them. Here's the [source code](https://github.com/webaverse/ethereum-bot/blob/master/twitterBot.js) if interested in learning more about it.

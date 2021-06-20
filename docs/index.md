@@ -1,13 +1,12 @@
 ---
-id: index 
-title: Overview 
+id: index
+title: Overview
 hide_title: true
 ---
 
-<div style='margin-top: -60px'></div>
 <h1 align="center"><b>Welcome To Webaverse</b></h1>
 
-<br/>
+---
 
 ![Banner](/img/banner.jpg)
 
@@ -27,7 +26,7 @@ The current plan is to combine the best parts the community likes about video ga
 
 ### White Paper
 
-To learn more about the overarching vision of Webaverse, take a look at our whitepaper. Please note, some details such as terms might be slightly out of date.
+To learn more about the overarching vision of Webaverse, take a look at the original whitepaper.
 
 Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
 
@@ -37,12 +36,19 @@ Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
 
 ![](/img/ethbot.jpg)
 
-The easiest way to get started is by joining the Webaverse Discord server and using the bot. Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
+There's a couple ways to get setup. The easiest way is by joining the Webaverse [Discord server](https://discord.gg/R5wqYhvv53) and using the [bot](https://docs.webaverse.com/docs/webaverse/discord-bot). Minting NFTs is free, but you'll need [SILK](./silk) in order to use the tools.
 
 - Join the [Discord](https://discord.gg/R5wqYhvv53) and introduce yourself
   - Type `.name -h` in the Discord to learn how to setup your username
   - Login to the main website by typing `.login`
   - Ask for some [SILK](/docs/webaverse/silk) to create items
+
+The NFT Discord bot automatically generates everybody on the server its in an Ethereum address on a sidechain that's tied to their unique Discord id. To check yours, just type `.address` and see.
+
+> Note: you can always import or export your private keys from your discord wallet or transfer your NFTs out.
+
+The other way is by signing in through the website https://webaverse.com. You can use Metamask, email, or Discord to log in.
+
 
 **Set your avatar**
 
@@ -53,6 +59,8 @@ The easiest way to make your own custom VRM avatar is with [VRoid Studio](https:
 ## Create 
 
 Creators of various backgrounds and skillsets from 3D modelers, musicians, creative web programmers, and designers and build, display, and monetize their works in Webaverse.
+
+
 
 The engine supports the most popular file formats for NFT content:
 

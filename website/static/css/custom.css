@@ -16,6 +16,11 @@ blockquote {
 }
 
 a[href*="#"]:not(.onPageNav a) {
-  text-decoration: none;
+  text-decoration: underline;
   border-bottom: 1.5px dotted black;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
 }

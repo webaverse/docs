@@ -1,6 +1,6 @@
 ---
-id: mint 
-title: How To Mint NFTs 
+id: mint
+title: Mint NFTs
 ---
 
 ### Prerequisites:

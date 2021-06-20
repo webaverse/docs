@@ -1,5 +1,5 @@
 ---
-id: whitepaper 
+id: whitepaper
 title: Whitepaper
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: discord-bot 
-title: Discord Bot 
+id: discord-bot
+title: Discord Bot
 ---
 
 The Discord Bot is the easiest way to mint and trade NFTs. It allows anyone to manage their profile, items inventory, avatar, and create just by uploading files and typing commands into Discord.

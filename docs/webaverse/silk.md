@@ -1,6 +1,6 @@
 ---
-id: silk 
-title: SILK 
+id: silk
+title: SILK
 ---
 
 ![Silk bots](/img/silkbots.jpg)

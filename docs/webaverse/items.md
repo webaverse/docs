@@ -1,6 +1,6 @@
 ---
-id: items 
-title: Items 
+id: items
+title: Items
 ---
 ![NFTs in the same space](/img/nft_items.jpg)
 
@@ -18,8 +18,7 @@ The Webaverse 3D app composes unique digital items, technically known as non-fun
 | Scripting   | Javascript, WebAssembly  |
 
 
-
-With items built on the standards that power NFTs (ERC-721) you can have complete ownership over your digital assets. Your avatars, parcels, items, and any other NFTs are completely owned by you and can only be managed by you.
+Items are hosted on distributed filesystems ([IPFS](https://ipfs.io)) and built with the standards that power NFTs ([ERC-721](https://eips.ethereum.org/EIPS/eip-721)), ensuring that your avatars, parcels, items, and any other items are completely owned and managed by you.
 
 ## Inventory
 
@@ -29,11 +28,11 @@ You can access all of the digital assets you own in Webaverse in your inventory 
 
 ## Trading Cards
 
-Every NFT minted on Webaverse gets a trading card format version of it generated from the [preview server](/docs/developer/architecture#preview-flow).
+Every NFT minted on Webaverse gets a trading card format version of it generated from the [preview server](/docs/developer/architecture#preview-flow). Everything but the asset file itself is hosted on-chain. The asset file is hosted on IPFS.
 
 The purpose of the cards is first that it's fun but second that it actually serves a utility by combining all the useful information about the NFT onto 1 object that can be brought into digital and physical worlds.
 
-![](/img/cards2.jpg)
+![](/img/tradingcards.jpg)
 
 The battle stats are randomly generated attributed determined upon minting. The stats, such as hp, mp, attack, defense, etc, can be optionally used by developers or not. There are different elemental types such as fire, grass, water, as well as rarities like common up to legendary.
 
@@ -41,6 +40,8 @@ Whenever you mint a NFT you might just land some pretty epic stats that can prov
 
 
 ## How Can I Mint NFTs?
+
+![](/img/items_mint.jpg)
 
 Creating your own unique items in Webaverse is very easy, you don't need any kind of crypto background to get started.
 

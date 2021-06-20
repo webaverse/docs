@@ -1,6 +1,6 @@
 ---
-id: start 
-title: Getting Started In Webaverse 
+id: start
+title: Getting Started In Webaverse
 ---
 
 This guide will walk you step-by-step to setting up your Webaverse profile. You will need a Discord account to continue. In the near future we will add support for email and metamask login.
