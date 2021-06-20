@@ -30,9 +30,9 @@ You can purchase native digital items for Webaverse from Opensea. Support for 3r
 Assets are hosted on S3 and [IPFS](https://ipfs.io), the Interplanetary File System. In the future we plan to integrate Filecoin and ARweave for long-term decentralized storage.
 
 
-### Does this work in VR?
+### Is there a VR mode?
 
-Yes! Through the WebXR API we are able to deliver a VR experience through the web browser. For devices such as the Oculus Quest you can visit [webaverse.link](https://webaverse.link) in Oculus browser to login easier.
+Yes! Through the WebXR API we are able to deliver a VR mode experience through web browsers. For devices such as the Oculus Quest you can visit [webaverse.link](https://webaverse.link) in Oculus browser to login easier.
 
 > Note: VR support is still pretty experimental, we will give an ETA when we feel confident about a stable release.
 
