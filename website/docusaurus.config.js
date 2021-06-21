@@ -50,7 +50,7 @@ module.exports={
 		  "label": "Discord"
 		},
 		{ "href": "https://www.notion.so/webaverse/Webaverse-is-Hiring-8fb49c069c2f450f93ebb911149f21bd",
-		  "label": "Hiring"
+		  "label": "Careers"
 		},
 		{
 		  "type": "search",
