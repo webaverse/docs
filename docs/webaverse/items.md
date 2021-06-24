@@ -15,6 +15,7 @@ The Webaverse 3D app composes unique digital items, technically known as non-fun
 | Audio       | MP3         |
 | Voxels      | vox         |
 | Text        | Txt         |
+| Websites    | HTML        |
 | Scripting   | Javascript, WebAssembly  |
 
 

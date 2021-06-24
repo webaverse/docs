@@ -31,7 +31,9 @@ module.exports={
     "navbar": {
       "title": "Webaverse",
       "logo": {
-        "src": "img/favicon.ico"
+        "src": "img/favicon.ico",
+		"href": "https://docs.webaverse.com/",
+		"target": "_self"
       },
       "items": [
 		{

@@ -22,13 +22,25 @@ The virtual world is organized around one main street, like a web page that goes
 
 The Street is a curated quality experience, coordinated in artistic direction per season theme. Along The Street are various areas of land that users can own and control called [parcels](/docs/webaverse/parcels), which can be linked to full experiences within or outside the platform.
 
-The current plan is to combine the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
+### Seasons
 
-### White Paper
+Seasons are the release cadence for the many ideas cooking together. The current plan is to curate the best parts the community likes about video games + the web into unique digital assets ([NFTs](./webaverse/items)) that get released periodically during every season.
 
-To learn more about the overarching vision of Webaverse, take a look at the original whitepaper.
+![](/img/season2.jpg)
 
-Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
+The Street will extend to the start of every new season while still being connected the previous season. Users will be able to able to travel back in history to previous seasons, like crawling a blockchain back to the genesis block.
+
+If you're interested in participating as a craetor in the next season, take a look at the creator program below and drop into the [Discord](https://discord.gg/R5wqYhvv53) to introduce yourself.
+
+
+### Creator Program
+
+[Sign-up for Creator Program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
+
+Every [season](/webaverse/seasons) is a block of virtual marble chisled by financial and artistic contributions from the community. Artists can participate and earn a slice of The Street by signing up to the creator program.
+
+This includes artists of all backgrounds, such as 2D/3D visual artists, musicians and producers, animators, voice actors, coders, shaders, writers, etc.
+
 
 ---
 
@@ -54,15 +66,13 @@ The other way is by signing in through the website https://webaverse.com. You ca
 
 The easiest way to make your own custom VRM avatar is with [VRoid Studio](https://vroid.com/en/studio/). Once you've created your avatar with VRoid Studio, you can [import into Webaverse](/docs/create/import-vroid).
 
-> Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar!
+> Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar.
+
+Check out the [avatars](https://docs.webaverse.com/docs/webaverse/avatars) page for more information on setting your avatar.
 
 ## Create 
 
-Creators of various backgrounds and skillsets from 3D modelers, musicians, creative web programmers, and designers and build, display, and monetize their works in Webaverse.
-
-
-
-The engine supports the most popular file formats for NFT content:
+Creators of various backgrounds and skillsets from 3D modelers, musicians, creative web programmers, and designers and build, display, and monetize their works in Webaverse. The engine supports the most popular file formats:
 
 | ASSET type  | File format |
 | ----------- | ----------- |
@@ -73,26 +83,23 @@ The engine supports the most popular file formats for NFT content:
 | Audio       | MP3         |
 | Voxels      | vox         |
 | Text        | Txt         |
+| Websites    | HTML        |
 | Scripting   | Javascript, WebAssembly  |
 
-Check out [our creator guides](./create/index.md) for more information on getting started with building.
-
-## Creator Program
-
-[Sign-up for Creator Program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
-
-Every [season](/webaverse/seasons) is a block of virtual marble chisled by financial and artistic contributions from the community. Artists can participate and earn a slice of The Street by signing up to the creator program.
-
+Check out the [items page](/docs/webaverse/items) and [our creator guides](./create/index.md) for more information on getting started with building.
 
 ## Market 
 
 Creations in Webaverse can be bought, sold, and traded on open and decentralized marketplaces like OpenSea.
 
-Check out [our market guides](./market/silk-guide) for more information on how you can [buy](./market/nfts-guide), [sell](./market/nfts-guide), and [trade](./market/trade-guide) in Webaverse.
+Check out our [market guides](./market/nfts-guide) for more information on how you can buy, sell, and [trade](./market/trade-guide) in Webaverse.
 
-## Community
 
-Join the Webaverse community on [Discord](https://discord.gg/R5wqYhvv53) and follow us on [Twitter](https://twitter.com/webaverse).
+### White Paper
+
+To learn more about the overarching vision of Webaverse, take a look at the original whitepaper.
+
+Link: https://github.com/webaverse/whitepaper/blob/master/whitepaper.pdf
 
 ## Contributing
 

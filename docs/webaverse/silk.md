@@ -3,8 +3,6 @@ id: silk
 title: SILK
 ---
 
-![Silk bots](/img/silkbots.jpg)
-
 SILK is a token that is used in Webaverse primarily to mint [NFTs](./nfts). It's main purpose is to invite others into the network and prevent spam so together we can build a web of trust as the Webaverse scales.
 
 If you're a Discord server admin that wants to distribute SILK amongst your community to use the [NFT Discord Bot](https://webaverse.com/discordbot) then ping us on [Discord](https://discord.gg/3byWubumSa) or [email us](hello@webaverse.com).
@@ -12,6 +10,8 @@ If you're a Discord server admin that wants to distribute SILK amongst your comm
 ## FAQ
 
 ### Why the name SILK?
+
+![](/img/silkroad.jpg)
 
 The issue for bridging worlds together isn't so much a tech related problem, its a matter of incentives. The name SILK is inspired by the ancient Silk Road, which connected the world thousands of years ago through cross-country trade routes. We aim to unlock the value loops to connect virtual worlds together into something greater than the sum of their parts.
 
