@@ -26,9 +26,9 @@ Avatars are audiovisual representations of a user. Webaverse uses <a href="https
 
 ### Where Can I Find Avatars?
 
-The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use. Be sure to double check the conditions of use first.
+The largest public hub of VRM avatars can be found at <a href="https://hub.vroid.com/en/models" target="_blank" rel="noopener noreferrer">hub.vroid.com</a>, which can be used to find avatars for your use. Be sure to double check the conditions of use first. If unsure, import the avatar as a non-transferrable NFT to be safe.
 
-More public resources for obtaining VRM avatars are coming soon to the Webaverse world and menu system.
+There are other sources for VRMs such as [Cryptoavatars](https://cryptoavatars.io), [Meebits](https://docs.webaverse.com/docs/create/import-meebit), and soon [ReadyPlayer.me](https://readyplayer.me/avatar). Public avatars are also coming soon to the Webaverse world and menu system.
 
 ### How Can I Make An Avatars?
 
@@ -56,5 +56,5 @@ Currently the fastest way is to drag and drop a VRM file into the 3D app browser
 
 ---
 
-<iframe width="100%" src="https://www.youtube.com/embed/wEeYmw2YPLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="480" width="100%" src="https://www.youtube.com/embed/wEeYmw2YPLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
