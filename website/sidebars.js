@@ -28,6 +28,7 @@ module.exports = {
       "create/mint",
       "create/mint-discord",
 	  "create/mint-html",
+	  "create/scenes",
       {
         "type": "category",
         "label": "Season 0: Genesis",

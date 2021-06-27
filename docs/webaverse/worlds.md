@@ -7,6 +7,11 @@ If you're interested in designing a world in Webaverse you came to the right spo
 
 ![Miku in Atoll](/img/miku_atoll.jpg)
 
+## Manual
+
+You can download the app and test your world locally using this [guide](/docs/create/scenes).
+
+![](/img/desert_world.jpg)
 
 ## Editor
 
