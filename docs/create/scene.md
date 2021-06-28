@@ -98,7 +98,7 @@ In one of those lines is `party.url`, which refers to the portal that can take y
 
 Return back to the root directory of the Webaverse app project and open `constants.js`. On line 43 you can change to a relative or hosted link to a .scn file to open the app with. For example:
 
-`export const homeScnUrl = `./desert/desert.scn`;`
+`export const homeScnUrl = "./desert/desert.scn";`
 
 Now refresh the browser page at http://localhost:3000 and you should see the desert with the mirror and floortal in front of you. Walk over to the floortal and press `E` to test it. You can hit backspace to return to the previous scene.
 
