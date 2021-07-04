@@ -43,7 +43,7 @@ $ npm install -g xrpk
 For the purposes of this guide, a barebones 3D website scene built with ThreeJS is available at the repository below. This scene contains a simple cube with physics.
 
 ```bash
-$ git clone https://github.com/chrislatorres/physicscube.git
+$ git clone https://github.com/madjin/physicscube
 ```
 
 You can also follow this guide to package an existing WebXR scene. If you are packaging an existing WebXR site, consider making the scene's skybox transparent so that it can be composited along other XRPKs and the base reality layer. 
