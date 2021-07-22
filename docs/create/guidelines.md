@@ -58,6 +58,10 @@ There's endless work for making illustrations. Concept art of new ideas is alway
 
 Audio is one of the most important aspects of game dev. People don't even need to turn on the N64 to remember Ocarina of Time, they can just listen to the OST and be teleported back. We're in need of looping background music and in-game sound effects.
 
+**Performers**
+
+Artists across fields of performance, voice acting, and dance will be able to contribute in awesome ways in the future. Watch this space.
+
 
 ### 3D Technical limits
 
@@ -107,3 +111,53 @@ Each neighborhood should follow the limits below and be respectful in design to 
 
 ## Builders
 
+Builders can talk to the machines. They are designers and programmers that know how to write code, create interfaces, and/or setup infrastructure. They can make objects come to life through scripting. Some have a mind for designing UI/UX.
+
+**How can I help?**
+
+Share something you made before in the builder-garage channel, it will help us to help you to see where there's a fit. 
+
+**How can I add value?**
+
+- Create a digital object such as a weapon or pet to learn
+- Check out the open issues on [Github](https://github.com/webaverse/app/issues), ask questions
+- Refactor code, add documentation and comments
+
+
+## Scientists
+
+Scientists interact with the AI to discover and catalog the mysteries of the world. New concepts for various NFTs are synthesized and processed through the AI by the scientists. Essentially, the scientists are human validators for new ideas before they're minted as NFTs.
+
+**What exactly do scientists do?**
+
+1. Lore crafting
+
+When someone has a new idea for an object or world that they want to as part of the next season they go to scientists that consult the AI on how it fits into the lore. Scientists will prime the AI input with context about what the idea is about and ask questions. Interesting responses are logged for further processing.
+
+2. Documentation
+
+Scientists write a lot. They take notes during meetings and community calls. Scientists also help improve the docs by writing guides and the lore by updating pages on the [Wikia](https://webaverse.fandom.com/wiki/Webaverse_Wiki).
+
+3. Metaphysics and Planning
+
+More will be explained about this later.
+
+## Linker
+
+Linkers are community organizors and ambassadors. They enjoy greeting and connecting people. During events linkers help out with various elements of the production such as camera work.
+
+**Activities of a linker**
+
+- Greeting new people, helping answer their questions
+- Biz dev, facilitating partnership and collaboration discussions
+- Camera operators and event photographers during events
+
+## Booster
+
+Boosters are constantly engaged with audiences on the Internet by streaming and promoting. They're collectors that often like to share the cards they have in their collection. Boosters are known to be good sources of information, they are constantly on the lookout for alpha and do their own research to verify authenticity.
+
+**Where can I add value?**
+
+Sometimes we need to boost a signal on social media. If there's a comment in a thread that needs more visibility boosters will like it. When we announce event details boosters help us get the word out.
+
+Boosters are all about making content and memes as well. Streaming and making videos is one of their favorite activities. Content could be about various items, your card collection, game mechanics, or big vision ideas.
