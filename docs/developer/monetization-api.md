@@ -1,9 +1,9 @@
 ---
 id: monetization-api
-title: Monetization API
+title: Web Monetization API
 ---
 
-The Monetization API allows you to lock or unlock content in your XRPackage based on whether a user has [Web Monetization](https://webmonetization.org/) enabled or if they are a NFT owner of your XRPackage.
+The Web Monetization API allows you to lock or unlock content in your XRPackage based on whether a user has [Web Monetization](https://webmonetization.org/) enabled or if they are a NFT owner of your XRPackage.
 
 For a step-by-step guide on how to implement this API in your app, checkout [Create An XRPackage](./creating-an-xrpk.md).
 

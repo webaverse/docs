@@ -25,4 +25,14 @@ SILK is an ERC-20 token based on the Ethereum [ERC-20](https://eips.ethereum.org
 
 ![Silk bots 2](/img/silkbots2.png)
 
-SILK is currently invite only, meaning you need to either know somebody who has some or you can drop into the Webaverse [Discord](discord.gg/VyneJY7) server and ask. There is no exchange to buy SILK from. We are working on creative ways to obtain SILK through the bot and from the virtual world.
+SILK is currently invite only, meaning you need to either know somebody who has some or you can drop into the Webaverse [Discord](discord.gg/VyneJY7) server and ask. There is no exchange to buy SILK from yet. We are working on creative ways to obtain SILK through the bot and from the virtual world. Ideas include:
+
+- Grants for the [creator program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
+  - Public project proposals posted on [Github](https://github.com/webaverse/street-assets/issues)
+- Unpacked from Webaverse NFTs
+- Airdropped during events and for creating community value
+  - [Sourcecred](https://sourcecred.io/) is currently setup on Discord and Github
+- Reward for completing bounties
+- Trading NFTs for SILK
+
+For more details check out the [silk guide](/docs/market/silk-guide) section.

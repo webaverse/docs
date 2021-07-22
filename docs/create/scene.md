@@ -100,6 +100,6 @@ Return back to the root directory of the Webaverse app project and open `constan
 
 `export const homeScnUrl = "./desert/desert.scn";`
 
-Now refresh the browser page at http://localhost3000 and you should see the desert with the mirror and floortal in front of you. Walk over to the floortal and press `E` to test it. You can hit backspace to return to the previous scene.
+Now refresh the browser page at http://localhost:3000 and you should see the desert with the mirror and floortal in front of you. Walk over to the floortal and press `E` to test it. You can hit backspace to return to the previous scene.
 
 That's it, happy testing!
