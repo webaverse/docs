@@ -46,7 +46,7 @@ Of course, there's many ways to contribute. One light but important task would b
 
 During community calls we go over what we're currently working on and how people can get involved. If you have questions please don't hesitate to ask in any channel on the discord server.
 
-## Artists
+## :art: Artists
 
 The brand guide for Season 0 is coming out soon. We're using Github to keep track of what's being worked on here: https://github.com/webaverse/app/projects
 
@@ -109,7 +109,7 @@ Each neighborhood should follow the limits below and be respectful in design to 
 
 **Total file size:** No larger than 20mb.
 
-## Builders
+## :hammer: Builders
 
 Builders can talk to the machines. They are designers and programmers that know how to write code, create interfaces, and/or setup infrastructure. They can make objects come to life through scripting. Some have a mind for designing UI/UX.
 
@@ -124,7 +124,7 @@ Share something you made before in the builder-garage channel, it will help us t
 - Refactor code, add documentation and comments
 
 
-## Scientists
+## :writing_hand: Scientist
 
 Scientists interact with the AI to discover and catalog the mysteries of the world. New concepts for various NFTs are synthesized and processed through the AI by the scientists. Essentially, the scientists are human validators for new ideas before they're minted as NFTs.
 
@@ -142,7 +142,7 @@ Scientists write a lot. They take notes during meetings and community calls. Sci
 
 More will be explained about this later.
 
-## Linker
+## :bridge_at_night: Linker
 
 Linkers are community organizors and ambassadors. They enjoy greeting and connecting people. During events linkers help out with various elements of the production such as camera work.
 
@@ -152,7 +152,7 @@ Linkers are community organizors and ambassadors. They enjoy greeting and connec
 - Biz dev, facilitating partnership and collaboration discussions
 - Camera operators and event photographers during events
 
-## Booster
+## :mega: Booster
 
 Boosters are constantly engaged with audiences on the Internet by streaming and promoting. They're collectors that often like to share the cards they have in their collection. Boosters are known to be good sources of information, they are constantly on the lookout for alpha and do their own research to verify authenticity.
 
