@@ -10,6 +10,27 @@ Larvalabs latest project explores the Metaverse through generative voxel based a
 These thousands of new Meebits owners represent the latest wave in the cultural forces that are accelerating Metaverse interoperability. In this guide you'll learn how to convert your Meebit into the VRM format to bring it into Webaverse.
 
 
+---
+
+## Easy Method
+
+First you need to download your meebit file
+
+1. Go to https://meebits.larvalabs.com/
+2. Connect wallet and go to your Meebits owned
+3. Prove ownership and download the 3D Model (T-Pose, Solid) from your Meebit page
+
+Then you need to convert this file to VRM. There is an automated tool created by [MeebitsDAO](https://meebitsdao.world/) for importing your meebit into blender and exporting as Blender. It even comes with a Docker container. Instructions are in the readme.
+
+Github: https://github.com/MeebitsDAO/meebits-blender-utils
+
+If you have access to MeebitsDAO discord server:
+
+Go to the `#vox-upload` channel under TOOLS-AND-RESOURCES and upload your meebit_XXXXX_t_solid.vox file there. In 5-10 minutes you will get a google drive link containing the VRM file for your meebit.
+
+
+---
+
 ## Pre-requisites
 
 - Magicavoxel: https://ephtracy.github.io/
