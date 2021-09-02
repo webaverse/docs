@@ -31,7 +31,10 @@ Go to the `#vox-upload` channel under TOOLS-AND-RESOURCES and upload your meebit
 
 ---
 
-## Pre-requisites
+## Manual Method
+
+
+### Pre-requisites
 
 - Magicavoxel: https://ephtracy.github.io/
 - Unity: Recommend getting the version VRChat uses: https://docs.vrchat.com/docs/current-unity-version
