@@ -68,7 +68,7 @@ The easiest way to make your own custom VRM avatar is with [VRoid Studio](https:
 
 > Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar.
 
-Check out the [avatars](https://docs.webaverse.com/docs/webaverse/avatars) page for more information on setting your avatar.
+Check out the [avatars](./webaverse/avatars) page for more information on setting your avatar.
 
 ## Create 
 
