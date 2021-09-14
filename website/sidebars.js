@@ -58,6 +58,7 @@ module.exports = {
         label: 'Avatars',
         items: [
           'create/import-vroid',
+		  'create/vroid-wearables',
 	      'create/import-meebit',
 	      'create/wearables'
         ]
