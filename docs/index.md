@@ -59,7 +59,7 @@ The NFT Discord bot automatically generates everybody on the server its in an Et
 
 > Note: you can always import or export your private keys from your discord wallet or transfer your NFTs out.
 
-The other way is by signing in through the website https://webaverse.com. You can use Metamask, email, or Discord to log in.
+The other way is by signing in through the website [https://webaverse.com](https://webaverse.com). You can use Metamask, email, or Discord to log in.
 
 
 **Set your avatar**
@@ -68,7 +68,7 @@ The easiest way to make your own custom VRM avatar is with [VRoid Studio](https:
 
 > Note: Be sure to double check the optimization settings on the export page to get the best performance from your avatar.
 
-Check out the [avatars](https://docs.webaverse.com/docs/webaverse/avatars) page for more information on setting your avatar.
+Check out the [avatars](./webaverse/avatars) page for more information on setting your avatar.
 
 ## Create 
 
