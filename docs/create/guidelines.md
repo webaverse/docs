@@ -71,15 +71,15 @@ These are soft limits that we're setting in order to have a smooth experience fo
 
 Keep in mind that the platform being targetted is the web browser. <5k triangles and 1 texture is optimal.
 
-**Triangles:** 10k is considered high.
+**Triangles:** 20k is considered high.
 
-**Materials:** No more than 3 materials.
+**Materials:** No more than 5 materials.
 
 **Textures:** No larger than 2k texture size.
 
-**Size:** Try not to be as big as a skyscraper.
+**Size:** 1 Meter to 4 Meters
 
-**Total file size:** 5mb is fine
+**Total file size:** 20 MB max
 
 #### Wearables, Pets, and Vehicles
 
@@ -93,21 +93,21 @@ Everything from swords, guns, hats, pets, mounts, hoverboads and hovercrafts fal
 
 **Size:** Use your best judgement with a [VRM sample](https://github.com/madjin/vrm-samples)
 
-**Total file size:** 5mb is okay
+**Total file size:** Shoot for 5 MB, max 8MB
 
 #### Neighborhoods
 
 Each neighborhood should follow the limits below and be respectful in design to not clog The Street.
 
-**Triangles:** No more than 200k triangles.
+**Triangles:** No more than 350k triangles.
   
 **Materials:** No more than 8 materials.
 
-**Textures:** No larger than 4k texture size.
+**Textures:** No larger than 2k texture size.
 
 **Size:** No larger than 100m wide. (depth & height can be larger)
 
-**Total file size:** No larger than 20mb.
+**Total file size:** No larger than 40mb.
 
 ## :hammer: Builders
 
