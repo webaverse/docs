@@ -28,4 +28,4 @@ This guide explains how you can export your 3D content from Blender to bring it 
 
 
 ## Demo
-![](../../static/animation-baker.mov)
+[[Video](../../static/animation-baker.mov)]
