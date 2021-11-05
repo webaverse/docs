@@ -84,6 +84,7 @@ module.exports = {
 	  ],
     Developer: [
 	   'developer/architecture',
+     'developer/wip-preview-system',
 	  {
         type: 'category',
         label: 'XRPackage',
