@@ -1,4 +1,7 @@
-﻿
+﻿---
+id: metaverse-file
+title: Metaverse File
+---
 # Metaverse File
 
 `MetaverseFile` componet is used by `entire application` to load assets in the application.

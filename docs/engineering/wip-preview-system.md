@@ -1,9 +1,9 @@
 ﻿---
-id: wip-preview-system
-title: WIP Preview System
+id: preview-system-service
+title: Preview System Service
 ---
 
-# [System] Preview Service
+# Preview Service
 
 `Preview` service is an entirely seperate system residing at [Github Repo](https://github.com/webaverse/preview-backend) used by application to generate the preview of any asset.
 

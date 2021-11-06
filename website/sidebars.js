@@ -2,6 +2,7 @@ module.exports = {
   docs: {
     Webaverse: [
       'index',
+      'webaverse/lore',
       'webaverse/silk',
       'webaverse/items',
       'webaverse/avatars',
@@ -18,93 +19,42 @@ module.exports = {
         ]
       }
     ],
-    Market: [
-	  'market/silk-guide',
-	  'market/nfts-guide',
-	  'market/matic-guide'
-	],
-    Create: [
-	  'create/overview', 
+    Art: [
+      'art/character-workflow',
+      'art/style-guide',
+    ],
+    Engineering: [
+      'engineering/application-startup',
+      'engineering/blockchain-integration',
       {
         type: 'category',
-        label: 'Season 0: Genesis',
+        label: 'CLI',
         items: [
-          'create/guidelines'
-        ]
-      },	  
-	  {
-		type: 'category',
-		label: 'Guides',
-		collapsed: false,
-		items: [
-		'create/mint', 
-		'create/mint-discord', 
-		'create/mint-html', 
-		'create/scenes'
-		],
-	  },
-      {
-        type: 'category',
-        label: '3D Models',
-        items: [
-          'create/import-blender',
-          'create/bake-physics',
-          'create/multiple-animations',
-          'create/import-magicavoxel'
+          'engineering/animation-baker',
         ]
       },
       {
         type: 'category',
-        label: 'Avatars',
+        label: 'Components',
         items: [
-          'create/import-vroid',
-		  'create/vroid-wearables',
-	      'create/import-meebit',
-	      'create/wearables'
+          'engineering/metaverse-file',
+          'engineering/screenshot-system',
         ]
       },
       {
         type: 'category',
-        label: 'Weapons',
+        label: 'React Modules',
         items: [
-          'create/sword',
-          'create/pickaxe',
-	      'create/guns'
-        ]
-      },	  
-	  {
-        type: 'category',
-        label: 'Pets and Vehicles',
-        items: [
-          'create/pets',
-	      'create/mounts',
-	      'create/hoverboards'
-        ]
-      },
-	  ],
-    Developer: [
-	   'developer/architecture',
-     'developer/wip-preview-system',
-	  {
-        type: 'category',
-        label: 'XRPackage',
-        items: [
-          'developer/xrpackage-overview',
-          'developer/creating-an-xrpk',
-          'developer/xrpackage-design-guidelines',
-          'developer/monetization',
-          'developer/examples'
+          'engineering/drag-n-drop',
         ]
       },
       {
         type: 'category',
-        label: 'API',
+        label: 'Services',
         items: [
-          'developer/runtime-api',
-          'developer/manifest-api',
-          'developer/monetization-api'
+          'engineering/preview-system-service',
         ]
       }
-	]
+    ]
   }
 };
