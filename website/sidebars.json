@@ -28,6 +28,8 @@ module.exports = {
     "Engineering": [
      "engineering/application-startup",
      "engineering/blockchain-integration",
+     "engineering/physx-workflow",
+     "engineering/lighting-shadows",
      {"type": "category",
       "label": "CLI",
       "ids": [
@@ -45,6 +47,7 @@ module.exports = {
         "label": "React Modules",
         "ids": [
           "engineering/drag-n-drop",
+          "engineering/smart-contracts",
         ]
       },
       {"type": "category",
