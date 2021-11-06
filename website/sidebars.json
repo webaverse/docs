@@ -6,20 +6,6 @@ module.exports = {
     "Webaverse": [
       "index",
       "webaverse/lore",
-      "webaverse/silk",
-      "webaverse/items",
-      "webaverse/avatars",
-      "webaverse/worlds",
-      "webaverse/parcels",
-      "webaverse/whitepaper",
-      {
-        "type": "category",
-        "label": "Bots",
-        "ids": [
-          "webaverse/discord-bot",
-	      "webaverse/twitter-bot"
-        ]
-      }
     ],
     "Art": [
       "art/character-workflow",
@@ -30,6 +16,7 @@ module.exports = {
      "engineering/blockchain-integration",
      "engineering/physx-workflow",
      "engineering/lighting-shadows",
+     "engineering/js-file-import",
      {"type": "category",
       "label": "CLI",
       "ids": [
@@ -41,6 +28,9 @@ module.exports = {
       "ids": [
         "engineering/metaverse-file",
         "engineering/screenshot-system",
+        "engineering/avatar-system",
+        "engineering/vehicle-system",
+        "engineering/scene-file",
         ]
       },
       {"type": "category",

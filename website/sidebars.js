@@ -3,21 +3,6 @@ module.exports = {
     Webaverse: [
       'index',
       'webaverse/lore',
-      'webaverse/silk',
-      'webaverse/items',
-      'webaverse/avatars',
-      'webaverse/worlds',
-      'webaverse/parcels',
-      'webaverse/whitepaper',
-	  'webaverse/faq',
-      {
-        type: 'category',
-        label: 'Bots',
-        items: [
-          'webaverse/discord-bot',
-	      'webaverse/twitter-bot'
-        ]
-      }
     ],
     Art: [
       'art/character-workflow',
@@ -28,6 +13,7 @@ module.exports = {
       'engineering/blockchain-integration',
       'engineering/physx-workflow',
       'engineering/lighting-shadows',
+      'engineering/js-file-import',
       {
         type: 'category',
         label: 'CLI',
@@ -41,6 +27,9 @@ module.exports = {
         items: [
           'engineering/metaverse-file',
           'engineering/screenshot-system',
+          'engineering/avatar-system',
+          'engineering/vehicle-system',
+          'engineering/scene-file',
         ]
       },
       {
