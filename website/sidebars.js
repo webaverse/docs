@@ -7,6 +7,8 @@ module.exports = {
     Art: [
       'art/character-workflow',
       'art/style-guide',
+      'art/glb-export',
+      'art/fbx-export',
     ],
     Engineering: [
       'engineering/application-startup',
