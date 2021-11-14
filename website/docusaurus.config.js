@@ -1,7 +1,7 @@
 module.exports={
   "title": "Webaverse",
   "tagline": "Webaverse",
-  "url": "https://docs.webaverse.com",
+  "url": "https://staffdocs.webaverse.com",
   "baseUrl": "/",
   "organizationName": "webaverse",
   "projectName": "docs",
@@ -14,8 +14,8 @@ module.exports={
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "showLastUpdateAuthor": true,
-          "showLastUpdateTime": true,
+          "showLastUpdateAuthor": false,
+          "showLastUpdateTime": false,
           "path": "../docs",
           "sidebarPath": require.resolve('./sidebars.js')
         },
@@ -32,28 +32,10 @@ module.exports={
       "title": "Webaverse",
       "logo": {
         "src": "img/favicon.ico",
-		"href": "https://docs.webaverse.com/",
+		"href": "https://staffdocs.webaverse.com/",
 		"target": "_self"
       },
       "items": [
-		{
-		  "href": "https://webaverse.com",
-		  "label": "Dashboard"
-		},
-		{
-		  "href": "https://blog.webaverse.com",
-		  "label": "Blog"
-		},
-		{
-		  "href": "https://github.com/webaverse",
-		  "label": "Github"
-		},
-		{ "href": "https://discord.gg/R5wqYhvv53",
-		  "label": "Discord"
-		},
-		{ "href": "https://www.notion.so/webaverse/Webaverse-is-Hiring-8fb49c069c2f450f93ebb911149f21bd",
-		  "label": "Careers"
-		},
 		{
 		  "type": "search",
 		  "position": "right"
@@ -62,23 +44,6 @@ module.exports={
     },
     "footer": {
        links: [
-        {
-          // Label of the section of these links
-          title: 'Getting Started',
-          items: [
-            {
-              // Label of the link
-              label: 'Minting',
-              // Client-side routing, used for navigating within the website.
-              // The baseUrl will be automatically prepended to this value.
-              to: 'docs/create/mint',
-            },
-            {
-              label: 'FAQ',
-              to: 'docs/webaverse/faq',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [

@@ -2,108 +2,61 @@ module.exports = {
   docs: {
     Webaverse: [
       'index',
-      'webaverse/silk',
-      'webaverse/items',
-      'webaverse/avatars',
-      'webaverse/worlds',
-      'webaverse/parcels',
-      'webaverse/whitepaper',
-	  'webaverse/faq',
-      {
-        type: 'category',
-        label: 'Bots',
-        items: [
-          'webaverse/discord-bot',
-	      'webaverse/twitter-bot'
-        ]
-      }
+      'webaverse/lore',
     ],
-    Market: [
-	  'market/silk-guide',
-	  'market/nfts-guide',
-	  'market/matic-guide'
-	],
-    Create: [
-	  'create/overview', 
+    Art: [
+      'art/character-workflow',
+      'art/style-guide',
+      'art/glb-export',
+      'art/fbx-export',
+    ],
+    Engineering: [
+      'engineering/application-startup',
+      'engineering/blockchain-integration',
+      'engineering/physx-workflow',
+      'engineering/lighting-shadows',
+      'engineering/js-file-import',
+      'engineering/ethereum-backend',
+      'engineering/ethereum-bot',
+      'engineering/ipfs-backend',
+      'engineering/preview-backend',
+      'engineering/setup-custom-host',
+      'engineering/app',
+      'engineering/worlds-backend',
+      'engineering/wrstc',
       {
         type: 'category',
-        label: 'Season 0: Genesis',
+        label: 'CLI',
         items: [
-          'create/guidelines'
-        ]
-      },	  
-	  {
-		type: 'category',
-		label: 'Guides',
-		collapsed: false,
-		items: [
-		'create/mint', 
-		'create/mint-discord', 
-		'create/mint-html', 
-		'create/scenes'
-		],
-	  },
-      {
-        type: 'category',
-        label: '3D Models',
-        items: [
-          'create/import-blender',
-          'create/bake-physics',
-          'create/multiple-animations',
-          'create/import-magicavoxel'
+          'engineering/animation-baker',
         ]
       },
       {
         type: 'category',
-        label: 'Avatars',
+        label: 'Components',
         items: [
-          'create/import-vroid',
-		  'create/vroid-wearables',
-	      'create/import-meebit',
-	      'create/wearables'
+          'engineering/metaverse-file',
+          'engineering/screenshot-system',
+          'engineering/avatar-system',
+          'engineering/vehicle-system',
+          'engineering/scene-file',
         ]
       },
       {
         type: 'category',
-        label: 'Weapons',
+        label: 'React Modules',
         items: [
-          'create/sword',
-          'create/pickaxe',
-	      'create/guns'
-        ]
-      },	  
-	  {
-        type: 'category',
-        label: 'Pets and Vehicles',
-        items: [
-          'create/pets',
-	      'create/mounts',
-	      'create/hoverboards'
-        ]
-      },
-	  ],
-    Developer: [
-	   'developer/architecture',
-	  {
-        type: 'category',
-        label: 'XRPackage',
-        items: [
-          'developer/xrpackage-overview',
-          'developer/creating-an-xrpk',
-          'developer/xrpackage-design-guidelines',
-          'developer/monetization',
-          'developer/examples'
+          'engineering/drag-n-drop',
+          'engineering/smart-contracts',
         ]
       },
       {
         type: 'category',
-        label: 'API',
+        label: 'Services',
         items: [
-          'developer/runtime-api',
-          'developer/manifest-api',
-          'developer/monetization-api'
+          'engineering/preview-system-service',
         ]
       }
-	]
+    ]
   }
 };
