@@ -1,16 +1,11 @@
----
-id: worlds-backend
-title: Worlds Backend
----
-# Worlds Backend - Quick Start Guide
+# Webaverse - WRSTC - Quick Start Guide
 
-## Before You Begin
+ ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
----
 
 ## Quick Install
 
@@ -21,11 +16,11 @@ Once you've installed all basic building blocks, you're just a few steps away fr
 
 # Clone this repository
 
-git clone https://github.com/webaverse/worlds-backend.git
+git clone https://github.com/webaverse/wsrtc.git
 
 # Go into the repository
 
-cd worlds-backend/
+cd wsrtc/
 
 ```
 To install the dependencies, run this in the application folder from the command-line:
@@ -37,8 +32,6 @@ $ npm install
 
 ```
 
----
-
 ## Running Your Application
 
 
@@ -46,39 +39,16 @@ Run your application using npm:
 
 ```bash
 
-# Run the app (in background)
+# Run the app
 
 $ npm start
 
 ```
-This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
 
->You can stop this app by running this command:
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
 
 ### Doesn't Re-compile automatically
 
 The application won't hot reload itself automatically if there is any changes to any file. You have re-run application to effect new changes.
-
-```bash
-
-# First stop the application
-
-$ npm stop
-
-# Then run it again
-
-$ npm start
-
-```
-
----
 
 ## Development Environment Setup
 
@@ -95,8 +65,6 @@ $ npm start
 
 ```
 
----
-
 ### Setup ESLint
 
 
@@ -111,9 +79,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
-
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.

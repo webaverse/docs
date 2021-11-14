@@ -1,9 +1,5 @@
-﻿---
-id: animation-baker
-title: Animation Baker
----
-
-# Animation Baker
+﻿
+# [CLI] Animation Baker
 
 `Drag & Drop` module exposes the API that can make any element of the user iterface a draggable or a drop zone. 
 

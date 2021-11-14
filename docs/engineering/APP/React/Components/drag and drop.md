@@ -1,9 +1,5 @@
-﻿---
-id: drag-n-drop
-title: Drag & Drop
----
 
-# Drag & Drop Module
+# [REACT] Drag & Drop Component
 
 `Drag & Drop` module exposes the API that can make any element of the user iterface a draggable or a drop zone. 
 
