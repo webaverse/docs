@@ -24,6 +24,7 @@ module.exports = {
       'engineering/app',
       'engineering/worlds-backend',
       'engineering/wrstc',
+      'engineering/certificates',
       {
         type: 'category',
         label: 'CLI',
