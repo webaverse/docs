@@ -29,6 +29,8 @@ title: FBX Animation Exporting
 * must be an official mixamo rig 
 * **double check that all bone names are prefixxed with mixamorig:**
 * double check if you need to use auto-key or not , it is on by default in the blend file
+* **The player model must remain at a single point in space; movement of the model is driven on the engine side.** For example, in a jump animation, the model would go through the motions and timing of the jump, but would not move on the Z axis. The only exception to this is crouching, in that case the hips can lower but should not go above their standing height.
+
 
 * animate with rigify armature as normal
 * go to object mode 
