@@ -1,6 +1,6 @@
 ---
-id: worlds
-title: Worlds
+id: worlds-backend
+title: Worlds Backend
 ---
 
 If you're interested in designing a world in Webaverse you came to the right spot. There are currently several methods to building scenes in Webaverse.

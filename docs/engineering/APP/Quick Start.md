@@ -2,6 +2,7 @@
 id: application-startup
 title: Application Startup
 ---
+
 # Webaverse Quick Start Guide
 
 ## To Use

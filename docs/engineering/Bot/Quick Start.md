@@ -1,8 +1,9 @@
 ---
-id: ethereum-bot
-title: Ethereum Bot
+id: application-startup
+title: Application Startup
 ---
-# Ethereum Bot - Quick Start Guide
+
+# Webaverse - Ethereum Backend - Quick Start Guide
 
 ## Introduction
 
@@ -10,8 +11,6 @@ title: Ethereum Bot
 
 
 The Webaverse Bot utilizes an Ethereum sidechain to make it easy to create and trade NFTs for free inside Discord.
-
----
 
 ## Features
 
@@ -25,8 +24,6 @@ The Webaverse Bot utilizes an Ethereum sidechain to make it easy to create and t
 - Pack fungible tokens inside the NFTs
 - Login to the dashboard and virtual world with a command
 - Transfer NFTs to other chains like Ethereum / Polygon from web dashboard
-
----
 
 ## How does it work?
 
@@ -42,7 +39,6 @@ After minting, the preview server generates a screenshot of 3d models, animated 
 
 ![mspaint_ymbV1KnjEf](https://user-images.githubusercontent.com/32600939/120110112-497b1880-c13a-11eb-9765-45c48d21a95e.png)
 
----
 
 ## Before You Begin
 
@@ -51,7 +47,9 @@ Before you begin we recommend you read about the basic building blocks that asse
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
----  
+  
+  
+  
 
 ## Quick Install
 
@@ -83,7 +81,6 @@ $ npm install
 
 This command will install the dependencies needed for the application to run.
   
---- 
 
 ## Running Your Application
 
@@ -123,8 +120,6 @@ $ npm run dev
 
 > Any changes don't recompile automatically for which we have to restart the development server by using `npm run dev`
 
----
-
 ## Development Environment Setup
 
 > Preffered tool for development is [VSCode](https://code.visualstudio.com/download)
@@ -142,8 +137,6 @@ $ npm run dev
 
 ```
 
----
-
 ### Setup ESLint
 
 * Go to your extensions tab and search for `ESLINT`
@@ -158,14 +151,9 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
-
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
-
----
 
 ## Add to your server
 
