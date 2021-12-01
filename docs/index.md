@@ -10,4 +10,3 @@ hide_title: true
 
 
 
-## Message from our Founding Father Avaer Kazman
