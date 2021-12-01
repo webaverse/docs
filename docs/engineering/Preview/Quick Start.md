@@ -2,7 +2,8 @@
 id: preview-backend
 title: Preview Backend
 ---
-# Preview Backend - Quick Start Guide
+
+# Webaverse - Preview Backend - Quick Start Guide
 
 ## Introduction
 
@@ -14,7 +15,6 @@ The preview server is a headless chromium instance that generates screenshots an
 4.  The files from the IPFS hash get rendered using Puppeteer, exported as previews.
 
 ---
-
  ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
@@ -47,7 +47,6 @@ cd preview-backend/
 
 ```
 To install the dependencies, run this in the application folder from the command-line:
-
 ```bash
 
 # Install dependencies
@@ -61,11 +60,7 @@ This command will install the dependencies needed for the application to run.
 
 ## Running Your Application
 
-:::note
-
-**(Optional):** Before running application please make sure Port :80, :8997, :8998, :8999 is not already in use. If your port :80 is in use, you can change it from [index.js](https://github.com/webaverse/preview-backend/blob/master/index.js#L17)
-
-:::
+**Note (Optional):** Before running application please make sure Port :80, :8997, :8998, :8999 is not already in use. If your port :80 is in use, you can change it from [index.js](https://github.com/webaverse/preview-backend/blob/master/index.js#L17)
   
 ```bash
 
@@ -83,11 +78,9 @@ Run your application using npm:
 $ npm start
 
 ```
-
 This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
 
 >You can stop this app by running this command:
-
 ```bash
 
 # Stop the app running in background
@@ -115,8 +108,8 @@ The application won't hot reload itself automatically if there is any changes to
 
   [https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png](https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png)
 
-
 ---
+
 
 ## Development Environment Setup
 
@@ -134,7 +127,6 @@ The application won't hot reload itself automatically if there is any changes to
 
 ```
 
----
 
 ### Setup ESLint
 
@@ -153,8 +145,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
 
 ### Setup Cutom Host
 

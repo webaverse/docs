@@ -1,8 +1,9 @@
 ---
-id: ethereum-backend
-title: Ethereum Backend
+id: application-startup
+title: Application Startup
 ---
-# Ethereum Backend - Quick Start Guide
+
+# Webaverse - Ethereum Backend - Quick Start Guide
 
 ## Introduction
 
@@ -46,7 +47,6 @@ To install the dependencies, run this in the application folder from the command
 $ npm install
 
 ```
-
 ---
 
 ## Running Your Application
@@ -64,7 +64,6 @@ $ npm start
 This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
 
 >You can stop this app by running this command:
-
 ```bash
 
 # Stop the app running in background
@@ -88,7 +87,6 @@ $ npm stop
 $ npm start
 
 ```
-
 ---
 
 ## Development Environment Setup
@@ -106,8 +104,6 @@ $ npm start
 
 ```
 
----
-
 ### Setup ESLint
 
 
@@ -122,9 +118,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
-
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
@@ -172,21 +165,15 @@ https://rinkebysidechain.exokit.org
 
 Note that the port on these is the standard HTTPS port, `443`.
 
----
-
 ## Contracts
 
 The contracts we deploy onto all chains are available at https://github.com/webaverse/contracts.
-
----
 
 ## Note: Atomic saves
 
 Replication is accomplished by having multiple nodes mine on that address at the same time.
 
 `geth` does _not_ stream blocks to disk eagerly. A system crash will lose blocks on that node, though other miners will not be affected.
-
----
 
 ## Restarting geth Servers
 
@@ -199,7 +186,6 @@ for (i in [2, 3, 1]) { // order matters
 3. start node i again
 4. ensure node i is replicating and synced and do not proceed unless it is
 ```
-
 ---
 
 ## How Transfers Work
@@ -222,5 +208,3 @@ If the user accepts, the mainnet should accept teh signature and assign ownershi
 If the user does not accept then the token is stuck in between. The way to fix this is to continue the transfer from the part where you ask the signing server for the signature.
 
 The way back from mainnet to mainnetsidechain is the same procedure, except with contracts switched. You would first write to the mainnet to move the mainnet token to the mainnet contract (requires user confirmation). Once this succeeds you can ask the signing server for the signature (uses a differnt endpoint than last time). Then that signature can be written to the sidechain to have the contract give you back the token that you initially deposited. At this point we are back where we started and the procedure could be repeated.
-
----

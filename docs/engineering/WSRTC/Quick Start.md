@@ -2,9 +2,10 @@
 id: wrstc
 title: WRSTC
 ---
-# WRSTC - Quick Start Guide
 
-## Before You Begin
+# Webaverse - WRSTC - Quick Start Guide
+
+ ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
@@ -39,6 +40,7 @@ $ npm install
 
 ---
 
+
 ## Running Your Application
 
 
@@ -51,6 +53,7 @@ Run your application using npm:
 $ npm start
 
 ```
+
 
 ### Doesn't Re-compile automatically
 
@@ -73,8 +76,6 @@ The application won't hot reload itself automatically if there is any changes to
 
 ```
 
----
-
 ### Setup ESLint
 
 
@@ -89,9 +90,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
-
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.

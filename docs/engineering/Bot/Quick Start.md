@@ -1,8 +1,9 @@
 ---
-id: ethereum-bot
-title: Ethereum Bot
+id: application-startup
+title: Application Startup
 ---
-# Ethereum Bot - Quick Start Guide
+
+# Webaverse - Ethereum Backend - Quick Start Guide
 
 ## Introduction
 
@@ -25,9 +26,7 @@ The Webaverse Bot utilizes an Ethereum sidechain to make it easy to create and t
 - Pack fungible tokens inside the NFTs
 - Login to the dashboard and virtual world with a command
 - Transfer NFTs to other chains like Ethereum / Polygon from web dashboard
-
 ---
-
 ## How does it work?
 
 ![image](https://user-images.githubusercontent.com/32600939/120109771-dfae3f00-c138-11eb-9077-9b86d23fbbe3.png)
@@ -51,7 +50,10 @@ Before you begin we recommend you read about the basic building blocks that asse
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
----  
+  
+  
+---
+
 
 ## Quick Install
 
@@ -83,7 +85,7 @@ $ npm install
 
 This command will install the dependencies needed for the application to run.
   
---- 
+---
 
 ## Running Your Application
 
@@ -142,8 +144,6 @@ $ npm run dev
 
 ```
 
----
-
 ### Setup ESLint
 
 * Go to your extensions tab and search for `ESLINT`
@@ -158,9 +158,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
-
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
