@@ -5,7 +5,7 @@ title: Animation Baker
 
 # Animation Baker
 
-`Drag & Drop` module exposes the API that can make any element of the user iterface a draggable or a drop zone. 
+`Animation Baker` module exposes the API that can make any element of the user iterface a draggable or a drop zone. 
 
 ```properties
 foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animations/animations.cbor
