@@ -3,21 +3,21 @@ id: screenshot-system
 title: Screenshot System
 ---
 
-# Screenshot.JS
+# Screenshot System
 
-`Screenshot` componet is used by `Screenshot.html` file and it uses url params as inputs and outputs the screenshot to the url specified.
+The `Screenshot` component is used by the `Screenshot.html` file; it uses url params as inputs and outputs the screenshot to the url specified.
 
 ## Usage
 
 ```url
 https://app.webaverse.com/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png
 ```
-#### Inputs (as Query Params)
+### Inputs (as Query Params)
 * url: {URL of the asset that can be downloadable by the screenshot system} **[Required]**
-* ext: {vrm|glb|vox|png|jpg|jpeg|gif} **[Required]**
-* type: {png|jpeg} **[Required]**
+* ext: {`.vrm` | `.glb` | `.vox` | `.png` | `.jpg` | `.jpeg` | `.gif`} **[Required]**
+* type: {`.png` | `.jpeg`} **[Required]**
 
-#### Output
+### Output
 * Output screenshot will be posted back to the calling service.
 
 ---
@@ -26,7 +26,9 @@ https://app.webaverse.com/screenshot.html?url=https://webaverse.github.io/assets
 
 ### Flow Diagram
 
-![enter image description here](https://i.ibb.co/W5m86p9/Screenshot-Preview-Service.png)
+![enter image description here](/img/Screenshot-Preview-Service.png)
+
+---
 
 ### Location
 
@@ -36,8 +38,9 @@ Webaverse App
    └───screenshot.js
 ```
 
-### Functions
+---
 
+### Functions
 
 #### GLTF/GLB/VRM Loader
 
@@ -54,8 +57,10 @@ Uses: [MetaverseFile](https://github.com/webaverse/metaversefile)
 	return  object;
 
 ```
-- The above code is a common code that applies to `GLTF`, `GLB` and load the asset into context.
-- Loader uses MetaverFile Moudle that auto detects the extension type and returns us the object as scene app. 
+- The above code is a common code that applies to `GLTF`, `GLB` and loads the asset into context.
+- The loader uses MetaverFile Module that auto detects the extension type and returns the object as a scene app. 
+
+---
 
 #### VRM Loader
 
@@ -72,8 +77,8 @@ Uses: [MetaverseFile](https://github.com/webaverse/metaversefile)
 	return  object;
 
 ```
-- The above code is a common code that applies to `VRM` and load the asset into context.
-- Loader uses MetaverFile Moudle that auto detects the extension type and returns us the object as scene app. 
+- The above code is a common code that applies to `VRM` and loads the asset into context.
+- The loader uses MetaverFile Module that auto detects the extension type and returns the object as a scene app. 
 
 
 ```js

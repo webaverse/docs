@@ -38,15 +38,19 @@ module.exports = {
             type: 'category',
             label: 'Scene',
             items: [
+            {
+              type: 'doc',
+              label: 'Quick Start Guide',
+              id: 'engineering/app/scene/scene-file-quickstart'
+            },
               "engineering/app/scene/lighting-shadows",
-              "engineering/app/scene/scene-file-quickstart",
             ]
           },
           {
             type: 'category',
             label: 'Systems',
             items: [
-              "engineering/app/screenshot-system",
+              "engineering/app/systems/screenshot-system",
               "engineering/app/systems/vehicle-system",
               ]
           },

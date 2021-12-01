@@ -5,7 +5,7 @@ title: Drag & Drop
 
 # Drag & Drop Module
 
-The `Drag & Drop` module employs an API that can make any element of the user iterface a draggable or a drop zone. 
+The `Drag & Drop` module exposes the API that can make any element of the user iterface a draggable or a drop zone. 
 
 ```js
 import {Drag, Drop, dropEffect} = require('./components/drag.js');

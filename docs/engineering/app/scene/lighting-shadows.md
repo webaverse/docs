@@ -6,7 +6,7 @@ title: Lighting & Shadows
 
 Lights:bulb:can be set up as objects in the `.scn` (Scene) file.
 
-![](https://i.ibb.co/XpKD2gL/lights.png)
+![](/img/lights.png)
 
 ---
 

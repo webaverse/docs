@@ -5,7 +5,7 @@ title: Animation Baker
 
 # Animation Baker
 
-`Animation Baker` module exposes the API that can be used to bake animations and test in app. 
+The `Animation Baker` module exposes the API that can be used to bake animations and test them in-app.
 
 ```properties
 foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animations/animations.cbor
@@ -23,14 +23,18 @@ foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animatio
 * Argument # 1: Regex based path to files  **[Required]**
 * Argument # 2:Output file with it's path  **[Required]**
 
+---
+
 #### Output
 `Output file specified will be written to the path`
+
+---
 
 #### Testing
 * Clone the latest repo of [WebaVerse App](https://github.com/webaverse/app) using
 	`git clone --recurse-submodules https://github.com/webaverse/app.git`
 * Replace the animations present in the `public/animations` folder with the animations you have.
-* Run the animations baker with it's input and output arguments/
+* Run the animations baker with it's input and output arguments
 * The newly baked animations can be tested by replacing the output file produced with the `animations.cbor`  present under the directory 
 	```
 	Webaverse App
@@ -38,9 +42,8 @@ foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animatio
 	   └───animations
 	         └─── animations.cbor
 	```
-* The application can be then ran through the command 
-	`npm run dev`
-* Visit the `URL` specified in the console of the application.	
+* The application can then be run with the command: `npm run dev`
+* Visit the `URL` specified in the console of the application, ([localhost](https://localhost:3001) by default)
 
 ---
 
@@ -53,8 +56,9 @@ Webaverse App
 └───animations-baker.mjs
 ```
 
-### `Functions`
+---
 
+### `Functions`
 
 #### `Static Server`
 
@@ -75,9 +79,11 @@ Webaverse App
 })();
 
 ```
-- Animation Baker is a cli tool that makes the use of terminal based regular expressions to take the files as input.
-- The files are passed as array of arguments through `process.argv` to the animation baker where as the last argument shall always be the output file.
-- It then spins up a static hosting server and read the files from the input and call the `Baker` function along with the output file.
+- Animation Baker is a cli tool that makes use of terminal-based regular expressions to select files as inputs
+- The files are passed as an array of arguments through `process.argv` to the animation baker and then returned as output files based on the details of the final argument
+- The Baker then spins up a static hosting server, reads the files from the input and calls the `Baker` function along with the output file
+
+---
 
 #### `Baker`
 

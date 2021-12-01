@@ -6,7 +6,7 @@ title: Scene File Quick Start
 
 ## Default Scenes
 
-Default scenes offered by Webaverse are defined in scenes.json file, which is located in the `scenes` directory in the root of the App. The first one in the list is the default scene.
+Default scenes offered by Webaverse are defined in a scenes.json file, which is located in the `scenes` directory in the root of the App. The first one in the list is the default scene.
 
 ```js
 [
@@ -26,9 +26,9 @@ Default scenes offered by Webaverse are defined in scenes.json file, which is lo
 
 A `.scn` file contains the scene definition. Every scene is made up of apps. Apps can be a 3D model or some other object. Objects' definitions contain some of these listed types:
 * `type` – possible types are: 
-    * `"application/light"` – for object light 
-    * `"application/rendersettings"` – used for definition of post-processing effects 
-    * `"application/group"` – used for grouping objects. If we don't define type, default is 3D object  
+    * `application/light` – for object light 
+    * `application/rendersettings` – used for definition of post-processing effects 
+    * `application/group` – used for grouping objects. If we don't define type, default is 3D object  
 * `content` – custom object definition for different type of object
 *  `start_url` – loading point for a complex object defined with `index.js`, or local/remote path for `.glb` / `.vrm` / `.vox` file
 * `position` – x,y,z position in scene
@@ -76,7 +76,7 @@ From this example we can see that we can set light type inside a content section
 Other parameters for lights are [[R, G, B], Intensity] where RGB represents RGB color components.
 `start_url` is a remote location in this case. That location should provide a .metaversefile as a starting point for object loading. Local location would look like this `"start_url": "/classroom/"`
 
-Next we have example of post-processing setting for scene.
+Next we have an example of post-processing settings for a scene.
 
 ```js
 {
@@ -131,3 +131,5 @@ With those setting we can define:
 
 For further reading please take a look at existing scenes here:
 https://github.com/webaverse/app/tree/master/scenes
+
+---

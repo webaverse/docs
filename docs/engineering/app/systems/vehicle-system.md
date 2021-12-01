@@ -4,7 +4,9 @@ title: Vehicle System
 ---
 # Vehicle System
 
-Adding a vehicle to our scene is really easy. All you have to do is put a description in .scn file.
+## Importing a Vehicle
+
+Adding a vehicle to our scene is really easy. All you have to do is put a description in a `.scn` file.
 
 ```js
 {
@@ -23,12 +25,21 @@ Adding a vehicle to our scene is really easy. All you have to do is put a descri
     "dynamic": true
 }
 ```
+:::tip Hovercraft repo
+The Hovercraft is implemented in a separate project here: [Hovercraft Repo] (https://github.com/webaverse/hovercraft)  
+:::
 
-The Hovercraft is implemented in separate project here: [Hovercraft Repo] (https://github.com/webaverse/hovercraft)  
+---
 
-The player can take control of the vehicle by holding down `E` when near it.
+## Interacting with Vehicles
 
-This time .metaversefile has many options:
+A player can take control of the vehicle by holding down `E` when near it.
+
+---
+
+## Defining a Vehicle
+
+A vehicle `.metaversefile` has many options:
 
 ```js
 {   
@@ -68,5 +79,9 @@ This time .metaversefile has many options:
 }
 ```
 
+:::note
 
-Entry point is “index.js” as usual.
+The entry point is `index.js` as usual.
+:::
+
+---
