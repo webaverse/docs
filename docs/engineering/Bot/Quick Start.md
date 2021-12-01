@@ -1,9 +1,10 @@
 ---
-id: application-startup
-title: Application Startup
----
 
-# Webaverse - Ethereum Backend - Quick Start Guide
+id: ethereum-bot
+title: Ethereum Bot
+
+---
+# Ethereum Bot - Quick Start Guide
 
 ## Introduction
 
@@ -143,6 +144,7 @@ $ npm run dev
 ├─── index.js <--- Main Application Logic Resides Here
 
 ```
+---
 
 ### Setup ESLint
 
@@ -158,6 +160,7 @@ npm install eslint -g
 eslint --init
 
 ```
+---
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.

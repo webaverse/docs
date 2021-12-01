@@ -1,9 +1,8 @@
 ---
-id: application-startup
-title: Application Startup
+id: ethereum-backend
+title: Ethereum Backend
 ---
-
-# Webaverse - Ethereum Backend - Quick Start Guide
+# Ethereum Backend - Quick Start Guide
 
 ## Introduction
 
@@ -103,7 +102,7 @@ $ npm start
 ├───	index.js <--- Main Application Logic Resides Here
 
 ```
-
+---
 ### Setup ESLint
 
 
@@ -118,6 +117,8 @@ npm install eslint -g
 eslint --init
 
 ```
+
+---
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
@@ -165,16 +166,20 @@ https://rinkebysidechain.exokit.org
 
 Note that the port on these is the standard HTTPS port, `443`.
 
+---
+
 ## Contracts
 
 The contracts we deploy onto all chains are available at https://github.com/webaverse/contracts.
 
+---
 ## Note: Atomic saves
 
 Replication is accomplished by having multiple nodes mine on that address at the same time.
 
 `geth` does _not_ stream blocks to disk eagerly. A system crash will lose blocks on that node, though other miners will not be affected.
 
+---
 ## Restarting geth Servers
 
 Therefore it is important that any restart of these nodes follows the correct order:
