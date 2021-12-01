@@ -11,6 +11,9 @@ title: Drag & Drop
 import {Drag, Drop, dropEffect} = require('./components/drag.js');
 ```
 
+---
+
+
 ## Usage
 
 ### `Drag`
@@ -41,6 +44,7 @@ import {Drag, Drop, dropEffect} = require('./components/drag.js');
 * event: {[dragOver](https://www.w3.org/TR/2010/WD-html5-20101019/dnd.html#dndevents)}
 * dataItem: {Payload passed by the Drag Event}
 
+---
 
 ## Architecture
 

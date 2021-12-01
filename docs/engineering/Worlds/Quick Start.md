@@ -6,6 +6,7 @@ Before you begin we recommend you read about the basic building blocks that asse
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
+---
 
 ## Quick Install
 
@@ -31,6 +32,7 @@ To install the dependencies, run this in the application folder from the command
 $ npm install
 
 ```
+---
 
 ## Running Your Application
 
@@ -70,6 +72,9 @@ $ npm stop
 $ npm start
 
 ```
+
+---
+
 
 ## Development Environment Setup
 

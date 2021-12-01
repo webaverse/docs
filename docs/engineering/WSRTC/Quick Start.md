@@ -11,6 +11,7 @@ Before you begin we recommend you read about the basic building blocks that asse
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
+---
 
 ## Quick Install
 
@@ -37,6 +38,9 @@ $ npm install
 
 ```
 
+---
+
+
 ## Running Your Application
 
 
@@ -54,6 +58,8 @@ $ npm start
 ### Doesn't Re-compile automatically
 
 The application won't hot reload itself automatically if there is any changes to any file. You have re-run application to effect new changes.
+
+---
 
 ## Development Environment Setup
 

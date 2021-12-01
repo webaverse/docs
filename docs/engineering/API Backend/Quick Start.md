@@ -12,12 +12,16 @@ The Webaverse Ethereum backend consists of a side chain that we mine using Proof
 To start a mining node, you must be an authorized miner address with a certificate installed in the  `geth`  data directory -- ask [Avaer](https://github.com/avaer) for the keys.
 
 To validate/replicate/sync you don't need any keys.
+
+---
+
  ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
+---
 
 ## Quick Install
 
@@ -43,6 +47,7 @@ To install the dependencies, run this in the application folder from the command
 $ npm install
 
 ```
+---
 
 ## Running Your Application
 
@@ -82,6 +87,7 @@ $ npm stop
 $ npm start
 
 ```
+---
 
 ## Development Environment Setup
 
@@ -116,6 +122,8 @@ eslint --init
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
 
+---
+
 ## Commands
 
 Here is how to bootstrap a mainnet validation node:
@@ -133,6 +141,8 @@ geth --datadir mainnet --http --http.addr 172.31.2.5 --http.corsdomain '*' --syn
 ```
 
 `static-nodes-mainnet.json`` has some bootstrap nodes listed so you should be able to start syncing from those. Your chain will be "reorganized" a lot while you sync up, which is normal.
+
+---
 
 ## Blockchains
 
@@ -176,6 +186,7 @@ for (i in [2, 3, 1]) { // order matters
 3. start node i again
 4. ensure node i is replicating and synced and do not proceed unless it is
 ```
+---
 
 ## How Transfers Work
 

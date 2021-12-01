@@ -9,12 +9,15 @@ title: IPFS Backend
 
 Node server hosted on AWS, mainly used for REST endpoints.
 
+---
+
  ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
+---
 
 ## Quick Install
 
@@ -51,6 +54,8 @@ $ npm install
 
 ```
 3.  Create a  `cert/`  folder. Create 2 new files inside:  `fullchain.pem`  and  `privkey.pem`. Ask [Avaer](https://github.com/avaer) for the certificates.
+
+---
 
 ## Running Your Application
 
@@ -90,6 +95,7 @@ $ npm stop
 $ npm start
 
 ```
+---
 
 ## Development Environment Setup
 
@@ -124,6 +130,9 @@ eslint --init
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.
 
+---
+
+
 ## API Docs
 
 ### worlds.exokit.org
@@ -137,6 +146,7 @@ Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/
 `DELETE` worlds.exokit.org/{worldId}
 *Terminates the ec2 associated with world.*
 
+---
 
 ## How to Deploy New `world-server` code.
 

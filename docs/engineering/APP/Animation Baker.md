@@ -10,6 +10,7 @@ title: Animation Baker
 ```properties
 foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animations/animations.cbor
 ```
+---
 
 ## Usage
 
@@ -41,6 +42,7 @@ foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animatio
 	`npm run dev`
 * Visit the `URL` specified in the console of the application.	
 
+---
 
 ## Architecture
 
@@ -150,4 +152,5 @@ const baker = async (uriPath = "", animationFileNames, outFile) => {
 - Animation Baker uses the CBOR.encode function to encode the animations.
 - The output buffer is then written to the output file.
 
+---
 

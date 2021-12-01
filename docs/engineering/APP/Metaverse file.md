@@ -9,6 +9,9 @@ import  metaversefileApi  from  './metaversefile-api.js';
 
 Depends on: [MetaverseFile](https://github.com/webaverse/metaversefile) 
 
+
+---
+
 ## Usage
 
 ```js
@@ -47,6 +50,7 @@ Depends on: [MetaverseFile](https://github.com/webaverse/metaversefile)
 * FOG
 * Background
 
+---
 
 
 ## Architecture
@@ -64,3 +68,4 @@ Webaverse App
 
 ```
 
+---

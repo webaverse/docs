@@ -14,18 +14,21 @@ The preview server is a headless chromium instance that generates screenshots an
 3.  If there's no preview, the server will ask the API about the token and fetch the IPFS content
 4.  The files from the IPFS hash get rendered using Puppeteer, exported as previews.
 
-
+---
  ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
+---
 
 ## Prerequisites
 
 Make sure you are running  [Webaverse App](https://github.com/webaverse/app)
 Follow this [documentation](https://github.com/webaverse/app/blob/master/README.md) to setup Webaverse App.
+
+---
 
 ## Quick Install
 
@@ -53,6 +56,7 @@ $ npm install
 ```
 This command will install the dependencies needed for the application to run.
 
+---
 
 ## Running Your Application
 
@@ -96,11 +100,15 @@ $ node index.js
 
 The application won't hot reload itself automatically if there is any changes to any file. You have re-run application to effect new changes.
 
+---
+
 ## Local Screenshot
 
 **Example URL**
 
   [https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png](https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png)
+
+---
 
 
 ## Development Environment Setup

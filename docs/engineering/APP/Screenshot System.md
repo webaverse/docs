@@ -20,6 +20,8 @@ https://app.webaverse.com/screenshot.html?url=https://webaverse.github.io/assets
 #### Output
 * Output screenshot will be posted back to the calling service.
 
+---
+
 ## Architecture
 
 ### Flow Diagram
@@ -143,3 +145,5 @@ Uses: [MetaverseFile](https://github.com/webaverse/metaversefile)
 - The VRM loader is further equipped with the logic to find the eyes of the avatar and center them. It makes use of two important functions `_getTailBones` & `_findEye`
 - `_getTailBones` is called on the skeleton that return the tail bones.
 - `_findEye` is called on the tail bones returned from the above step.
+
+---

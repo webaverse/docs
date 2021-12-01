@@ -16,7 +16,8 @@ title: Webaverse Quick Start
 
 Webaverse is derived from the idea of Metaverse over the Web. It is the very first Metaverse that is open for everyone to build and play arround.
 
-  
+---
+
 
 ## System Representation
 
@@ -24,6 +25,7 @@ Webaverse is based on the set of highly interconnected systems.
 
 ![enter image description here](https://i.ibb.co/cycm5W3/Network-Diagram-drawio.png)
   
+---
 
 ## Stack Requirements
 
@@ -38,14 +40,19 @@ Webaverse is based on the set of highly interconnected systems.
 |[ReactJS](https://reactjs.org/)|[Quick Start](https://reactjs.org/docs/getting-started.html)|
 |Blockchain| [Quick Start](https://ethereum.org/uk/developers/tutorials/hello-world-smart-contract/) |
 
+---
 
 ## Single Entry Point
 
 Entry point of each system is `index.js` file.
 
+---
+
 ## Simple & Basic Setup 
 
 [Read our General Quick Start Guide From Here](Basic&Guide&Comes&Here)
+
+---
 
 
 ## Systems in Webaverse

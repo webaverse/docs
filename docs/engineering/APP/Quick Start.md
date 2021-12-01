@@ -21,6 +21,7 @@ npm run dev
 # Navigate to the URL mentioned in the terminal
 
 ```
+---
 
 ## Development Environment Setup
 
@@ -71,5 +72,6 @@ npm run dev
 ```
 > Any change inside `packages` folder don't recompile automatically for which we have restart the development server by using `npm run dev`
 
+---
 
 

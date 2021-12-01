@@ -19,6 +19,7 @@ Use the following instructions if you’re running Windows 10 or Windows 8:
 5.  Make the necessary changes to the file.
 6.  Select  **File > Save**  to save your changes.
     
+    ---
 
 ### Windows 7 and Windows Vista
 
@@ -34,6 +35,7 @@ Use the following instructions if you’re running Windows 7 or Windows Vista:
 8.  Make the necessary changes to the file.
 9.  Select  **File > Save**  to save your changes.
     
+    ---
 
 ### Windows NT, Windows 2000, and Windows XP
 
@@ -45,6 +47,8 @@ Use the following instructions if you’re running Windows NT, Windows 2000, or 
 4.  Select  **Open**.
 5.  Make the necessary changes to the file.
 6.  Select  **File > Save**  to save your changes.
+
+---
 
 # Linux
 
@@ -61,7 +65,9 @@ Use the following instructions if you’re running Linux:
 4.  Make the necessary changes to the file.
 5.  Press  **Control-X**.
 6.  When you are asked if you want to save your changes, enter **y**.
-    
+
+---
+
 # Mac OS
 
 ## MacOS X versions 10.0 through 10.12

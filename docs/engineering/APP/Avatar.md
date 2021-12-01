@@ -87,3 +87,5 @@ Folder structure looks like this:
 * `start_url` – it can be 3D model file `.glb` `.vox` `.vrm` or JavaScript file. If we provide JavaScript file, we can import complex Three.js objects with many custom properties and with update function as well.
 
 * `components` – custom components passed directly to Webaverse app object
+
+---
