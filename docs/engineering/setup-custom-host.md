@@ -2,9 +2,9 @@
 id: setup-custom-host
 title: Setup Custom Host
 ---
-# Webaverse - Setup Custom Host Guide
+# Setup Custom Host Guide
 
-# Windows
+## Windows
 
 If you are using a  [Microsoft operating system](https://www.rackspace.com/microsoft)  like Windows 10, Windows 8, Windows 7, and Windows Vista you must run Microsoft Notepad as an administrator.
 
@@ -50,7 +50,7 @@ Use the following instructions if you’re running Windows NT, Windows 2000, or 
 
 ---
 
-# Linux
+## Linux
 
 Use the following instructions if you’re running Linux:
 
@@ -67,10 +67,10 @@ Use the following instructions if you’re running Linux:
 6.  When you are asked if you want to save your changes, enter **y**.
 
 ---
+****
+## Mac OS
 
-# Mac OS
-
-## MacOS X versions 10.0 through 10.12
+### MacOS X versions 10.0 through 10.12
 
 This section provides instructions for modifying your hosts file if you are running MacOS X 10.0 through 10.12.
 

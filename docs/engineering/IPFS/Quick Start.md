@@ -111,7 +111,7 @@ $ npm start
 ├───	index.js <--- Main Application Logic Resides Here
 
 ```
-
+---
 ### Setup ESLint
 
 
@@ -126,6 +126,7 @@ npm install eslint -g
 eslint --init
 
 ```
+---
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.

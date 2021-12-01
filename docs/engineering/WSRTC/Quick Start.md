@@ -1,9 +1,4 @@
----
-id: wrstc
-title: WRSTC
----
-
-# Webaverse - WRSTC - Quick Start Guide
+# WRSTC - Quick Start Guide
 
  ## Before You Begin
  

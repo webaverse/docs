@@ -3,7 +3,7 @@ id: screenshot-system
 title: Screenshot System
 ---
 
-# [COMPONENT] Screenshot.JS
+# Screenshot.JS
 
 `Screenshot` componet is used by `Screenshot.html` file and it uses url params as inputs and outputs the screenshot to the url specified.
 
