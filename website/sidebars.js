@@ -2,7 +2,6 @@ module.exports = {
   docs: {
     Webaverse: [
       'index',
-      'webaverse/lore',
     ],
     Art: [
       'art/character-workflow',
@@ -24,7 +23,7 @@ module.exports = {
                 type: 'category',
                 label: 'Components',
                 items: [
-                  "engineering/APP/React/Components/drag and drop",
+                  "engineering/app/react/components/drag-n-drop",
                   ]
               },
               ]
@@ -33,37 +32,37 @@ module.exports = {
             type: 'category',
             label: 'Scene',
             items: [
-              "engineering/APP/Scene/lighting-shadows",
-              "engineering/APP/Scene/scene-file",
+              "engineering/app/scene/lighting-shadows",
+              "engineering/app/scene/scene-file-quickstart",
             ]
           },
           {
             type: 'category',
             label: 'Systems',
             items: [
-              "engineering/APP/Screenshot System",
-              "engineering/APP/Systems/vehicle-system",
+              "engineering/app/screenshot-system",
+              "engineering/app/systems/vehicle-system",
               ]
           },
-          "engineering/APP/Animation Baker",
-          "engineering/APP/Metaverse file",
-          "engineering/APP/avatar-system",
-          "engineering/APP/Quick Start",
-          "engineering/APP/physx-workflow",
+          "engineering/app/animation-baker",
+          "engineering/app/metaversefile",
+          "engineering/app/avatar-system",
+          "engineering/app/application-startup-quickstart",
+          "engineering/app/physx-workflow",
           ]
       },
       {
         type: 'category',
         label: 'API Backend',
         items: [
-          "engineering/API Backend/Quick Start",
+          "engineering/api-backend/ethereum-backend-quickstart",
           ]
       },
       {
         type: 'category',
         label: 'Blockchain',
         items: [
-          "engineering/Blockchain/smart-contracts",
+          "engineering/blockchain/smart-contracts-integration",
 
           ]
       },
@@ -71,14 +70,14 @@ module.exports = {
         type: 'category',
         label: 'Ethereum Bot',
         items: [
-          "engineering/Bot/Quick Start"
+          "engineering/bot/ethereum-bot-quickstart"
           ]
       },
       {
         type: 'category',
         label: 'IPFS',
         items: [
-          "engineering/IPFS/Quick Start",
+          "engineering/ipfs/ipfs-backend-quickstart",
           ]
       },
       {
@@ -89,7 +88,7 @@ module.exports = {
             type: 'category',
             label: 'Loaders',
             items: [
-              "engineering/MetaverseFile/Loaders/JS/js-file-import",
+              "engineering/metaversefile/loaders/js/js-file-import",
               ]
           },
           ]
@@ -98,21 +97,21 @@ module.exports = {
         type: 'category',
         label: 'Preview',
         items: [
-          "engineering/Preview/Quick Start",
+          "engineering/preview/preview-backend-quickstart",
           ]
       },
       {
         type: 'category',
         label: 'WSRTC',
         items: [
-          "engineering/WSRTC/Quick Start",
+          "engineering/wsrtc/wsrtc-quickstart",
           ]
       },
       {
         type: 'category',
         label: 'Worlds',
         items: [
-          "engineering/Worlds/Quick Start",
+          "engineering/worlds/worlds-backend-quickstart",
           ]
       },
       "engineering/index",

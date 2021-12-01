@@ -1,9 +1,9 @@
 ---
-id: ipfs-backend
-title: IPFS Backend
+id: ipfs-backend-quickstart
+title: IPFS Backend Quick Start
 ---
 
-# Webaverse - IPFS Backend - Quick Start Guide
+# IPFS Backend - Quick Start Guide
 
 ## Introduction
 

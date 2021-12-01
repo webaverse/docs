@@ -1,8 +1,10 @@
 ---
-id: worlds-backend
-title: Worlds Backend
+id: wsrtc-quickstart
+title: WSRTC Quick Start
 ---
-# Worlds Backend - Quick Start Guide
+
+# WSRTC - Quick Start Guide
+
  ## Before You Begin
  
 Before you begin we recommend you read about the basic building blocks that assemble an application:
@@ -20,11 +22,11 @@ Once you've installed all basic building blocks, you're just a few steps away fr
 
 # Clone this repository
 
-git clone https://github.com/webaverse/worlds-backend.git
+git clone https://github.com/webaverse/wsrtc.git
 
 # Go into the repository
 
-cd worlds-backend/
+cd wsrtc/
 
 ```
 To install the dependencies, run this in the application folder from the command-line:
@@ -35,7 +37,9 @@ To install the dependencies, run this in the application folder from the command
 $ npm install
 
 ```
+
 ---
+
 
 ## Running Your Application
 
@@ -44,40 +48,18 @@ Run your application using npm:
 
 ```bash
 
-# Run the app (in background)
+# Run the app
 
 $ npm start
 
 ```
-This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
 
->You can stop this app by running this command:
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
 
 ### Doesn't Re-compile automatically
 
 The application won't hot reload itself automatically if there is any changes to any file. You have re-run application to effect new changes.
 
-```bash
-
-# First stop the application
-
-$ npm stop
-
-# Then run it again
-
-$ npm start
-
-```
-
 ---
-
 
 ## Development Environment Setup
 
@@ -93,7 +75,7 @@ $ npm start
 ├───	index.js <--- Main Application Logic Resides Here
 
 ```
----
+
 ### Setup ESLint
 
 
@@ -108,8 +90,6 @@ npm install eslint -g
 eslint --init
 
 ```
-
----
 ### Setup Cutom Host
 
 Please follow this [tutorial](https://github.com/abeersaqib/webaverse-docs/blob/main/setup-custom-host.md) to setup custom host.

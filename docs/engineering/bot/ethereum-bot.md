@@ -1,7 +1,7 @@
 ---
 
-id: ethereum-bot
-title: Ethereum Bot
+id: ethereum-bot-quickstart
+title: Ethereum Bot Quick Start
 
 ---
 # Ethereum Bot - Quick Start Guide

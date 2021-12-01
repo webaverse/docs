@@ -1,8 +1,8 @@
 ---
-id: scene-file
-title: Scene File
+id: scene-file-quickstart
+title: Scene File Quick Start
 ---
-# Scene File (.scn)
+# Scene File (.scn) Quick Start Guide
 
 ## Default Scenes
 

@@ -1,6 +1,6 @@
 ---
 id: xrpackage-overview
-title: What is XRPackage?
+title: XRPackage Overview
 ---
 
 <img src="/img/xrpk-logo.png" width="250px" height="250px" />

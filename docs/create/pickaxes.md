@@ -1,6 +1,6 @@
 ---
-id: pickaxe
-title: Pickaxe
+id: pickaxes
+title: Pickaxes
 ---
 
 The pickaxe is used to mine resources within the virtual world, and secondary as a weapon.

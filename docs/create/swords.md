@@ -1,5 +1,5 @@
 ---
-id: sword
+id: swords
 title: Swords
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-id: application-startup
-title: Application Startup
+id: application-startup-quickstart
+title: Application Startup Quick Start
 ---
 
 # Webaverse Quick Start Guide

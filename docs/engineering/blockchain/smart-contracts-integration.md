@@ -1,5 +1,5 @@
 ---
-id: smart-contracts
+id: smart-contracts-integration
 title: Smart Contracts Integration Module
 ---
 
