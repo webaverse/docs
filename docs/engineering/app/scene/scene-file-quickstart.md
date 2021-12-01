@@ -6,7 +6,7 @@ title: Scene File Quick Start
 
 ## Default Scenes
 
-Default scenes offered by Webaverse are defined in scenes.json files. The first one in the list is the default scene.
+Default scenes offered by Webaverse are defined in scenes.json file, which is located in the `scenes` directory in the root of the App. The first one in the list is the default scene.
 
 ```js
 [
@@ -20,15 +20,17 @@ Default scenes offered by Webaverse are defined in scenes.json files. The first 
 ]
 ```
 
+---
+
 ## File Structure
 
-.scn file contains the scene definition. Every scene is created of apps. Apps can be a 3D model or some other object. Objects' definitions contain some of these listed types:
+A `.scn` file contains the scene definition. Every scene is made up of apps. Apps can be a 3D model or some other object. Objects' definitions contain some of these listed types:
 * `type` – possible types are: 
     * `"application/light"` – for object light 
     * `"application/rendersettings"` – used for definition of post-processing effects 
     * `"application/group"` – used for grouping objects. If we don't define type, default is 3D object  
 * `content` – custom object definition for different type of object
-*  `start_url` – loading point for complex object defined with `index.js`, or local/remote path for `.glb` / `.vrm` / `.vox` file
+*  `start_url` – loading point for a complex object defined with `index.js`, or local/remote path for `.glb` / `.vrm` / `.vox` file
 * `position` – x,y,z position in scene
 * `quaternion` – x,y,z,w quaternion rotation in scene
 * `scale` – x,y,z object scale

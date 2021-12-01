@@ -10,11 +10,17 @@ module.exports = {
       'art/fbx-export',
     ],
     Engineering: [
+      "engineering/webaverse-overview",
       'engineering/certificates',
       {
         type: 'category',
-        label: 'APP',
+        label: 'App',
         items: [
+          {
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: 'engineering/app/app-quickstart'
+          },
           {
             type: 'category',
             label: 'React',
@@ -47,7 +53,6 @@ module.exports = {
           "engineering/app/animation-baker",
           "engineering/app/metaversefile",
           "engineering/app/avatar-system",
-          "engineering/app/application-startup-quickstart",
           "engineering/app/physx-workflow",
           ]
       },
@@ -114,7 +119,6 @@ module.exports = {
           "engineering/worlds/worlds-backend-quickstart",
           ]
       },
-      "engineering/index",
       "engineering/setup-custom-host",
       // 'engineering/application-startup',
       // 'engineering/blockchain-integration',

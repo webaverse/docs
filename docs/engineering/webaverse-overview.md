@@ -1,35 +1,31 @@
-
+---
+id: webaverse-overview
+title: Webaverse Overview
 ---
 
-id: engineering
+# Overview
 
-title: Webaverse Quick Start
+## *"Webaverse"* 
+**Derivation:** from **web**-based meta**verse**. 
 
----
-
-
-# Webaverse - a web based Metaverse
-
-  
-
-## Ideology
-
-Webaverse is derived from the idea of Metaverse over the Web. It is the very first Metaverse that is open for everyone to build and play arround.
+**Definition:** the very first metaverse that is both designed for the web and fully opensource so that anyone can contribute to and/or build upon it.
 
 ---
 
 
 ## System Representation
 
-Webaverse is based on the set of highly interconnected systems.
+Webaverse is based on a set of highly interconnected systems.
 
-![enter image description here](https://i.ibb.co/cycm5W3/Network-Diagram-drawio.png)
+![enter image description here](/img/Network-Diagram-drawio.png)
   
 ---
 
 ## Stack Requirements
 
-## Technologies
+### Technologies
+
+Webaverse is built entirely upon open standards to enable interoperability and freedom from proprietary walled gardens.
 
 
 | 	Technology  | Documentation   |
@@ -42,24 +38,24 @@ Webaverse is based on the set of highly interconnected systems.
 
 ---
 
-## Single Entry Point
+### Single Entry Point
 
-Entry point of each system is `index.js` file.
-
----
-
-## Simple & Basic Setup 
-
-[Read our General Quick Start Guide From Here](Basic&Guide&Comes&Here)
+The entry point of each system is an `index.js` file.
 
 ---
 
+### [Simple & Basic App Setup](./app/app-quickstart) 
 
-## Systems in Webaverse
+---
+
+
+### Systems in Webaverse
+
+Code for all Webaverse systems can be found openly on GitHub 
 
 | 	System  | Repository   | Docs |
 |--|--|--|
-| **Webaverse App** | https://github.com/webaverse/app | c |
+| **Webaverse App** | https://github.com/webaverse/app | [Quick Start](./app/app-quickstart) |
 | **Metaverse File** | https://github.com/webaverse/metaversefile | c |
 | **Etherium Backend** | https://github.com/webaverse/ethereum-backend | c |
 | **Etherium Bot** | https://github.com/webaverse/ethereum-bot | c |
@@ -67,3 +63,5 @@ Entry point of each system is `index.js` file.
 | **Worlds** | https://github.com/webaverse/worlds-backend | c |
 | **Blockchain** | https://github.com/webaverse/blockchain-data | c |
 | **Redis** | https://github.com/webaverse/redis-server | c |
+
+---
