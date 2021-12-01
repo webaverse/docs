@@ -8,7 +8,7 @@ title: GLB Export
 
 ### Requirements 
 * one uv map 
-* one material 
+* one material for all diffuse, one material per any GLSL shaders. For example, if there is a sword with the blade intended to be a shader, there would be one material which contains the texture information of the handle/hilt/etc, and one separate material for the blade marked to be overwritten by the GLSL shader in-engine.
 * make sure to have a principled bsdf material setup 
   * diffuse texture should be connected to color input and colorspace set to srgb 
   * occlusion/metalness/roughness texture should have a "seperate rgb"" attached to it and each R G B channel should be connected to the appropriate metalness , roughness inputs as well as a gltf occlusion node that would be appended from a seperate blend file. colorspace should be set to non color

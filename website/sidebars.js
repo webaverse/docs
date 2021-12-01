@@ -11,6 +11,7 @@ module.exports = {
       'art/fbx-export',
     ],
     Engineering: [
+      'engineering/certificates',
       {
         type: 'category',
         label: 'APP',
