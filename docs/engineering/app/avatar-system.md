@@ -14,7 +14,7 @@ We can add many more avatars into a scene. Those avatars can be activated if the
 
 ## Avatar Setup
 
-Avatars can be set up as objects in .scn (Scene) file.
+Avatars can be set up as objects in a .scn (Scene) file.
 
 ```js
 {
@@ -40,10 +40,10 @@ Avatars can be set up as objects in .scn (Scene) file.
     * Object's position in 3D world. (0,0,0) is the center of the world
 
 * `Quaternion`
-    *   Object's rotation calculated in Qaternions. (0,0,0,0) is default. For more informations take a look here https://threejs.org/docs/#api/en/math/Quaternion
+    *   Object's rotation calculated in Qaternions. (0,0,0,0) is default. For more information take a look here https://threejs.org/docs/#api/en/math/Quaternion
 
 * `Start_url`
-    * Location where the avatar object is located. We have many options to provide information about object definition. Look for Object loading system for more information. In this particular example we are loading 3D model from remote location via url https://webaverse.github.io/app/public/avatars/scillia.vrm
+    * Location where the avatar object is located. We have many options to choose from to provide information about an object's definition. Look for the Object loading system for more information. In this particular example we are loading a 3D model from a remote location via url https://webaverse.github.io/app/public/avatars/scillia.vrm
 
 * `Dynamic`
     * Should we load object dynamically?
@@ -61,7 +61,7 @@ We can load many object types into our 3D world. Supported object types are:
 We can load an object from a **local directory** *(for example `"start_url": "/public/avatars/scillia.vrm"`)* or from a **remote location** *(for example `"start_url": "https://webaverse.github.io/app/public/avatars/scillia.vrm"`)*.
 
 Webaverse provides solutions for complex object loading with JavaScript file loading.
-Folder structure looks like this:
+The folder structure looks like this:
 
 ```
 .
@@ -72,7 +72,7 @@ Folder structure looks like this:
 └───README.md
 ```
 
-.metaversefile is the entry point for loading.
+.totum is the entry point for loading.
 
 ```js
 {   

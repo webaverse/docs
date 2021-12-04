@@ -17,6 +17,8 @@ https://app.webaverse.com/screenshot.html?url=https://webaverse.github.io/assets
 * ext: {`.vrm` | `.glb` | `.vox` | `.png` | `.jpg` | `.jpeg` | `.gif`} **[Required]**
 * type: {`.png` | `.jpeg`} **[Required]**
 
+---
+
 ### Output
 * Output screenshot will be posted back to the calling service.
 
@@ -44,7 +46,7 @@ Webaverse App
 
 #### GLTF/GLB/VRM Loader
 
-Uses: [MetaverseFile](https://github.com/webaverse/metaversefile) 
+Uses: [Totum](https://github.com/webaverse/totum) 
 
 ```js
 
@@ -58,13 +60,13 @@ Uses: [MetaverseFile](https://github.com/webaverse/metaversefile)
 
 ```
 - The above code is a common code that applies to `GLTF`, `GLB` and loads the asset into context.
-- The loader uses MetaverFile Module that auto detects the extension type and returns the object as a scene app. 
+- The loader uses Totum Module that auto detects the extension type and returns the object as a scene app. 
 
 ---
 
 #### VRM Loader
 
-Uses: [MetaverseFile](https://github.com/webaverse/metaversefile) 
+Uses: [Totum](https://github.com/webaverse/totum) 
 
 ```js
 
@@ -78,7 +80,7 @@ Uses: [MetaverseFile](https://github.com/webaverse/metaversefile)
 
 ```
 - The above code is a common code that applies to `VRM` and loads the asset into context.
-- The loader uses MetaverFile Module that auto detects the extension type and returns the object as a scene app. 
+- The loader uses Totum Module that auto detects the extension type and returns the object as a scene app. 
 
 
 ```js

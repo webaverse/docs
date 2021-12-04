@@ -55,22 +55,27 @@ module.exports = {
               ]
           },
           "engineering/app/animation-baker",
-          "engineering/app/metaversefile",
+          "engineering/app/totum",
           "engineering/app/avatar-system",
           "engineering/app/physx-workflow",
           ]
       },
       {
         type: 'category',
-        label: 'API Backend',
+        label: 'Ethereum Backend',
         items: [
-          "engineering/api-backend/ethereum-backend-quickstart",
+          {
+          type: 'doc',
+          label: 'Quick Start Guide',
+          id: "engineering/api-backend/ethereum-backend-quickstart"
+        },
           ]
       },
       {
         type: 'category',
         label: 'Blockchain',
         items: [
+          "engineering/blockchain/nft-voucher-library",
           "engineering/blockchain/smart-contracts-integration",
 
           ]
@@ -79,26 +84,22 @@ module.exports = {
         type: 'category',
         label: 'Ethereum Bot',
         items: [
-          "engineering/bot/ethereum-bot-quickstart"
+          {
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: "engineering/bot/ethereum-bot-quickstart"
+          },
           ]
       },
       {
         type: 'category',
         label: 'IPFS',
         items: [
-          "engineering/ipfs/ipfs-backend-quickstart",
-          ]
-      },
-      {
-        type: 'category',
-        label: 'MetaverseFile',
-        items: [
+
           {
-            type: 'category',
-            label: 'Loaders',
-            items: [
-              "engineering/metaversefile/loaders/js/js-file-import",
-              ]
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: "engineering/ipfs/ipfs-backend-quickstart"
           },
           ]
       },
@@ -106,21 +107,48 @@ module.exports = {
         type: 'category',
         label: 'Preview',
         items: [
-          "engineering/preview/preview-backend-quickstart",
+          {
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: "engineering/preview/preview-backend-quickstart"
+          },
           ]
       },
       {
         type: 'category',
-        label: 'WSRTC',
+        label: 'Totum',
         items: [
-          "engineering/wsrtc/wsrtc-quickstart",
+          {
+            type: 'category',
+            label: 'Loaders',
+            items: [
+              "engineering/totum/loaders/js/js-file-import",
+              ]
+          },
           ]
       },
       {
         type: 'category',
         label: 'Worlds',
         items: [
-          "engineering/worlds/worlds-backend-quickstart",
+          {
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: "engineering/worlds/worlds-backend-quickstart"
+          },
+          
+          ]
+      },
+      {
+        type: 'category',
+        label: 'WSRTC',
+        items: [
+          {
+            type: 'doc',
+            label: 'Quick Start Guide',
+            id: "engineering/wsrtc/wsrtc-quickstart"
+          },
+          
           ]
       },
       "engineering/setup-custom-host",

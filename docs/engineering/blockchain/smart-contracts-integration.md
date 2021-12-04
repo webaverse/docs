@@ -37,7 +37,7 @@ The smart contract generated token ID of the object that is to be dropped in the
 
 #### Return
 * voucher: {string}
-A Stringified object signed by the user metamask wallet that contains tokenId, nonce, expiry, and user wallet's signature.
+A Stringified object signed by the user metamask wallet that contains tokenId, nonce, expiry, and user's wallet signature.
 
 ---
 
@@ -55,11 +55,11 @@ A Stringified object that contains tokenId, nonce, expiry, and NFT object's owne
 
 ## Architecture
 
-### Flow Diagram
+<!-- ### Flow Diagram
 
 > TO DO
 
----
+--- -->
 
 ### Location
 

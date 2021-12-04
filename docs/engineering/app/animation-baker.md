@@ -31,7 +31,7 @@ foo@bar:~$ node animations-baker.mjs ./public/animations/*.fbx ./public/animatio
 ---
 
 #### Testing
-* Clone the latest repo of [WebaVerse App](https://github.com/webaverse/app) using
+* Clone the latest repo of the [Webaverse App](https://github.com/webaverse/app) using
 	`git clone --recurse-submodules https://github.com/webaverse/app.git`
 * Replace the animations present in the `public/animations` folder with the animations you have.
 * Run the animations baker with it's input and output arguments
