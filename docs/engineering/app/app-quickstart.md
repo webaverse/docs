@@ -10,8 +10,7 @@ Once the app is installed all you need to do is go to localhost:3000 to launch t
 
 ## To Use!
 
-
-To clone and run App you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) v.17(which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To run App you'll need [Node.js](https://nodejs.org/en/download/) v.17 installed.  To manage your Node version use [NVM](https://github.com/nvm-sh/nvm).
 
 ```bash
 # Clone this repository
@@ -25,9 +24,8 @@ npm run dev
 # Navigate to the URL mentioned in the terminal
 
 ```
-## Pay Attention
+### Submodules
 When cloning App from git, you must include the option **"--recurse-submodules"**. The App repo relies upon and imports other Webaverse repos that are vital to the functioning application.
-
 
 ---
 
@@ -36,9 +34,6 @@ When cloning App from git, you must include the option **"--recurse-submodules"*
 ### IDEs
 
 We prefer using [VSCode](https://code.visualstudio.com/download) for development, so the below notes reflect that toolset; however you should be able to adapt this guide to apply to any other IDEs.
-
-
-
 
 ## Technologies
 
@@ -72,17 +67,7 @@ The App primarily uses the following technologies
 
 ### Setup ESLint
 
-* Within VSCode, go to your extensions tab and search for `ESLINT`
-
-![VSCodeESLintSetup](https://user-images.githubusercontent.com/51108458/144331775-2f5363d9-8d3f-4120-bb22-3308047c5605.png)
-
-
-	OR From the command line:
-
-	```bash
-		npm install eslint -g
-		eslint --init
-	```
+To setup ESLint, refer to: [Quick Start Basics](../quick-start-basics#setup-eslint)
 
 ---
 

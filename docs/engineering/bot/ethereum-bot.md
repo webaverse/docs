@@ -42,92 +42,9 @@ After minting, the preview server generates a screenshot of 3d models, animated 
 
 ---
 
-## Quick Install
+## [Quick Start Basics](../quick-start-basics)
 
-  
-
-Clone and run this repository:
-
-```bash
-
-# Clone this repository
-
-git clone https://github.com/webaverse/ethereum-bot
-
-# Go into the repository  
-
-cd ethereum-bot/
-
-```
-
-Install the dependencies:
-
-```bash
-
-# Install dependencies
-
-$ npm install
-
-```
-  
----
-
-## Running Your Application
-
-Run your application:  
-
-```bash
-
-# Run the app (in background)
-
-$ npm start
-
-```
-
-This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
-
->List running processes:
-
-```bash
-
-# List processes
-
-$ sudo forever list
-
-```
-
->You can stop this app by running this command:
-
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
-
- If you don't want to run it in background for development purpose you can also run it using:
-
-```bash
-
-# Run the app
-
-$ npm run dev
-
-```
-
-> The app won't recompile automatically upon files changing so you'll have to restart the app to reflect said changes:  `npm stop && npm run dev`
-
----
-
-## Development Environment Setup
-
-> Our preferred tool for development is [VSCode](https://code.visualstudio.com/download)
-
-  
 ### Directory Structure
-
-  
 
 ```bash
 
@@ -136,27 +53,6 @@ $ npm run dev
 ├─── index.js <--- Main Application Logic Resides Here
 
 ```
----
-
-### Setup ESLint
-
-* Go to your extensions tab and search for `ESLINT`
-
-![VSCode ESLint Setup](https://res.cloudinary.com/practicaldev/image/fetch/s--gWL807Xl--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/9rmkgbk7nio6ravjm0rx.PNG)
-
-  
-```bash
-
-npm install eslint -g
-
-eslint --init
-
-```
----
-### Setup Cutom Host
-
-Please follow this [tutorial](../setup-custom-host) to setup custom host.
-
 ---
 
 ## Add to your server

@@ -15,87 +15,7 @@ To validate/replicate/sync you don't need any keys.
 
 ---
 
-## Quick Install
-
-Clone and run this repository:
-
-
-```bash
-
-# Clone this repository
-
-git clone https://github.com/webaverse/ethereum-backend.git
-
-# Go into the repository
-
-cd ethereum-backend/
-
-```
-To install the dependencies:
-```bash
-
-# Install dependencies
-
-$ npm install
-
-```
----
-
-## Running Your Application
-
-
-Run your application using npm:
-
-```bash
-
-# Run the app (in background)
-
-$ npm start
-
-```
-This command will run your application in the background using [forever](https://www.npmjs.com/package/forever)
-
->To check on the running forever processes:
-
-```bash
-
-# List running processes
-
-$ sudo forever list
-
-```
-
->You can stop this app by running:
-
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
-
-### Doesn't Re-compile automatically
-
-The application won't hot reload itself automatically. If there are any changes to any file, you have re-run the application for the changes to be reflected.
-
-```bash
-
-# First stop the application
-
-$ npm stop
-
-# Then run it again
-
-$ npm start
-
-```
----
-
-## Development Environment Setup
-
-  
-> Preferred tool for development is [VSCode](https://code.visualstudio.com/download)
+## [Quick Start Basics](../quick-start-basics)
   
 ### Directory Structure
 
@@ -106,29 +26,6 @@ $ npm start
 ├───	index.js <--- Main Application Logic Resides Here
 
 ```
----
-
-### Setup ESLint
-
-
-* Go to your extensions tab and search for `ESLINT`
-  
-![VSCode ESLint Setup](https://res.cloudinary.com/practicaldev/image/fetch/s--gWL807Xl--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/9rmkgbk7nio6ravjm0rx.PNG)
-
-> Or run: 
-
-```bash
-
-npm install eslint -g
-
-eslint --init
-
-```
----
-### Setup Cutom Host
-
-Please follow this [tutorial](../setup-custom-host) to setup a custom host.
-
 ---
 
 ## Commands

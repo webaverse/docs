@@ -9,30 +9,12 @@ The IPFS Backend is a node server hosted on AWS, mainly used for REST endpoints.
 
 ---
 
-## Quick Install
+## [Quick Start Basics](../quick-start-basics)
 
-Clone and run:
+### Additional Setup
 
+> After installing dependencies and before running your application, do the following:
 
-```bash
-
-# Clone this repository
-
-git clone https://github.com/webaverse/ipfs-backend.git
-
-# Go into the repository
-
-cd ipfs-backend/
-
-```
-Install dependencies:
-```bash
-
-# Install dependencies
-
-$ npm install
-
-```
 Create a `config.json` populated with the following:
 >Ask [Avaer](https://github.com/avaer) for credentials:
 
@@ -49,95 +31,10 @@ Create a  `cert/`  folder and copy into it the `fullchain.pem`  and  `privkey.pe
 
 ---
 
-## Running Your Application
-
-
-Run your application:
-
-```bash
-
-# Run the app (in background)
-
-$ npm start
-
-```
-This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
-
->List running processes:
-
-```bash
-
-# List running processes
-
-$ sudo forever list
-
-```
-
->You can stop this app by running this command:
-
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
-
-### Doesn't Re-compile automatically
-
-The application won't hot reload itself automatically. If there are any changes to any files, re-run  the application to reflect any changes.
-
-```bash
-
-# Stop and Start the application
-
-$ npm stop && npm start
-
-```
----
-
-## Development Environment Setup
-
-  
-> Our preferred tool for development is [VSCode](https://code.visualstudio.com/download)
-  
-### Directory Structure
-
-```bash
-
-**Root**
-
-├───	index.js <--- Main Application Logic Resides Here
-
-```
----
-### Setup ESLint
-
-
-* Go to your extensions tab and search for `ESLINT`
-  
-![enter image description here](https://res.cloudinary.com/practicaldev/image/fetch/s--gWL807Xl--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/9rmkgbk7nio6ravjm0rx.PNG)
-
-Or run:
-
-```bash
-
-npm install eslint -g
-
-eslint --init
-
-```
----
-### Setup Cutom Host
-
-Please follow this [tutorial](../setup-custom-host) to setup a custom host.
-
----
-
 
 ## API Docs
 
-### worlds.exokit.org
+### worlds.webaverse.org
 
 `GET` worlds.webaverse.org/{worldId}
 *Returns an object with: Host, World Name and Uptime of server.*

@@ -56,12 +56,12 @@ Code for all Webaverse systems can be found openly on GitHub
 | 	System  | Repository   | Docs |
 |--|--|--|
 | **Webaverse App** | https://github.com/webaverse/app | [Quick Start](./app/app-quickstart) |
-| **Metaverse File** | https://github.com/webaverse/metaversefile | c |
-| **Etherium Backend** | https://github.com/webaverse/ethereum-backend | c |
-| **Etherium Bot** | https://github.com/webaverse/ethereum-bot | c |
-| **Preview Backend** | https://github.com/webaverse/preview-backend | c |
-| **Worlds** | https://github.com/webaverse/worlds-backend | c |
-| **Blockchain** | https://github.com/webaverse/blockchain-data | c |
-| **Redis** | https://github.com/webaverse/redis-server | c |
+| **Totum** | https://github.com/webaverse/totum | [Totum](./app/totum) |
+| **Ethereum Backend** | https://github.com/webaverse/ethereum-backend | [Quick Start](./api-backend/ethereum-backend-quickstart) |
+| **Ethereum Bot** | https://github.com/webaverse/ethereum-bot | [Quick Start](./bot/ethereum-bot-quickstart) |
+| **Preview Backend** | https://github.com/webaverse/preview-backend | [Quick Start](./preview/preview-backend-quickstart) |
+| **Worlds** | https://github.com/webaverse/worlds-backend | [Quick Start](./worlds/worlds-backend-quickstart) |
+| **Blockchain** | https://github.com/webaverse/blockchain-data | [Smart Contracts Integration](./blockchain/smart-contracts-integration) |
+| **Redis** | https://github.com/webaverse/redis-server | [Quick Start](./redis/redis-server-quickstart) |
 
 ---

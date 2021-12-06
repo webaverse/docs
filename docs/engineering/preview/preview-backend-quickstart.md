@@ -22,40 +22,11 @@ The preview server is a headless chromium instance that generates screenshots an
 
 ---
 
-## Quick Install
+## [Quick Start Basics](../quick-start-basics)
 
-Clone and run:
-
-
-```bash
-
-# Clone this repository
-
-git clone https://github.com/webaverse/preview-backend.git
-
-# Go into the repository
-
-cd preview-backend/
-
-```
-Install the dependencies:
-```bash
-
-# Install dependencies
-
-$ npm install
-
-```
-
----
-
-## Running Your Application
-
-:::note
+### Additional Setup
 
 **(Optional):** Before running the application make sure Ports :80, :8997, :8998, :8999 are not already in use. If your port :80 is in use, you can change it from [index.js](https://github.com/webaverse/preview-backend/blob/master/index.js#L17)
-
-:::
   
 ```bash
 
@@ -64,64 +35,6 @@ $ npm install
 const  PORT = parseInt(process.env.PORT, 10) || <3000 OR ANY_FREE_PORT>;
 
 ```
-Run your application:
-
-```bash
-
-# Run the app (in background)
-
-$ npm start
-
-```
-This command will run your application in background using [forever](https://www.npmjs.com/package/forever)
-
->List running processes
-
-```bash
-
-# List running processes
-
-$ sudo forever list
-
-```
-
->You can stop this app by running this command:
-
-```bash
-
-# Stop the app running in background
-
-$ npm stop
-
-```
-If you don't want to run it in background for development purpose you can also run it using:
-```bash
-
-# Run the app
-
-$ node index.js
-
-```
-### Doesn't Re-compile automatically
-
-The application won't hot reload itself automatically. If there are any changes to any files, re-run the application to reflect them.
-
----
-
-## Local Screenshot
-
-**Example URL**
-
-  [https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png](https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png)
-
----
-
-
-## Development Environment Setup
-
-  
-> Our preferred tool for development is [VSCode](https://code.visualstudio.com/download)
-  
 
 ### Directory Structure
 
@@ -135,28 +48,10 @@ The application won't hot reload itself automatically. If there are any changes 
 
 ---
 
-### Setup ESLint
+## Local Screenshot
 
+**Example URL**
 
-* Go to your extensions tab and search for `ESLINT`
-
-  
-![VSCode ESLint Setup](https://res.cloudinary.com/practicaldev/image/fetch/s--gWL807Xl--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/9rmkgbk7nio6ravjm0rx.PNG)
-
-Or run:
-
-```bash
-
-npm install eslint -g
-
-eslint --init
-
-```
-
----
-
-### Setup Cutom Host
-
-Please follow this [tutorial](../setup-custom-host) to setup custom host.
+  [https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png](https://127.0.0.1:3001/screenshot.html?url=https://webaverse.github.io/assets/male.vrm&ext=vrm&type=png)
 
 ---
