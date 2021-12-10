@@ -1,11 +1,11 @@
 module.exports={
   "title": "Webaverse",
   "tagline": "Webaverse",
-  "url": "https://staffdocs.webaverse.com",
+  "url": "https://docs.webaverse.com",
   "baseUrl": "/",
   "organizationName": "webaverse",
   "projectName": "docs",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/webaverse-white.ico",
   "customFields": {},
   "onBrokenLinks": "log",
   "onBrokenMarkdownLinks": "log",
@@ -31,8 +31,8 @@ module.exports={
     "navbar": {
       "title": "Webaverse",
       "logo": {
-        "src": "img/favicon.ico",
-		"href": "https://staffdocs.webaverse.com/",
+        "src": "img/webaverse-lg.png",
+		"href": "https://docs.webaverse.com/",
 		"target": "_self"
       },
       "items": [
@@ -49,7 +49,7 @@ module.exports={
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/R5wqYhvv53',
+              href: 'https://discord.gg/j7JWgbhs',
             },
             {
               label: 'Github',
