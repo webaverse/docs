@@ -76,6 +76,7 @@ module.exports = {
         label: 'Blockchain',
         items: [
           "engineering/blockchain/nft-voucher-library",
+          "engineering/blockchain/sidechain-metamask",
           "engineering/blockchain/smart-contracts-integration",
 
           ]
