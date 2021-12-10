@@ -18,8 +18,8 @@ Use the following instructions if you’re running Windows 10 or Windows 8:
 4.  From Notepad, open the following file: **c:\Windows\System32\Drivers\etc\hosts**
 5.  Make the necessary changes to the file.
 6.  Select  **File > Save**  to save your changes.
-
----    
+    
+    ---
 
 ### Windows 7 and Windows Vista
 
@@ -35,7 +35,7 @@ Use the following instructions if you’re running Windows 7 or Windows Vista:
 8.  Make the necessary changes to the file.
 9.  Select  **File > Save**  to save your changes.
     
----
+    ---
 
 ### Windows NT, Windows 2000, and Windows XP
 
@@ -67,14 +67,14 @@ Use the following instructions if you’re running Linux:
 6.  When you are asked if you want to save your changes, enter **y**.
 
 ---
-
+****
 ## Mac OS
 
 ### MacOS X versions 10.0 through 10.12
 
 This section provides instructions for modifying your hosts file if you are running MacOS X 10.0 through 10.12.
 
-#### MacOS X 10.0 through 10.1.5
+### MacOS X 10.0 through 10.1.5
 
 Use the following instructions if you’re running MacOS X 10.0 through 10.1.5:
 
@@ -98,7 +98,7 @@ Use the following instructions if you’re running MacOS X 10.0 through 10.1.5:
     You do not need to restart the computer.
     
 
-#### MacOS X 10.6 through 10.12
+### MacOS X 10.6 through 10.12
 
 Use the following instructions if you’re running MacOS X 10.6 through 10.12:
 
