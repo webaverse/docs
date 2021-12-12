@@ -49,7 +49,7 @@ module.exports={
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/j7JWgbhs',
+              href: 'https://discord.gg/HxdjCDyq58',
             },
             {
               label: 'Github',
