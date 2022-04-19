@@ -103,16 +103,9 @@ Respect should be given in regards to the [style influences](style-guide#style-i
 
 ## Concept Art
 
-Responsibilities for concept art currently fall to *Fuji* and *Galad*.
+Concept art is an important part of the process - figuring out ideas in 2D first will really help with the translation to 3D.
 
-*Galad* has previously been creating photobashed concepts for characters, which have then been simplified / processed in manga style by *Fuji*. 
-
-![](https://i.imgur.com/E77qdef.png)
-
-
-Once a design and concept is locked in, it should remain as so and be **final** before we do any 3D. 
-
-When this design is finalised, we should have modelling orthographic images made by a concept artist. Currently *Galad* is filling in this role. 
+When this design is finalised, having orthographic modelling images made by a concept artist also helps a ton. 
 
 These orthos do not have to be in color, but should be consistent and neutral in posing and expression. 
 Physics enabled objects should be shown in inital state (little to no gravity pull) 
