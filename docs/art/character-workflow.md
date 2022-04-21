@@ -878,6 +878,35 @@ This is good for rebounding physics bones - for example a skirt should not clip 
 
 ### Exporting
 
+| ![](../../websitev1/static/img/vrm-export3.png) |
+| :--: |
+| <b>An example of what a finished model might look like while play mode is active in Unity</b> |
+
+If you miss anything or don't set up your avatar correctly don’t fret, you can do your final export multiple times for different versions as long as you still have your Unity project.
+
+![](../../websitev1/static/img/vrm-export2.png)
+
+Select your properly set up model and click on the “Export to VRM” option from the VRM0 tab. The VRM Exporter window should open and have your models information populated. If not, select the proper ExportRoot object.
+
+Now is the time to double check and fill out any boxes you might have missed. Title, Version, and Author are not optional. It's also recommended to assign a screenshot as well. You can take one using the in-scene camera, or use your own image.
+
+| ![](../../websitev1/static/img/vrm-export1.png) |
+| :--: |
+| <b>Highly recommended settings are in red, optional settings are in blue.</b> |
+
+Before you click Export, go to the ExportSettings tab in the VRM Exporter window. For Webaverse we strongly suggest using “Reduce Blendshape”, and “Reduce Blendshape Clip” export settings. These will remove any unused blendshapes from the VRM file and can dramatically reduce file size. You can safely enable “Only Blendshape Position” and “Divide Vertex Buffer” If the warnings do not apply to your avatar. These options do not affect Webaverse.
+
+**If you enable “Use Sparse Accessor'' it will cause errors. Do not enable this option if you intend to use your avatar for Webaverse.**
+
+At this time you are ready to Export your model!
+
+![](../../websitev1/static/img/vrm-export4.png)
+
+Navigate to a location outside of Unity, and save your VRM to a more permanent location on your computer.
+
+Presto! You have successfully converted and saved your avatar as a VRM. This final VRM that you just exported is what you will use in Webaverse.
+
+
 ---
 
 ### Testing in Webaverse
