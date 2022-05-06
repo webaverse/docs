@@ -95,7 +95,7 @@ Respect should be given in regards to the style influences of the project - they
 
 (Eg. - we are drawing inspiration from Breath of the Wild and Sonic 3, so designs should be toon focused, with strong geometric shape language, and high contrast / saturation colors, stylized materials / geo.)
 
-[Colors](style-guide#Colors) should be respected in the same manner. Interally we have a [selection of files](https://drive.google.com/drive/folders/1JMhDofOIrJPb_Wl4ia_tWRdnGMn2UTUC) to service this color palette (Note - I added in a .blend with the palette loaded in also).
+Colors should be respected in the same manner. Interally we have a [selection of files](https://drive.google.com/drive/folders/1JMhDofOIrJPb_Wl4ia_tWRdnGMn2UTUC) to service this color palette (Note - I added in a .blend with the palette loaded in also).
 
 ![](https://i.imgur.com/PAPQETr.png)
 
@@ -1027,7 +1027,7 @@ Presto! You have successfully converted and saved your avatar as a VRM. This fin
 
 * Follow the styleguide.
 
-* Lock in a [solid concept in 2D](style-guide#style-influences)
+* Lock in a solid concept in 2D
 
 * Consider usage of a production basemesh or other base for consistency and speed to iterate. 
 
