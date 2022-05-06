@@ -89,9 +89,9 @@ We will need to install the correct version of Unity for uniVRM - this can be ch
 
 Character concepts are based on their AI gen. backstory and the existing world lore - we run Pinterest passes and concept ideas based on those in the [Lore](../webaverse/lore).
 
-Concepts should follow the [Style Guide](style-guide).
+Concepts should follow the Style Guide.
 
-Respect should be given in regards to the [style influences](style-guide#style-influences) of the project - they will heavily influence concept input, as well as decisions modelling. 
+Respect should be given in regards to the style influences of the project - they will heavily influence concept input, as well as decisions modelling. 
 
 (Eg. - we are drawing inspiration from Breath of the Wild and Sonic 3, so designs should be toon focused, with strong geometric shape language, and high contrast / saturation colors, stylized materials / geo.)
 
@@ -1025,7 +1025,7 @@ Presto! You have successfully converted and saved your avatar as a VRM. This fin
 
 * Performance Guidelines
 
-* Follow the [styleguide](style-guide).
+* Follow the styleguide.
 
 * Lock in a [solid concept in 2D](style-guide#style-influences)
 
