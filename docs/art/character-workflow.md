@@ -1013,6 +1013,9 @@ Navigate to a location outside of Unity, and save your VRM to a more permanent l
 
 Presto! You have successfully converted and saved your avatar as a VRM. This final VRM that you just exported is what you will use in Webaverse.
 
+#### Alternate Methods
+
+[Converting an FBX Avatar to VRM](https://hackmd.io/@metamike/fbx-vrm-webaverse#Oveview)
 
 ---
 
