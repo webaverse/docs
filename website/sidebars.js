@@ -94,6 +94,24 @@ module.exports = {
       },
       {
         type: 'category',
+        label: "Grave's Notes",
+        items: [
+
+          {
+            type: 'doc',
+            label: 'Introduction',
+            id: "engineering/graves-notes/graves-notes-intro"
+          },
+
+          {
+            type: 'doc',
+            label: 'Unsorted',
+            id: "engineering/graves-notes/graves-notes-unsorted"
+          },
+          ]
+      },
+      {
+        type: 'category',
         label: 'IPFS',
         items: [
 
