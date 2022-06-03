@@ -49,8 +49,8 @@ In the gltf export menu to the right there are several tabs to go through and se
 
 ---
 
-### Rtx2 Texture Compression
-Textures can take up a lot of space and make world loading slower for less powerful machines. Rtx2 texture compression significantly reduces the file size for pre-existing GLB files without having much of an affect on the quality of the models. Follow these steps to compress the models:
+### Ktx2 Texture Compression
+Textures can take up a lot of space and make world loading slower for less powerful machines. Ktx2 texture compression significantly reduces the file size for pre-existing GLB files without having much of an affect on the quality of the models. Follow these steps to compress the models:
 
 * Download this file and unrar: https://drive.google.com/drive/u/0/folders/1mcZDzgwt8Q7yA9tA5Dd0FZ6aVY8Yw6pJ
 
