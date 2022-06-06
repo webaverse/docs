@@ -52,7 +52,7 @@ In the gltf export menu to the right there are several tabs to go through and se
 ### Ktx2 Texture Compression
 Textures can take up a lot of space and make world loading slower for less powerful machines. Ktx2 texture compression significantly reduces the file size for pre-existing GLB files without having much of an affect on the quality of the models. Follow these steps to compress the models:
 
-* Download this file and unrar: https://drive.google.com/file/d/18v8Pe4t4xzI9RV8dSMPORPhMTn9LWSmp/view
+* Download this file and unrar: https://drive.google.com/file/d/14FdIVt_A3L-kpqXrIS7WGqF-balHheMP/view
 
 * Copy your uncompressed GLB into the unrared directory
 
