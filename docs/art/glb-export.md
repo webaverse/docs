@@ -66,3 +66,26 @@ gltfpack -i inputfilename.glb -cc -tc -o outputfilename.glb
 #### Video Tutorial:
 
 https://youtu.be/vlCJYbp4bi8
+
+---
+
+### Draco mesh Compression
+The models having draco mesh can have issues with the previous (meshoptimizer) ktx2 compression method. For such models, this method is helpful.
+
+* Install the tool using this command:
+ ```
+  npm install --global @gltf-transform/cli
+ ```
+
+* once installed, Use this command to compress using etc1s:
+ ```
+ gltf-transform etc1s inputmodel.glb modeletc1s.glb
+ ```
+
+* After that use this command for draco compression:
+ ```
+ gltf-transform draco modeletc1s.glb modeletc1sdraco.glb
+ ```
+
+For refrence, visit this site:
+https://gltf-transform.donmccurdy.com/cli.html 
