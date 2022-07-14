@@ -87,5 +87,5 @@ The models having draco mesh can have issues with the previous (meshoptimizer) k
  gltf-transform draco modeletc1s.glb modeletc1sdraco.glb
  ```
 
-For refrence, visit this site:
+For reference, visit this site:
 https://gltf-transform.donmccurdy.com/cli.html 
