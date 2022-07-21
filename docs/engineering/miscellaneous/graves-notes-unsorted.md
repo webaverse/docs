@@ -84,13 +84,6 @@ const {offset, duration} = audioSpec;
 
   # Systems/Algorithms
 
-## CRDT theory
-
-Conflict-free Replicated Data types are the technology that webas multiplayer system is based on. Necessary knowledge for anyone who might work on multiplayer
-
-- Massive overview of CRDTs from creation to optimization. https://bartoszsypytkowski.com/the-state-of-a-state-based-crdts/ 
-
-
 ## L-system Theory
 
 L-systems are used to effiently store and generate fractals like plants and crystal structures. This will be an effective way to generate plants for the game world. 
