@@ -106,7 +106,11 @@ Animations should be either baked into the GLB, or in the case of character anim
 ---
 
 ## Export Requirements
-WIP
+Exports will be heavily based on the type of asset being exported. Some general guidelines, though:
+
+Props and Environments - GLB, limited textures, limited polys dependent on asset type
+Animations - FBX on a skinless Mixamo rig as discussed above
+Characters - VRM export through Unity, max 2 textures, less than 12k polys
 
 ---
 
