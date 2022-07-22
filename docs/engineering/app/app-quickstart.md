@@ -20,7 +20,7 @@ cd app/
 # Install dependencies
 npm install
 # Run the app
-npm run dev
+npm run start
 # Navigate to the URL mentioned in the terminal
 
 ```
