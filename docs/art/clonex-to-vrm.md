@@ -294,7 +294,15 @@ Then clear the unused data blocks.
 
 ### Step 7: Export the avatar as a FBX file.
 
-At this point your avatar is optimized and ready to be exported as a VRM. You can do this in blender.
+At this point your avatar is optimized and ready to be exported to VRM. To start the process, we first need to export the model to an FBX file.
+
+You can do that here. Or with the Cats tool
+
+![](../../website/static/img/clonex/clonex69.png)
+
+![](../../website/static/img/clonex/clonex70.png)
+
+We will use this FBX file in the next section.
 
 #### UNITY PORTION:
 
@@ -420,7 +428,7 @@ With this done we are now ready for the final Export.
 
 ![](../../website/static/img/clonex/clonex64.png)
 
-Select the model, go to VRM, and Export.
+Select the model, go to VRM, then the ExportSettings tab.
 
 ![](../../website/static/img/clonex/clonex65.png)
 
@@ -443,6 +451,8 @@ After a short upload. A window prompt will appear.
 Simply click on Equip to self.
 
 ![](../../website/static/img/clonex/clonex68.png)
+
+Presto! You are now ready to travel the Metaverse in style!
 
 
 
