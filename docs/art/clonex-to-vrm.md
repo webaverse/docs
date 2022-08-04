@@ -428,7 +428,7 @@ With this done we are now ready for the final Export.
 
 ![](../../website/static/img/clonex/clonex64.png)
 
-Select the model, go to VRM, and Export.
+Select the model, go to VRM, then the ExportSettings tab.
 
 ![](../../website/static/img/clonex/clonex65.png)
 
