@@ -6,6 +6,7 @@ module.exports = {
     Art: [
       'art/character-workflow',
       // 'art/style-guide',
+      'art/clonex-to-vrm',
       'art/glb-export',
       'art/fbx-export',
     ],
