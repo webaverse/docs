@@ -56,7 +56,7 @@ Next, the `describe` block groups related tests with each other using the `descr
 Next, you created a mock test to validate that the script you have written works. It checks if the boolean `true` is a truthy value, which will always be the case if all is working correctly.
 
 
-## Writting Test Code In Webaverse Project
+## Writting Test Code In the Project
 
 ```
 const {lanuchBrowser, enterScene, closeBrowser, getCurrentPage, totalTimeout} = require('../utils/utils');
@@ -106,8 +106,6 @@ describe('should character movement', () => {
 })
 ```
 
-#### Functions
-
 These functions are defined in `/utils/utils.js`
 
 1.  `lanuchBrowser`: launch the browser and able to set `headless` option.
@@ -153,4 +151,19 @@ These functions are defined in `/utils/utils.js`
 	}
 	```
 
+## How To Test
+1) In the `/app` folder you can start the test using this command.
+	```
+	npm run test-e2e
+	```
+2) To debug the one each test file, you can launch the server and test engine separately.
+	```
+	npm run dev
+	```
+	In the test folder, you can start using jest
+	```
+	cd test/
+	jest character-movement-test.js
+	```
+	You can check out this for more [options](https://jestjs.io/docs/cli).
 ---
