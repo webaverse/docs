@@ -59,11 +59,11 @@ Next, you created a mock test to validate that the script you have written works
 ## Writting Test Code In the Project
 
 ```
-const {lanuchBrowser, enterScene, closeBrowser, getCurrentPage, totalTimeout} = require('../utils/utils');
+const {launchBrowser, enterScene, closeBrowser, getCurrentPage, totalTimeout} = require('../utils/utils');
 
 describe('should character movement', () => {
 	beforeAll(async () => {
-		await lanuchBrowser();
+		await launchBrowser();
 		//Todo: define custom functions here
 		// await page.evaluate(async () => {
 		// 	window.todo = () => {} 
@@ -108,7 +108,7 @@ describe('should character movement', () => {
 
 These functions are defined in `/utils/utils.js`
 
-1.  `lanuchBrowser`: launch the browser and able to set `headless` option.
+1.  `launchBrowser`: launch the browser and able to set `headless` option.
 
 		```
 			browser = await puppeteer.launch( {
