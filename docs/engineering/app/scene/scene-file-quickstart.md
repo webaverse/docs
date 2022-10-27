@@ -89,7 +89,7 @@ Next we have an example of post-processing settings for a scene.
                 },
                 "fog": {
                     "fogType": "exp",
-                    "args": [[2.52, 1.74, 3.88], 0.0.1]
+                    "args": [[2.52, 1.74, 3.88], 0.1]
                 },
                 "ssao": {
                     "kernelRadius": 16,
