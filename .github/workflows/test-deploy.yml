@@ -18,4 +18,5 @@ jobs:
         working-directory: website
         run: |
           npm ci
-          npm run build
+          npm install --global yarn
+          yarn install
