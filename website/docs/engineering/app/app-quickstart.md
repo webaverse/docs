@@ -20,7 +20,7 @@ cd app/
 # Install dependencies
 npm install
 # Run the app
-npm run dev
+npm run start
 # Navigate to the URL mentioned in the terminal
 
 ```
@@ -73,10 +73,10 @@ To setup ESLint, refer to: [Quick Start Basics](../quick-start-basics#setup-esli
 
 ### Development Mode
 
-The application uses vite to hot reload itself automatically if there are any changes to any files. To start the App in dev mode, run:
+The application uses Vite to hot reload itself automatically if there are any changes to any files. To start the App in dev mode, run:
 
 ```bash
-npm run dev
+npm run start
 ```
 
 Any changes inside the `packages` folder won't recompile automatically and so will require restarting the entire development server by just running again: `npm run dev`
