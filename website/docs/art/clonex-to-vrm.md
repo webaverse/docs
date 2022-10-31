@@ -21,7 +21,7 @@ Or append all of the files manually.
 
 Start a new blender file:
 
-![](../../website/static/img/clonex/clonex01.png)
+![](/img/clonex/clonex01.png)
 
 Select your collection and go to append
 
@@ -30,7 +30,7 @@ CloneX\_female_or_male\_blender\f_character_neutral_neutral.blend\Collection\
 
 And append the collection to your current scene.
 
-![](../../website/static/img/clonex/clonex02.png)
+![](/img/clonex/clonex02.png)
 
 We recommend starting with the base.
 
@@ -38,69 +38,69 @@ Now we are going to make the base armature more visible and useable.
 
 Go to object properties and make the armature appear in front for easy selecting.
 
-![](../../website/static/img/clonex/clonex03.png)
+![](/img/clonex/clonex03.png)
 
 Then rename it to “Armature”
 
-![](../../website/static/img/clonex/clonex04.png)
+![](/img/clonex/clonex04.png)
 
 Rename the object data properties to Armature as well.
 
-![](../../website/static/img/clonex/clonex05.png)
+![](/img/clonex/clonex05.png)
 
 Now go through and import another part.
 
-![](../../website/static/img/clonex/clonex06.png)
+![](/img/clonex/clonex06.png)
 
 Now we want to start assigning parts to the master armature.
 
 Select your master Armature. Start Pose Mode. Then select the Root bone (usually the hip bone) and move the entire model off to the side a little bit.
 
-![](../../website/static/img/clonex/clonex07.png)
+![](/img/clonex/clonex07.png)
 
 **Return to object mode (without stopping pose mode)** and select the part that was left behind.
 
-![](../../website/static/img/clonex/clonex08.png)
+![](/img/clonex/clonex08.png)
 
 After selecting the part go to the modifiers of that object.
 
-![](../../website/static/img/clonex/clonex09.png)
+![](/img/clonex/clonex09.png)
 
 Change the object target to our master Armature.
 
-![](../../website/static/img/clonex/clonex10.png)
+![](/img/clonex/clonex10.png)
 
 The new part should now snap to the same pose the body is in.
 
 Rinse and repeat for every part your model needs.
 
-![](../../website/static/img/clonex/clonex11.png)
+![](/img/clonex/clonex11.png)
 
 You should have all of the parts now on the model. And assigned to the master armature.
 
 Start and Stop the armature to set it back to the default position.
 
-![](../../website/static/img/clonex/clonex12.png)
+![](/img/clonex/clonex12.png)
 
 Select everything in the scene.
 
-![](../../website/static/img/clonex/clonex13.png)
+![](/img/clonex/clonex13.png)
 
 Now go to Object, Apply, Scale. And confirm the action.
 
-![](../../website/static/img/clonex/clonex14.png)
+![](/img/clonex/clonex14.png)
 
 Move the character out of the way once more in pose mode then go back to edit mode without stopping pose mode once more.
 
-![](../../website/static/img/clonex/clonex15.png)
+![](/img/clonex/clonex15.png)
 
 Select all of the armatures that are left behind and delete them.
 
-![](../../website/static/img/clonex/clonex16.png)
+![](/img/clonex/clonex16.png)
 
 If done correctly nothing should disappear or move.
 
-![](../../website/static/img/clonex/clonex17.png)
+![](/img/clonex/clonex17.png)
 
 Everything should pose together nicely now.
 
@@ -108,11 +108,11 @@ Everything should pose together nicely now.
 
 ### Step 3: Clean up.
 
-![](../../website/static/img/clonex/clonex18.png)
+![](/img/clonex/clonex18.png)
 
 Lets clean up the collections now
 
-![](../../website/static/img/clonex/clonex19.png)
+![](/img/clonex/clonex19.png)
 
 Select all of these empty transform objects and the Eye_Shine object. Right click one of the selected objects and select the “Delete Hierarchy” option. This deletes the objects and everything inside of them.
 
@@ -127,11 +127,11 @@ Now we will parent the objects to the main armature.
 
 Select the part, Then the armature, then hit ctl+p and select the Object option.
 
-![](../../website/static/img/clonex/clonex20.png)
+![](/img/clonex/clonex20.png)
 
 Do this for all parts.
 
-![](../../website/static/img/clonex/clonex21.png)
+![](/img/clonex/clonex21.png)
 
 Next delete the extra collections and combine all of the meshes to be in the armature. ( you can click and drag the meshes on top of the armature to do this.)
 
@@ -141,11 +141,11 @@ Next delete the extra collections and combine all of the meshes to be in the arm
 
 If you have noticed, there are more bones in the armature then needed. We will be using cats to fix this.
 
-![](../../website/static/img/clonex/clonex22.png)
+![](/img/clonex/clonex22.png)
 
 Click on the wrench icon next to fix model and use these settings.
 
-![](../../website/static/img/clonex/clonex23.png)
+![](/img/clonex/clonex23.png)
 
 ---
 
@@ -155,15 +155,15 @@ Click on the wrench icon next to fix model and use these settings.
 
 Our goal here is to remove parts of the body mesh that are not visible. This step is optional, but highly recommended. It will help with the quality of the model after optimization. 
 
-![](../../website/static/img/clonex/clonex24.png)
+![](/img/clonex/clonex24.png)
 
 This depends on your clone and what clothes they have, but the idea is to select portions that won't be visible and simply delete them.
 
-![](../../website/static/img/clonex/clonex25.png)
+![](/img/clonex/clonex25.png)
 
 If done correctly you won't see any visible difference in your model. But we are saving lots of valuable triangles and UV space for later.
 
-![](../../website/static/img/clonex/clonex26.png)
+![](/img/clonex/clonex26.png)
 
 For some models you can probably get away with deleting things like this eyelash because it clips through the eyepatch.
 
@@ -177,7 +177,7 @@ The cloneX avatars are set up for face tracking so you will need to set them up 
 
 But the list of Shape keys you need to set up are the following.
 
-![](../../website/static/img/clonex/clonex27.png)
+![](/img/clonex/clonex27.png)
 
 * Neutral
 * Joy
@@ -200,7 +200,7 @@ Set up the teeth shape key to build other shape keys with.
 
 The teeth don’t move with the shape keys so we will make one that does move the teeth.
 
-![](../../website/static/img/clonex/clonex28.png)
+![](/img/clonex/clonex28.png)
 
 Click on the face, Navigate to the shape keys, and find the “JawOpen” shape key and set it to 1.
 
@@ -208,23 +208,23 @@ Now click on the armature and  go to pose mode.
 
 Adjust the jaw bone to match up with the shape key.
 
-![](../../website/static/img/clonex/clonex29.png)
+![](/img/clonex/clonex29.png)
 
-![](../../website/static/img/clonex/clonex30.png)
+![](/img/clonex/clonex30.png)
 
 Now cats select the “Pose to Shape key” button. And name it something appropriate like “teeth open”
 
-![](../../website/static/img/clonex/clonex31.png)
+![](/img/clonex/clonex31.png)
 
-![](../../website/static/img/clonex/clonex32.png)
+![](/img/clonex/clonex32.png)
 
 It will now appear at the bottom of the list.
 
 Go ahead and reset the pose by starting and stopping pose mode in cats again
 
-![](../../website/static/img/clonex/clonex33.png)
+![](/img/clonex/clonex33.png)
 
-![](../../website/static/img/clonex/clonex34.png)
+![](/img/clonex/clonex34.png)
 
 It should now reflect the changes you have made. If you only have the new shape key set to 1 and everything else set to 0.
 
@@ -232,11 +232,11 @@ To make the shape keys needed simply go through the list and make “blends” o
 
 For example.
 
-![](../../website/static/img/clonex/clonex35.png)
+![](/img/clonex/clonex35.png)
 
 A mixture of these two makes it look like the CloneX is Happy.
 
-![](../../website/static/img/clonex/clonex36.png)
+![](/img/clonex/clonex36.png)
 
 To save this as its own shape key, Click the down arrow next to the list and click on “New Shape From Mix” and give it an appropriate name.
 
@@ -250,7 +250,7 @@ This step is really important and may take a long time depending on your compute
 
 In the cats plugin, go down to the Bake option near the bottom of the tool.
 
-![](../../website/static/img/clonex/clonex37.png)
+![](/img/clonex/clonex37.png)
 
 Click on the Desktop button.
 
@@ -260,11 +260,11 @@ Change the Resolution to 4096.
 
 Then click on the “Show Advanced General Options”
 
-![](../../website/static/img/clonex/clonex38.png)
+![](/img/clonex/clonex38.png)
 
 Check the Ambient Occlusion option and the Set eyes to full brightness option.
 
-![](../../website/static/img/clonex/clonex39.png)
+![](/img/clonex/clonex39.png)
 
 Now when you are ready to let your computer do its thing for a while. Select the GPU or the CPU whatever component is more powerful for you. (Most of the time it will be the GPU). Then click the Copy and Bake button.
 
@@ -274,7 +274,7 @@ At this point you could go for a nice walk, stretch, drink some water. Etc.
 
 Once done you will come back to a nice optimized model.
 
-![](../../website/static/img/clonex/clonex40.png)
+![](/img/clonex/clonex40.png)
 
 Don't worry about how the mesh looks, everything should bend and look relatively the exact same.
 
@@ -282,13 +282,13 @@ You can delete the old model from the scene.
 
 Go to the materials and see if there are any
 
-![](../../website/static/img/clonex/clonex41.png)
+![](/img/clonex/clonex41.png)
 
 If there are, set the users to 0 by holding shift while clicking on the X button.
 
 Then clear the unused data blocks.
 
-![](../../website/static/img/clonex/clonex42.png)
+![](/img/clonex/clonex42.png)
 
 ---
 
@@ -298,9 +298,9 @@ At this point your avatar is optimized and ready to be exported to VRM. To start
 
 You can do that here. Or with the Cats tool
 
-![](../../website/static/img/clonex/clonex69.png)
+![](/img/clonex/clonex69.png)
 
-![](../../website/static/img/clonex/clonex70.png)
+![](/img/clonex/clonex70.png)
 
 We will use this FBX file in the next section.
 
@@ -310,7 +310,7 @@ You need the VRM exporter package and the proper unity version.
 You can find the required information at this link.
 https://vrm.dev/en/univrm/index.html
 
-![](../../website/static/img/clonex/clonex43.png)
+![](/img/clonex/clonex43.png)
 
 Create a new unity project, Make a new scene, and create a new file in your assets folder.
 
@@ -318,53 +318,53 @@ Drag in your FBX and your textures. You can find them in the folder CATS created
 
 You may get a notification that you need to mark the “normal” texture as a normal texture. Go ahead and click the “fix now” button if you get that.
 
-![](../../website/static/img/clonex/clonex44.png)
+![](/img/clonex/clonex44.png)
 
 Drag your FBX into the scene and set the transforms to 0
 
 Select the FBX file and go to the Model tab.
 
-![](../../website/static/img/clonex/clonex45.png)
+![](/img/clonex/clonex45.png)
 
-![](../../website/static/img/clonex/clonex46.png)
+![](/img/clonex/clonex46.png)
 
 Change the Blend Shape Normals to “none” and click apply.
 
-![](../../website/static/img/clonex/clonex47.png)
+![](/img/clonex/clonex47.png)
 
 Go to rig. Change animation type to humanoid and click apply.
 
-![](../../website/static/img/clonex/clonex48.png)
+![](/img/clonex/clonex48.png)
 
 Then click Configure.
 
 Unity will prompt you to save your scene. Go ahead and do so.
 
-![](../../website/static/img/clonex/clonex49.png)
+![](/img/clonex/clonex49.png)
 
 Here we want to check that all the bones are correct.
 
 Make sure all the bones in the list are the correct bones. Its ok if Upper chest isn't there.
 
-![](../../website/static/img/clonex/clonex50.png)
+![](/img/clonex/clonex50.png)
 
 Then navigate to the head and make sure the jaw bone is not present.
 
-![](../../website/static/img/clonex/clonex51.png)
+![](/img/clonex/clonex51.png)
 
 If it all looks good. Click done.
 
-![](../../website/static/img/clonex/clonex52.png)
+![](/img/clonex/clonex52.png)
 
 Make sure there are no animations on the model.
 
 Next, Go to the Materials tab and click on Extract Materials. And put it in the asset folder your other files are located in.
 
-![](../../website/static/img/clonex/clonex53.png)
+![](/img/clonex/clonex53.png)
 
 Now click on your material you just exported and assign the textures to the right spots
 
-![](../../website/static/img/clonex/clonex54.png)
+![](/img/clonex/clonex54.png)
 
 Albedo = base colors
 
@@ -378,11 +378,11 @@ And that's all you need to do for the material.
 
 At this point your CloneX Should look complete visually.
 
-![](../../website/static/img/clonex/clonex55.png)
+![](/img/clonex/clonex55.png)
 
 Next let's do our first VRM export. This will set up the files for further adjustments and customization.
 
-![](../../website/static/img/clonex/clonex56.png)
+![](/img/clonex/clonex56.png)
 
 Select your model in the HIearchy, then VRM, then Export. This will pop open a window.
 
@@ -394,43 +394,43 @@ Give it a title, version, and author.
 
 Then click export.
 
-![](../../website/static/img/clonex/clonex57.png)
+![](/img/clonex/clonex57.png)
 
 Save this VRM in the same asset folder as your other files in the Unity project.
 
-![](../../website/static/img/clonex/clonex58.png)
+![](/img/clonex/clonex58.png)
 
 Doing so will populate more folders into your asset folders.
 
-![](../../website/static/img/clonex/clonex59.png)
+![](/img/clonex/clonex59.png)
 
 Move your model over then drag the new VRM prefab into the scene and set its transforms to 0.
 
-![](../../website/static/img/clonex/clonex60.png)
+![](/img/clonex/clonex60.png)
 
 Zoom in and drag the “First Person Offset” between the eyes towards the front of the face. 
 
-![](../../website/static/img/clonex/clonex61.png)
+![](/img/clonex/clonex61.png)
 
 Now scroll down in the inspector and find the Blend shape proxy script part and click on the BlendShape field. This will navigate to where this file is stored.
 
 Click on that file.
 
-![](../../website/static/img/clonex/clonex62.png)
+![](/img/clonex/clonex62.png)
 
 Here you can assign Shape keys if you have them made to specific BlendShapeClips. These are used for lipsync and emoting in Webaverse. If you don't have them then you can skip this.
 
 To make a shape key active, simply select the Blend shape clip, then drag the according shape key slider to 100.
 
-![](../../website/static/img/clonex/clonex63.png)
+![](/img/clonex/clonex63.png)
 
 With this done we are now ready for the final Export.
 
-![](../../website/static/img/clonex/clonex64.png)
+![](/img/clonex/clonex64.png)
 
 Select the model, go to VRM, then the ExportSettings tab.
 
-![](../../website/static/img/clonex/clonex65.png)
+![](/img/clonex/clonex65.png)
 
 Go to ExportSettings, Check “Reduce Blendshape” then Export.
 
@@ -442,15 +442,15 @@ Save this VRM to a place outside of the Unity project folder. This is the file y
 
 To upload an avatar to webaverse. Simply open up the game, and drag the file in.
 
-![](../../website/static/img/clonex/clonex66.png)
+![](/img/clonex/clonex66.png)
 
 After a short upload. A window prompt will appear.
 
-![](../../website/static/img/clonex/clonex67.png)
+![](/img/clonex/clonex67.png)
 
 Simply click on Equip to self.
 
-![](../../website/static/img/clonex/clonex68.png)
+![](/img/clonex/clonex68.png)
 
 Presto! You are now ready to travel the Metaverse in style!
 

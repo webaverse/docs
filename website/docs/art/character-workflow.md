@@ -388,11 +388,11 @@ This part of the tutorial assumes you already have an avatar / know how to make 
 
 :::
 
-| ![](../../website/static/img/bldr_vrm_export4.png) |
+| ![](/img/bldr_vrm_export4.png) |
 | :-- |
 | <b>The addon comes with a default humanoid rig that may help speed up the process of avatar creation. This is not super important, but it is nice to know that it exists.</b> |
 
-| ![](../../website/static/img/bldr_vrm_export7.png) |
+| ![](/img/bldr_vrm_export7.png) |
 | :-- |
 | <b>To access the VRM properties you can select the rig then go into the object properties tab.</b> |
 
@@ -400,7 +400,7 @@ Lets now go over each option and what to do with each one.
 
 #### VRM Meta
 
-![](../../website/static/img/bldr_vrm_export5.png)
+![](/img/bldr_vrm_export5.png)
 
 | Section Title | Description |
 | :-- | :-- |
@@ -417,17 +417,17 @@ Lets now go over each option and what to do with each one.
 
 #### VRM Humanoid
 
-![](../../website/static/img/bldr_vrm_export9.png)
+![](/img/bldr_vrm_export9.png)
 
 In the VRM 0.x Humanoid section you will define what bones should be what parts of the humanoid rig. The head should be the head, the right arm should be the right arm… etc.
 
 If you don't already have your model in a T-pose, you will need to either set them in a t-pose as the rest pose. Or create a pose in your pose library to be used as the T-pose. If you have that, this is where you would specify that.
 
-![](../../website/static/img/bldr_vrm_export2.png)
+![](/img/bldr_vrm_export2.png)
 
 VRM has two sets of bones, Required Bones, and Optional Bones. As the names suggest, You need to have all of the required bones in order for your model to work. And the optional bones are bones you can have or not have based on the design of your model.
 
-![](../../website/static/img/bldr_vrm_export12.png)
+![](/img/bldr_vrm_export12.png)
 
 After all of the bones are the arm and leg adjustments. These are usually ok to be left as their default values.
 
@@ -435,19 +435,19 @@ After all of the bones are the arm and leg adjustments. These are usually ok to 
 
 #### VRM Blend Shape Proxy
 
-![](../../website/static/img/bldr_vrm_export13.png)
+![](/img/bldr_vrm_export13.png)
 
 Next up is the VRM Blend Shape Proxys. All blendshapes are optional and do not effect the functionality of the model, but do add the fun facial expressions and lip syncing. If you have facial emotions and visiems(mouth shapes that represent different sounds like “ah” “oh” “ch”.)  set up on your model, This is where you assign them. 
 
 Expand the blend shape, then expand the Binds, then click on +Add Blend Shape Bind.
 
-![](../../website/static/img/bldr_vrm_export8.png)
+![](/img/bldr_vrm_export8.png)
 
 Here you can select the mesh you want, then the shape key associated with the blendshape. After that make sure you set the Weight of the shape key to 1 (or whatever is appropriate for your model) otherwise the shape key will not activate even after being assigned.
 
 Repeat this for every blendshape in this list if you want your avatar to have the full range of facial expressions. Webaverse, on the other hand, only requires the following blendshapes.
 
-![](../../website/static/img/bldr_vrm_export11.png)
+![](/img/bldr_vrm_export11.png)
 
 The ones crossed out in red are not required for Webaverse.
 
@@ -457,11 +457,11 @@ The ones crossed out in red are not required for Webaverse.
 
 This part is an optional part, If your character does not have eyes, or if they do have eyes and you don't care that they soullessly stair straight forward all the time. Then don't worry about it. But If you would like your character to have lively eyes that can observe the world around them. Then its worth it to figure out proper values.
 
-![](../../website/static/img/bldr_vrm_export10.png)
+![](/img/bldr_vrm_export10.png)
 
 The First person bone offset values should be the point between your character's eyes. The default values are enough for Webaverse.
 
-![](../../website/static/img/bldr_vrm_export1.png)
+![](/img/bldr_vrm_export1.png)
 
 These boxes define the curve and range of the eye movements. This is entirely dependent on your specific character's eyes and how they are set up.
 
@@ -471,7 +471,7 @@ Editors note: “This is hard to visualize due to it being pure numbers. I would
 
 #### VRM Spring Bone
 
-![](../../website/static/img/bldr_vrm_export3.png)
+![](/img/bldr_vrm_export3.png)
 
 If you have spring bones and colliders. This is where you assign those.
 
@@ -481,7 +481,7 @@ If you have spring bones and colliders. This is where you assign those.
 
 So after everything is nice and set up nicely how you want it. Go ahead and navigate over to File - Export - VRM. Then simply select the location you would like to save it to. And presto! You have successfully used Blender to export your model as a VRM.
 
-![](../../website/static/img/bldr_vrm_export6.png)
+![](/img/bldr_vrm_export6.png)
 
 ---
 
@@ -978,19 +978,19 @@ This is good for rebounding physics bones - for example a skirt should not clip 
 
 ### Exporting
 
-| ![](../../website/static/img/vrm-export3.png) |
+| ![](/img/vrm-export3.png) |
 | :--: |
 | <b>An example of what a finished model might look like while play mode is active in Unity</b> |
 
 If you miss anything or don't set up your avatar correctly don’t fret, you can do your final export multiple times for different versions as long as you still have your Unity project.
 
-![](../../website/static/img/vrm-export2.png)
+![](/img/vrm-export2.png)
 
 Select your properly set up model and click on the “Export to VRM” option from the VRM0 tab. The VRM Exporter window should open and have your models information populated. If not, select the proper ExportRoot object.
 
 Now is the time to double check and fill out any boxes you might have missed. Title, Version, and Author are not optional. It's also recommended to assign a screenshot as well. You can take one using the in-scene camera, or use your own image.
 
-| ![](../../website/static/img/vrm-export1.png) |
+| ![](/img/vrm-export1.png) |
 | :--: |
 | <b>Highly recommended settings are in red, optional settings are in blue.</b> |
 
@@ -1000,7 +1000,7 @@ Before you click Export, go to the ExportSettings tab in the VRM Exporter window
 
 At this time you are ready to Export your model!
 
-![](../../website/static/img/vrm-export4.png)
+![](/img/vrm-export4.png)
 
 Navigate to a location outside of Unity, and save your VRM to a more permanent location on your computer.
 

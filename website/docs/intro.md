@@ -1,6 +1,8 @@
 ---
-id: index
-title: Overview
+sidebar_position: 0
+id: intro
+title: Intro
+slug: /
 hide_title: true
 ---
 
