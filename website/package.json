@@ -1,4 +1,8 @@
 {
+  "name": "Webaverse",
+  "displayName": "Webaverse Documentation",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "examples": "docusaurus examples",
     "start": "docusaurus start",
