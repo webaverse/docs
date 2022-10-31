@@ -73,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: "Copyright © ${new Date().getFullYear()} Webaverse",
+      copyright: `Copyright © ${new Date().getFullYear()} Webaverse`,
     },
   },
 };
