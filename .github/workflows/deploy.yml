@@ -13,12 +13,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: npm
       - name: Build website
         working-directory: website
         run: |
           npm install --global yarn
-          yarn install
+          yarn install --immutable --immutable-cache --check-cache
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

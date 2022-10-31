@@ -17,4 +17,4 @@ jobs:
         working-directory: website
         run: |
           npm install --global yarn
-          yarn install
+          yarn install --immutable --immutable-cache --check-cache
