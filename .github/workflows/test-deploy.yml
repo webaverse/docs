@@ -17,6 +17,5 @@ jobs:
       - name: Test build
         working-directory: website
         run: |
-          npm ci
           npm install --global yarn
           yarn install
