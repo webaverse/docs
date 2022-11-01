@@ -18,3 +18,4 @@ jobs:
         run: |
           npm install --global yarn
           yarn install --immutable --immutable-cache --check-cache
+          yarn build

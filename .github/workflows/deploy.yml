@@ -18,6 +18,7 @@ jobs:
         run: |
           npm install --global yarn
           yarn install --immutable --immutable-cache --check-cache
+          yarn run build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
