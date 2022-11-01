@@ -29,7 +29,7 @@ You can access all of the digital assets you own in Webaverse in your inventory 
 
 ## Trading Cards
 
-Every NFT minted on Webaverse gets a trading card format version of it generated from the [preview server](/docs/developer/architecture#preview-flow). Everything but the asset file itself is hosted on-chain. The asset file is hosted on IPFS.
+Every NFT minted on Webaverse gets a trading card format version of it generated from the [preview server](../developer/architecture#preview-flow). Everything but the asset file itself is hosted on-chain. The asset file is hosted on IPFS.
 
 The purpose of the cards is first that it's fun but second that it actually serves a utility by combining all the useful information about the NFT onto 1 object that can be brought into digital and physical worlds.
 

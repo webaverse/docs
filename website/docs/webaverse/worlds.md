@@ -9,7 +9,7 @@ If you're interested in designing a world in Webaverse you came to the right spo
 
 ## Manual
 
-You can download the app and test your world locally using this [guide](/docs/create/scenes).
+You can download the app and test your world locally using this [guide](../create/scenes).
 
 ![](/img/desert_world.jpg)
 
@@ -43,7 +43,7 @@ There's also an in-game builder you can use with `Z` `X` and `C` keys to switch 
 
 ## Editaverse (Archived)
 
-> Note: Unfortunately, Editaverse is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](hello@webaverse.com). The code lives on in Github:
+> Note: Unfortunately, Editaverse is no longer being maintained. If you're a developer interested in reviving these projects please [contact us](mailto:hello@webaverse.com). The code lives on in Github:
 >
 > - https://github.com/webaverse/editaverse
 > - https://github.com/webaverse/editaverse-voxels
@@ -62,4 +62,4 @@ Editaverse consiststs of experimental Webaverse workflow integrations with open 
 
 ---
 
-If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](hello@webaverse.com).
+If you have any questions or feedback, please reach out to us on [Discord](https://discord.gg/3byWubumSa) or [email](mailto:hello@webaverse.com).

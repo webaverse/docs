@@ -3,7 +3,7 @@ id: parcels
 title: Parcels
 ---
 
-Parcels are pieces of land along The Street that can double as hyperlinks into other virtual worlds. Parcels are fundamentally [NFTs](./nfts), which means that each parcel is unique and tradeable on open marketplaces.
+Parcels are pieces of land along The Street that can double as hyperlinks into other virtual worlds. Parcels are fundamentally NFTs, which means that each parcel is unique and tradeable on open marketplaces.
 
 ![](/img/parcels.jpg)
 

@@ -39,7 +39,7 @@ Yes! Through the WebXR API we are able to deliver a VR mode experience through w
 
 ### Do I need a crypto wallet to participate?
 
-Nope! You will be automatically given an Ethereum address when joining a discord server with the [bot](/docs/webaverse/discord-bot) or signing into the website. Transactions are free on the sidechain. At any time you can setup a wallet and transfer NFTs and fungible tokens to it.
+Nope! You will be automatically given an Ethereum address when joining a discord server with the [bot](./discord-bot) or signing into the website. Transactions are free on the sidechain. At any time you can setup a wallet and transfer NFTs and fungible tokens to it.
 
 
 ### What's different about Webaverse?

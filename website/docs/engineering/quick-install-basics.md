@@ -93,4 +93,4 @@ eslint --init
 
 ### Setup Cutom Host
 
-While all of the Webaverse applications can be accessed locally with the default `localhost` hostname or IP `127.0.0.1`, several of them require being served from https://, which means they must have a certificate to work properly. And a certificate will be associated with a particular hostname, which you can assign locally by altering your hosts file. Please follow this [tutorial](../setup-custom-host) to setup a custom host.
+While all of the Webaverse applications can be accessed locally with the default `localhost` hostname or IP `127.0.0.1`, several of them require being served from https://, which means they must have a certificate to work properly. And a certificate will be associated with a particular hostname, which you can assign locally by altering your hosts file. Please follow this [tutorial](./setup-custom-host) to setup a custom host.

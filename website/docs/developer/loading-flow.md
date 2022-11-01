@@ -5,7 +5,7 @@ title: Loading Flow
 
 ![](/img/loading-flow.jpg)
 
-This flow describes how the engine accesses and loads tokens. The loading and [preview flow](/docs/developer/loading-flow) are both quite similar to each other, main difference being one loads in client for users while the other loads in a server for capturing preview media.
+This flow describes how the engine accesses and loads tokens. The loading and [preview flow](./preview-flow) are both quite similar to each other, main difference being one loads in client for users while the other loads in a server for capturing preview media.
 
 1. Starts with the user-agent (Webaverse website or NFT Discord bot) that wants token data.
 2. Client request a token json which intiates sidechain sending token events to the Redis server.

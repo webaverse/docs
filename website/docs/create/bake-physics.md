@@ -36,7 +36,7 @@ Install xrpk via npm by running `npm install -g xrpk` in your computer's termina
 
 #### 5. Create a manifest.json
 
-Create a manifest.json in that folder with a `physics_url` field pointing to that `.bin` file. [See the manifest API docs for more info.](https://docs.webaverse.com/docs/create/manifest-api#physics_url)
+Create a manifest.json in that folder with a `physics_url` field pointing to that `.bin` file. [See the manifest API docs for more info.](../developer/manifest-api#physics_url)
 
 #### 6. Build the xrpk
 

@@ -29,7 +29,7 @@ This is what happens when a user uploads a file to a Webaverse interface be mint
 ![](/img/minting-flow.jpg)
 [Link to vertical view](/img/minting-flow2.jpg)
 
-After minting, the preview server captures a preview of the NFT and generates a trading card format. To learn more see [preview flow](/docs/developer/preview-flow).
+After minting, the preview server captures a preview of the NFT and generates a trading card format. To learn more see [preview flow](./preview-flow).
 
 ---
 

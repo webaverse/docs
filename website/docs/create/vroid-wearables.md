@@ -30,7 +30,7 @@ You can edit the clothing files in an image editor then import it back to VRoid 
 ![](/img/import_shirt.jpg)
 
 
-When finished, go to the export tab on the top right and hit export. See the [export avatar from VRoid Studio](/docs/create/import-vroid#export-your-vroid-studio-avatar-as-a-vrm-file) guide for more details.
+When finished, go to the export tab on the top right and hit export. See the [export avatar from VRoid Studio](./import-vroid#export-your-vroid-studio-avatar-as-a-vrm-file) guide for more details.
 
 Done!
 

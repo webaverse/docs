@@ -33,7 +33,7 @@ In the `FROM` section, change from Ethereum to Matic token. Add however many you
 
 ## 4. Transfer NFT to Matic Network
 
-At this point you are ready to transfer any NFT that you [mint](/docs/create/mint) to the polygon network. If you already minted something, head over to the asset's page directly or from your profile on the Webaverse [website](https://webaverse.com).
+At this point you are ready to transfer any NFT that you [mint](../create/mint) to the polygon network. If you already minted something, head over to the asset's page directly or from your profile on the Webaverse [website](https://webaverse.com).
 
 Make sure your Metamask is set to Matic network, then:
   1. Open Metamask and click the network button

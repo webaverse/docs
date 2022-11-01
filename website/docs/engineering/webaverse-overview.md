@@ -62,6 +62,5 @@ Code for all Webaverse systems can be found openly on GitHub
 | **Preview Backend** | https://github.com/webaverse/preview-backend | [Quick Start](./preview/preview-backend-quickstart) |
 | **Worlds** | https://github.com/webaverse/worlds-backend | [Quick Start](./worlds/worlds-backend-quickstart) |
 | **Blockchain** | https://github.com/webaverse/blockchain-data | [Smart Contracts Integration](./blockchain/smart-contracts-integration) |
-| **Redis** | https://github.com/webaverse/redis-server | [Quick Start](./redis/redis-server-quickstart) |
 
 ---

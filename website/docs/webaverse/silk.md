@@ -3,9 +3,9 @@ id: silk
 title: SILK
 ---
 
-SILK is a token that is used in Webaverse primarily to mint [NFTs](./nfts). It's main purpose is to invite others into the network and prevent spam so together we can build a web of trust as the Webaverse scales.
+SILK is a token that is used in Webaverse primarily to mint NFTs. It's main purpose is to invite others into the network and prevent spam so together we can build a web of trust as the Webaverse scales.
 
-If you're a Discord server admin that wants to distribute SILK amongst your community to use the [NFT Discord Bot](https://webaverse.com/discordbot) then ping us on [Discord](https://discord.gg/3byWubumSa) or [email us](hello@webaverse.com).
+If you're a Discord server admin that wants to distribute SILK amongst your community to use the [NFT Discord Bot](https://webaverse.com/discordbot) then ping us on [Discord](https://discord.gg/3byWubumSa) or [email us](mailto:hello@webaverse.com).
 
 ## FAQ
 
@@ -25,7 +25,7 @@ SILK is an ERC-20 token based on the Ethereum [ERC-20](https://eips.ethereum.org
 
 ![Silk bots 2](/img/silkbots2.png)
 
-SILK is currently invite only, meaning you need to either know somebody who has some or you can drop into the Webaverse [Discord](discord.gg/VyneJY7) server and ask. There is no exchange to buy SILK from yet. We are working on creative ways to obtain SILK through the bot and from the virtual world. Ideas include:
+SILK is currently invite only, meaning you need to either know somebody who has some or you can drop into the Webaverse [Discord](https://discord.gg/VyneJY7) server and ask. There is no exchange to buy SILK from yet. We are working on creative ways to obtain SILK through the bot and from the virtual world. Ideas include:
 
 - Grants for the [creator program](https://utc9pqk8vl1.typeform.com/to/rZp09YYu)
   - Public project proposals posted on [Github](https://github.com/webaverse/street-assets/issues)
@@ -35,4 +35,4 @@ SILK is currently invite only, meaning you need to either know somebody who has 
 - Reward for completing bounties
 - Trading NFTs for SILK
 
-For more details check out the [silk guide](/docs/market/silk-guide) section.
+For more details check out the [silk guide](../market/silk-guide) section.

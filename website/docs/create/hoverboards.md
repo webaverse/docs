@@ -10,7 +10,7 @@ Hoverboards are rideable NFTs you can use to speed around the map. Surf the inte
 
 ---
 
-All you need is a glTF file to stand on, and a manifest.json in order to build the [XRPK](https://docs.webaverse.com/docs/create/creating-an-xrpk). Below is an example manifest.json for the hoverboard.
+All you need is a glTF file to stand on, and a manifest.json in order to build the [XRPK](../developer/creating-an-xrpk). Below is an example manifest.json for the hoverboard.
 
 ```
 {
@@ -41,4 +41,4 @@ All you need is a glTF file to stand on, and a manifest.json in order to build t
 ```
 
 
-There's no drag and drop web UI for minting hoverboards yet so you'll have to build it yourself. The instructions for that are here: https://docs.webaverse.com/docs/create/creating-an-xrpk if you're comfortable with command line. If not, there's a web UI here: https://app.webaverse.com/build.html.
+There's no drag and drop web UI for minting hoverboards yet so you'll have to build it yourself. The instructions for that are [here](../developer/creating-an-xrpk) if you're comfortable with command line. If not, there's a web UI here: https://app.webaverse.com/build.html.

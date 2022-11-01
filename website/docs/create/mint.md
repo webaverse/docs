@@ -26,7 +26,7 @@ Drag and drop a file into a server that contains the [Discord bot](https://webav
 
 ![Minting an image NFT in Discord](/img/mint.jpg)
 
-More: [How To Mint NFTs in Discord](/docs/create/mint-discord)
+More: [How To Mint NFTs in Discord](./mint-discord)
 
 ### Twitter
 

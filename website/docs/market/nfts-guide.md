@@ -10,7 +10,7 @@ title: How To Buy And Sell NFTs
 
 The [NFT Discord bot](https://webaverse.com/discordbot) generates an Ethereum address and storefront for every person in a server. Buying and selling NFTs on Discord happens on the Webaverse sidechain.
 
-The sidechain is fast and has no transaction fees which make it great for real-time gaming. The trade-off is that there isn't any real world value flowing through the network. See the [Opensea](/docs/market/nfts-guide#opensea) documentation below for how to transfer your NFTs to open marketplaces.
+The sidechain is fast and has no transaction fees which make it great for real-time gaming. The trade-off is that there isn't any real world value flowing through the network. See the [Opensea](./nfts-guide#opensea) documentation below for how to transfer your NFTs to open marketplaces.
 
 
 
@@ -77,5 +77,5 @@ In order to sell your [items](/webaverse/items) on [Opensea](https://opensea.io)
 
 ![](/img/xfer_chain.jpg)
 
-4. You will have to pay the gas fee to transfer to Ethereum or Polygon. If you want to transfer to Polygon, switch Metamask network to Matic ([see guide](/docs/market/matic-guide)) before clicking Transfer.
+4. You will have to pay the gas fee to transfer to Ethereum or Polygon. If you want to transfer to Polygon, switch Metamask network to Matic ([see guide](./matic-guide)) before clicking Transfer.
 

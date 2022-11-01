@@ -87,7 +87,7 @@ We will need to install the correct version of Unity for uniVRM - this can be ch
 
 ## Initial Concept 
 
-Character concepts are based on their AI gen. backstory and the existing world lore - we run Pinterest passes and concept ideas based on those in the [Lore](../webaverse/lore).
+Character concepts are based on their AI gen. backstory and the existing world lore - we run Pinterest passes and concept ideas based on those in the Lore.
 
 Concepts should follow the Style Guide.
 
